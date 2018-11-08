@@ -10,7 +10,9 @@ The Prosperous Universe documentation website consists of static websites that a
 
 All contributions are being reviewed by a Prosperous Universe team member and then added to this repository.
 
-There are two ways to contribute content: Using the GitHub website or Editing the wiki on your own machine.
+There are two ways to contribute content: Using the GitHub website or Editing the wiki on your own machine. Both types are explained below.
+
+We are using a Hugo theme with lots of features. Please have a look at their [documentation](https://learn.netlify.com/en/cont/) for more information about it.
 
 ## Contribute by using the GitHub website
 
