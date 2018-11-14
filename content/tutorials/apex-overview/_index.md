@@ -5,9 +5,9 @@ weight: 1
 draft: true
 ---
 
-This page will introduce you to the [APEX interface](LINK) (just “APEX” below) and its basic components. It is part of the [introductory tutorial series](LINK). This tutorial is also available in video format:
+This tutorials will introduce you to the [APEX interface](LINK) (just “APEX” below) and its basic components. It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-[![APEX overview video](https://i9.ytimg.com/vi/wI4mxBqGk8c/maxresdefault.jpg?sqp=COD8q98F&rs=AOn4CLBeqgnfa6i46ZnluXk0mykWOiXfjg&time=1542127403768)](https://youtu.be/wI4mxBqGk8c)
+[![APEX overview video](thumbnail-tutorial-1.jpg)](https://youtu.be/wI4mxBqGk8c)
 
 ## Overview
 
@@ -23,35 +23,38 @@ Tiles are the most customizable aspect of APEX since you can decide how many of 
 
 There are several things you can do with tiles. Drag and drop the edge of a tile to resize it.  
 
-[Make gif]  
+![Drag and drop](1-apex-resize.gif)
 
 Hover over the icon in the top right to get more options.  
-[Make gif]  
+![Hover options](2-apex-hover-options.gif)
 
 You can delete a tile, and the adjacent tile will automatically expand.  
-[Make gif]  
+![Delete tile](3-apex-delete-tile.gif)
 
 You can delete the content of a tile or you can split it horizontally or vertically to create an empty tile.  
-[Make gif]  
+![Split tile](4-apex-split.gif)
 
 You can overwrite an empty tile by dragging and dropping another tile onto it.  
-[Make gif]
+![Drag and drop tile](5-apex-drag-drop-tile.gif)
 
 
 ## Buffers
 
 Buffers are tiles that aren’t fixed into your Screen layout. Instead, they can be dragged around freely. While the Screen is your main workplace, buffers can be opened for short-term uses and quickly closed or minimized. Buffers stay open on top of your Screen even when switching between multiple Screens (see below).
 
-[Make gif]
+![Buffer](6-apex-buffer.gif)
 
-The bar at the bottom is akin to a task bar. It shows which buffers are currently open. Hitting “NEW BFR” will open up an empty buffer. Fill it with content by using a command or by dragging and dropping the content of another buffer or tile onto it.
+The bar at the bottom is akin to a task bar. It shows which buffers are currently open. Hitting “NEW BFR” or CTRL+Space will open up an empty buffer. Fill it with content by using a command (see below) or by dragging and dropping the content of another buffer or tile onto it.
+
+![New buffer](7-apex-new-buffer.gif)
 
 (The “CONS” button in the bottom right is not related to buffers. Clicking it will show a list of all currently connected users.)
 
 ## Commands
 
-At first glance, this feature might appear intimidating. You can use APEX without commands entirely, but they will come in handy as you advance as a user. Commands serve to directly jump to a desired bit of content instead of clicking through a series of links. Every tile and every buffer, even those you did not open via command, corresponds to a specific command. You can see a tile’s command by emptying the tile.  
-[Make gif]
+At first glance, this feature might appear intimidating. You can use APEX without commands entirely, but they will come in handy as you advance as a user. Commands serve to directly jump to a desired bit of content instead of clicking through a series of links. Every tile and every buffer, even those you did not open via command, corresponds to a specific command. You can see a tile’s command by emptying the tile.
+
+![Command example](8-apex-command-example.gif)
 
 Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. Rather than going through all of them now, keep the [commands overview](LINK) handy to look up specific commands in the future.
 
@@ -67,11 +70,11 @@ Below, you can find a customizable list of common commands. Clicking them opens 
 
 This sidebar on the right shows your account balance in all existing currencies as well as your Pending Contracts. The latter are not important for this introduction.
 
-## Top bar
-
-[Add screenshot]
+## Top
 
 The bar at the top says which Screen is currently open. In the example below, it’s a Screen called “BASE”. Hovering over “SCRNS” opens a list of all existing screens. By default, there is a second Screen called “Finances” already set up. Clicking the name of a Screen will open it up.
+
+![Top bar](apex-screens.png)
 
 Hitting “ADD” opens the “Create Screen” buffer, where you can set up a new Screen from scratch and give it a name. The “FULL” button sets APEX to full screen mode.
 

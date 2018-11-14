@@ -5,9 +5,9 @@ weight: 2
 draft: true
 ---
 
-This guide will teach you all you need to know to get your company off the ground [APEX interface](LINK) (just “APEX” below). It's is also available in video format:
+This guide will teach you all you need to know to get your company off the ground [APEX interface](LINK) (just “APEX” below). It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-[![Getting started video](https://i9.ytimg.com/vi/MAULyd4F9Bk/maxresdefault.jpg?sqp=CMidrN8F&rs=AOn4CLA-5VPKhJWgFtf-y-PZ7Uv6FuxibA&time=1542131478760)](https://youtu.be/wI4mxBqGk8c)
+[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/wI4mxBqGk8c)
 
 Follow along the steps below in APEX.
 
