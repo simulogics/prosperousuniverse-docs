@@ -1,11 +1,11 @@
 ---
-title: "APEX overview"
+title: "1. APEX overview"
 date: 2018-09-18T17:13:35+02:00
 weight: 1
 draft: true
 ---
 
-This tutorials will introduce you to the [APEX interface](LINK) (just “APEX” below) and its basic components. It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will introduce you to the [APEX interface](LINK) (just “APEX” below) and its basic components. It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
 [![APEX overview video](thumbnail-tutorial-1.jpg)](https://youtu.be/wI4mxBqGk8c)
 
@@ -56,7 +56,7 @@ At first glance, this feature might appear intimidating. You can use APEX withou
 
 ![Command example](8-apex-command-example.gif)
 
-Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. Rather than going through all of them now, keep the [commands overview](LINK) handy to look up specific commands in the future.
+Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. Rather than going through all of them now, keep the [commands overview](../commands-overview) handy to look up specific commands in the future.
 
 ## Left sidebar
 

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "2. Getting Started"
 date: 2018-09-18T17:13:49+02:00
 weight: 2
 draft: true
@@ -7,7 +7,7 @@ draft: true
 
 This guide will teach you all you need to know to get your company off the ground [APEX interface](LINK) (just “APEX” below). It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/wI4mxBqGk8c)
+[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/MAULyd4F9Bk)
 
 Follow along the steps below in APEX.
 
