@@ -1,7 +1,7 @@
 ---
 title: "7. Corporations"
 date: 2018-09-18T17:13:49+02:00
-weight: 8
+weight: 10
 draft: true
 ---
 
