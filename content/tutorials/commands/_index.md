@@ -1,11 +1,11 @@
 ---
-title: "3. Commands overview"
+title: "3. Commands"
 date: 2018-09-18T17:13:35+02:00
-weight: 3
+weight: 4
 draft: true
 ---
 
-This page provides you with an explanation of how commands in your APEX console work (part 1) and provides an overview over all currently existing commands (part 2). They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with how commands work. You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
+This page explains how commands in your APEX console work (part 1) and provides an overview over all currently existing commands (part 2). They are grouped together by their respective areas of use. Understanding this tutorials requires that you already be familiar with how commands work. You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
 
 It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
@@ -37,9 +37,11 @@ It is also available in video format. __Click on the image below to watch the vi
 
 ### Parameters
 
-Looking at the commands list in the CMDS buffer, you will notice that some commands take so-called parameters, some of which are listed as mandatory, some as optional. Commands with no parameters can only be entered on their own. Some commands need to be followed up with a parameter, and if a parameter is optional, the command by itself has a general use, but it can be followed by a parameter to display more specific information. Lastly, notice that some parameters in the commands list are called “tickers”. As you will see in the Commands list, the term’s meaning depends on the exact context.
+Open up the CMDS buffer by selecting its shortcut on the left side. Looking at the commands list, you will notice that some commands take so-called parameters, some of which are listed as mandatory, some as optional. Commands with no parameters can only be entered on their own. Some commands need to be followed up with a parameter, and if a parameter is optional, the command by itself has a general use, but it can be followed by a parameter to display more specific information. Lastly, notice that some parameters in the commands list are called “tickers”. As you will see in the Commands list, the term’s meaning depends on the exact context.
 
-__Example:__ The “BS” command by itself shows an overview over all your bases. Clicking “View Base” next to a concrete planet opens a new buffer in which the Base command is followed up by the respective base’s ID. Clicking the Sections (“BSL” command), Production (“PROD” command), and Population (“POP” command) buttons in this window, you will find that the base’s ID is used by all these commands as well because they relate to this concrete base’s Sections, Production, and Population. (The Inventory, meanwhile, is followed up with the planet’s identifier.) These three - BSL, PROD and POP - must be followed with a parameter, specifically a base ID. That is because, when looking at Sections, Production Lines, or a Population, it always pertains to a specific base.
+![CMDS buffer](cmds-buffer.png)
+
+__Example:__ The “BS” command by itself shows an overview over all your bases. Clicking “View Base” next to a concrete planet opens a new buffer in which the Base command is followed up by the respective base’s ID. Clicking the Sections (“BSL” command), Production (“PROD” command), and Population (“POP” command) buttons in this window, you will find that the base’s ID is used by all these commands as well because they relate to this concrete base’s Sections, Production, and Population. (The Inventory, meanwhile, is followed up with the planet’s identifier.) These three - BSL, PROD and POP - _must_ be followed with a parameter, specifically a base ID. That is because, when looking at Sections, Production Lines, or a Population, it always pertains to a specific base.
 
 Another example for the use of (mandatory) parameters would be the “MAT” command. When entered by itself, APEX will wonder which material you want to learn more about. That is why “MAT” must be followed by a material’s ID, like “CUO” for Copper Ore.
 
@@ -299,4 +301,4 @@ If you are first starting out, check out the “APEX overview” and “Getting 
 * [Foreign Exchange](LINK)  
 * More to come!
 
-Use the arrows below to cycle through all available tutorials in order, from introductory to more and more specific topics.
+Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.

@@ -93,4 +93,4 @@ If you are first starting out, continue with “Getting started”:
 * [Foreign Exchange](LINK)  
 * More to come!
 
-Use the arrows below to cycle through all available tutorials in order, from introductory to more and more specific topics.
+Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
