@@ -1,4 +1,4 @@
-baseURL = "https://prosperousuniverse.com/wiki"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "Prosperous Universe Wiki"
 theme = "learn"
