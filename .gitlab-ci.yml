@@ -1,0 +1,40 @@
+# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+test:
+  stage: test
+  script:
+  - hugo
+  except:
+  - master
+  - staging
+
+pages:
+  stage: deploy
+  script:
+  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - staging
+
+deploy:
+  stage: deploy
+  before_script:
+  - apk add rsync openssh
+  - mkdir "${HOME}/.ssh"
+  - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
+  - chmod 700 "${HOME}/.ssh/id_rsa"
+  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+  script:
+  - hugo -b "https://handbook.apex.prosperousuniverse.com/" -D
+  - rsync -a --delete -e ssh public/ gitlab@159.69.55.249:/opt/gitlab/handbook.apex.prosperousuniverse.com/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

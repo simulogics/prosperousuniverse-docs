@@ -69,9 +69,17 @@ To build and run the documentation a single Hugo command is enough:
 hugo -D serve
 ```
 
-This will create all the articles from the sources and start a local webserver serving the documentation. Navigate to the given URL (most likely ```http://localhost:1313/wiki/```) in your browser to see it. 
+This will create all the articles from the sources and start a local webserver serving the documentation. Navigate to the given URL (most likely ```http://localhost:1313/```) in your browser to see it. 
 
 You can now start to modify and add to the documentation. The website will reflect changes automatically and instantly as long as you keep the hugo command running.
+
+### Build and run using Docker
+
+If you prefer to use Docker, you can use this command to build and run the documentation from the project directory:
+
+```bash
+docker run --rm -p 1313:1313 -v `pwd`:/project -w /project registry.gitlab.com/pages/hugo:latest hugo server -D --bind 0.0.0.0
+```
 
 ### Submit changes as Pull Requests
 
