@@ -136,26 +136,25 @@ __FLT__
 _Optional parameter: system ID / planet ID_  
 Entered by itself, the Fleet command shows all of your ships. Every line shows data on one of your ships, like its transponder code, name, status, fill status, location, and information about an ongoing flight. Following up the fleet command with the ID of a system or planet shows all of your ships currently stationed there. (The ID is simply the parameter you can see at the top of a buffer by selecting a system in the Universe Map or a planet in a system map.)
 
-__SHP__
-_Mandatory parameter: ship transponder code_
+__SHP__  
+_Mandatory parameter: ship transponder code_  
 Shows information on one of your ships. Rename your ship by clicking its current name (or “unnamed”) and entering a new one.
 Accessible by clicking the Transponder code of a ship in the FLT window.
 
-__SHPF__
-_Mandatory parameter: ship transponder code_
+__SHPF__  
+_Mandatory parameter: ship transponder code_  
 Shows a ship’s fuel status. Accessible by clicking the fuel bar of a ship in the FLT window.
 
-__SHPI__
-_Mandatory parameter: ship transponder code_
+__SHPI__  
+_Mandatory parameter: ship transponder code_  
 Shows a ship’s inventory, which is limited in the weight and volume of its cargo. Accessible by clicking the inventory bar of a ship in the FLT window.
-
 
 __SFC__  
 _Mandatory parameter: ship transponder code_  
 The “FLY” button next to each ship in the FLT list calls the SFC command followed by the ship’s transponder code. By entering a planet ID or station ID into the Location property, setting the desired Fuel usage and hitting Start, you can send a ship to a new destination.
 
-__SI__
-_Mandatory parameter: ship transponder code_
+__SI__  
+_Mandatory parameter: ship transponder code_  
 Shows all the public information available on the selected ship. Accessible by clicking a ship triangle in a System map or Planet Info window.
 
 
@@ -203,11 +202,12 @@ Like on the Universe Map, yellow arrows mark your ships. Turn on “traffic” t
 
 __PLI__  
 _Mandatory parameter: planet ID_  
-All planets, named or unnamed, have an ID, which is the system’s ID followed by a unique letter. Planet Info contains shortcuts to your Fleet and Inventory on that planet. Among other things, you can see here which Resources can be extracted from this planet and its atmosphere, and whether or not the planet lends itself to growing plants. The bar indicating the latter starts in the middle, and the further it extends to the left or right, the more infertile or fertile the planet is respectively. Finally, the Type and Temperature indicate whether you’re going to need additional Construction Materials to set up a base on this planet. Building on a gaseous planet requires Aerostat Foundation. Planets colder than minus twenty-five degrees Celcius or warmer than seventy-five degrees Celcius need to be fitted with a Climate Control Unit and InsuFoam. The amount of InsuFoam required depends on the building’s Area Cost. Additionally, buildings on hot planets require thermal shielding.
-Instead of entering the ID by hand, you may also click the planet directly in the System map.
+All planets, named or unnamed, have an ID, which is the system’s ID followed by a unique letter. Planet Info contains shortcuts to your Fleet and Inventory on that planet. Among other things, you can see here which Resources can be extracted from this planet and its atmosphere, and whether or not the planet lends itself to growing plants. The bar indicating the latter starts in the middle, and the further it extends to the left or right, the more infertile or fertile the planet is respectively. Finally, the Type and Temperature indicate whether you are going to need [additional Construction Materials](../building-costs) to set up a base on this planet.
+Each non-grey plot on a planet can be clicked to obtain more information about it. The following colors exist as of yet: blue (other companies), dark blue (other Corp.'s project), yellow (own company), dark yellow (own Corp.'s project), green (CoGC), red (commodity exchange)
+Instead of entering the planet ID by hand, you may also click the planet directly in the System map to access its PLI window.
 
-__STI__
-_Obligatory parameter: Station ID_
+__STI__  
+_Obligatory parameter: Station ID_  
 Shows general information about a space station and provides access to its  Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
 
 

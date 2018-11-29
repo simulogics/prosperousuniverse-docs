@@ -56,7 +56,7 @@ At first glance, this feature might appear intimidating. You can use APEX withou
 
 ![Command example](8-apex-command-example.gif)
 
-Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. Rather than going through all of them now, keep the [commands overview](../commands-overview) handy to look up specific commands in the future.
+Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. To learn more about their usage, have a look at the [commands tutorial](../commands). If you are looking for a specific command, please refer to the [commands list](../../wiki/commands-list).
 
 ## Left sidebar
 
@@ -64,7 +64,7 @@ The left sidebar shows three different kinds of information. Our logo, the APEX 
 
 The three buttons below toggle the other side bars on or off.
 
-Below, you can find a customizable list of common commands. Clicking them opens a buffer showing the respective content. By using these shortcuts, you can avoid entering commands yourself. Add or remove commands on this list by Commands that aren’t linked here can be substituted by opening a related command and clicking your way to the desired content. For instance, you can open the Universe map here (“MAP”), then choose a system from there and then click a planet. Each of these actions will enter the correct command automatically.
+Below them, you can find a list of common commands. Clicking them opens a buffer showing the respective content. By using these shortcuts, you can avoid entering commands yourself. Commands that aren not linked here can be substituted by opening a related command and clicking your way to the desired content. For instance, you can open the Universe map here (“MAP”), then choose a system from there and then click a planet. Each of these actions will enter the correct command automatically.
 
 ## Right sidebar (SDBR)
 
@@ -83,7 +83,7 @@ Keep in mind that any of the tiles of any Screen could just as well be on other 
 On the right side, you can find three more elements:
 Selecting “NOTS” will open up your notifications, which inform you when a process is finished. Once you receive a new notification, a green light starts flashing here.
 “AUDIO” is a toggle button which allows you to enable or disable the sound effect accompanying a new notification.
-The LOGOUT button, finally, allows you to sign out. You do not need to sign out every time you close APEX. If you work from a private computer, feel free to stay signed in between sessions.
+The LOGOUT button allows you to sign out. You do not need to sign out every time you close APEX. If you work from a private computer, feel free to stay signed in between sessions.
 
 ## More tutorials
 
