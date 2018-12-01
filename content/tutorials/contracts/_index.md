@@ -1,11 +1,11 @@
 ---
-title: "2.3 Contracts"
+title: "2.4 Contracts"
 date: 2018-09-18T17:13:49+02:00
-weight: 4
+weight: 5
 draft: true
 ---
 
-This tutorial is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
 [![Trading video](thumbnail-tutorial-2.jpg)](https://youtu.be/xxxxxxxxxxxxxxxx)
 
@@ -46,3 +46,10 @@ To fix that, select the ship’s FLY button in the Fleet window again, enter the
 By now, the “Fulfill” buttons on the active contracts you have on that market should have turned green. Click them to load up your ship with the goods you purchased and send it home the same way you sent it out before. Once it arrives at your home base, make sure to drag and drop the materials you purchased from its cargo space into your Base’s inventory.
 
 ![Fulfill contract](fulfill-contract.png)
+
+
+## About this page
+
+This page is part of the introductory tutorial, which encompasses parts 1 and 2 (2.1-2.5). Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

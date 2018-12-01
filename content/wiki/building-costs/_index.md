@@ -13,7 +13,7 @@ The basic building costs of each building can be looked up in your base's BSC wi
 
 ![Construct buffer](construct-buffer.png)
 
-Clicking any of the building's symbols will reveal their BUI window, which shows their Building costs:
+Clicking any of the buildings' symbols will reveal their BUI window, which shows their Building costs:
 
 ![Barracks building costs](barracks-building-cost.png)
 
@@ -22,9 +22,9 @@ However, this information only paints a part of the picture. It pertains to _thi
 
 ## Costs calculation
 
-Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials (“Additional resources” below) will be required _once_ for _every_ building depending on environmental conditions. The exact number of additional resources needed may depend on the Area cost of a building indicated in its BUI window (see screenshot above).
+Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials (“Additional resources” below) will be required _once_ for _every_ building depending on the environmental conditions at hand. The exact number of some additional resources depends on the Area cost of a building, which is indicated in its BUI window (see screenshot above).
 
-Please note that all these additional costs also pertain to [Planetary projects](../../tutorials/planetary-projects) and [Corporate projects](../../tutorials/corporations).
+Please note that all these additional costs also pertain to [Planetary projects](../../tutorials/planetary-projects) and [Corporate projects](../../tutorials/corporations/#corporate-actions-and-projects).
 
 ### Rocky Planets
 
@@ -76,13 +76,8 @@ __Amount:__ 1 per building
 If a planet is completely infertile, each Hydroponics Farm requires 16 Metal Halide Lamps. Farms and Orchards cannot be built at all.
 
 
-## More tutorials
+## About this page
 
-If you are first starting out, check out the “APEX overview” and “Getting started” tutorials:  
-* [APEX overview](LINK)  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

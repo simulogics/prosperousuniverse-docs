@@ -5,15 +5,17 @@ weight: 1
 draft: true
 ---
 
-This tutorial will introduce you to the [APEX interface](LINK) (just “APEX” below) and its basic components. It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
 [![APEX overview video](thumbnail-tutorial-1.jpg)](https://youtu.be/wI4mxBqGk8c)
 
 ## Overview
 
+This tutorial will introduce you to the APEX interface (just “APEX” below) and its basic components. When first opening APEX, it looks something like this.
+
 ![APEX interface](apex-interface-1.png)
 
-Upon first opening APEX, it looks something like this. Its layout and contents are highly customizable to fit your company’s specific requirements. The basic components, however, are always the same:
+Its layout and contents are highly customizable to fit your company’s specific requirements. The basic building blocks, however, are always the same:
 
 ![APEX interface with highlights](apex-interface-2.png)
 
@@ -64,15 +66,17 @@ The left sidebar shows three different kinds of information. Our logo, the APEX 
 
 The three buttons below toggle the other side bars on or off.
 
-Below them, you can find a list of common commands. Clicking them opens a buffer showing the respective content. By using these shortcuts, you can avoid entering commands yourself. Commands that aren not linked here can be substituted by opening a related command and clicking your way to the desired content. For instance, you can open the Universe map here (“MAP”), then choose a system from there and then click a planet. Each of these actions will enter the correct command automatically.
+Below them, you can find several shortcuts to common commands. Clicking them opens a buffer showing the respective content. By using these shortcuts, you can avoid entering commands yourself. Commands that are not linked here can be substituted by opening a related command and clicking your way to the desired content. For instance, you can open the Universe map here (“MAP”), then choose a system from there and then click a planet. Each of these actions will enter the correct command automatically.
+
+![Commands demonstration](commands-demonstration.gif)
 
 ## Right sidebar (SDBR)
 
-This sidebar on the right shows your account balance in all existing currencies as well as your Pending Contracts. The latter are not important for this introduction.
+The sidebar on the right shows your account balance in all existing currencies as well as your Pending Contracts. The latter are not important for this introduction.
 
 ## Top
 
-The bar at the top says which Screen is currently open. In the example below, it’s a Screen called “BASE”. Hovering over “SCRNS” opens a list of all existing screens. By default, there is a second Screen called “Finances” already set up. Clicking the name of a Screen will open it up.
+The bar at the top says which Screen is currently open. In the example below, it’s a Screen called “NAVIGATION”. Hovering over “SCRNS” opens a list of all existing screens. By default, there is a second Screen called “Finances” already set up. Clicking the name of a Screen will open it up.
 
 ![Top bar](apex-screens.png)
 
@@ -85,12 +89,9 @@ Selecting “NOTS” will open up your notifications, which inform you when a pr
 “AUDIO” is a toggle button which allows you to enable or disable the sound effect accompanying a new notification.
 The LOGOUT button allows you to sign out. You do not need to sign out every time you close APEX. If you work from a private computer, feel free to stay signed in between sessions.
 
-## More tutorials
 
-If you are first starting out, continue with “Getting started”:  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+## About this page
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+This page is part of the introductory tutorial, which encompasses parts 1 and 2 (2.1-2.5). Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

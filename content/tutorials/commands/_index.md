@@ -1,11 +1,11 @@
 ---
 title: "3. Commands"
 date: 2018-09-18T17:13:35+02:00
-weight: 6
+weight: 7
 draft: true
 ---
 
-This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](LINK).
+This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](../../wiki/commands-list).
 
 This tutorial is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
@@ -13,7 +13,7 @@ This tutorial is also available in video format. __Click on the image below to w
 
 ## General rules
 
-You do not _need_ to use commands at all to use APEX. However, some commands will prove useful to get to a desired piece of content quickly. There are shortcuts for the most important ones in the left sidebar. By default, this includes the “CMDS” command, which opens a list of all commands - there is no need to memorize them all.  
+You do not _need_ to use commands at all to use APEX. However, some commands will prove useful to get to a desired piece of content quickly. There are shortcuts for the most important ones in the left sidebar, including the “CMDS” command, which opens a list of all commands - there is no need to memorize them all.  
 
 ![Command shortcuts](command-shortcuts.gif)
 
@@ -44,13 +44,8 @@ __Example:__ The “BS” command by itself shows an overview over all your base
 Another example for the use of (mandatory) parameters would be the “MAT” command. When entered by itself, APEX will wonder which material you want to learn more about. That is why “MAT” must be followed by a material’s ID, like “CUO” for Copper Ore.
 
 
-## More tutorials
+## About this page
 
-If you are first starting out, check out the “APEX overview” and “Getting started” tutorials:  
-* [APEX overview](LINK)  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+This page is part of the advanced tutorial series, which encompasses parts 3 through 7. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

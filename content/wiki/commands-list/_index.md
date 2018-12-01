@@ -5,7 +5,7 @@ weight: 9
 draft: true
 ---
 
-This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](LINK). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
+This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
 
 ## Base commands
 
@@ -19,7 +19,7 @@ Opens a Sections overview of a concrete base. Accessible via the “Sections” 
 
 __BSC__  
 _Mandatory parameter: base ID_  
-Opens the Construct window of a concrete base. Accessible via the “Construct” button in a concrete BS window. Use the tabs at the top to cycle through different building categories.
+Opens the Construct window of a concrete base. Accessible via the “Construct” button in a concrete BS window. Use the tabs at the top to cycle through different building categories. The line labeled “Area” indicates a building's area cost and, after the slash, the area left available in your base. The line labeled Workforce” shows the number and type of workforce required to operate this building.
 
 __BUI__  
 _Mandatory parameter: building ticker_  
@@ -157,7 +157,6 @@ __SI__
 _Mandatory parameter: ship transponder code_  
 Shows all the public information available on the selected ship. Accessible by clicking a ship triangle in a System map or Planet Info window.
 
-
 ## Foreign Exchange commands
 To see these commands in action, have a look at the “Foreign Exchange” tutorial.
 
@@ -210,7 +209,6 @@ __STI__
 _Obligatory parameter: Station ID_  
 Shows general information about a space station and provides access to its  Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
 
-
 ## Planetary project commands
 
 __PPS__  
@@ -235,7 +233,6 @@ __XYTV__
 _Mandatory parameter:_  
 Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL. Please note that this works only with official transmissions listed in the TRA window for now, although there are plans to allow for external content in the future.
 
-
 ## Other commands
 
 __CS__  
@@ -246,13 +243,8 @@ __FIN, FINLA, FINIS, FINBS__
 These four commands provide you with a detailed overview over your company’s financial situation. More information on these commands will follow shortly.
 
 
-## More tutorials
+## About this page
 
-If you are first starting out, check out the “APEX overview” and “Getting started” tutorials:  
-* [APEX overview](LINK)  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

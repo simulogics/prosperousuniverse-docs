@@ -1,7 +1,7 @@
 ---
 title: "6. Planetary Projects"
 date: 2018-09-18T17:13:49+02:00
-weight: 9
+weight: 10
 draft: true
 ---
 
@@ -40,15 +40,13 @@ Once built, a planetary project requires an upkeep to stay active. As long as th
 
 To contribute, open the project’s buffer by clicking its name under “Infrastructure” or its plot on the planet (in a PLI window). Under “Upkeep”, select “contribute”. In the new window, set the slider(s) to the desired amount and hit “CONTRIBUTE”. Your contribution will be listed at the bottom along with all other recently made contributions.
 
-As long as their upkeep is paid, the different planetary projects currently available will provide different kinds of advantages to a planet’s inhabitants.
-
 ### Chamber of Global Commerce (CoGC)
 
-A Chamber of Global Commerce can run a variety of programs to stimulate a planet’s economy. Open the buffer of a CoGC by clicking its name under “Infrastructure” or its plot on the planet (in a PLI window). In the new COGC window that opened up, you can see the CoGC’s current and upcoming programs listed under “Programs”.
+A Chamber of Global Commerce can run a variety of programs to stimulate a planet’s economy. Open the buffer of a CoGC by clicking its name under “Infrastructure” or its plot on the planet (in a PLI window). In the new CoGC window that opened up, you can see the CoGC’s current and upcoming programs listed under “Programs”.
 
 ![CoGC overview](cogc-overview.png)
 
-To vote on the upcoming program, select “programs / vote” to view a list of all available programs.
+To vote on the upcoming program, select “programs / vote”, which opens up a list of all available programs.
 
 ![CoGC programs](cogc-programs.png)
 
@@ -57,12 +55,8 @@ Click a program’s name or the respective “view details / vote” button lear
 ![Vote buffer](vote-buffer.png)
 
 
-## More tutorials
+## About this page
 
-If you are first starting out, continue with “Getting started”:  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+This page is part of the advanced tutorial series, which encompasses parts 3 through 7. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

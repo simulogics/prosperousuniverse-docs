@@ -1,11 +1,11 @@
 ---
-title: "2.2 Trading"
+title: "2.3 Trading"
 date: 2018-09-18T17:13:49+02:00
-weight: 3
+weight: 4
 draft: true
 ---
 
-Now that your base is built, this guide will teach you how to start producing and trading commodities. It is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
 [![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/MAULyd4F9Bk)
 
@@ -17,13 +17,15 @@ Each market, or “Commodity Exchange”, is on a specific planet or a specific 
 
 ![Finding a ComEx](finding-comex.gif)
 
-If your planet does not have its own Commodity Exchange, you will need to send ships to a planet or station that has one in order to pick up your wares after you bought them. If that is the case, you can look up how on the “Contracts” wiki page. Make sure you do not trade on a market in another system before you understand foreign exchange because you are probably going to need a different currency there.
+_Shown here: three different ways to access your nearest Commodity Exchange_
+
+(If your planet does not have its own Commodity Exchange, you will need to send ships to a planet or station that has one in order to pick up your wares after you bought them. If that is the case, you can look up how in the [“Contracts” tutorial](../contracts). Make sure you do not trade on a market in another system before you understand foreign exchange because you are probably going to need a different currency there.)
 
 Click the Commodity Exchange symbol. You should integrate your local commodity exchange buffer into a tile now because you are going to need it frequently. Note that all products are listed in every Commodity Exchange, but the buy and sell orders you can see are always limited to the concrete Commodity Exchange on which they were placed. They are not global – if, for example, the product you want is not being sold on your Commodity Exchange (or for a horrendous price), have a look at the Commodity Exchanges of other planets and stations.
 
 You are likely going to need two kinds of resources soon: Consumables to keep your workforce fed and productive, and - unless you possess only production buildings from the Resources tab - input materials for your Production Lines. Sooner or later, you might also need fuel for your ships.
 
-Select the “POPULATION” button in your base overview to view the upkeep of your workforce. As you can see, 4 units of Drinking Water are required per 100 Pioneers. They will be deducted from your Inventory at the start of each 24-hour period. Decide how many units you would like to buy in advance, and make sure you do not spend all your money on them now. Also note that some Drinking Water was already provided to you as part of your starting package.
+Select the “POPULATION” button in your base overview to view the upkeep of your workforce. As you can see, 4 units of Drinking Water are required per 100 Pioneers. They will be deducted from your Inventory at the start of each 24-hour period. Once you run out of water, your Pioneers will go on strike. Decide how many units you would like to buy in advance, and make sure you do not spend all your money on them now. Also note that some Drinking Water was already provided to you as part of your starting package.
 
 ![Pioneers upkeep](pioneers-upkeep.png)
 
@@ -45,13 +47,11 @@ If you placed an order below the current asking price which you now wish to dele
 
 ![Delete order](delete-order.gif)
 
-Open your base’s Inventory now. If you can already see the goods you just purchased, you can omit this next bit and skip right to the topic of production (2.4).
+Open your base’s Inventory now. If you can already see the goods you just purchased, you can omit the “Contracts” tutorial and skip right to the topic of [“Production” (2.5)](../production). You may come back later to learn about contracts, which are generated when buying wares on a market with none of your ships or bases present.
 
-## More tutorials
 
-* [APEX overview](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+## About this page
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+This page is part of the introductory tutorial, which encompasses parts 1 and 2 (2.1-2.5). Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

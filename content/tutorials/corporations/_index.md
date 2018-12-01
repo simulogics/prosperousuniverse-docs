@@ -1,7 +1,7 @@
 ---
 title: "7. Corporations"
 date: 2018-09-18T17:13:49+02:00
-weight: 10
+weight: 11
 draft: true
 ---
 
@@ -11,9 +11,9 @@ This tutorial is also available in video format. __Click on the image below to w
 
 ## Introduction
 
-Corporations are legal entities similar to the companies by whom they are owned. More practically speaking, corporations act as banners under which several companies can band together to pursue common goals and realize collective projects. Companies obtain (partial) ownership of a corporation by purchasing shares, thus becoming so-called shareholders.
+Corporations are legal entities similar to the companies by whom they are owned. They act as banners under which several companies can band together to pursue common goals and realize collective projects. Companies obtain (partial) ownership of a corporation by purchasing shares, thus becoming so-called shareholders.
 
-Please note: As of now, it is only possible to become shareholder of a single corporation. In the future, APEX will allow licensees to buy shares of multiple corporations. However, each licensee will only have one Primary Corporation allowing them to influence its decisions, to enter its comm channels etc. The rest will remain so-called Secondary Corporations in which a licensee only owns shares without any of those privileges.
+Please note: As of now, it is only possible to become shareholder of a single corporation. In the future, APEX will allow licensees to buy shares of multiple corporations. However, each licensee will only have one Primary Corporation allowing them to influence its decisions, to enter its comm channels etc. The rest will remain so-called Secondary Corporations in which a licensee only owns shares without being granted any other privileges.
 
 ## Founding a Corporation
 
@@ -21,7 +21,7 @@ If you are not yet member of a corporation, you can start one yourself. Selectin
 
 ![Before corp](before-corp.png)
 
-Click the CORPM button. You now have two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”. Enter the desired Name and Code of your corporation as well as its starting capital, which will default to your faction’s currency. Each invitee to your corporation will have to pay their shares in the same currency.
+Click the CORPM button, and you will be presented with two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”. If you would like to create a Corporation, enter its desired Name and code as well as its starting capital, which will default to your faction’s currency. Each invitee to your corporation will have to pay the same amount in the same currency to become a shareholder.
 
 ![New corp data](new-corp-data.png)
 
@@ -33,7 +33,7 @@ If you have been invited to a Corporation, you will receive a notification. It i
 
 ![Invite notification](invite-notification.png)
 
-Under “Invitations to existing Corporations”, you now have the ability to answer to your invitation. Rejecting an invitation will delete it forever, accepting it will instantly buy the shares needed to become a member. This is the same amount the founder acquired when forming the corporation, and it will need to be paid in the same currency (ICA in the example below). If you do not possess the required currency, the only way to achieve it is via foreign exchange.
+Under “Invitations to existing Corporations”, you now have the ability to answer to your invitation. Rejecting an invitation will delete it forever, accepting it will instantly buy the shares needed to become a member. This is the same amount the founder acquired when forming the corporation, and it will need to be paid in the same currency (ICA in the example below). If you do not possess the required currency, the only way to obtain it is via [foreign exchange](../foreign-exchange).
 
 ![Pending invitation](pending-invitation.png)
 
@@ -61,7 +61,7 @@ Corporate projects provide different advantages to a corporation’s members. On
 
 ![CORPNP](corpnp.png)
 
-Select the desired project from the dropdown at the top. It will take up a plot on the planet you enter into the line labeled “Location”. After indicating a planet name or ID, the planet will appear, and you need to click the desired plot. If you are not satisfied, choose “change selection” in the bottom right and pick a different one. Lastly, hit “START” at the bottom of the window.
+Select the desired project from the dropdown at the top. It will take up a plot on the planet you enter into the line labeled “Location”. After indicating a planet name or ID, the planet will appear, and you need to click the desired plot. If you are not satisfied with your pick, choose “change selection” in the bottom right and pick a different one. Lastly, hit “START” at the bottom of the window.
 
 ![Select project plot](select-project-plot.png)
 
@@ -84,12 +84,8 @@ Once all required contributions have been made and the status bars are full, the
 Corporate headquarters are not a necessity for a corporation to be functional. However, they are the first corporate project that must be realized before any other corporate projects become available.
 
 
-## More tutorials
+## About this page
 
-If you are first starting out, continue with “Getting started”:  
-* [Getting started](LINK)  
-* [Space flight](LINK)  
-* [Foreign Exchange](LINK)  
-* More to come!
+This page is part of the advanced tutorial series, which encompasses parts 3 through 7. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
-Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
