@@ -19,7 +19,7 @@ Victuallers are the heart of the food industry. Their profession revolves around
 #### Important notes
 As a victualler, you will depend on water. If you do not settle on a planet with water, you will have a hard time turning a profit. The speed at which the crops on your farms will grow depends on a planet's soil fertility - the higher the fertility, the quicker the growth.
 
-#### Starting Sections
+#### Recommended Starting Sections
 __Rig (RIG):__ Extracts liquids (water) from the ground.  
 __Farmstead (FRM):__ Requires water to output different integredients used in food production and adjacent industries.  
 __Food Processor (FP):__ Takes food ingredients and turns them into consumables.
@@ -27,6 +27,9 @@ __Food Processor (FP):__ Takes food ingredients and turns them into consumables.
 #### Recommended starting planets
 CI1 (Castillo-Ito Mercantile)  
 Promitor (Insitor Cooperative)
+
+#### Starting Experts
+2 Food Industries experts
 
 
 ### Metallurgist
@@ -39,12 +42,15 @@ If you don't mind getting your (workers') hands dirty, this might be the job for
 #### Important notes
 Extracting ores from the ground will be an essential everyday task for your company. Make sure that your planet contains at least one mineral, or you will not be able to put your Extractor to use.
 
-#### Starting Sections
+#### Recommended Starting Sections
 __Extractor (EXT) (2x):__ Extracts ores from a planet's surface.  
 __Smelter (SME):__ Refines ores into metals.
 
 #### Recommended starting planets
 All available starting planets containing at least one mineral.
+
+#### Starting Experts
+2 Metallurgy Experts
 
 
 ### Carbon Farmer
@@ -57,13 +63,16 @@ Carbon has become a vital resource across different industries, so much so that 
 #### Important notes
 Setting up shop on a planet with higher fertility will help increase your farms' output. If a planet is completely infertile, farms cannot be built at all, leaving your company dead in the water!
 
-#### Starting Sections
+#### Recommended Starting Sections
 __Farmstead (FRM) (2x):__ Requires water to output different integredients used in food production and adjacent industries.  
 __Incinerator (INC):__ Extracts pure carbon from different carbon-rich plants.
 
 #### Recommended starting planets
 CI1 (Castillo-Ito Mercantile)  
 Promitor (Insitor Cooperative)
+
+#### Starting Experts
+2 Agriculture Experts
 
 
 ### Manufacturer
@@ -76,13 +85,16 @@ As a manufacturer, you will be a versatile creature which does not depend too mu
 #### Important notes
 Your production lines will need carbon and hydrogen to operate. While hydrogen can be extracted from the atmosphere of certain planets directly, you will depend on other companies to sell you carbon, which is more likely to circulate on planets providing water and high fertility.
 
-#### Starting Sections
+#### Recommended Starting Sections
 __Collector (COL):__  Extracts gases from the atmosphere.  
 __Incinerator (INC):__ Extracts carbon from plants.  
 __Basic Materials Plant (BMP):__ Produces a host of materials and end products needed to bootstrap a colony.
 
 #### Recommended starting planets
 Vallis (NEO Charter Exploration)
+
+#### Starting Experts
+2 Manufacturing Experts
 
 
 ### Constructor
@@ -95,13 +107,16 @@ You and your fellow constructors will be the key element to expanding existing b
 #### Important notes
 Even though you will not be mining iron oxide (FEO) yourself, make sure to settle down near or - better yet - on a planet containing FEO to make sure you will be able to buy iron from other companies around you.
 
-#### Starting Sections
+#### Recommended Starting Sections
 __Basic Materials Plant (BMP):__ Produces a host of materials and end products needed to bootstrap a colony.  
 __Prefab Plant Mk1 (PP1):__ Produces basic prefabs necessary to construct buildings.  
 
 #### Recommended starting planets
 Montem (NEO Charter Exploration)  
 Vallis (NEO Charter Exploration)
+
+#### Starting Experts
+2 Construction Experts
 
 
 ## Factions

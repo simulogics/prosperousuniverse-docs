@@ -56,7 +56,7 @@ Next, you need to find out which buildings are relevant to your company. This de
 
 ![Ship cargo to base](items-ship-to-base.gif)
 
-Your recommended buildings can be found in the Pioneers and Resources tabs. Recommendations are as follows:
+Your recommended buildings are listed below and on the [Packages and Factions site](../../wiki/packages-factions). All of them can be found in the Resources and Pioneers tabs:
 
 * Victualler: Rig, Farm, Food Processor  
 * Carbon Farmer: 2x Farm, Incinerator  

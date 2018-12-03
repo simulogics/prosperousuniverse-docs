@@ -44,11 +44,11 @@ To contribute, open the project’s buffer by clicking its name under “Infrast
 
 A Chamber of Global Commerce can run a variety of programs to stimulate a planet’s economy. Open the buffer of a CoGC by clicking its name under “Infrastructure” or its plot on the planet (in a PLI window). In the new CoGC window that opened up, you can see the CoGC’s current and upcoming programs listed under “Programs”.
 
-![CoGC overview](cogc-overview.png)
+![CoGC overview](cogc-overview.jpg)
 
 To vote on the upcoming program, select “programs / vote”, which opens up a list of all available programs.
 
-![CoGC programs](cogc-programs.png)
+![CoGC programs](cogc-programs.jpg)
 
 Click a program’s name or the respective “view details / vote” button learn more about it. Hit “Vote” to give your vote to the desired program; the one with the most votes will be listed as the upcoming program in the planet’s COGC buffer. 
 
