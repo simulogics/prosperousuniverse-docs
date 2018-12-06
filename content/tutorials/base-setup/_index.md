@@ -5,15 +5,15 @@ weight: 3
 draft: true
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/MAULyd4F9Bk)
+![Base video](thumbnail-tutorial-coming.png)
 
 Follow along the steps below in APEX.
 
 
-### Base setup
-After making your choices, you get access to APEX. Welcome! Thank you for putting your trust in us. You can now begin setting up your base.
+### Choosing a location
+After making your choices regarding package, faction, and planet, you get access to APEX. Welcome! Thank you for putting your trust in us. You can now begin setting up your base.
 
 ![Default APEX](default-apex.png)
 _Please note that the default layout screen may look different for you._
@@ -61,7 +61,7 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Victualler: Rig, Farm, Food Processor  
 * Carbon Farmer: 2x Farm, Incinerator  
 * Metallurgist: 2x Extractor, Smelter  
-* Plastics Manufacturer: Collector, Incinerator, Basic Materials Plant  
+* Manufacturer: Collector, Incinerator, Basic Materials Plant  
 * Constructor: Basic Materials Plant, Prefab Plant 1  
 
 Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the “SECTIONS” window you can access from your base overview.

@@ -5,9 +5,9 @@ weight: 8
 draft: true
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Space-flight video](thumbnail-tutorial-4.jpg)](https://youtu.be/FQ_3vb6uN-I)
+![Space-flight video](thumbnail-tutorial-coming.png)
 
 Follow along the steps below in APEX.
 

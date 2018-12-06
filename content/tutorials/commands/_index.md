@@ -7,9 +7,9 @@ draft: true
 
 This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](../../wiki/commands-list).
 
-This tutorial is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Commands overview video](thumbnail-tutorial-3.jpg)](https://youtu.be/9CvjpLP4tZY)
+![Commands video](thumbnail-tutorial-coming.png)
 
 ## General rules
 
@@ -39,7 +39,7 @@ Open up the CMDS buffer by selecting its shortcut on the left side. Looking at t
 
 ![CMDS buffer](cmds-buffer.png)
 
-__Example:__ The “BS” command by itself shows an overview over all your bases. Clicking “View Base” next to a concrete planet opens a new buffer in which the Base command is followed up by the respective base’s ID. Clicking the Sections (“BSL” command), Production (“PROD” command), and Population (“POP” command) buttons in this window, you will find that the base’s ID is used by all these commands as well because they relate to this concrete base’s Sections, Production, and Population. (The Inventory, meanwhile, is followed up with the planet’s identifier.) These three - BSL, PROD and POP - _must_ be followed with a parameter, specifically a base ID. That is because, when looking at Sections, Production Lines, or a Population, it always pertains to a specific base.
+__Example:__ The “BS” command by itself shows an overview over all your bases. Clicking “View Base” next to a concrete planet in the list opens a new buffer in which the Base command is followed up by the respective base’s ID. Clicking the Sections (“BSL” command), Production (“PROD” command), and Population (“POP” command) buttons in this window, you will find that the base’s ID is used by all these commands as well because they relate to this concrete base’s Sections, Production, and Population. (The Inventory, meanwhile, is followed up with the planet’s identifier.) These three - BSL, PROD and POP - _must_ be followed with a parameter, specifically a base ID. That is because, when looking at Sections, Production Lines, or a Population, it always pertains to a specific base.
 
 Another example for the use of (mandatory) parameters would be the “MAT” command. When entered by itself, APEX will wonder which material you want to learn more about. That is why “MAT” must be followed by a material’s ID, like “CUO” for Copper Ore.
 

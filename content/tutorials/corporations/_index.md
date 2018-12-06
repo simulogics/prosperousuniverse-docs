@@ -5,9 +5,9 @@ weight: 11
 draft: true
 ---
 
-This tutorial is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Corporations video](thumbnail-tutorial-6.jpg)](https://youtu.be/xxxxxxxxxxxxxxxx)
+![Corporations video](thumbnail-tutorial-coming.png)
 
 ## Introduction
 
@@ -82,6 +82,8 @@ Once all required contributions have been made and the status bars are full, the
 #### Corporate headquarters
 
 Corporate headquarters are not a necessity for a corporation to be functional. However, they are the first corporate project that must be realized before any other corporate projects become available.
+
+Once corporate headquarters become active, they provide a 10% productivity boost to all bases of members of the owning corporation.
 
 
 ## About this page

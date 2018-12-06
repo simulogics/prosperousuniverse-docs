@@ -5,9 +5,9 @@ weight: 10
 draft: true
 ---
 
-This tutorial is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Planetary projects video](thumbnail-tutorial-6.jpg)](https://youtu.be/xxxxxxxxxxxxxxxx)
+![Planetary projects video](thumbnail-tutorial-coming.png)
 
 ## Introduction
 

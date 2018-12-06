@@ -5,9 +5,9 @@ weight: 4
 draft: true
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/MAULyd4F9Bk)
+![Trading video](thumbnail-tutorial-coming.png)
 
 Follow along the steps below in APEX.
 
@@ -21,7 +21,7 @@ _Shown here: three different ways to access your nearest Commodity Exchange_
 
 (If your planet does not have its own Commodity Exchange, you will need to send ships to a planet or station that has one in order to pick up your wares after you bought them. If that is the case, you can look up how in the [“Contracts” tutorial](../contracts). Make sure you do not trade on a market in another system before you understand foreign exchange because you are probably going to need a different currency there.)
 
-Click the Commodity Exchange symbol. You should integrate your local commodity exchange buffer into a tile now because you are going to need it frequently. Note that all products are listed in every Commodity Exchange, but the buy and sell orders you can see are always limited to the concrete Commodity Exchange on which they were placed. They are not global – if, for example, the product you want is not being sold on your Commodity Exchange (or for a horrendous price), have a look at the Commodity Exchanges of other planets and stations.
+Assuming your planet does have a Commodity Exchange, click its symbol now. You should integrate your local commodity exchange buffer into a tile because you are going to need it frequently. Note that all products are listed in every Commodity Exchange, but the buy and sell orders you can see are always limited to the concrete Commodity Exchange on which they were placed. They are not global – if, for example, the product you want is not being sold on your Commodity Exchange (or for a horrendous price), have a look at the Commodity Exchanges of other planets and stations.
 
 You are likely going to need two kinds of resources soon: Consumables to keep your workforce fed and productive, and - unless you possess only production buildings from the Resources tab - input materials for your Production Lines. Sooner or later, you might also need fuel for your ships.
 

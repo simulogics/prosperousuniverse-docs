@@ -5,21 +5,21 @@ weight: 2
 draft: true
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Getting started video](thumbnail-tutorial-2.jpg)](https://youtu.be/MAULyd4F9Bk)
+![Package, faction, planet video](thumbnail-tutorial-coming.png)
 
 __To help you choose a good combination of faction, planet and package, we have set up [this page with further information](../../wiki/packages-factions). You should open it separately now and use it as a reference while going through this tutorial in order to make an informed decision.__
 
 ### Company name & code
 
 ![Company name and code](company-name-and-code.png)
-When logging into APEX for the very first time, you are asked to provide the name and code of your company. The name you choose must not violate APEX’s terms of service, meaning that if must not be offensive or too similar to the name of an already existing company. The code is an abbreviation, an identifier, used for looking up your company within APEX. It must be four letters long and, like the company name, it needs to be unique.
+When logging into APEX for the very first time, you are asked to provide the name and code of your company. The name you choose must not violate APEX’s terms of service, meaning that it must not be offensive or too similar to the name of an already existing company. The code is an abbreviation, an identifier, used for looking up your company within APEX. It must be three to four letters long and, like the company name, it needs to be unique.
 
 ### Factions
-Next, you get to pick which faction you want to belong to. Picking a faction will not limit where you can go or what you can do with your company. All factions peacefully coexist and will not harm you if you want to do trade in another faction’s territory. However, factions reign over certain sections of space, each with their own currency and set of rules.
+Next, you get to pick which faction you want to belong to. Picking a faction will not limit where you can go or what you can do with your company. All factions peacefully coexist and will not harm you if you want to trade in another faction’s territory. However, factions reign over certain sections of space, each with their own currency and set of rules.
 
-Joining a faction will, however, determine two important things: The planets available to you and the currency of the money you are going to receive when setting up your company. Planets have different properties which help with or impede certain trades. That is why the choice of your faction should be informed by the industry you want to become active in. Especially if you are new, you should follow these rules of thumb: If you want to work in the food industry, choose Castillo-Ito Mercantile or Insitor Cooperative. If you're going to operate a mining company, you cannot go wrong with NEO Charter Exploration. All other industries are fairly independent of your faction choice. Read more about factions [here](../../wiki/packages-factions/#factions).
+Joining a faction will determine two important things at the start: The planets available to you and the currency of the money you are going to receive when setting up your company. Planets have different properties which help with or impede certain trades. That is why the choice of your faction should be informed by the industry you want to become active in. Especially if you are new, you should follow these rules of thumb: If you want to work in the food industry, choose Castillo-Ito Mercantile or Insitor Cooperative. If you're going to operate a mining company, you cannot go wrong with NEO Charter Exploration. All other industries are fairly independent of your faction choice. Read more about factions [here](../../wiki/packages-factions/#factions).
 
 ### Planet
 ![Planet and package selection](pick-planet-and-package.png)

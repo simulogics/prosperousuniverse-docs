@@ -5,9 +5,9 @@ weight: 6
 draft: true
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-[![Planetary projects video](thumbnail-tutorial-2.jpg)](https://youtu.be/xxxxxxxxxxxxxxxx)
+![Production video](thumbnail-tutorial-coming.png)
 
 ## Input Materials
 
@@ -31,7 +31,12 @@ Bring up your Production Lines by selecting “Production” in the Base overvie
 
 You can always produce one type of commodity per order. Once you selected it, set the Order Size. The higher it gets, the longer the order will need to process and the more input materials will be required. You will find that this is very handy. If, for instance, you know you cannot check back with your company for a while, just set it to a high value, and your workers will not run out of things to do while you are gone.
 
-Start processing the order by hitting “QUEUE ORDER”, and it will show up in your Production Lines window. If you are not missing any input materials, it is now being processed, and you will be able to track its progress and the time remaining. Send out more orders until your queue is filled up. You can pick a different output material for every order as you desire. Once queued, an order can be canceled by selecting “Details” below your Production Line and then “Cancel” next to the order. Once an order is being processed, it can no longer be canceled.
+Start processing the order by hitting “QUEUE ORDER”, and it will show up in your Production Lines window. If your workforce is fed and you are not missing any input materials, it is now being processed, and you will be able to track its progress and the time remaining. Send out more orders until your queue is filled up. You can pick a different output material for every order as you desire. Once queued, an order can be canceled by selecting “Details” below your Production Line and then “Cancel” next to the order. Once an order is being processed, it can no longer be canceled.
+
+
+## End of introductory tutorials
+
+This concludes the tutorials you need to finish in order to get your company off the ground. However, there is still much to learn. Once you have grown more accustomed to APEX and are ready for more, continue with the [“Commands” tutorial](../commands).
 
 
 ## About this page
