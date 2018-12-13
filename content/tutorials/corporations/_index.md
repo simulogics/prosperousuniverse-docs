@@ -17,11 +17,7 @@ Please note: As of now, it is only possible to become shareholder of a single co
 
 ## Founding a Corporation
 
-If you are not yet member of a corporation, you can start one yourself. Selecting the CORP shortcut on the left, you will be greeted by this text:
-
-![Before corp](before-corp.png)
-
-Click the CORPM button, and you will be presented with two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”. If you would like to create a Corporation, enter its desired Name and code as well as its starting capital, which will default to your faction’s currency. Each invitee to your corporation will have to pay the same amount in the same currency to become a shareholder.
+If you are not yet member of a corporation, you can start one yourself. Selecting the CORP shortcut on the left, you will be presented with two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”. If you would like to create a Corporation, enter its desired Name and code as well as its starting capital, which will default to your faction’s currency. Each invitee to your corporation will have to pay the same amount in the same currency to become a shareholder.
 
 ![New corp data](new-corp-data.png)
 
@@ -83,7 +79,7 @@ Once all required contributions have been made and the status bars are full, the
 
 Corporate headquarters are not a necessity for a corporation to be functional. However, they are the first corporate project that must be realized before any other corporate projects become available.
 
-Once corporate headquarters become active, they provide a 10% productivity boost to all bases of members of the owning corporation.
+Once corporate headquarters become active, they provide a 10% productivity boost to all bases of members of the owning corporation. Please note that corporate headquarters cannot be built on starting planets.
 
 
 ## About this page

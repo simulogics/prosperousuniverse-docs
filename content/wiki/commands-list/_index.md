@@ -235,6 +235,10 @@ Embeds a YouTube video. The ID is the succession of numbers and letters after �
 
 ## Other commands
 
+__COLIQ__  
+_No possible parameter_  
+Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. Please note that this cannot be done too often, both for technical reasons and to prevent exploitation of the feature. Misuse of the COLIQ command may result in your account being (temporarily) banned!
+
 __CS__  
 _No possible parameter_  
 Allows you to create a new Screen. To call this command, you may use the “ADD” button at the top. Learn all about Screens in the APEX interface tutorial.

@@ -22,7 +22,7 @@ However, this information only paints a part of the picture. It pertains to _thi
 
 ## Costs calculation
 
-Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials (“Additional resources” below) will be required _once_ for _every_ building depending on the environmental conditions at hand. The exact number of some additional resources depends on the Area cost of a building, which is indicated in its BUI window (see screenshot above).
+Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials and/or Construction Parts (“Additional resources” below) will be required _once_ for _every_ building depending on the environmental conditions at hand. The exact number of some additional resources depends on the Area cost of a building, which is indicated in its BUI window (see screenshot above).
 
 Please note that all these additional costs also pertain to [Planetary projects](../../tutorials/planetary-projects) and [Corporate projects](../../tutorials/corporations/#corporate-actions-and-projects).
 

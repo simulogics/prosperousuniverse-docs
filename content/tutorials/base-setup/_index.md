@@ -72,7 +72,7 @@ You have now successfully started your base with production buildings, worker ha
 
 ![Missing materials](missing-materials.png)
 
-_If you are missing construction materials or prefabs (2 BSE in this example), “BUILD” is greyed out_
+_If you are missing construction materials, parts, or prefabs (2 BSE in this example), “BUILD” is greyed out_
 
 
 ## About this page
