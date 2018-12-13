@@ -5,9 +5,9 @@ weight: 6
 draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Production video](thumbnail-tutorial-coming.png)
+[![Production video](thumbnail-2.5.jpg)](https://youtu.be/0rOkaxvSiIQ)
 
 ## Input Materials
 

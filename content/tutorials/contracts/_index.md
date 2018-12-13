@@ -5,9 +5,9 @@ weight: 5
 draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Contracts video](thumbnail-tutorial-coming.png)
+[![Contracts video](thumbnail-2.4.jpg)](https://youtu.be/X-du1P3KfXY)
 
 ### Contracts
 

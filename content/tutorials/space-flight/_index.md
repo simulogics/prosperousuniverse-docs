@@ -7,7 +7,7 @@ draft: true
 
 This tutorial will soon become available in video format. __Please scroll down for the written version.__
 
-![Space-flight video](thumbnail-tutorial-coming.png)
+![Space-flight video](thumbnail-tutorial-4.jpg)
 
 Follow along the steps below in APEX.
 

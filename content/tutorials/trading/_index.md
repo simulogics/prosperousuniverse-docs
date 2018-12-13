@@ -5,9 +5,9 @@ weight: 4
 draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Trading video](thumbnail-tutorial-coming.png)
+[![Trading video](thumbnail-tutorial-2.jpg)](https://youtu.be/Xk-0bwP8M8U)
 
 Follow along the steps below in APEX.
 
