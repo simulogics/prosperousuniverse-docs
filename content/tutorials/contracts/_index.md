@@ -2,7 +2,6 @@
 title: "2.4 Contracts"
 date: 2018-09-18T17:13:49+02:00
 weight: 5
-draft: true
 ---
 
 This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__

@@ -2,12 +2,11 @@
 title: "7. Corporations"
 date: 2018-09-18T17:13:49+02:00
 weight: 11
-draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Corporations video](thumbnail-tutorial-coming.png)
+[![Corporations video](thumbnail-tutorial-7.jpg)](https://youtu.be/AXti-plYeFA)
 
 ## Introduction
 
@@ -17,7 +16,9 @@ Please note: As of now, it is only possible to become shareholder of a single co
 
 ## Founding a Corporation
 
-If you are not yet member of a corporation, you can start one yourself. Selecting the CORP shortcut on the left, you will be presented with two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”. If you would like to create a Corporation, enter its desired Name and code as well as its starting capital, which will default to your faction’s currency. Each invitee to your corporation will have to pay the same amount in the same currency to become a shareholder.
+If you are not yet member of a corporation, you can start one yourself. Selecting the CORP shortcut on the left, you will be presented with two options: Found your own Corporation in the upper half of the new buffer, or join one you have been invited to in the lower half. The latter case will be explained below under “Joining a Corporation”.
+
+If you would like to create a Corporation, enter its desired name and code as well as the price for its shares, which will default to your faction’s currency. Each invitee to your corporation, just like yourself now, will have to buy 1,000 shares to become a shareholder. Setting the cost to 1 means that you and all other future members will have to pay 1,000 of your currency to join.
 
 ![New corp data](new-corp-data.png)
 

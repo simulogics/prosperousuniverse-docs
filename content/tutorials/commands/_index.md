@@ -2,7 +2,6 @@
 title: "3. Commands"
 date: 2018-09-18T17:13:35+02:00
 weight: 7
-draft: true
 ---
 
 This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](../../wiki/commands-list).
