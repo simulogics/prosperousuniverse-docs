@@ -138,7 +138,7 @@ __Commodity Exchange:__ yes
 #### Planet: CI3  
 __System:__ Benten  
 __Code:__ _TBA_  
-__Resources:__ Oxygen (Atmospheric), Water (Liquid), Silicon Ore (Mineral), Sulfur (Mineral)  
+__Resources:__ Oxygen (Atmospheric), Water (Liquid), Sulfur (Mineral)  
 __Fertility:__ below average  
 __Commodity Exchange:__ yes  
 
