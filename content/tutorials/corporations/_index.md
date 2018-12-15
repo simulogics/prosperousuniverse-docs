@@ -6,7 +6,7 @@ weight: 11
 
 This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-[![Corporations video](thumbnail-tutorial-7.jpg)](https://youtu.be/AXti-plYeFA)
+[![Corporations video](thumbnail-7.jpg)](https://youtu.be/AXti-plYeFA)
 
 ## Introduction
 
