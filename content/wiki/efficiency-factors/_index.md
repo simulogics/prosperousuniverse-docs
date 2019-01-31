@@ -68,7 +68,7 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 
 #### Expert spawn rates & bonuses
 
-The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. No new experts will be created in a base after a total of 6 is reached.
+The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. No new experts will be created in a base after a total of 5 is reached.
 
 | Expert no.	| Days required | Bonus		   |
 |---------------|---------------|--------------|
