@@ -1,0 +1,102 @@
+---
+title: "Efficiency factors"
+date: 2018-09-18T17:13:49+02:00
+weight: 9
+draft: true
+---
+
+## General information
+
+Each Production Line operates at a certain efficiency when active. Efficiency dictates how long a production order takes to finish: lower efficiency results in longer production times, higher efficiency shortens them. A Production Line's current efficiency can be looked up in its Production queue buffer (PRODQ):
+
+![PRODQ](prodq.png)
+
+Worker availability and satisfaction provide the base efficiency value. Experts grant bonuses to that value for Production Lines in their field of expertise. Finally, soil fertility (or lack thereof) provides another bonus (or detraction) to the efficiency of certain Production Lines.
+
+### Worker availability
+
+Each Production line requires a certain amount and type of workers to be operational, which is indicated under „Workforces“ in its BUI window:
+
+![Workforces](workforces.png)
+
+Multiple buildings requiring the same workforce are added up. The total amount of workers of each type needed in a base can be looked up in its POP window:
+
+![Total workforce](total-workforce.png)
+
+If the current population size is smaller than the required amount, as is the case in the example above, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_
+
+__Note: All Production Lines employ workers even when no orders are queued or production is halted.__ Idle workers cannot be moved from one Section to another.
+
+### Worker satisfaction
+
+Each type of worker has their own needs that need to be fulfilled in order to keep efficiency up. Worker needs can be looked up in a base's Population window. For example, Pioneers need 4 DW, 4 RAT, and 0.5 OVE per day to be fully satisfied, and Settlers need 5 DW, 6 RAT, 3 HI, 0.5 EXO, and 0.5 PT.
+
+As long as all requirements are met, efficiency stays at 100%. A workforce will keep working for as long as at least one of those resources is still at their disposal. Only once all of them run out, production will stop. If only part of the required resources is available, the workforce's efficiency goes down by a certain amount.
+
+Some consumables are so-called non-essentials: The productivity loss caused by a missing non-essential is lower than for essential consumables. Plus, a workforce will stop working altogether if the only consumable at their disposal is non-essential. The Population buffer lists which consumables are essential and which aren't:
+
+![Non-essentials](non-essentials.png)
+
+#### How consumables are used up
+
+The first full amount of any consumable required for the following 24 hours (e.g. 4 RAT for 100 Pioneers) is claimed by a base's population (and thus disappears from the inventory) as soon as the commodity becomes available in the base's inventory. The same happens again 24 hours later, again and again until the consumable is used up. This goes for each type of consumable individually: If a population starts consuming DW at 12 PM and RAT at 4 PM, the next batch of DW will be used up at 12 PM the next day, and the next batch of RAT will be used up at 4 PM the next day.
+
+__Note: No production needs to be running for a population to be consuming resources!__ Idle workforces have the exact same needs as active ones and will still use up consumables in the base's inventory.
+
+![Pioneers and Settlers](pioneers-and-settlers.png)
+
+### Experts
+
+All Sections can be granted bonuses by so-called experts. You can see your experts by pressing the EXPERTS button in your base. To utilize them, hit ACT (Activate); to remove their bonus, hit RMV (Remove).
+
+![Experts](experts.png)
+
+Each expert grants a bonus to a certain industry. Each industry, in turn, encompasses different Sections:
+
+| Expertise	   			| Sections (+ BUI tickers)														|
+|-----------------------|-------------------------------------------------------------------			|
+| Resource Extraction	| Collector (COL), Extractor (EXT),	Rig (RIG), Incinerator (INC)				|
+| Manufacturing  		| Basic Materials Plant (BMP), Textile Manufacturing (CLF), 3D Printer (PPF), Weaving Plant (WPL), Medium Component Assembly (MCA), Small Components Assembly (SCA), Appliances Factory (APF)	|
+| Agriculture  			| Farmstead (FRM), Hydroponics Farm (HYF)										|
+| Food Industries		| Food Processor (FP), Fermenter (FF), In-Vitro Plant (IVP), Orchard (ORC) |
+| Construction			| Prefab Plant MK1 (PP1), Welding Plant (WEL), Prefab Plant MK2 (PP2), Prefab Plant MK3 (PP3), Prefab Plant MK4 (PP4) |
+| Metallurgy			| Smelter (SME), Metalist Studio (FS), Glass Furnace (GF), High-Power Blast Furnace (ASM) |
+| Chemistry				| Chemical Plant (CHP), Polymer Plant (POL), Laboratory (LAB), Technetium Processing (TNP), Advanced Material Lab (AML), Einsteinium Enrichment (EEP) |
+| Fuel Refining			| Refinery (REF) |
+| Electronics			| Cleanroom (CLR), Electronics Plant (ELP), Software Development (SD), Software Labs (SL) |
+
+
+#### Expert spawn rates & bonuses
+
+The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. No new experts will be created in a base after a total of 6 is reached.
+
+| Expert no.	| Days required 	| Bonus		   |
+|---------------|---------------	|--------------|
+| 1			   	| 0 (starter package) | 3.06%	   |
+| 2			   	| 10.00		   		| 6.96%	 	   |
+| 3			   	| 12.50		   		| 12.48%	   |
+| 4			   	| 26.82		   		| 19.74%	   |
+| 5			   	| 61.29		   		| 28.40%	   |
+| 6				| 123.14			| 37.60%	   |
+
+The days indicated above relate to a single Section. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
+
+The bonus granted by an expert is a fixed value which is simply added to the availability/satisfaction percentage. For example, a workforce operating at 80% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
+
+### Soil fertility
+
+The efficiency of certain Sections is impacted by a planet's soil fertility. If this is the case, it will be indicated next to the building's entry in the BSC window. The Sections currently requiring fertile soil are Farmstead (FRM) and Orchard (ORC).
+
+![Fertile soil](fertile-soil.png)
+
+A planet's soil fertility can be seen in its PLI window. The further the yellow bit of the bar reaches to the right, the more fertile it is; the further it reaches to the left, the lower the fertility value. __Note: If there are two dashes instead of a bar, the planet is infertile, meaning that Sections impacted by soil fertility cannot operate at all here.__
+
+![Soil fertility](soil-fertility.png)
+
+The overall efficiency of a Section is multiplied by the fertility value of its planet. Neutral fertility (i.e. no yellow bit) indicates a multiplier of 100%, or 1.0.
+
+## About this page
+
+This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
+
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
