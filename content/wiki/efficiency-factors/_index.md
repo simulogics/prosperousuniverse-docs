@@ -70,14 +70,13 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 
 The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. No new experts will be created in a base after a total of 6 is reached.
 
-| Expert no.	| Days required 	| Bonus		   |
-|---------------|---------------	|--------------|
-| 1			   	| 0 (starter package) | 3.06%	   |
-| 2			   	| 10.00		   		| 6.96%	 	   |
-| 3			   	| 12.50		   		| 12.48%	   |
-| 4			   	| 26.82		   		| 19.74%	   |
-| 5			   	| 61.29		   		| 28.40%	   |
-| 6				| 123.14			| 37.60%	   |
+| Expert no.	| Days required | Bonus		   |
+|---------------|---------------|--------------|
+| 1			   	| 10.00 		| 3.06%	   	   |
+| 2			   	| 12.50		   	| 6.96%	 	   |
+| 3			   	| 26.82		   	| 12.48%	   |
+| 4			   	| 61.29		   	| 19.74%	   |
+| 5			   	| 123.14	   	| 28.40%	   |
 
 The days indicated above relate to a single Section. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
 
