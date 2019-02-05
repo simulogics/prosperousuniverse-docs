@@ -94,6 +94,10 @@ A planet's soil fertility can be seen in its PLI window. The further the yellow 
 
 The overall efficiency of a Section is multiplied by the fertility value of its planet. Neutral fertility (i.e. no yellow bit) indicates a multiplier of 1.0.
 
+### CoGC programs
+
+The [Chamber of Global Commerce](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc), if existant on a planet and active, can provide a temporary bonus to productivity. As is the case with experts, the respective percentage is simply added on top. For example, the CoGC program _Education Events: Pioneers_ provdes a 10 % bonus to all pioneer-operated buildings as long as it is active, and the program _Advertising Campaign: Agriculture_ grants a 25 % bonus to all facilities in the agriculture sector.
+
 ## About this page
 
 This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
