@@ -31,7 +31,7 @@ __Note: All Production Lines employ workers even when no orders are queued or pr
 
 Each type of worker has their own needs that need to be fulfilled in order to keep efficiency up. Worker needs can be looked up in a base's Population window. For example, Pioneers need 4 DW, 4 RAT, and 0.5 OVE per day to be fully satisfied, and Settlers need 5 DW, 6 RAT, 3 HI, 0.5 EXO, and 0.5 PT.
 
-As long as all requirements are met, efficiency stays at 100%. A workforce will keep working for as long as at least one of those resources is still at their disposal. Only once all of them run out, production will stop. If only part of the required resources is available, the workforce's efficiency goes down by a certain amount.
+As long as all requirements are met, efficiency stays at 100%. A workforce will keep working for as long as at least one of those resources is still at their disposal. Only once all of them run out, production will stop. If only part of the required resources is available, the workforce's satisfaction decreases and hence its productivity suffers.
 
 Some consumables are so-called non-essentials: The productivity loss caused by a missing non-essential is lower than for essential consumables. Plus, a workforce will stop working altogether if the only consumable at their disposal is non-essential. The Population buffer lists which consumables are essential and which aren't:
 
@@ -47,13 +47,13 @@ __Note: No production needs to be running for a population to be consuming resou
 
 ### Experts
 
-All Sections can be granted bonuses by so-called experts. You can see your experts by pressing the EXPERTS button in your base. To utilize them, hit ACT (Activate); to remove their bonus, hit RMV (Remove).
+All buildings can be granted bonuses by so-called experts. You can see your experts by pressing the EXPERTS button in your base. To utilize them, hit ACT (Activate); to remove their bonus, hit RMV (Remove).
 
 ![Experts](experts.png)
 
-Each expert grants a bonus to a certain industry. Each industry, in turn, encompasses different Sections:
+Each expert grants a bonus to a certain industry. Each industry, in turn, encompasses different buildings:
 
-| Expertise	   			| Sections (+ BUI tickers)														|
+| Expertise	   			| buildings (+ BUI tickers)														|
 |-----------------------|-------------------------------------------------------------------			|
 | Resource Extraction	| Collector (COL), Extractor (EXT),	Rig (RIG), Incinerator (INC)				|
 | Manufacturing  		| Basic Materials Plant (BMP), Textile Manufacturing (CLF), 3D Printer (PPF), Weaving Plant (WPL), Medium Component Assembly (MCA), Small Components Assembly (SCA), Appliances Factory (APF)	|
@@ -68,7 +68,7 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 
 #### Expert spawn rates & bonuses
 
-The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. No new experts will be created in a base after a total of 5 is reached.
+The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. After a total of 5 experts is reached, new experts will still be created, however no more than 5 at a time can be active.
 
 | Expert no.	| Days required | Bonus		   |
 |---------------|---------------|--------------|
@@ -80,19 +80,19 @@ The first experts of any company are included in its [starter package](../packag
 
 The days indicated above relate to a single Section. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
 
-The bonus granted by an expert is a fixed value which is simply added to the availability/satisfaction percentage. For example, a workforce operating at 80% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
+The bonus granted by an expert is a fixed value which is simply added to the workforce's efficiency. For example, a workforce operating at 80% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
 
 ### Soil fertility
 
-The efficiency of certain Sections is impacted by a planet's soil fertility. If this is the case, it will be indicated next to the building's entry in the BSC window. The Sections currently requiring fertile soil are Farmstead (FRM) and Orchard (ORC).
+The efficiency of certain buildings is impacted by a planet's soil fertility. If this is the case, it will be indicated next to the building's entry in the BSC window. The buildings currently requiring fertile soil are Farmstead (FRM) and Orchard (ORC).
 
 ![Fertile soil](fertile-soil.png)
 
-A planet's soil fertility can be seen in its PLI window. The further the yellow bit of the bar reaches to the right, the more fertile it is; the further it reaches to the left, the lower the fertility value. __Note: If there are two dashes instead of a bar, the planet is infertile, meaning that Sections impacted by soil fertility cannot operate at all here.__
+A planet's soil fertility can be seen in its PLI window. The further the yellow bit of the bar reaches to the right, the more fertile it is; the further it reaches to the left, the lower the fertility value. __Note: If there are two dashes instead of a bar, the planet is infertile, meaning that buildings impacted by soil fertility cannot operate at all here.__
 
 ![Soil fertility](soil-fertility.png)
 
-The overall efficiency of a Section is multiplied by the fertility value of its planet. Neutral fertility (i.e. no yellow bit) indicates a multiplier of 100%, or 1.0.
+The overall efficiency of a Section is multiplied by the fertility value of its planet. Neutral fertility (i.e. no yellow bit) indicates a multiplier of 1.0.
 
 ## About this page
 
