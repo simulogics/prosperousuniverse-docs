@@ -2,12 +2,11 @@
 title: "2.1 Package, Faction, Planet"
 date: 2018-09-18T17:13:49+02:00
 weight: 2
-draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Package, faction, planet video](thumbnail-tutorial-coming.png)
+[![Package, faction, planet video](thumbnail-2.1.jpg)](https://youtu.be/Luu2qH_51U0)
 
 __To help you choose a good combination of faction, planet and package, we have set up [this page with further information](../../wiki/packages-factions). You should open it separately now and use it as a reference while going through this tutorial in order to make an informed decision.__
 

@@ -2,12 +2,11 @@
 title: "2.3 Trading"
 date: 2018-09-18T17:13:49+02:00
 weight: 4
-draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Trading video](thumbnail-tutorial-coming.png)
+[![Trading video](thumbnail-2.3.jpg)](https://youtu.be/Xk-0bwP8M8U)
 
 Follow along the steps below in APEX.
 
@@ -25,7 +24,7 @@ Assuming your planet does have a Commodity Exchange, click its symbol now. You s
 
 You are likely going to need two kinds of resources soon: Consumables to keep your workforce fed and productive, and - unless you possess only production buildings from the Resources tab - input materials for your Production Lines. Sooner or later, you might also need fuel for your ships.
 
-Select the “POPULATION” button in your base overview to view the upkeep of your workforce. As you can see, 4 units of Drinking Water are required per 100 Pioneers. They will be deducted from your Inventory at the start of each 24-hour period. Once you run out of water, your Pioneers will go on strike. Decide how many units you would like to buy in advance, and make sure you do not spend all your money on them now. Also note that some Drinking Water was already provided to you as part of your starting package.
+Select the “POPULATION” button in your base overview to view the upkeep of your workforce. As you can see, 4 units of Drinking Water, 4 Rations, and 1 Pioneer Clothing are required per 100 Pioneers. They will be deducted from your Inventory at the start of each 24-hour period. If part of this upkeep is missing, your Pioneers' effiency will go down, and once you run out of supplies entirely, they will go on strike. Decide how many supplies you would like to buy in advance, and make sure you do not spend all your money on them now. Also note that some supplies were already provided to you as part of your starting package.
 
 ![Pioneers upkeep](pioneers-upkeep.png)
 

@@ -2,7 +2,6 @@
 title: "Commands list"
 date: 2018-09-18T17:13:49+02:00
 weight: 9
-draft: true
 ---
 
 This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
@@ -234,6 +233,10 @@ _Mandatory parameter:_
 Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL. Please note that this works only with official transmissions listed in the TRA window for now, although there are plans to allow for external content in the future.
 
 ## Other commands
+
+__COLIQ__  
+_No possible parameter_  
+Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. Please note that this cannot be done too often, both for technical reasons and to prevent exploitation of the feature. Misuse of the COLIQ command may result in your account being (temporarily) banned!
 
 __CS__  
 _No possible parameter_  

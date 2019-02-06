@@ -2,12 +2,11 @@
 title: "4. Space-flight"
 date: 2018-09-18T17:13:49+02:00
 weight: 8
-draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Space-flight video](thumbnail-tutorial-coming.png)
+[![Space-flight video](thumbnail-tutorial-4.jpg)](https://youtu.be/_lt38peDxIk)
 
 Follow along the steps below in APEX.
 
@@ -60,7 +59,7 @@ Now it is time to set the desired values in the SFC window. If your target is a 
 
 The next thing you can set is the desired fuel usage. The higher you set this, the sooner your ship will arrive. You can order your pilot to do a hard and fast burn towards the target, then flip and do another hard burn in the opposite direction to slow down. However, this is a very costly way of going places. It might even happen that you do not have enough fuel for such a maneuver. In that case, the Ship Flight Control will let you know and the flight cannot be started.
 
-Setting the fuel usage to a lower value means that your ship will be doing a lot less accelerating, which results in longer travel times. If you set the slider to a low value and the system does not accept it, you have selected a vlue below the minimum fuel required for the selected journey. In this case, you need to set the fuel usage to a higher value. Note that if the slider does not go all the way up to 100 %, that is because the distance is too short for your ship’s engine to burn up all of the available fuel. The longer the transit and the stronger the engine, the higher this value can go up.
+Setting the fuel usage to a lower value means that your ship will be doing a lot less accelerating, which results in longer travel times. If you set the slider to a low value and the system does not accept it, you have selected a value below the minimum fuel required for the selected journey. In this case, you need to set the fuel usage to a higher value. Note that if the slider does not go all the way up to 100 %, that is because the distance is too short for your ship’s engine to burn up all of the available fuel. The longer the transit and the stronger the engine, the higher this value can go up.
 
 By moving the slider around, you can not only see exactly how many units of fuel your ship is going to need, but also the exact travel distance. It changes around because the relative positions of the planets change as they orbit around their star, and the slower your ship travels, the more they will move between its departure and arrival. This is oftentimes negligible, however if you really want to save fuel and you do not care when the flight takes place, you can wait for the closest approach of two planets before you send your ship on its way.
 

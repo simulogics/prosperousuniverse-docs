@@ -2,12 +2,11 @@
 title: "2.2 Base Setup"
 date: 2018-09-18T17:13:49+02:00
 weight: 3
-draft: true
 ---
 
-This tutorial will soon become available in video format. __Please scroll down for the written version.__
+This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
 
-![Base video](thumbnail-tutorial-coming.png)
+[![Base video](thumbnail-2.2.jpg)](https://youtu.be/7JunuXPCs6U)
 
 Follow along the steps below in APEX.
 
@@ -72,7 +71,7 @@ You have now successfully started your base with production buildings, worker ha
 
 ![Missing materials](missing-materials.png)
 
-_If you are missing construction materials or prefabs (2 BSE in this example), “BUILD” is greyed out_
+_If you are missing construction materials, parts, or prefabs (2 BSE in this example), “BUILD” is greyed out_
 
 
 ## About this page
