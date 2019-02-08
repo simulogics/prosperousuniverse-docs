@@ -25,7 +25,7 @@ Multiple buildings requiring the same workforce are added up. The total amount o
 
 If the current population size is smaller than the required amount, as is the case in the example above, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_
 
-__Note: All Production Lines employ workers even when no orders are queued or production is halted.__ Idle workers cannot be moved from one Section to another.
+__Note: All Production Lines employ workers even when no orders are queued or production is halted.__ Idle workers cannot be moved from one building to another.
 
 ### Worker satisfaction
 
@@ -78,9 +78,9 @@ The first experts of any company are included in its [starter package](../packag
 | 4			   	| 61.29		   	| 19.74%	   |
 | 5			   	| 123.14	   	| 28.40%	   |
 
-The days indicated above relate to a single Section. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
+The days indicated above relate to a single building. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
 
-The bonus granted by an expert is a fixed value which is simply added to the workforce's efficiency. For example, a workforce operating at 80% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
+The bonus granted by an expert is a fixed value which is simply added to the workforce's efficiency. For example, a workforce operating at 90% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
 
 ### Soil fertility
 
@@ -92,11 +92,11 @@ A planet's soil fertility can be seen in its PLI window. The further the yellow 
 
 ![Soil fertility](soil-fertility.png)
 
-The overall efficiency of a Section is multiplied by the fertility value of its planet. Neutral fertility (i.e. no yellow bit) indicates a multiplier of 1.0.
+Neutral fertility (i.e. no yellow) indicates a modifier of +0%. Poor fertility (yellow left of the center) is a negative modifier, while high fertility (yellow right of the center) is a positive modifier. The further the yellow bar reaches respectively, the bigger its impact, with a maximum range of roughly -33% to +33%.
 
 ### CoGC programs
 
-The [Chamber of Global Commerce](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc), if existant on a planet and active, can provide a temporary bonus to productivity. As is the case with experts, the respective percentage is simply added on top. For example, the CoGC program _Education Events: Pioneers_ provdes a 10 % bonus to all pioneer-operated buildings as long as it is active, and the program _Advertising Campaign: Agriculture_ grants a 25 % bonus to all facilities in the agriculture sector.
+The [Chamber of Global Commerce](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc), if existent on a planet and active, can provide a temporary bonus to productivity. As is the case with experts, the respective percentage is simply added on top. For example, the CoGC program _Education Events: Pioneers_ provdes a 10 % bonus to all pioneer-operated buildings as long as it is active, and the program _Advertising Campaign: Agriculture_ grants a 25 % bonus to all facilities in the agriculture sector.
 
 ## About this page
 
