@@ -14,7 +14,7 @@ By itself shows an overview over all your bases. Shows more info on a concrete b
 
 __BSL__  
 _Mandatory parameter: base ID_  
-Opens a Sections overview of a concrete base. Accessible via the “Sections” button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will not give you any construction resources back as of yet.
+Opens an overview over the buildings in a concrete base. Accessible via the BUILDINGS (formerly “SECTIONS”) button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will not give you any construction resources back as of yet.
 
 __BSC__  
 _Mandatory parameter: base ID_  

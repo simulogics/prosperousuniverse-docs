@@ -37,7 +37,7 @@ Hitting “Population”, you can see that there are no people in your base yet.
 
 ![Population needs](population-needs.png)
 
-Opening up the “SECTIONS” buffer shows that there are no buildings in your base apart from the Core Module. That is why you first need to erect some structures for your workforce to live and work in.
+Opening up the BUILDINGS (formerly “SECTIONS”) buffer shows that there are no buildings in your base apart from the Core Module. That is why you first need to erect some structures for your workforce to live and work in.
 
 Hit “CONSTRUCT” to see what you can build. Each building entry here provides you with information like its construction costs and the workforce required to operate it. You will notice that this window is organized in multiple tabs. Under “Infrastructure”, you find all buildings that can hold people or goods. The different Habitation Modules harbor different kinds of workers. The Storage Module increases your storage capacity. All the other tabs contain buildings that produce goods, sorted by the kind of workers needed to operate the buildings. (The only exception is the Resources tab. Buildings listed here are operated by Pioneers as well; what makes them special is that they need no input materials to produce goods.)
 
@@ -49,7 +49,7 @@ It is important to understand that the supply chain you decided to start with ea
 
 _The workforce needed to operate a building is always listed in its info buffer_
 
-### Constructing Sections
+### Constructing Buildings
 
 Next, you need to find out which buildings are relevant to your company. This depends on the package you picked earlier. If you are new to APEX, you should stick with the structures that are recommended for your package below. You have been provided with the exact materials required to build them, which you will find in one of your ships’ cargo holds. Select the FLT shortcut on the left and click the cargo spaces of your ships to find the materials. Then open your base’s Inventory from the BS window and drag and drop the materials into it from your ship.
 
@@ -64,7 +64,7 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Constructor: Basic Materials Plant, Prefab Plant Mk 1  
 * Fuel Engineer: Refinery; Collector _or_ Extractor
 
-Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the “SECTIONS” window you can access from your base overview.
+Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
 
 ![Build section](build-section.png)
 
