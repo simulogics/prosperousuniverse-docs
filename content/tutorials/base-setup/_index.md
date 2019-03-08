@@ -57,11 +57,12 @@ Next, you need to find out which buildings are relevant to your company. This de
 
 Your recommended buildings are listed below and on the [Packages and Factions site](../../wiki/packages-factions). All of them can be found in the Resources and Pioneers tabs:
 
-* Victualler: Rig, Farm, Food Processor  
-* Carbon Farmer: 2x Farm, Incinerator  
-* Metallurgist: 2x Extractor, Smelter  
+* Victualler: Rig, Farmstead, Food Processor  
+* Metallurgist: Extractor, Smelter  
+* Carbon Farmer: 2x Farmstead, Incinerator  
 * Manufacturer: Collector, Incinerator, Basic Materials Plant  
-* Constructor: Basic Materials Plant, Prefab Plant 1  
+* Constructor: Basic Materials Plant, Prefab Plant Mk 1  
+* Fuel Engineer: Refinery; Collector _or_ Extractor
 
 Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the “SECTIONS” window you can access from your base overview.
 

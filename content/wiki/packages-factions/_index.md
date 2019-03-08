@@ -6,7 +6,9 @@ weight: 10
 
 This page will help you find a suitable combination of package, faction and starting location when first establishing your company. Following the advice below is especially vital if you are new to APEX. You best settle on a package first and then have a look at the different factions and the planets they control. Certain planets are better suited for some professions than others, and some planets and professions do not work together at all! But of course, the better suited a planet is for your industry, the higher the local competition will be.
 
-__Warning: Some recommended starter planets do not have a commodity exchange. These are not recommended if you are using APEX for the first time.__
+__Please note:__  
+- Some recommended starter planets do not have a commodity exchange. These are not recommended if you are using APEX for the first time.  
+- When setting up your base, two additional Pioneer Habitation modules are recommended regardless of package.
 
 ## Packages
 
@@ -44,7 +46,7 @@ If you don't mind getting your (workers') hands dirty, this might be the job for
 Extracting ores from the ground will be an essential everyday task for your company. Make sure that your planet contains at least one mineral, or you will not be able to put your Extractor to use. Plus, if that mineral is not an ore, you cannot put it into your smelter.
 
 #### Recommended starter buildings
-__Extractor (EXT) (2x):__ Extracts ores from a planet's surface.  
+__Extractor (EXT):__ Extracts ores from a planet's surface.  
 __Smelter (SME):__ Refines ores into metals.
 
 #### Recommended starter planet
@@ -121,7 +123,7 @@ Gibson (Castillo-Ito Mercantile)
 2 Construction Experts
 
 
-### Fuel engineer
+### Fuel Engineer
 __Short description__  
 Fuel engineers extract resources and synthesize them to different types of fuels.
 
