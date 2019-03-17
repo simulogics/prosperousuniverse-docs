@@ -31,7 +31,7 @@ __Note: All Production Lines employ workers even when no orders are queued or pr
 
 Each type of worker has their own needs that need to be fulfilled in order to keep efficiency up. Worker needs can be looked up in a base's Population window. For example, Pioneers need 4 DW, 4 RAT, and 0.5 OVE per day to be fully satisfied, and Settlers need 5 DW, 6 RAT, 3 HI, 0.5 EXO, and 0.5 PT.
 
-As long as all requirements are met, efficiency stays at 100%. A workforce will keep working for as long as at least one of those resources is still at their disposal. Only once all of them run out, production will stop. If only part of the required resources is available, the workforce's satisfaction decreases and hence its productivity suffers.
+Efficiency stays at 100% if both luxury and non-luxury needs are met. A workforce will keep working for as long as at least one of those resources is still at their disposal. Only once all of them run out, production will stop. If only part of the required resources is available, the workforce's satisfaction decreases and hence its productivity suffers.
 
 Some consumables are so-called non-essentials: The productivity loss caused by a missing non-essential is lower than for essential consumables. Plus, a workforce will stop working altogether if the only consumable at their disposal is non-essential. The Population buffer lists which consumables are essential and which aren't:
 
