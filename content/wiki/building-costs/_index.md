@@ -72,7 +72,7 @@ __Additional resource:__ Thermal Shielding (TSH)
 __Amount:__ 1 per building
 
 ### Fertility
-If a planet is completely infertile, each Hydroponics Farm requires 16 Metal Halide Lamps. Farms and Orchards cannot be built at all.
+Farms and Orchards require a planet with fertile soil to be built.
 
 
 ## About this page
