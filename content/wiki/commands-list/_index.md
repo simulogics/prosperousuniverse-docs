@@ -236,7 +236,7 @@ Embeds a YouTube video. The ID is the succession of numbers and letters after â€
 
 __COLIQ__  
 _No possible parameter_  
-Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. Please note that this cannot be done too often, both for technical reasons and to prevent exploitation of the feature. Misuse of the COLIQ command may result in your account being (temporarily) banned!
+Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. The following cooldown times apply to the COLIQ command: The first COLIQ becomes available immediately after company creation, the second one 3 days after using the first one. The wait time for the third COLIQ is 21 days, and every following cooldown is 60 days long. Please note that misusing the COLIQ command may result in your account being (temporarily) banned!
 
 __CS__  
 _No possible parameter_  
