@@ -31,7 +31,7 @@ deploy:
   - chmod 700 "${HOME}/.ssh/id_rsa"
   - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
   script:
-  - hugo -b "https://handbook.apex.prosperousuniverse.com/" -D
+  - hugo -b "https://handbook.apex.prosperousuniverse.com/"
   - rsync -a --delete -e ssh public/ gitlab@159.69.55.249:/opt/gitlab/handbook.apex.prosperousuniverse.com/
   artifacts:
     paths:
