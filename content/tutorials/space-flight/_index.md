@@ -104,6 +104,16 @@ Please note that two ships orbiting the same planet do _not_ count as “in one 
 
 To practice your newly acquired skills, feel free to set up some flight paths to preview them without actually sending your ships on the way, and you will get the hang of it quickly.
 
+### 2.4 Aborting flights
+If you already sent a ship on its way and changed your mind about it, you can abort the flight in the ship's Flight Control window.
+
+![Abort flight](abort-flight.png)
+
+The following rules apply to aborting flights:  
+1. The flight is not immediately aborted. The current segment (DEP, JMP etc.) will be completed.  
+2. If the flight is aborted during the CHRG segment, the ship will also have to finish the ensuing jump to release its energy.  
+3. If the flight is aborted during a jump, the ship will arrive at a random orbit in its current target system.  
+4. Fuel is deducted per segment, at the beginning of each segment.  
 
 ## About this page
 

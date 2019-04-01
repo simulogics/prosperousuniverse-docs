@@ -49,10 +49,21 @@ To vote on the upcoming program, select “programs / vote”, which opens up a 
 
 ![CoGC programs](cogc-programs.jpg)
 
-Click a program’s name or the respective “view details / vote” button learn more about it. Hit “Vote” to give your vote to the desired program; the one with the most votes will be listed as the upcoming program in the planet’s COGC buffer. 
+Click a program’s name or the respective “view details / vote” button learn more about it. Hit “Vote” to give your vote to the desired program; the one with the most votes will be listed as the upcoming program in the planet’s COGC buffer.
 
 ![Vote buffer](vote-buffer.png)
 
+Votes are not equal, but instead depend on the voting company's influence, which in turn depends on the size and composition of their work force. Each _individual worker_ grants influence; a pioneer grants 1 influence, and hence 100 pioneers grant 100 influence. Higher tier workforces have higher multipliers:  
+
+| Worker type 	|	Influence multiplier	|
+|---------------|---------------------------|
+| Pioneer 		| 1							|
+| Settler		| 1.25						|
+| Technician 	| 1.5						|
+| Engineer		| 1.75						|
+| Scientist		| 2							|
+
+For example, a company employing 200 pioneers, 100 settlers, and 200 technicians has an influence of 200 * 1 + 100 * 1.25 + 200 * 1.5 = 625.
 
 ## About this page
 
