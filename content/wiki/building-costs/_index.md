@@ -28,7 +28,7 @@ Please note that all these additional costs also pertain to [Planetary projects]
 ### Rocky Planets
 
 __Additional resource:__ Mineral Construction Granulate (MCG)  
-__Amount:__ Area x 1
+__Amount:__ Area x 4
 
 ### Gaseous planets
 __Additional resource:__ Aerostat Foundation (AEF)  
