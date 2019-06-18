@@ -85,6 +85,6 @@ Once corporate headquarters become active, they provide a 10% productivity boost
 
 ## About this page
 
-This page is part of the advanced tutorial series, which encompasses parts 3 through 7. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+This page is part of the advanced tutorial series, which encompasses parts 3 through 8. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
 If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

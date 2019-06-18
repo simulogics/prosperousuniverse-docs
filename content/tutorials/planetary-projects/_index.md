@@ -10,7 +10,7 @@ This guide is also available in video format. __Click on the image below to watc
 
 ## Introduction
 
-Planetary projects are collectively erected and maintained structures that provide a bonus to the inhabitants of a planet. If projects are present on a planet, they will be listed under “Infrastructure” in the PLI window as well as the PPS window (accessible at the top of the PLI window).
+Planetary projects are collectively erected and maintained structures that provide a bonus or service to the inhabitants of a planet. If projects are present on a planet, they will be listed under “Infrastructure” in the PLI window as well as the PPS window (accessible at the top of the PLI window).
 
 ![PP button](pp-button.png)
 
@@ -65,8 +65,12 @@ Votes are not equal, but instead depend on the voting company's influence, which
 
 For example, a company employing 200 pioneers, 100 settlers, and 200 technicians has an influence of 200 * 1 + 100 * 1.25 + 200 * 1.5 = 625.
 
+### Local Markets
+
+Local Markets are a means for exchanging goods outside of Commodity Exchanges. Due to their important role in the economy, please refer to [this dedicated tutorial](../local-markets) on how they are used.
+
 ## About this page
 
-This page is part of the advanced tutorial series, which encompasses parts 3 through 7. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+This page is part of the advanced tutorial series, which encompasses parts 3 through 8. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
 If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).

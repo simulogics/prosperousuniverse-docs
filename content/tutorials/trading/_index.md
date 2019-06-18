@@ -12,7 +12,7 @@ Follow along the steps below in APEX.
 
 ### Commodity Exchanges
 
-Each market, or “Commodity Exchange”, is on a specific planet or a specific space station. There are several ways to find your closest Commodity Exchange. The easiest is opening the System map, finding the planet on which your base is located and then checking whether it or any of the close-by planets show a little chart symbol when hovering over them. You can also find a list of all commodity exchanges using the CXL shortcut in the left sidebar.
+Besides [Local Markets](../local-markets), which you should familiarize yourself with later, Commodity Exchanges are the most important means of trading commodities with other companies. Each Commodity Exchange is located on a specific planet or space station. There are several ways to find your closest Commodity Exchange. The easiest is opening the System map, finding the planet on which your base is located and then checking whether it or any of the close-by planets show a little chart symbol when hovering over them. You can also find a list of all Commodity Exchanges using the CXL shortcut in the left sidebar.
 
 ![Finding a ComEx](finding-comex.gif)
 

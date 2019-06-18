@@ -95,7 +95,7 @@ This command allows you to view a specific contract. It must be followed up with
 
 __CONTS__  
 _No possible parameter_  
-Displays a list of all your contracts. Click any contract to open its CONT buffer. Note that you can also view Pending Contracts by selecting them from the list in the right sidebar. (If you can’t see the sidebar, toggle it on using the SDBR button on the left.) Learn more about contracts in the “Getting Started” tutorial.
+Displays a list of all your contracts from Commodity Exchanges and Local Markets. Click any contract to open its CONT buffer. Note that you can also view Pending Contracts by selecting them from the list in the right sidebar. (If you can’t see the sidebar, toggle it on using the SDBR button on the left.) Learn more about contracts in the “Trading” and “Local Markets” tutorials.
 
 ## Commodity Exchange commands
 These following commands all pertain to Commodity Exchanges. The first two are probably the most useful. See all these commands in action in the “Getting Started” tutorial.
@@ -127,6 +127,20 @@ These four commands relate to concrete commodities on a concrete market. Next to
 “CHART”: CXPC. Shows a candlestick chart of a commodity’s price over time. If it says “No data”, the commodity hasn’t been sold in the indicated time period. Select a longer time window to fix it.
 “ORDERS”: CXOB command, where you can see pending requests and offers.
 “TRADE”: CXPO, which lets you place Buy and Sell Orders.
+
+## Local Market commands
+
+__LMOS__
+_No possible parameter_  
+Shows all your Local Market Ads.
+
+__LM__
+_Mandatory parameter: Planet ID_
+Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI buffer.
+
+__LMP__
+_Mandatory parameter: Planet ID_
+Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the "POST AD" button in an LM window.
 
 ## Space flight commands
 It is recommended you use the FLT command and access the other commands from there. To see all these commands in action, have a look at the space-flight tutorial.
