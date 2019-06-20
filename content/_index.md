@@ -15,7 +15,7 @@ The [wiki](wiki) is meant as a resource for everyone searching for concrete info
 
 ## Psst! New here?
 
-All the information on these pages pertains to a sci-fi MMO called [Prosperous Universe](https://prosperousuniverse.com/) which is being developed by [simulogics](https://simulogics.net/). The handbook is written in-character about a software called APEX, through which the entire game is accessed. If you want to get started with the game, you have to get access first since it is currently in a closed beta state we are calling “First Acess”. You can enter First Access by either securing a key from an ongoing give-away or by [buying one from the store](LINK).
+All the information on these pages pertains to a sci-fi MMO called [Prosperous Universe](https://prosperousuniverse.com/) which is being developed by [simulogics](https://simulogics.net/). The handbook is written in-character about a software called APEX, through which the entire game is accessed. If you want to get started with the game, you have to get access first since it is currently in a closed beta state we are calling “First Acess”. You can enter First Access by either securing a key from an ongoing give-away or by [buying one from the store](https://hub.prosperousuniverse.com/license/purchase).
 
 ## Want to contribute?
 
