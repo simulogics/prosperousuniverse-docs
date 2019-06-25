@@ -135,11 +135,15 @@ _No possible parameter_
 Shows all your Local Market Ads.
 
 __LM__
-_Mandatory parameter: Planet ID_
-Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI buffer.
+_Mandatory parameter: Planet ID_  
+Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI window.
+
+__LMA__
+_Mandatory parameter: Ad ID_  
+Shows the details of the specified Local Market ad. Accessible by selecting an ad in the LM window.
 
 __LMP__
-_Mandatory parameter: Planet ID_
+_Mandatory parameter: Planet ID_  
 Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the "POST AD" button in an LM window.
 
 ## Space flight commands
