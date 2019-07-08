@@ -1,4 +1,4 @@
----
+﻿---
 title: "6. Planetary Projects"
 date: 2018-09-18T17:13:49+02:00
 weight: 10
@@ -45,6 +45,8 @@ A Chamber of Global Commerce can run a variety of programs to stimulate a planet
 
 ![CoGC overview](cogc-overview.jpg)
 
+#### Voting for Programs
+
 To vote on the upcoming program, select “programs / vote”, which opens up a list of all available programs.
 
 ![CoGC programs](cogc-programs.jpg)
@@ -64,6 +66,14 @@ Votes are not equal, but instead depend on the voting company's influence, which
 | Scientist		| 2							|
 
 For example, a company employing 200 pioneers, 100 settlers, and 200 technicians has an influence of 200 * 1 + 100 * 1.25 + 200 * 1.5 = 625.
+
+#### Upkeep Costs
+
+The CoGC's programs require payment of an upkeep cost in the form of materials to go into effect.  
+
+![Program upkeep](cogc-upkeep.png)
+
+The materials required as upkeep are DW, MCG, PE and RAT.  The total amount required of each material in upkeep is determined by the number of player bases on the planet multiplied by the material multiplier.  The multipliers are 3x for DW, 4x for MCG and PE, and 2x for RAT.  The minimum upkeep cost of five times the multipliers is used until a planet has enough bases to surpass it.
 
 ### Local Markets
 
