@@ -90,7 +90,7 @@ After one side fulfilled their end of the deal, the contract will turn from "clo
 
 ### Buying Ads vs. Selling Ads
 
-The example above refers to a Buying Ad. Selling Ads work exactly the same, with one notable difference: Once a Selling Ad gets accepted, the generated contract will contain *three* conditions instead of two. The extra condition (#1) needs to be fulfilled first by the offering party. Doing so will remove the specified commodity from their inventory and store it at the Local Market. Only then will fulfilling condition #3 become possible and its timer will start running, in this case for three days.
+The example above refers to a Buying Ad. Selling Ads work exactly the same, with one notable difference: Once a Selling Ad gets accepted, the generated contract will contain *three* conditions instead of two. The extra condition (#1) needs to be fulfilled first by the offering party. Doing so will block the specified commodity and it won't be visible in the inventory anymore but still use up weight and volume. Only then will fulfilling condition #3 become possible and its timer will start running, in this case for three days.
 
 ![Selling Ad](selling-ad.png)
 
