@@ -73,9 +73,9 @@ The first experts of any company are included in its [starter package](../packag
 |---------------|---------------|--------------|
 | 1			   	| 10.00 		| 3.06%	   	   |
 | 2			   	| 12.50		   	| 6.96%	 	   |
-| 3			   	| 26.82		   	| 12.48%	   |
-| 4			   	| 61.29		   	| 19.74%	   |
-| 5			   	| 123.14	   	| 28.40%	   |
+| 3			   	| 57.57		   	| 12.48%	   |
+| 4			   	| 276.50	   	| 19.74%	   |
+| 5			   	| 915.10	   	| 28.40%	   |
 
 The days indicated above relate to a single building. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
 
