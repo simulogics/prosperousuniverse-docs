@@ -32,7 +32,7 @@ __Amount:__ Area x 4
 
 ### Gaseous planets
 __Additional resource:__ Aerostat Foundation (AEF)  
-__Amount:__ Area x 1
+__Amount:__ Area / 1
 
 ### Atmospheric pressure  
 
