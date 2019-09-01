@@ -14,17 +14,23 @@ Worker availability and satisfaction provide the base efficiency value. Experts 
 
 ### Worker availability
 
-Each Production line requires a certain amount and type of workers to be operational, which is indicated under „Workforces“ in its BUI window:
+Each Production line employs a certain amount and type of workers, which is indicated under „Workforces“ in its BUI window:
 
 ![Workforces](workforces.png)
 
-Multiple buildings requiring the same workforce are added up. The total amount of workers of each type needed in a base can be looked up in its POP window:
+If only part of the workforce required is available, the building can still operate, but at a lower efficiency. Multiple buildings requiring the same workforce are added up.
+
+Besides the satisfaction level (more on that below), the Population window lists three metrics for each worker type:
+1. Population Size: The actual amount of workers present in your base. Determines the rate at which consumables are used up.  
+2. Capacity: The amount of workers your base can currently hold.  
+3. Required: The amount of workers all your Production Lines combined can employ.  
 
 ![Total workforce](total-workforce.png)
 
-If the current population size is smaller than the required amount, as is the case in the example above, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_
-
-__Note: All Production Lines employ workers even when no orders are queued or production is halted.__ Idle workers cannot be moved from one building to another.
+The following rules apply:
+* If Capacity is smaller than Required the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_  
+* If Capacity is bigger than Required, the Habitation Modules are not filled up completely, meaning the actual number of workers present – the Population Size – is below Capacity.
+* All Production Lines employ workers even when no orders are queued or production is halted. Idle workers cannot be moved from one building to another.
 
 ### Worker satisfaction
 
