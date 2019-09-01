@@ -8,7 +8,7 @@ This guide is also available in video format. __Click on the image below to watc
 
 [![Foreign exchange video](thumbnail-tutorial-5.jpg)](https://youtu.be/jKDlZcJx3CQ)
 
-Follow along the steps below in APEX.
+Please note that Foreign Exchange trading is only available for APEX PRO users. If you acquired a [PRO License](https://hub.prosperousuniverse.com/license/purchase), follow along the steps below in APEX.
 
 ## Viewing exchange rates
 

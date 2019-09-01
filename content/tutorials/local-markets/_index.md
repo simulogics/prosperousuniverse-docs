@@ -30,8 +30,9 @@ A company's rating can be seen in the CO buffer:
 
 As an alternative means for exchanging goods, Local Markets come with their own set of advantages and disadvantages. In essence, they work like bulletin boards, which results in a few key differences to Commodity Exchanges:  
 
-* Ads can only be placed by inhabitants of the planet where the market is located, but accepted by anyone.  
+* To place an ad, you must be an inhabitant of the planet where the market is located and possess a [PRO License](https://hub.prosperousuniverse.com/license/purchase). However, ads can be accepted by anyone.  
 * Placing an ad costs money. The longer it runs, the more expensive it is.  
+* Local Markets do not have Price Bands, meaning that prices can be set freely.  
 * You can respond to any ad rather than being restricted to the cheapest offer.  
 * Ads on Local Markets always pertain to a certain amount of commodities (e.g. 100 MCG) and cannot be partially filled.  
 * Responding to an ad will never automatically result in a transfer of goods, but create a contract instead.  

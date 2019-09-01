@@ -61,7 +61,7 @@ Displays information about the specified company. (This is where the four-digit 
 
 __USR__  
 _Mandatory parameter: User name_  
-Shows a user’s company, registration date, and connection status. Accessible via the “Managing Director” column in a CO window.
+Shows a user’s company, registration date, and connection status. Accessible via the “Managing Director” column in a CO window. Clicking the “MUTE USER” button renders all messages this user sends invisible to you.
 
 __COM__  
 _No possible parameters_  
