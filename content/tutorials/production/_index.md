@@ -30,6 +30,8 @@ Bring up your Production Lines by selecting “Production” in the Base overvie
 
 You can always produce one type of commodity per order. Once you selected it, set the Order Size. The higher it gets, the longer the order will need to process and the more input materials will be required. You will find that this is very handy. If, for instance, you know you cannot check back with your company for a while, just set it to a high value, and your workers will not run out of things to do while you are gone.
 
+If your base is located on a planet controlled by a faction or corporation imposing production fees, placing your production order will cost an amount of money that changes with its size. You can see the name of the entity collecting the fee right below the amount. If there is no fee, your planet is either not controlled by anyone or the controlling entity does not impose a production fee.
+
 Start processing the order by hitting “QUEUE ORDER”, and it will show up in your Production Lines window. If your workforce is fed and you are not missing any input materials, it is now being processed, and you will be able to track its progress and the time remaining. Send out more orders until your queue is filled up. You can pick a different output material for every order as you desire. Once queued, an order can be canceled by selecting “Details” below your Production Line and then “Cancel” next to the order. Once an order is being processed, it can no longer be canceled.
 
 

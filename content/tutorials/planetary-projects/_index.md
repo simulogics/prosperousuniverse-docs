@@ -79,6 +79,10 @@ The materials required as upkeep are DW, MCG, PE and RAT.  The total amount requ
 
 Local Markets are a means for exchanging goods outside of Commodity Exchanges. Due to their important role in the economy, please refer to [this dedicated tutorial](../local-markets) on how they are used.
 
+### Administration Center
+
+The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents and licensees fulfilling tasks for the Exodus Council are eligible to participate in votes.
+
 ## About this page
 
 This page is part of the advanced tutorial series, which encompasses parts 3 through 8. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.

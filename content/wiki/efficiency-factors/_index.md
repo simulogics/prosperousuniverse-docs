@@ -10,7 +10,11 @@ Each Production Line operates at a certain efficiency when active. Efficiency di
 
 ![PRODQ](prodq.png)
 
-Worker availability and satisfaction provide the base efficiency value. Experts grant bonuses to that value for Production Lines in their field of expertise. Finally, soil fertility (or lack thereof) provides another bonus (or detraction) to the efficiency of certain Production Lines.
+Building condition, worker availability, and satisfaction satisfaction provide the base efficiency value. Experts grant bonuses to that value for Production Lines in their field of expertise. Active CoGC programs may also benefit certain industries or worker types. Finally, soil fertility (or lack thereof) provides another bonus (or detraction) to the efficiency of certain Production Lines.
+
+### Building condition
+
+Buildings are at their most efficient right after construction, then they start to deteriorate. The deterioration slowly accelerates over time until the building operates at only 33 % of its original efficiency, at which point it no longer deteriorates.
 
 ### Worker availability
 
@@ -27,10 +31,10 @@ Besides the satisfaction level (more on that below), the Population window lists
 
 ![Total workforce](total-workforce.png)
 
-The following rules apply:
-* If Capacity is smaller than Required the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_  
-* If Capacity is bigger than Required, the Habitation Modules are not filled up completely, meaning the actual number of workers present – the Population Size – is below Capacity.
-* All Production Lines employ workers even when no orders are queued or production is halted. Idle workers cannot be moved from one building to another.
+The following rules apply:  
+* If Capacity is smaller than Required, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_  
+* If Capacity is bigger than Required, the Habitation Modules are not filled up completely, meaning the actual number of workers present – the Population Size – is below Capacity.  
+* All Production Lines employ workers even when no orders are queued or production is halted. Idle workers cannot be moved from one building to another.  
 
 ### Worker satisfaction
 
