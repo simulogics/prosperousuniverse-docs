@@ -81,7 +81,43 @@ Local Markets are a means for exchanging goods outside of Commodity Exchanges. D
 
 ### Administration Center
 
-The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents and licensees fulfilling tasks for the Exodus Council are eligible to participate in votes.
+The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents are eligible to run or vote.
+
+Once erected on a planet, the building will be listed as the “Planetary Administration Center” under Infrastructure in the PLI window. Clicking the entry will open the ADM window, which lists information on the current governor and the next election. The governor's Corporation and Faction are important because one of them always collects the local fees paid by the planet's residents (see below).
+
+![ADM](adm-overview.png)
+
+#### The Election Campaign
+
+The current candidates for governor are listed at the bottom of the upcoming term section. Select the VOTE button next to your favorite candidate to cast your vote.
+
+![Voting](adm-vote.png)
+
+If you'd like to run for governor, select the RUN button below the list to throw your hat in the ring. All residents of the planet will be notified about the outcome of the election.
+
+![Election outcome](voting-outcome.png)
+
+#### Being the Governor
+
+If you won the election, you may now set the fees that apply on your planet until the end of your term. To do so, bring up the LR window of your planet (e.g. by selecting it at the top of the ADM window). It will show the current fees and feature an EDIT button at the top.
+
+![ADM Edit](adm-edit.png)
+
+Clicking it will allow you to change the metrics shown below. Note that certain restrictions to the rules apply within faction-space, i.e. on the starting planets and other planets in their systems. 
+
+![LR buffer](lr-buffer.png)
+
+**Currency:** The currency in which the fees must be paid. Within Faction space, this will always default to the Faction's currency.
+
+**Fee collector:** This drop-down allows you to select which entity will receive the collected fees by means of a regular dividend payout. Your choice is between the Corporation you are a member of (if applicable) and the Faction controlling the planet (only within Faction space). Select the desired entity and hit UPDATE below to lock in your choice.
+
+**Local Market fees:** This section allows you to impose fees on the planet's [Local Market](../local-markets) (if there is one). The base fee denotes the up-front cost that residents have to pay to place an ad on the Local Market. The time factor determines what the ad will additionally cost them per day. For instance, setting the values to 100 CIS and 5 CIS respectively will put the total price of an ad running for five days to 125 CIS. Note that both values are limited in faction space; in the example shown above, the limits are 50-150 for the base fee (the value left of the forward slash) and 3-8 for the time factor (after the slash).
+
+**Production fees:** You may set different [production](../production) fees for each industry here. These fees are collected when a production order is placed in any production line on the planet, and they scale linearly with the order size. The amount and collector are listed near the bottom of every PRODCO window as shown below. Note that production fees are also limited within faction space. The possible range is listed at the top of the Local Rules list (10-30 in the example above).
+
+![Production fees example](production-fees-example.png)
+
+*Local Market fees and production fees can only be changed a combined 5 times per term.* The UPDATE button at the bottom locks in your changes for both of them, the figure above it shows how many more changes are possible.
 
 ## About this page
 
