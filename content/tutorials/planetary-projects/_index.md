@@ -81,9 +81,9 @@ Local Markets are a means for exchanging goods outside of Commodity Exchanges. D
 
 ### Administration Center
 
-The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents are eligible to run or vote.
+The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents are eligible to vote, but anyone can run. Each term is two weeks long.
 
-Once erected on a planet, the building will be listed as the “Planetary Administration Center” under Infrastructure in the PLI window. Clicking the entry will open the ADM window, which lists information on the current governor and the next election. The governor's Corporation and Faction are important because one of them always collects the local fees paid by the planet's residents (see below).
+Once erected on a planet, the building will be listed as the “Planetary Administration Center” under Infrastructure in the PLI window. Clicking the entry will open the ADM window, which lists information on the current governor and the next election. The governor's Corporation and Faction are important because one of them always collects the total local fees paid by the planet's residents (see below).
 
 ![ADM](adm-overview.png)
 
@@ -107,9 +107,13 @@ Clicking it will allow you to change the metrics shown below. Note that certain 
 
 ![LR buffer](lr-buffer.png)
 
-**Currency:** The currency in which the fees must be paid. Within Faction space, this will always default to the Faction's currency.
+**Currency:** The currency in which the fees must be paid. Within Faction space, this will always default to the local Faction's currency. Otherwise, it will be the currency of the selected fee collector (see below).
 
-**Fee collector:** This drop-down allows you to select which entity will receive the collected fees by means of a regular dividend payout. Your choice is between the Corporation you are a member of (if applicable) and the Faction controlling the planet (only within Faction space). Select the desired entity and hit UPDATE below to lock in your choice.
+**Fee collector:** This drop-down allows you to select which entity will receive the collected fees by means of a weekly dividend payout, currently every Monday. Your choice is between the Corporation you are a member of (if applicable) and a Faction.
+
+If you select your Corporation, the money will be distributed among all members according to the shares they own. If, for example, a member owns 50% of a Corp's shares, they will receive 50% of the dividend payouts. The dividend's currency will be the same as the collected fees, regardless of the Corporation's default currency. Your Corporation's past payouts and a countdown to the next one can be viewed in the CORPFIN buffer.
+
+Which Faction you are able to select depends on whether the planet is in Faction space, in which case the ruling Faction can be selected – or not, in which case you may select the Faction you yourself belong to (i.e. the one determined by your original starting planet). Select the desired entity and hit UPDATE below to lock in your choice.
 
 **Local Market fees:** This section allows you to impose fees on the planet's [Local Market](../local-markets) (if there is one). The base fee denotes the up-front cost that residents have to pay to place an ad on the Local Market. The time factor determines what the ad will additionally cost them per day. For instance, setting the values to 100 CIS and 5 CIS respectively will put the total price of an ad running for five days to 125 CIS. Note that both values are limited in faction space; in the example shown above, the limits are 50-150 for the base fee (the value left of the forward slash) and 3-8 for the time factor (after the slash).
 
