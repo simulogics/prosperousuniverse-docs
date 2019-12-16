@@ -1,7 +1,7 @@
 ---
 title: "Commands list"
 date: 2018-09-18T17:13:49+02:00
-weight: 9
+weight: 2
 ---
 
 This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
@@ -226,7 +226,7 @@ Shows all your Local Market Ads.
 
 __LM__
 _Mandatory parameter: Planet ID_  
-Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI window.
+Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry “Local Market” (if existant) in any PLI window.
 
 __LMA__
 _Mandatory parameter: Ad ID_  
@@ -234,7 +234,7 @@ Shows the details of the specified Local Market ad. Accessible by selecting an a
 
 __LMP__
 _Mandatory parameter: Planet ID_  
-Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the "POST AD" button in an LM window.
+Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the “POST AD” button in an LM window.
 
 ### Administration Center commands
 
@@ -247,8 +247,8 @@ _Mandatory parameter: Planet ID_
 Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
 
 __ADMT__
-_Mandatory parameter: p-[Planet ID] t-2_
-Shows the results of the previous elections for Governor.
+_Mandatory parameter: Term ID_
+Shows the election results of a previous term. Accessible by clicking the number of the desired term in the ADM window. Alternatively, the term ID can be entered by hand; it consists of the following string of characters: “p-”[Planet ID] “t-”[Term Number]. For example, to view the second election term of Planet FO-250a, the term ID would be: _p-FO-250a t-2_
 
 ## Transmission commands
 

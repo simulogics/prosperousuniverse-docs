@@ -80,7 +80,7 @@ You will receive a notification of your ad having been accepted and a contract w
 
 ![Buying Ad CONTS](buying-ad-conts.png)
 
-To fulfill your side of the contract, select it from the list and view the details. If you meet the requirements – i.e. own the money owed or have the agreep upon delivery available at the location –, the "Fulfill" button will turn green. Either party can be the first to fulfill their side of the deal.
+To fulfill your side of the contract, select it from the list and view the details. If you meet the requirements – i.e. own the money owed or have the agreed upon delivery available at the location –, the "Fulfill" button will turn green. Either party can be the first to fulfill their side of the deal.
 
 ![Accept Buying Ad](buying-ad-accept.png)
 
