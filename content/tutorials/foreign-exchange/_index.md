@@ -50,10 +50,9 @@ So far, so good. However, it gets more complicated than that. To ensure that you
 
 ## Arbitrage
 
-
 ![FXOB AIC/CIS)](fxob-aic-cis.png)
 
-You can see in the picture above that one company is requesting to buy one Lot of AIC. To better understand, think of the AIC as the commodity in this scenario. The currency in which the commodity shall be payed is CIS.
+You can see in the picture above that one company is requesting to buy one Lot of AIC. To better understand, think of the AIC as the commodity in this scenario. The currency in which the commodity shall be paid is CIS.
 
 ![FXOB CIS/AIC](fxob-cis-aic.png)
 
