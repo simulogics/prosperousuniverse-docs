@@ -14,7 +14,7 @@ By itself shows an overview over all your bases. Shows more info on a concrete b
 
 __BSL__  
 _Mandatory parameter: base ID_  
-Opens an overview over the buildings in a concrete base. Accessible via the BUILDINGS (formerly “SECTIONS”) button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will not give you any construction resources back as of yet.
+Opens an overview over the buildings in a concrete base. Accessible via the BUILDINGS (formerly “SECTIONS”) button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will refund some of the resources that went into its construction, depending on its age. The possible refunded materials are listed as “Reclaimable materials”.
 
 __BSC__  
 _Mandatory parameter: base ID_  
@@ -30,7 +30,7 @@ Opens a list of all your inventories, not counting cargo holds on ships.
 
 __INVP__  
 _Mandatory parameter: planet ID_  
-Opens the Inventory of the base on the specified planet. Accessible via the “Inventory” button in a concrete BS window or “Open Inventory” in the INV window.
+Opens the Inventory of the base on the specified planet. Accessible via the “Inventory” button in a concrete BS window or “Open Inventory” in the INV window. In the top left, you will find several sorting options (AMT: amount, WGT: weight, VOL: volume) as well as a symbol to their left. Click it to toggle between list and grid mode; the latter shows more information on each commodity, such as their weight, volume, and book value.
 
 __POP__  
 _Mandatory parameter: base ID_  
@@ -42,8 +42,8 @@ Lists all fields which can receive bonuses by Experts and shows which Experts ar
 Production Line commands
 
 __PROD__  
-_Optional parameter: base ID_  
-By itself shows an overview of all Production Lines your company owns. Followed by a base ID, it shows the Production Lines in a specific base. Accessible via the “Production” button in a concrete BS window. Each Production Line may consist of one or more buildings of the same type.
+_Mandatory parameter: base ID_  
+Shows the Production Lines in a specific base. Accessible via the “Production” button in a concrete BS window. Each Production Line may consist of one or more buildings of the same type.
 
 __PRODQ__  
 _Mandatory parameter: Production Line ID_  
@@ -126,25 +126,7 @@ These four commands relate to concrete commodities on a concrete market. Next to
 “INFO”: CXP, which shows an overview over current bids, ask amounts, all-time highs and lows etc.
 “CHART”: CXPC. Shows a candlestick chart of a commodity’s price over time. If it says “No data”, the commodity hasn’t been sold in the indicated time period. Select a longer time window to fix it.
 “ORDERS”: CXOB command, where you can see pending requests and offers.
-“TRADE”: CXPO, which lets you place Buy and Sell Orders.
-
-## Local Market commands
-
-__LMOS__
-_No possible parameter_  
-Shows all your Local Market Ads.
-
-__LM__
-_Mandatory parameter: Planet ID_  
-Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI window.
-
-__LMA__
-_Mandatory parameter: Ad ID_  
-Shows the details of the specified Local Market ad. Accessible by selecting an ad in the LM window.
-
-__LMP__
-_Mandatory parameter: Planet ID_  
-Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the "POST AD" button in an LM window.
+“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than TRIAL licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
 
 ## Space flight commands
 It is recommended you use the FLT command and access the other commands from there. To see all these commands in action, have a look at the space-flight tutorial.
@@ -195,7 +177,7 @@ Shows the exchange rate history of any currency pair, for example: FXPC AIC/CIS.
 
 __FXPO__  
 _Mandatory parameter: commodity pair ticker_  
-Use this command to place a foreign exchange order, that is, to spend one currency to buy another. Enter FXPO followed by the desired ticker, for instance AIC/NCC. Note that the order of the two matters; a buy order for currency A which you pay for in currency B is not the equivalent of a sell order for currency B which you pay in currency A. If this confuses you, have a look at the Foreign Exchange tutorial. To place a ForEx order, select the number of Lots - which is a thousand units - you want to buy and indicate the number of Lots you’re willing to spend.
+Use this command to place a foreign exchange order, i.e. to spend one currency to buy another. Enter FXPO followed by the desired ticker, for instance AIC/NCC. Next, select the appropriate tab in order to buy or sell the desired currency. Note that the numbers you indicate are Lots, that is, 1000 of each currency. For more in-depth information, have a look at the [Foreign Exchange tutorial](../../tutorials/foreign-exchange).
 
 __FXOS__  
 _No possible parameter_  
@@ -236,6 +218,38 @@ __PP__
 _Mandatory parameter: planet & project ID_  
 Shows information on a concrete planetary project. Due to the long and complex parameter, it is recommended to access this information via the “details” button next to the desired project in the PPS buffer.
 
+### Local Market commands
+
+__LMOS__
+_No possible parameter_  
+Shows all your Local Market Ads.
+
+__LM__
+_Mandatory parameter: Planet ID_  
+Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry "Local Market" (if existant) in any PLI window.
+
+__LMA__
+_Mandatory parameter: Ad ID_  
+Shows the details of the specified Local Market ad. Accessible by selecting an ad in the LM window.
+
+__LMP__
+_Mandatory parameter: Planet ID_  
+Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the "POST AD" button in an LM window.
+
+### Administration Center commands
+
+__ADM__
+_Mandatory parameter: Planet ID_
+Shows information on the planet's [Administration Center](../../tutorials/planetary-projects/#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
+
+__LR__
+_Mandatory parameter: Planet ID_
+Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
+
+__ADMT__
+_Mandatory parameter: p-[Planet ID] t-2_
+Shows the results of the previous elections for Governor.
+
 ## Transmission commands
 
 __TRA__  
@@ -248,7 +262,7 @@ Brings up a green screen to help you record your own transmission. Use the optio
 
 __XYTV__  
 _Mandatory parameter:_  
-Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL. Please note that this works only with official transmissions listed in the TRA window for now, although there are plans to allow for external content in the future.
+Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL.
 
 ## Other commands
 

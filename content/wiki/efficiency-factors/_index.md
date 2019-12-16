@@ -32,9 +32,9 @@ Besides the satisfaction level (more on that below), the Population window lists
 ![Total workforce](total-workforce.png)
 
 The following rules apply:  
-* If Capacity is smaller than Required, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_  
-* If Capacity is bigger than Required, the Habitation Modules are not filled up completely, meaning the actual number of workers present – the Population Size – is below Capacity.  
-* All Production Lines employ workers even when no orders are queued or production is halted. Idle workers cannot be moved from one building to another.  
+- If Capacity is smaller than Required, the efficiency of all Production Lines requiring the respective type of workforce is impacted negatively. More precisely, the efficiency is multiplied with the percentage of workers available, i.e.: _Efficiency x (Population Size / Required)_  
+- If Capacity is bigger than Required, the Habitation Modules are not filled up completely, meaning the actual number of workers present – the Population Size – is below Capacity.  
+- All Production Lines employ workers even when no orders are queued or production is halted. Idle workers cannot be moved from one building to another.  
 
 ### Worker satisfaction
 
@@ -77,7 +77,7 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 
 #### Expert spawn rates & bonuses
 
-The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. After a total of 5 experts is reached, new experts will still be created, however no more than 5 at a time can be active.
+The first experts of any company are included in its [starter package](../packages-factions), but all following experts will appear over time. __Keeping a Production Line running__ will eventually create a new expert in its field, e.g. producing goods with a Farmstead will generate Agriculture experts over time. After a total of 5 experts is reached in one particular industry, no new experts will be created in that industry. A total of 5 experts can be active _per industry_ and a total of 6 experts at a time can be active across _all industries_ in a base.
 
 | Expert no.	| Days required | Bonus		   |
 |---------------|---------------|--------------|
