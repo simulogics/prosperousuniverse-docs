@@ -8,6 +8,8 @@ This guide not yet available in video format.
 
 ## Introduction
 
+__Please note that all usage of Local Markets requires the possession of a [PRO License](https://hub.prosperousuniverse.com/license/purchase).__
+
 Local Markets are a [Planetary Project](../planetary-projects), which means they can be built collectively by the inhabitants of a planet. If you want to (help) build one on your planet, please refer to [this guide](../planetary-projects/#building-a-planetary-project).
 
 Once built, a Local Market will be listed under a planet's infrastructure:
@@ -30,7 +32,7 @@ A company's rating can be seen in the CO buffer:
 
 As an alternative means for exchanging goods, Local Markets come with their own set of advantages and disadvantages. In essence, they work like bulletin boards, which results in a few key differences to Commodity Exchanges:  
 
-* To place an ad, you must be an inhabitant of the planet where the market is located and possess a [PRO License](https://hub.prosperousuniverse.com/license/purchase). However, ads can be accepted by anyone.  
+* To place an ad, you must be an inhabitant of the planet where the market is located. However, ads can be accepted by anyone (with a PRO license).  
 * Offers on Local Markets list their total cost, not the cost per item.  
 * Placing an ad costs money. The longer it runs, the more expensive it is.  
 * Local Markets do not have Price Bands, meaning that prices can be set freely.  
