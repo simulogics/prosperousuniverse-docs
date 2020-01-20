@@ -12,6 +12,10 @@ __BS__
 _Optional parameter: base ID_  
 By itself shows an overview over all your bases. Shows more info on a concrete base when followed by a base ID, e.g. by clicking “View Base” in the generic BS window. Provides access to most other base-related commands.
 
+__BSC__  
+_Mandatory parameter: base ID_  
+Allows to create a new base on a planet. It shows necessary building materials and allows to select a plot on the surface. 
+
 __BSL__  
 _Mandatory parameter: base ID_  
 Opens an overview over the buildings in a concrete base. Accessible via the BUILDINGS (formerly “SECTIONS”) button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will refund some of the resources that went into its construction, depending on its age. The possible refunded materials are listed as “Reclaimable materials”.
