@@ -59,6 +59,10 @@ Allows you to place a new Production order. Select a Primary Output from the dro
 
 ## Social commands
 
+__FA__  
+_Mandatory parameter: Faction code_  
+Displays information about the specified faction.
+
 __CO__  
 _Mandatory parameter: Company code_  
 Displays information about the specified company. (This is where the four-digit code you chose for your company in very the beginning finds its use.) Among other things, allows to view and contact the company’s owner.
