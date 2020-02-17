@@ -29,12 +29,10 @@ _Mandatory parameter: building ticker_
 Displays information on a building type: which kind of worker is employed here, how much space the building takes up and which parts go into its construction. Accessible by clicking a building type in the BSC window.
 
 __INV__  
-_No possible parameter_  
-Opens a list of all your inventories, not counting cargo holds on ships.
+_Optional parameter: address or store ID_  
+If no parameters are supplied the command will show a list of all your inventories, including base storage, cargo holds, fuel tanks and warehouse storage units. Clicking on the "open" button will show the contents of the selected inventory. In the top left, you will find several sorting options (AMT: amount, WGT: weight, VOL: volume) as well as a symbol to their left. Click it to toggle between list and grid mode; the latter shows more information on each commodity, such as their weight, volume, and book value.
 
-__INVP__  
-_Mandatory parameter: planet ID_  
-Opens the Inventory of the base on the specified planet. Accessible via the “Inventory” button in a concrete BS window or “Open Inventory” in the INV window. In the top left, you will find several sorting options (AMT: amount, WGT: weight, VOL: volume) as well as a symbol to their left. Click it to toggle between list and grid mode; the latter shows more information on each commodity, such as their weight, volume, and book value.
+If the parameter contains a system or planet address (for example `INV XK-745` or `INV XK-745a`) it will only show inventories at that location.
 
 __POP__  
 _Mandatory parameter: base ID_  
