@@ -4,9 +4,9 @@ date: 2018-09-18T17:13:49+02:00
 weight: 4
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![Trading video](thumbnail-2.3.jpg)](https://youtu.be/Xk-0bwP8M8U)
+{{< youtube Xk-0bwP8M8U >}}
 
 Follow along the steps below in APEX.
 

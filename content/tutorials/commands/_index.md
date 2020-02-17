@@ -6,9 +6,9 @@ weight: 7
 
 This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](../../wiki/commands-list).
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![Commands video](thumbnail-3.jpg)](https://youtu.be/ZcYk2pw1gZk)
+{{< youtube ZcYk2pw1gZk >}}
 
 ## General rules
 

@@ -4,9 +4,9 @@ date: 2018-09-18T17:13:35+02:00
 weight: 1
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![APEX overview video](thumbnail-tutorial-1.jpg)](https://youtu.be/wI4mxBqGk8c)
+{{< youtube wI4mxBqGk8c >}}
 
 ## Overview
 
