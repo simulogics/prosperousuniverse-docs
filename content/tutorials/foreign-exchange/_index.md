@@ -4,9 +4,9 @@ date: 2018-09-18T17:13:49+02:00
 weight: 9
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![Foreign exchange video](thumbnail-tutorial-5.jpg)](https://youtu.be/jKDlZcJx3CQ)
+{{< youtube jKDlZcJx3CQ >}}
 
 Please note that Foreign Exchange trading is only available for APEX PRO users. If you acquired a [PRO License](https://hub.prosperousuniverse.com/license/purchase), follow along the steps below in APEX.
 

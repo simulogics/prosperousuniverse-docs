@@ -4,9 +4,9 @@ date: 2018-09-18T17:13:49+02:00
 weight: 2
 ---
 
-An __older version__ of this guide is available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+An __older version__ of this guide is available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![Package, faction, planet video](thumbnail-2.1.jpg)](https://youtu.be/Luu2qH_51U0)
+{{< youtube Luu2qH_51U0 >}}
 
 When logging into APEX for the very first time, you are greeted with a screen containing three tabs: Starting package, Starting location, and Company details. You can go back and forth between those tabs until you are satisfied with your choices. _Please make use of the many information icons, each of which will provide more details about a line when hovering over it._ To further assist you in choosing a good combination of faction, planet and package, we have set up [this page](../../wiki/packages-factions). You may open it separately now and use it as a reference while going through this tutorial in order to make the most informed decision.
 

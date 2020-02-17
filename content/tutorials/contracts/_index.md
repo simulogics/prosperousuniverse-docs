@@ -4,9 +4,9 @@ date: 2018-09-18T17:13:49+02:00
 weight: 5
 ---
 
-This guide is also available in video format. __Click on the image below to watch the video or scroll down for the written version.__
+This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
 
-[![Contracts video](thumbnail-2.4.jpg)](https://youtu.be/X-du1P3KfXY)
+{{< youtube X-du1P3KfXY >}}
 
 ### Contracts
 
