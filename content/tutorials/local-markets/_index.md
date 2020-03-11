@@ -8,7 +8,10 @@ This guide not yet available in video format.
 
 ## Introduction
 
-__Please note that all usage of Local Markets requires the possession of a [PRO License](https://hub.prosperousuniverse.com/license/purchase).__
+{{% notice note %}}
+Please note that all usage of Local Markets requires the possession of a [PRO License](https://hub.prosperousuniverse.com/license/purchase)
+{{% /notice %}}
+
 
 Local Markets are a [Planetary Project](../planetary-projects), which means they can be built collectively by the inhabitants of a planet. If you want to (help) build one on your planet, please refer to [this guide](../planetary-projects/#building-a-planetary-project).
 
@@ -53,7 +56,7 @@ In this example, we are placing a Buying Ad, but Selling Ads work exactly the sa
 |-------------------|---------------------------------------------------------------------------------------------------|
 | Commodity	   		| Start typing the name or abbreviation and select the desired commodity from the list. 			|
 | Amount	   		| How many units of the commodity you would like to purchase/sell.									|
-| Curreny	   		| The currency you / your trade partner will use to pay for the order.	   							|
+| Currency	   		| The currency you / your trade partner will use to pay for the order.	   							|
 | Delivery Time		| Deadline (in days) on the commodity's delivery and payment after the offer was first accepted.	|
 | Ad visibility		| Duration (in days) for which your ad will be visible. A higher duration results in higher fees.	|
 | Minimum rating	| Minimum trust rating of companies able to accept your offer (see above).							|
@@ -66,7 +69,7 @@ You can now view your ad – and all your other ads – using the **LMOS** comma
 
 ![LMOS buffer](buying-ad-lmos.png)
 
-Your new ad will also appear in the market overview for the specified Ad visbility duration. Anyone can accept it at any time before it expires, even if they do not own a base on the market's planet:
+Your new ad will also appear in the market overview for the specified Ad visibility duration. Anyone can accept it at any time before it expires, even if they do not own a base on the market's planet:
 
 ![Listed Buying Ad](buying-ad-listed.png)
 
@@ -105,6 +108,39 @@ Before the seller fulfills condition #1, their partner will only be able to fulf
 Once condition #1 – depositing the wares – is fulfilled, fulfillment of condition #3 – picking up the wares – becomes available:
 
 ![Partner Selling Ad Accepted](selling-ad-partner-accepted.png)
+
+### Example: Placing a Shipping Ad
+
+Shipping ads can be placed using the "SHIPPING" tab which looks like this:
+
+![Posting a shipping ad](posting-a-shipping-ad.png)
+
+Shipping ads and buy/sell ads have a lot of common fields and there are only two additions:
+
+| Field				| Remarks 																							|
+|-------------------|---------------------------------------------------------------------------------------------------|
+| Origin	   		| The location where the hauler picks up the shipment                                   			|
+| Destination  		| The location where the shipment is delivered too              									|
+
+Shipping ads have to follow two rules to be valid:
+
+1. Origin and destination cannot be the same location
+1. Either origin or destination has to be the same location as the Local Market where the shipping ad is being posted
+
+Shipping ads are listed just like the other ad types with the key difference that the content of the shipment is not visible:
+
+![Shipping ad](shipping-ad.png)
+ 
+After the ad has been accepted a contract consisting of four conditions is created. Please note that the contract looks slightly different for the principal and the hauler. The principal will see the contents of the shipment while the hauler will not.
+
+The principal's perspective:
+
+![Shipping contract principal](shipping-contract-principal.png)
+
+The hauler's perspective:
+
+![Shipping contract hauler](shipping-contract-hauler.png)
+
 
 ## Breaching contracts
 
