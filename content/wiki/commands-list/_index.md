@@ -257,6 +257,12 @@ __ADMT__
 _Mandatory parameter: Term ID_
 Shows the election results of a previous term. Accessible by clicking the number of the desired term in the ADM window. Alternatively, the term ID can be entered by hand; it consists of the following string of characters: “p-”[Planet ID] “t-”[Term Number]. For example, to view the second election term of Planet FO-250a, the term ID would be: _p-FO-250a t-2_
 
+### Warehouse commands
+
+__WAR__
+_Mandatory parameter: Planet ID_
+Shows public and private warehouse information like the amount of available storage units, the rental fees and so on.
+
 ## Transmission commands
 
 __TRA__  
