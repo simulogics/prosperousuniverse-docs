@@ -4,23 +4,25 @@ date: 2018-09-18T17:13:49+02:00
 weight: 10
 ---
 
-This guide is also available in video format. __Click below to watch the video or scroll down for the written version.__
+{{% notice note %}}
+This guide is also partly available in video format. __Click below to watch the video or scroll down for the written version.__
+{{% /notice %}}
 
 {{< youtube dtXVowBEvfQ >}}
 
 ## Introduction
 
-Planetary projects are collectively erected and maintained structures that provide a bonus or service to the inhabitants of a planet. If projects are present on a planet, they will be listed under “Infrastructure” in the PLI window as well as the PPS window (accessible at the top of the PLI window).
+Planetary projects are collectively erected and maintained structures that provide a bonus or service to the inhabitants of a planet. If projects are present on a planet, they will be listed under “Infrastructure” in the `PLI` as well as the `PPS` command (accessible at the top of the `PLI` command).
 
 ![PP button](pp-button.png)
 
-Clicking “details” next to an entry in the PPS window will reveal more information on that project.
+Clicking “details” next to an entry in the `PPS` window will reveal more information on that project.
 
 ![PP button](pps-buffer.png)
 
 ## Building a planetary project
 
-New planetary projects can be initiated by anybody with a base on the respective planet. To do so, open the planet’s PPS window and select “contribute” next to the desired planetary project.
+New planetary projects can be initiated by anybody with a base on the respective planet. To do so, open the planet’s `PPS` window and select “contribute” next to the desired planetary project.
 
 ![Contribute to PP](contribute.png)
 
@@ -33,7 +35,7 @@ Once all contributions have been filled by the planet’s inhabitants, the finis
 
 ## Planetary project types
 
-Once built, a planetary project requires an upkeep to stay active. As long as the upkeep is not being paid, the project remains “on strike” and provides no bonuses. Similarly to the construction of a planetary project, contributions towards its upkeep can be made by anyone residing on the planet in question.
+Once built, a planetary project might require a regular upkeep to stay active. As long as the upkeep is not being paid, the project remains “on strike” and provides no bonuses. Similarly to the construction of a planetary project, contributions towards its upkeep can be made by anyone residing on the planet in question.
 
 ![Contribute to upkeep](contribute-to-upkeep.png)
 
@@ -81,7 +83,13 @@ Local Markets are a means for exchanging goods outside of Commodity Exchanges. D
 
 ### Warehouses
 
-As of the release of the Presence update, you are allowed to rent warehouses on planets regardless of having a base or not. Warehouses are used to store commodities and function as a normal storage unit; they can be especially useful when trading with other players. To rent a warehouse open a buffer and pull up Planet Info of the desired planet where you wish to rent a warehouse. Under the infrastructure section, select "Warehouse" which will open a new buffer. Here you can pay the fee set by the planetary governor for your new warehouse.
+As of the release of the Presence update, you are allowed to rent warehouses on planets regardless of having a base there or not. Warehouses are used to store commodities and function as a normal storage unit; they can be especially useful when trading with other players. 
+
+![warehouse](warehouse.png)
+
+Warehouses can be accessed via the `WAR` command followed by a planet identifier or via the infrastructure section of a planet's `PLI` command. Each player can rent up to three storage units. The weekly rental fee is controlled by the local governor and thus varies from planet to planet. If the rental fee cannot be paid the inventory will be locked and its contents will be inaccessible.
+
+![locked inventory](locked-inventory.png)
 
 ### Administration Center
 
