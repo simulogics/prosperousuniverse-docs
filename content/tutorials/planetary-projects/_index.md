@@ -79,6 +79,10 @@ The materials required as upkeep are DW, MCG, PE and RAT.  The total amount requ
 
 Local Markets are a means for exchanging goods outside of Commodity Exchanges. Due to their important role in the economy, please refer to [this dedicated tutorial](../local-markets) on how they are used.
 
+### Warehouses
+
+As of the release of the Presence update, you are allowed to rent warehouses on planets regardless of having a base or not. Warehouses are used to store commodities and function as a normal storage unit; they can be especially useful when trading with other players. To rent a warehouse open a buffer and pull up Planet Info of the desired planet where you wish to rent a warehouse. Under the infrastructure section, select "Warehouse" which will open a new buffer. Here you can pay the fee set by the planetary governor for your new warehouse.
+
 ### Administration Center
 
 The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents are eligible to vote, but anyone can run. Each term is two weeks long.
