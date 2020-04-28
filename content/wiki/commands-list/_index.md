@@ -195,9 +195,13 @@ Maps can be navigated by dragging and dropping the left mouse button to move aro
 __MU__  
 _Mandatory parameter: CX/NAV/INV/POL_  
 Opens one of the four different Universe maps. They all show the same Universe, but they serve different purposes, as described below. The interconnected dots on the map are star systems. By hovering over a system, you can see its identifier. Throughout all maps, you can toggle the display of different types of information on or off at the bottom. You may also filter that data by time period (e.g. 1 hours, 12 hours, 24 hours).
+
 MU CX: Shows where your commodity exchanges are taking place.
+
 MU NAV: Shows traffic data. As long as “fleet” is toggled on, your ships’ locations are marked by yellow arrows. Learn more about traffic data in the “Space Flight” tutorial.
-MU INV: Allows you to view the distribution of your storage in the universe.
+
+MU INV: Allows you to view the distribution of your storage in the universe. This is not yet available.
+
 MU POL: Shows a political map. This is not yet available.
 
 __MS__  
