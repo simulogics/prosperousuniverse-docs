@@ -23,7 +23,7 @@ Those features include:
 ## APEX keyboard shortcuts
 
 There are a few keyboard shortcuts for APEX:  
-- **Ctrl + Shift** opens up a new, empty buffer.  
+- **Ctrl + Space** opens up a new, empty buffer.  
 - **Escape** closes the currently selected buffer.  
 
 ## APEX chat commands
