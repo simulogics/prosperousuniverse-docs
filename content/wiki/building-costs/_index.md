@@ -10,11 +10,11 @@ This page lists all the rules in place for building costs. If you would like to 
 
 The basic building costs of each building can be looked up in your base's BSC window (hit “CONSTRUCT” in your base overview):
 
-![Construct buffer](construct-buffer.png)
+![Construct buffer](construct-buffer-pioneer-habitation.jpg)
 
 Clicking any of the buildings' symbols will reveal their BUI window, which shows their Building costs:
 
-![Barracks building costs](barracks-building-cost.png)
+![Habitation building costs](pioneer-habitation-details.jpg)
 
 
 However, this information only paints a part of the picture. It pertains to _this_ particular base, which is located on a concrete planet. Costs for erecting structures on other planets may deviate based on the set of rules below. 

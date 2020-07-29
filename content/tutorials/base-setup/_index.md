@@ -64,15 +64,17 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Constructor: Basic Materials Plant, Prefab Plant Mk 1  
 * Fuel Engineer: Refinery; Collector _or_ Extractor
 
-Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
+Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. They will offer housing for pioneers you will get upon founding your base. (Note: Those pioneers will enter the planet's population pool for the next worker redistribution. You can find more information about that in the [Planetary Populations](../../tutorials/planetary-population) section.)
+
+To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
 
 ![Build section](build-section.png)
 
 You have now successfully started your base with production buildings, worker habitation modules (including the workers) and some storage space. You are all set to begin producing and trading!
 
-![Missing materials](missing-materials.png)
+![Missing materials](missing-materials-new.png)
 
-_If you are missing construction materials, parts, or prefabs (2 BSE in this example), “BUILD” is greyed out_
+_If you are missing construction materials, parts, or prefabs (4 TRU in this example), “BUILD” is greyed out_
 
 
 ## About this page

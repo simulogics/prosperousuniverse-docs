@@ -135,8 +135,14 @@ Which Faction you are able to select depends on whether the planet is in Faction
 
 *Local Market fees and production fees can only be changed a combined 5 times per term.* The UPDATE button at the bottom locks in your changes for both of them, the figure above it shows how many more changes are possible.
 
+### Population Infrastructure
+
+![Population infrastructure](population-infrastructure-container.png)
+
+The "Population infrastructure" project does not have to be built and exists on all planets by default. Opening it will show you a list of  all the planetary projects that serve to satisfy the planetary population's needs. Find out more about planetary populations in the respective [section](../../tutorials/planetary-population) of the tutorial.
+
 ## About this page
 
-This page is part of the advanced tutorial series, which encompasses parts 3 through 8. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
+This page is part of the advanced tutorial series. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
 
 If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
