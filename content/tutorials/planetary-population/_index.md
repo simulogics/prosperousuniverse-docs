@@ -4,9 +4,8 @@ date: 2020-08-04T17:13:49+02:00
 weight: 13
 ---
 
-{{% notice info %}}
-Please note that planetary populations have not been released yet. They will be released with the *Populous* release early September.
-{{% /notice %}}
+## Info 
+Please note that planetary populations have not been released yet. They will be released with the *Populous* update early September.
 
 ## Overview
 A planet's population consists of the combined workforces of all players owning a base on the planet. Each workforce tier will express specific needs that have to be satisfied by building and maintaining the appropriate population infrastructure projects. Satisfying a population's needs will positively impact its happiness and thereby its growth. Each week, the population is distributed evenly among all base owners on the planet depending on how many workers their production lines require.
