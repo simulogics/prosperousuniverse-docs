@@ -12,7 +12,7 @@ A planet's population consists of the combined workforces of all players owning 
 
 ## Needs
 There are six different needs:
-* __Life Support__: This need is always fulfilled on habitable planets. On unhabitable planets, it has to be provided by habitation buildings. If the total population exceeds the total habitation capacity, fulfillment will decrease.
+* __Life Support__: This need is always fulfilled on habitable planets (environmental conditions within normal ranges, water and oxygen available). On unhabitable planets, it has to be provided by habitation buildings. If the total population exceeds the total habitation capacity, fulfillment will decrease.
 * __Safety__: This need is mostly fulfilled by building certain population infrastructure projects. A small amount of safety is provided by each player's base.
 * __Health__: This need is mostly fulfilled by building certain population infrastructure projects. A small amount of health is provided by each player's base.
 * __Comfort__: This need is fulfilled by building certain population infrastructure projects.
