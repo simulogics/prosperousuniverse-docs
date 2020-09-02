@@ -229,6 +229,10 @@ __PP__
 _Mandatory parameter: planet & project ID_  
 Shows information on a concrete planetary project. Due to the long and complex parameter, it is recommended to access this information via the “details” button next to the desired project in the PPS buffer.
 
+__POPR__   
+_Mandatory parameter: planet ID_   
+Shows the population reports of the specified planet with information on the planetary population's size, need satisfaction and growth.
+
 ### Local Market commands
 
 __LMOS__

@@ -1,7 +1,7 @@
 ---
 title: "Miscellaneous"
 date: 2018-09-18T17:13:49+02:00
-weight: 5
+weight: 10
 ---
 
 This page lists information on various topics that can neither be covered by the tutorial series nor other wiki pages.
