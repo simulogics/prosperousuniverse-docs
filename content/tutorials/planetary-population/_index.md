@@ -79,6 +79,4 @@ _The amount of workers you can instantly recruit from the workforce reserve pool
 
 ## About this page
 
-This page is part of the introductory tutorial, which encompasses parts 1 and 2 (2.1-2.5). Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.
-
 If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
