@@ -64,7 +64,7 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Constructor: Basic Materials Plant, Prefab Plant Mk 1  
 * Fuel Engineer: Refinery; Collector _or_ Extractor
 
-Regardless of your package, it is recommended that you also construct two “Habitation Pioneer” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
+Regardless of your package, it is recommended that you also construct two “Pioneer Habitation” modules. To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
 
 ![Build section](build-section.png)
 
