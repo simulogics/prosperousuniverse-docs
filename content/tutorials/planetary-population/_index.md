@@ -41,7 +41,7 @@ Fulfilling a population's needs will generally increase its happiness. A populat
 ![Population report](population-report.jpg)
 _The weekly population report provides an overview of all the workforce tiers and their happiness._
 
-Another important factor in determining a workforce tier's happiness is the number of available jobs (i.e. production lines not working at full worker capacity). If there are more jobs than workers of a certain tier, this tier receives a happiness bonus. If there is unemployment (i.e. more workers of a certain workforce tier than there are jobs), happiness is reduced.
+Another important factor in determining a workforce tier's happiness is the number of available jobs (i.e. production lines not working at full worker capacity). If there are more jobs than workers of a certain tier, this tier receives a happiness bonus. If there is unemployment (i.e. there are more workers of a certain workforce tier than there are jobs), happiness is reduced.
 
 A happy workforce tier (happiness > __70%__) will grow. Growth will be faster the happier a workforce tier is. An unhappy workforce tier (happiness < __50%__) will decline. The size of a planet's workforce plays a vital role in the weekly [worker redistribution](#worker-redistribution).
 
@@ -50,9 +50,9 @@ __Important:__ Engineers and scientists do not grow on their own, but have to em
 __Explorer's Grace__: Planets that are colonized for the first time (i.e. there were no player bases on them before), receive a bonus of 50% on their population's happiness for the first four weeks.
 
 ### Population Shifts
-Besides population growth from happiness, there is another mechanism that causes parts of a workforce tier to "level up" to the next. If a workforce tier grows, a percentage of the new workers will shift into the next tier. Note that this is the _only_ way for the engineer and scientist tiers to grow!
+Besides population growth from happiness, there is another mechanism that causes parts of a workforce tier to "level up" to the next. A small percentage of Pioneers, Settlers, Technicians and Engineers will shift into the next higher tier. Note that this is the _only_ way for the engineer and scientist tiers to grow!
 
-The exact level-up percentage depends on the target tier's happiness. For example, a really happy scientist tier will make shifts from engineer to scientist more likely. Additionally, the percentage can be increased by building and leveling up educational infrastructure (planetary broadcasting hub, library, university).
+The exact level-up percentage depends on the target tier (higher tiers are generally less likely to shift) and its happiness. For example, a really happy scientist tier will make shifts from engineer to scientist more likely. Additionally, the percentage can be increased by building and leveling up educational infrastructure (planetary broadcasting hub, library, university).
 
 ## Population Infrastructure
 ![Population infrastructure](population-infrastructure.png)
