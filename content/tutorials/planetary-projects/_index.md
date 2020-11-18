@@ -151,6 +151,10 @@ In the "Population" tab of the LR window, you can find a set of options and info
 
 The "Population infrastructure" project does not have to be built and exists on all planets by default. Opening it will show you a list of  all the planetary projects that serve to satisfy the planetary population's needs. Find out more about planetary populations in the respective [section](../../tutorials/planetary-population) of the tutorial.
 
+### Shipyards
+
+Planetary shipyards allow you to construct new ships from your own blueprint designs. Find out more in the respective [section](../../tutorials/shipbuilding) of the tutorial.
+
 ## About this page
 
 This page is part of the advanced tutorial series. Use the arrows on the sides to cycle through all available tutorials in order, from introductory to more and more specific topics.

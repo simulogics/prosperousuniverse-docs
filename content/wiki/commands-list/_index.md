@@ -162,6 +162,20 @@ __SI__
 _Mandatory parameter: ship transponder code_  
 Shows all the public information available on the selected ship. Accessible by clicking a ship triangle in a System map or Planet Info window.
 
+## Ship building commands
+
+__BLU__
+_Optional parameter: blueprint ID_
+Opens a list of all your ship blueprints or a specific blueprint if an ID was specified.
+
+__SHY__
+_Mandatory parameter: planet ID_
+Opens the shipyard buffer of the desired planet.
+
+__SHYP__
+_Mandatory parameter: project ID_
+Opens the desired shipbuilding project.
+
 ## Foreign Exchange commands
 To see these commands in action, have a look at the “Foreign Exchange” tutorial.
 
