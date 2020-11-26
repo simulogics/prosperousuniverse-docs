@@ -12,13 +12,9 @@ The official FAQ can be found in [this forum thread](https://com.prosperousunive
 
 ## PRO license vs. TRIAL license
 
-Some features of APEX are only accessible to companies that possess a rating, which in turn is only available to PRO users. A PRO licence can be [acquired](https://hub.prosperousuniverse.com/license/purchase) starting at €10; regardless of cost, any PRO license will unlock all PRO features for the entirety of First Access.
+Some features of APEX are only (fully) accessible to PRO users. A PRO licence can be acquired [in the APEX hub](https://hub.prosperousuniverse.com/license/purchase).
 
-Those features include:  
-- Trading on [Local Markets](../../tutorials/local-markets)  
-- Using the [Foreign Exchange](../../tutorials/foreign-exchange)  
-- Founding a [Corporation](../../tutorials/corporations)  
-- Trading within wider [price bands](../commands-list) than TRIAL licensees  
+You can find more information about what a PRO licence entainls in its [own section](../../wiki/pro-licence) of the handbook.
 
 ## APEX keyboard shortcuts
 
