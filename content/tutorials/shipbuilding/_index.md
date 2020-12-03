@@ -39,7 +39,7 @@ The following ship parts (some of which are entirely optional) can be selected f
 The following ship parts are automatically selected based on the ship's configuration:
 * __Structure:__ The different ship parts are held together by structural components. The larger the ship, the more of those are required.
 * __Command Bridge:__ Certain engines and reactors require an advanced MK2 command bridge to be controlled.
-* __Crew Quarters:__ Every ship needs a place for its crew to live, sleep and eat in.
+* __Crew Quarters:__ Every ship needs a place for its crew to live in. There are several sizes of crew quarters that will be chosen automatically depending on the ship's total volume.
 * __FTL Field Controller:__ A required component if the ship is supposed to be able to perform FTL jumps.
 * __FTL emitters:__ To perform FTL jumps, the ship needs to create an FTL field around itself. The larger the ship, the more volume its emitters need to span. Charging the emitters takes up some reactor power.
 
@@ -56,15 +56,17 @@ A shipbuilding project primarily consists of a big list of materials that you ne
 
 ## Ship Damage
 
-Note that your ships will take attrition damage from several factors:
-* __STL/FTL Flight:__ Whenever a ship is in STL or FTL flight, it will take a small amount of damage over time.
-* __FTL Overcharge:__ You can decide to overcharge your FTL reactor for faster FTL jumps. This deals additional damage to your ship.
-* __Micrometeoroids:__ On STL flights between planets a ship will get hit by micrometeoroids. The exact damage depends on the density of micrometeoroids in the systems you're traveling through. Specialized whipple shields reduce this type of damage.
-* __Heat:__ Entering a planet’s atmosphere puts enormous stress on a ship's hull in the form of heat. Heat shields reduce the resulting damage.
-* __Gravity:__ Gravitational forces weaken the internal structure of a ship, a stability support system help mitigate this.
-* __Radiation:__ The harsh radiation of a sun, especially when close-by, weakens the ship's hull. Radiation plating reduces this type of damage.
+![Ship damage](ship-damage.png)
 
-You can repair a ship from its SHP command.
+Note that your ships will take attrition damage from several factors:
+* __STL/FTL Flight:__ Whenever a ship is in STL or FTL flight, it will take a small amount of damage over time. This kind of damage can be reduced by using more sturdy hull plates.
+* __FTL Overcharge:__ You can decide to overcharge your FTL reactor for faster FTL jumps. This deals additional damage to your ship.
+* __Heat:__ Entering a planet’s atmosphere (specifically in case it's one of high pressure) puts enormous stress on a ship's hull in the form of heat. Heat shields reduce the resulting damage.
+* __Gravity:__ Gravitational forces weaken the internal structure of a ship during take-off and landing. A stability support system prevents this.
+* __Radiation:__ The harsh radiation of a sun during FTL flight, especially when close-by, weakens the ship's hull. Radiation plating reduces this type of damage.
+<!---* __Micrometeoroids:__ On STL flights between planets a ship will get hit by micrometeoroids. The exact damage depends on the density of micrometeoroids in the systems you're traveling through. Specialized whipple shields reduce this type of damage.-->
+
+Ships below a condition of 80% start to become slower. You can repair a ship from its SHP command. This will require a certain amount of hull plates and shield components depending on your ship's condition.
 
 ## About this page
 
