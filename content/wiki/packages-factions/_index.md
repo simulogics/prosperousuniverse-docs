@@ -105,7 +105,7 @@ __Short description__
 Constructors know their way around building parts, from basic structural elements to complex engineering materials.
 
 __Long description__  
-You and your fellow constructors will be the key element to expanding existing bases or establishing new ones. Your output materials, mostly polyethylene and different building parts, will go toward the construction of your and your slients' buildings.
+You and your fellow constructors will be the key element to expanding existing bases or establishing new ones. Your output materials, mostly polyethylene and different building parts, will go toward the construction of your and your clients' buildings.
 
 #### Important notes
 Since you will not be extracting or mining yourself, your production will require purchasing a host of natural resources, such as Iron, Limestone, Carbon, and Hydrogen.
