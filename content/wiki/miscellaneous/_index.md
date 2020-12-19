@@ -14,7 +14,7 @@ The official FAQ can be found in [this forum thread](https://com.prosperousunive
 
 Some features of APEX are only (fully) accessible to PRO users. A PRO licence can be acquired [in the APEX hub](https://hub.prosperousuniverse.com/license/purchase).
 
-You can find more information about what a PRO licence entainls in its [own section](../../wiki/pro-licence) of the handbook.
+You can find more information about what a PRO licence entails in its [own section](../../wiki/pro-licence) of the handbook.
 
 ## APEX keyboard shortcuts
 

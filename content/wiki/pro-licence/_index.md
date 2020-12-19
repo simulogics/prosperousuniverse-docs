@@ -14,6 +14,7 @@ This page lists all the features impacted by owning a PRO licence. You can acqui
 |Corporations|TRIAL users may __join an existing corporation__, but not found their own.|PRO users can __found and oversee their own corporation__.|
 |Price Bands|TRIAL users can only trade within __relatively narrow price bands__ on the commodity exchanges.|PRO user companies are assigned trust ratings and can therefore trade within __wider price bands__ on the commodity exchanges.|
 |Foreign Exchange|TRIAL users __cannot trade currencies__ on the foreign exchange market.|PRO users can freely place buy and sell orders to __trade all currencies__ on the foreign exchange market.|
+|Recurring production orders|TRIAL users __cannot queue recurring production orders__ in their production lines.|PRO users can add __any amount of recurring production orders__ to their production line queues.|
 
 ## About this page
 
