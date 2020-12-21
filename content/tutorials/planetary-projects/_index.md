@@ -87,9 +87,34 @@ As of the release of the Presence update, you are allowed to rent warehouses on 
 
 ![warehouse](warehouse.png)
 
-Warehouses can be accessed via the `WAR` command followed by a planet identifier or via the infrastructure section of a planet's `PLI` command. Each player can rent up to three storage units. The weekly rental fee is controlled by the local governor and thus varies from planet to planet. If the rental fee cannot be paid the inventory will be locked and its contents will be inaccessible.
+Warehouses can be accessed via the `WAR` command followed by a planet identifier or via the infrastructure section of a planet's `PLI` command. Each company can only rent a limited amount of storage units that depends on the level of the warehouse. The weekly rental fee is controlled by the local governor and thus varies from planet to planet. If the rental fee cannot be paid the inventory will be locked and its contents will be inaccessible.
 
 ![locked inventory](locked-inventory.png)
+
+Warehouses can be extended up to level 20. The cost of each extension is a multiple of the original costs (cost factor below). The total amount of available units and the amount of units available to a single company increases with each level:
+
+| Level | Cost factor | Available units | Rentable units |
+|-------|-------------|-----------------|----------------|
+|     1 |           1 |              50 |              1 |
+|     2 |           1 |             150 |              1 |
+|     3 |           2 |             300 |              2 |
+|     4 |           2 |             500 |              2 |
+|     5 |           3 |             750 |              3 |
+|     6 |           3 |            1050 |              3 |
+|     7 |           4 |            1400 |              4 |
+|     8 |           4 |            1800 |              4 |
+|     9 |           5 |            2250 |              5 |
+|    10 |           5 |            2750 |              5 |
+|    11 |           6 |            3300 |              6 |
+|    12 |           6 |            3900 |              6 |
+|    13 |           7 |            4550 |              7 |
+|    14 |           7 |            5250 |              7 |
+|    15 |           8 |            6000 |              8 |
+|    16 |           8 |            6800 |              8 |
+|    17 |           9 |            7650 |              9 |
+|    18 |           9 |            8550 |              9 |
+|    19 |          10 |            9500 |             10 |
+|    20 |          10 |           10500 |             10 |
 
 ### Administration Center
 
