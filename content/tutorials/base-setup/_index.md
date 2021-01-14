@@ -33,7 +33,7 @@ Clicking “VIEW BASE” opens a buffer you are going to need a lot: your base o
 
 ![Base buffer](base-buffer.png)
 
-Hitting “Population”, you can see that there are no people in your base yet. Your workforce will be divided into several levels of specialization, from Pioneers to Scientists, each with their own needs to stay nourished and active. Basic Consumables (marked as “Essential”), are more important to your workers' efficiency than Luxury Consumables (not marked as “Essential”). To get an in-depth look at the topic later, keep [this overview](../../wiki/efficiency-factors) handy.
+Hitting “Workforce”, you can see that there are no people in your base yet. Your workforce will be divided into several levels of specialization, from Pioneers to Scientists, each with their own needs to stay nourished and active. Basic Consumables (marked as “Essential”), are more important to your workers' efficiency than Luxury Consumables (not marked as “Essential”). To get an in-depth look at the topic later, keep [this overview](../../wiki/efficiency-factors) handy.
 
 ![Population needs](population-needs.png)
 

@@ -34,9 +34,9 @@ If no parameters are supplied the command will show a list of all your inventori
 
 If the parameter contains a system or planet address (for example `INV XK-745` or `INV XK-745a`) it will only show inventories at that location.
 
-__POP__  
+__WF__
 _Mandatory parameter: base ID_  
-Shows an overview over a base’s population and their needs. The more sophisticated the population tier, the higher their needs. If you can’t supply your workers with the consumables they need, the efficiency of buildings they operate will drop. Accessible via the “Population” button in a concrete BS window.
+Shows an overview over a base’s workforce and their needs. The more sophisticated the workforce tier, the higher their needs. If you can’t supply your workers with the consumables they need, the efficiency of buildings they operate will drop. Accessible via the “Workforce” button in a concrete BS window.
 
 __EXP__  
 _Mandatory parameter: base ID_  
@@ -243,7 +243,7 @@ __PP__
 _Mandatory parameter: planet & project ID_  
 Shows information on a concrete planetary project. Due to the long and complex parameter, it is recommended to access this information via the “details” button next to the desired project in the PPS buffer.
 
-__POPR__   
+__OPR__
 _Mandatory parameter: planet ID_   
 Shows the population reports of the specified planet with information on the planetary population's size, need satisfaction and growth.
 
