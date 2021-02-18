@@ -49,7 +49,7 @@ A Chamber of Global Commerce can run a variety of programs to stimulate a planet
 
 #### Voting for Programs
 
-To vote on the upcoming program, select “programs / vote”, which opens up a list of all available programs. Note that only rated companies can cast their vote, i.e. those which are operating under an APEX [PRO License](https://hub.prosperousuniverse.com/license/purchase).
+To vote on the upcoming program, select “programs / vote”, which opens up a list of all available programs. Note that only rated companies can cast their vote, i.e. those which are operating under an APEX [PRO License](https://prosperousuniverse.com/premium).
 
 ![CoGC programs](cogc-programs.jpg)
 

@@ -8,7 +8,7 @@ This guide is also available in video format. __Click below to watch the video o
 
 {{< youtube jKDlZcJx3CQ >}}
 
-Please note that Foreign Exchange trading is only available for APEX PRO users. If you acquired a [PRO License](https://hub.prosperousuniverse.com/license/purchase), follow along the steps below in APEX.
+Please note that Foreign Exchange trading is only available for APEX PRO users. If you acquired a [PRO License](https://prosperousuniverse.com/premium), follow along the steps below in APEX.
 
 ## Viewing exchange rates
 

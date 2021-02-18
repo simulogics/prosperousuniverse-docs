@@ -32,7 +32,7 @@ Select the “WORKFORCE” button in your base overview to view the upkeep of yo
 
 Back in the window showing your local Commodity Exchange, select “Basic Consumables” from the dropdown menu. Click “Orders” next to the Drinking Water entry. You can now see the prices that this commodity is currently being offered for (labeled “Offers”), and a list of interested buyers as well as the prices they are willing to pay (labeled “Requests”).
 
-Close the buffer now and select “Trade”, right next to the “Orders” button. The “Storage Location” line in the new buffer is only relevant if you are placing a Sell Order, so the system knows in which Inventory to look for the commodity you are selling. Right now, you want to buy, so you can ignore it. Now enter the Amount you want to buy and indicate how much you are willing to pay per unit under “Limit”. Note that the price you can offer or ask for is limited by the indicated Price Band; a [PRO License](https://hub.prosperousuniverse.com/license/purchase) significantly widens the available Price Band. The current highest bid and cheapest offer are listed in the “Bid / Ask” line (formerly “Current Price”). If you want to get the commodities right now, you will have to pay the current asking price.
+Close the buffer now and select “Trade”, right next to the “Orders” button. The “Storage Location” line in the new buffer is only relevant if you are placing a Sell Order, so the system knows in which Inventory to look for the commodity you are selling. Right now, you want to buy, so you can ignore it. Now enter the Amount you want to buy and indicate how much you are willing to pay per unit under “Limit”. Note that the price you can offer or ask for is limited by the indicated Price Band. The current highest bid and cheapest offer are listed in the “Bid / Ask” line (formerly “Current Price”). If you want to get the commodities right now, you will have to pay the current asking price.
 
 ![Buying water](buying-water.gif)
 
@@ -42,7 +42,7 @@ If you were to set it to anything lower than that and hit “BUY”, your bid wo
 
 _The second buy order is lower than any of the offers, so it is cued up as a Request_
 
-If you placed an order below the current asking price which you now wish to delete, open your Order Book using the CXOS command. You will see all your orders there. Hit “DELETE” next to the order you want to withdraw.
+If you placed an order below the current asking price which you now wish to delete, open your Order Book using the `CXOS` command. You will see all your orders there. Hit “DELETE” next to the order you want to withdraw.
 
 ![Delete order](delete-order.gif)
 
