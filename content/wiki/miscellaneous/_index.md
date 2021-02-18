@@ -12,9 +12,9 @@ The official FAQ can be found in [this forum thread](https://com.prosperousunive
 
 ## PRO license vs. TRIAL license
 
-Some features of APEX are only (fully) accessible to PRO users. A PRO licence can be acquired [here](https://prosperousuniverse.com/premium).
+Some features of APEX are only (fully) accessible to PRO users. A PRO license can be acquired [here](https://prosperousuniverse.com/premium).
 
-You can find more information about what a PRO licence entails in its [own section](../../wiki/pro-licence) of the handbook.
+You can find more information about what a PRO license entails in its [own section](../../wiki/pro-license) of the handbook.
 
 ## APEX keyboard shortcuts
 

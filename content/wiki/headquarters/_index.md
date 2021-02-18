@@ -18,7 +18,7 @@ Upgrading your HQ grants you one of two things:
 * Most levels grant you an additional **base permit** (beyond the 2 you start with), so you can found more bases.
 * Levels 5, 10, 13, 16, 18 and 20 grant you additional **queue slots** to make managing your production queues easier.
 
-Each upgrade is more expensive than the one before. Starting from level 6, upgrading your HQ is only possible with an active [PRO licence](../../wiki/pro-licence).
+Each upgrade is more expensive than the one before. Starting from level 6, upgrading your HQ is only possible with an active [PRO license](../../wiki/pro-license).
 
 ### Faction bonuses
 

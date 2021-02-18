@@ -1,12 +1,12 @@
 ---
-title: "PRO licence"
+title: "PRO License"
 date: 2018-09-18T17:13:49+02:00
 weight: 9
 ---
 
-This page lists all the features impacted by owning a PRO licence. You can acquire a PRO license from the [APEX hub](https://prosperousuniverse.com/premium).
+This page lists all the features impacted by owning a PRO license. You can acquire a PRO license from the [APEX hub](https://prosperousuniverse.com/premium).
 
-|Feature|TRIAL Licence|PRO Licence|
+|Feature|TRIAL License|PRO License|
 |---|---|---|---|
 |Local Markets|TRIAL users may trade on official __commodity exchanges__, but cannot close any bulletin-board-style contracts on the local markets. __*__|PRO user companies are assigned trust ratings and can place or accept orders on the __local markets__. This includes posting and accepting __shipping contracts__.|
 |Space Flight|TRIAL users may not have more than __2 ships in flight simultaneously__.|PRO users can have an __unlimited number of ships in flight simultaneously__.|
@@ -17,7 +17,7 @@ This page lists all the features impacted by owning a PRO licence. You can acqui
 |Headquarters upgrades|TRIAL users __cannot upgrade their HQ beyond level 5__.|PRO users can __upgrade their HQ indefinitely__.|
 <!---|Price Bands|TRIAL users can only trade within __relatively narrow price bands__ on the commodity exchanges.|PRO user companies are assigned trust ratings and can therefore trade within __wider price bands__ on the commodity exchanges.|-->
 
-__*__ Note that if you ever possessed a paid PRO licence (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a TRIAL licence when it expires. A BASIC licence will allow you to **accept local market ads**, but not place your own ads.
+__*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a TRIAL license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads.
 
 ## About this page
 

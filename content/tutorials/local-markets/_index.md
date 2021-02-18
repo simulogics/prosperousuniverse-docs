@@ -25,7 +25,7 @@ Clicking the entry will open the following buffer. This is where you will be abl
 
 ## Trust Ratings
 
-Companies trading on Local Markets have a rating which signals to other parties how likely they are to uphold their end of a deal. Companies are *Unrated* ("U" symbol) by default; a rating can be obtained by acquiring a [PRO licence](https://prosperousuniverse.com/premium). Once a company is rated, its rating status will be *Pending* ("P" symbol). Abiding by contracts will result in a higher rating, breaching contracts will lower it. Ratings go from F (worst) to A (best).
+Companies trading on Local Markets have a rating which signals to other parties how likely they are to uphold their end of a deal. Companies are *Unrated* ("U" symbol) by default; a rating can be obtained by acquiring a [PRO license](https://prosperousuniverse.com/premium). Once a company is rated, its rating status will be *Pending* ("P" symbol). Abiding by contracts will result in a higher rating, breaching contracts will lower it. Ratings go from F (worst) to A (best).
 
 A company's rating can be seen using the `CO` command:
 
