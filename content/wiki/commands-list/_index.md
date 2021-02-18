@@ -34,7 +34,7 @@ If no parameters are supplied the command will show a list of all your inventori
 
 If the parameter contains a system or planet address (for example `INV XK-745` or `INV XK-745a`) it will only show inventories at that location.
 
-__WF__
+__WF__  
 _Mandatory parameter: base ID_  
 Shows an overview over a base’s workforce and their needs. The more sophisticated the workforce tier, the higher their needs. If you can’t supply your workers with the consumables they need, the efficiency of buildings they operate will drop. Accessible via the “Workforce” button in a concrete BS window.
 
@@ -54,6 +54,10 @@ Allows you to cancel queued orders, but not the ones that are already being proc
 __PRODCO__  
 _Mandatory parameter: Production Line ID_  
 Allows you to place a new Production order. Select a Primary Output from the dropdown menu, set an order size and queue your order. If your order requires input materials (as shown at the bottom), make sure they are available first. Accessible via the “New Order” button in a PROD window.
+
+__HQ__  
+_No possible parameter_  
+Shows you which of your bases currently is your company headquarters and allows you to relocate your headquarters to another base for different [faction bonuses](../headquarters). You can also upgrade your headquarters here to unlock additional base permits and production queue slots.
 
 ## Social commands
 
