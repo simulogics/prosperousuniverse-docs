@@ -222,8 +222,13 @@ __MS__
 _Mandatory parameter: system ID_  
 Like on the Universe Map, yellow arrows mark your ships. Turn on “traffic” to also see the location of other users’ ships, which are marked by white arrows. The wireframe structure in the middle is the system’s star; the circles orbiting it are either rocky (white) or gaseous (orange) planets. White square represent space stations. Hovering over a planet or space station shows its ID. Instead of manually entering the system ID, you may click on the desired system in the Universe map.
 
-__PLI__  
-_Optional parameter: planet ID_  
+__SYSI__
+_Optional parameter: system ID_
+All systems, named or unnamed, have and ID which consists of the sector ID (two letters) and the system number. The system information commands shows basic information about the system, like its name, star type, micrometeoroid density and faction affinity. It has a list of all planets and stations in that system.
+If no system ID is provided a search box is being displayed instead of the system data which allows to search for systems.
+
+__PLI__
+_Optional parameter: planet ID_
 All planets, named or unnamed, have an ID, which is the system’s ID followed by a unique letter. Planet Info contains shortcuts to your Fleet and Inventory on that planet. Among other things, you can see here which Resources can be extracted from this planet and its atmosphere, and whether or not the planet lends itself to growing plants. The bar indicating the latter starts in the middle, and the further it extends to the left or right, the more infertile or fertile the planet is respectively. Finally, the Type and Temperature indicate whether you are going to need [additional Construction Materials](../building-costs) to set up a base on this planet.
 Each non-grey plot on a planet can be clicked to obtain more information about it. The following colors exist as of yet: blue (other companies), dark blue (other Corp.'s project), yellow (own company), dark yellow (own Corp.'s project), green (CoGC), red (commodity exchange)
 Instead of entering the planet ID by hand, you may also click the planet directly in the System map to access its PLI window.
@@ -243,7 +248,7 @@ __PP__
 _Mandatory parameter: planet & project ID_  
 Shows information on a concrete planetary project. Due to the long and complex parameter, it is recommended to access this information via the “details” button next to the desired project in the PPS buffer.
 
-__OPR__
+__POPR__
 _Mandatory parameter: planet ID_   
 Shows the population reports of the specified planet with information on the planetary population's size, need satisfaction and growth.
 
