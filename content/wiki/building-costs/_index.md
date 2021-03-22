@@ -63,7 +63,7 @@ _Please note: This commodity is listed under Chemicals, not Construction Materia
 
 #### Low temperature (<-25° C):
 
-__Additional resource:__ Insulation (INF)  
+__Additional resource:__ InsuFoam (INS)  
 __Amount:__ Area x 10
 
 #### High temperature (> 75° C):

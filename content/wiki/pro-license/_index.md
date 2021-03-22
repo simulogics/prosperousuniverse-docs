@@ -15,7 +15,10 @@ This page lists all the features impacted by owning a PRO license. You can acqui
 |Foreign Exchange|TRIAL users __cannot trade currencies__ on the foreign exchange market.|PRO users can freely place buy and sell orders to __trade all currencies__ on the foreign exchange market.|
 |Recurring production orders|TRIAL users __cannot queue recurring production orders__ in their production lines.|PRO users can add __any amount of recurring production orders__ to their production line queues.|
 |Headquarters upgrades|TRIAL users __cannot upgrade their HQ beyond level 5__.|PRO users can __upgrade their HQ indefinitely__.|
+|Governorship|TRIAL users __cannot run for governor of a planet__.|PRO users can __run for governor__.|
+|Planetary Projects|TRIAL users __cannot contribute to planetary projects__.|PRO users can __contribute to any planetary project__.|
 <!---|Price Bands|TRIAL users can only trade within __relatively narrow price bands__ on the commodity exchanges.|PRO user companies are assigned trust ratings and can therefore trade within __wider price bands__ on the commodity exchanges.|-->
+
 
 __*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a TRIAL license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads.
 
