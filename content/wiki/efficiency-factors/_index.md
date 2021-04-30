@@ -14,7 +14,7 @@ Building condition, worker availability, and satisfaction provide the base effic
 
 ### Building condition
 
-Buildings are at their most efficient right after construction, then they start to deteriorate. The deterioration slowly accelerates over time until the building operates at only 33 % of its original efficiency, at which point it no longer deteriorates.
+Buildings are at their most efficient right after construction, then they start to deteriorate. The deterioration slowly increases over time until the building operates at only 33 % of its original efficiency, at which point it no longer deteriorates. It is worth noting that all buildings can (and should) be repaired once they are considered as too inefficient.
 
 ### Worker availability
 
