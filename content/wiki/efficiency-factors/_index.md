@@ -10,7 +10,7 @@ Each Production Line operates at a certain efficiency when active. Efficiency di
 
 ![PRODQ](prodq.png)
 
-Building condition, worker availability, and satisfaction provide the base efficiency value. Experts grant bonuses to that value for Production Lines in their field of expertise. Active CoGC programs may also benefit certain industries or worker types. Finally, soil fertility (or lack thereof) provides another bonus (or detraction) to the efficiency of certain Production Lines.
+Building condition, worker availability, and satisfaction provide the base efficiency value. Experts grant bonuses to that value for Production Lines in their field of expertise. Active CoGC programs may also benefit certain industries or worker types. Finally, soil fertility (or lack thereof) provides another bonus (or penalty) to the efficiency of certain Production Lines.
 
 ### Building condition
 
