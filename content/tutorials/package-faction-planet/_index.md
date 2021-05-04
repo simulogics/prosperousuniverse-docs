@@ -20,7 +20,7 @@ The next step is picking the starting location of your fleet. Most entries avail
 
 The commodity exchanges shown in the bottom right are the places where goods can be traded with others; unless a commodity exchange is directly on your planet, you will be required to send ships in order to buy or sell wares. This means that trading gets more expensive due to shipping costs, and that it takes more time. Skip through the commodity exchanges to see their respective distances to the currently selected planet. "On planet" means that you will be able to directly trade from your base. "In system" means that the selected exchange is on another planet or space station in the same system as the selected planet. If a number of jumps is being displayed, the planet and exchange are that many systems apart.
 
-_Newcomers should generally avoid settling on planets without a commodity exchange. If your planet of choice does not have a commodity exchange, the information in these tutorials might not be in the right order for you._ 
+_Newcomers should generally avoid settling on planets without a commodity exchange in the same system. If your planet of choice does not have a commodity exchange nearby, the information in these tutorials might not be in the right order for you._ 
 
 In the bottom left of the second tab, you can see which faction controls the currently selected planet. Although all factions peacefully coexist and will not harm you if you want to trade in another faction’s territory, each of them has their own currency. Your starting balance will be paid in your faction's money; in order to trade in another faction's space, you will need to obtain their currency first on the foreign exchange market.
 
