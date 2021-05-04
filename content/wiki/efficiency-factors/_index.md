@@ -89,7 +89,7 @@ The first experts of any company are included in its [starter package](../packag
 
 The days indicated above relate to a single building. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
 
-The bonus granted by an expert is a fixed value which is simply added to the workforce's efficiency. For example, a workforce operating at 90% efficiency will operate at 102.48% efficiency once 3 experts are activated at the base.
+The bonus granted by an expert is a fixed value which is simply multiplied with the workforce's efficiency. For example, a workforce operating at 90% efficiency will operate at 101.2% efficiency once 3 experts are activated at the base. `90% * (100% + 12.48%) = 101.2%`
 
 ### Soil fertility
 
