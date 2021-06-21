@@ -11,16 +11,8 @@ This is a list of all resources created by the community. Please let us know if 
 | Type                | Name                                                               | Description                                                                  |   |
 |---------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------|---|
 | Official            | [Prosperous Universe](https://discord.com/invite/rRbqqRz)          | Official Discord instance of Prosperous Universe                             |   |
-| Community           | [Russian-Speaking PrUn Discord](https://discord.gg/uqaKf9CWHD)     |                                                                              |   |
-| Corporations        | [PrUn Corporation Recruiting Board](https://discord.gg/aTMfuHtKPN) |                                                                              |   |
-| Politics            | [PrUn Galactic Senate](https://discord.gg/jwErjemETz)              |                                                                              |   |
-| Politics, Regional  | [Hortus Region](https://discord.gg/Pguvm6Fr93)                     |                                                                              |   |
-| Politics, Regional  | [Antares Operations](https://discord.gg/S2uyUtWMYw)                |                                                                              |   |
-| Politics, Regional  | [Katoa Region (AHI Discord)](https://discord.gg/EpRYTkQTUy)        |                                                                              |   |
-| Politics, Planetary | [Katoa Association](https://discord.gg/93ShuJfJW4)                 |                                                                              |   |
-| Politics, Planetary | [Umbra Planetary Communications](https://discord.gg/HKvAAEZ8bb)    |                                                                              |   |
-| Politics, Planetary | [Proxion Municipal Server](https://discord.gg/skDjF4pMyM)          |                                                                              |   |
-| Logistics           | [PrUn Logistics](https://discord.gg/CKfEy7SnCc)                    |                                                                              |   |
+| Community           | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP)        | Community Discord for discussing politics, finding trade partners, etc       |   |
+| Community           | [Russian-Speaking PrUn Discord](https://discord.gg/uqaKf9CWHD)     | Russian-Speaking PrUn Discord                                                |   |
 | Tools               | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)              | Discord for everything related to FIO and other 3rd party tools for the game |   |
 
 ## Spreadsheets
