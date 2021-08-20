@@ -76,6 +76,12 @@ You have now successfully started your base with production buildings, worker ha
 
 _If you are missing construction materials, parts, or prefabs (4 TRU in this example), “BUILD” is greyed out_
 
+### Area Expansion
+
+Later in the game, upgrading your [Headquarters](../../wiki/headquarters) will give you access to additional base permits. You can use those to build new bases or invest them into your existing bases to expand their available building area. You can do the latter from the BS command. Note that you can only remove invested permits again if there is enough unused area in the respective base.
+
+![Area expansion](area-expansion.png)
+
 
 ## About this page
 
