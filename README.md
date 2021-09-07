@@ -61,6 +61,14 @@ Now you can checkout your copy using the URL provided by GitHub:
 
 ![clone](static/images/contribute/clone.png)
 
+### Pull Remote Theme
+
+Run the following retrieve the theme:
+
+```bash
+git submodule update --init --recursive
+```
+
 ### Build and run the documentation
 
 To build and run the documentation a single Hugo command is enough:
