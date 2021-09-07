@@ -183,6 +183,22 @@ Answer here.
 
 Answer here.
 
+#### What happens if I run out of consumables for my workers?
+
+Answer here.
+
+#### Should I use luxury consumables such as PWO and COF?
+
+Answer here.
+
+#### What happens if my mixed workforce tier building only has one tier of worker?
+
+Answer here.
+
+#### What happens if I run out of money?
+
+Answer here.
+
 
 
 
