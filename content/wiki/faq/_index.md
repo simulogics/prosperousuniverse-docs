@@ -179,6 +179,10 @@ Use the **LMOS** command to
 
 Answer here.
 
+#### What do the different color plots on a planet represent?
+
+Answer here.
+
 
 
 
