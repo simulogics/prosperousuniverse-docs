@@ -82,6 +82,18 @@ Later in the game, upgrading your [Headquarters](../../wiki/headquarters) will g
 
 ![Area expansion](area-expansion.png)
 
+### Base Demolition
+
+It is possible to demolish a whole base and regain the used base permit by demolishing the base's core module.
+
+If you want to demolish a base, there are a few requirements:
+
+* The base must not be your HQ.
+* There must not be any other buildings besides the core module.
+* The base storage has to be empty.
+* There has to be a non-base storage (e.g. a ship) to collect the reclaimable materials (the core module's building costs, except for Core Module Kits).
+* The base's area must not be expanded via permits.
+
 
 ## About this page
 
