@@ -28,7 +28,7 @@ A mobile version of Prosperous Universe is coming soon, please stay tuned for up
 
 #### Will the game be available on Steam / the Apple App Store / my favorite platform?
 
-First and foremost, Properous Universe is a browser-based game. While we do have plans to provide a client software that could be offered on platforms like Steam or the Apple App Store, this is a low priority for us right now.
+First and foremost, Prosperous Universe is a browser-based game. While we do have plans to provide a client software that could be offered on platforms like Steam or the Apple App Store, this is a low priority for us right now.
 
 #### Can I change my username?
 
@@ -36,70 +36,96 @@ Unfortunately not. However, you can change your company name using COLIQ.
 
 #### When will this universe be reset?
 
-Answer here.
+Currently, there are no set dates for when this universe will reset. The universe for First Access (last universe) lasted approximately 2 years.
 
 #### What's the difference between PRO/Basic/Trial?
 
-Answer here.
+You can find in-depth information [here](../pro-license).
 
 #### Is this game P2W (Pay-To-Win)?
 
-Answer here.
-
-
-
+No. While there are restrictions in place when you don't have PRO or Basic, there are only _cosmetic_ benefits to purchasing higher support tiers. For example, purchasing the universe support tier gains you no gameplay advantage of that of someone that simply purchases a month of PRO.
 
 
 ## Gameplay
 
 #### I forgot which starter package I picked, how can I look it up?
 
-Answer here.
+The **HELP** command contains a section labeled "Building Recommendations" which displays your starter package.
 
 #### How do I start over?
+
 The **COLIQ** command.
 
-Instructions:
-1. Click **NEW BFR** in the bottom-left corner of Apex.
+1. Click **NEW BFR** in the bottom-left corner of APEX.
 2. Type **COLIQ** into the newly spawned buffer and hit enter.
 3. Follow the instructions.
-4. Refresh APEX.
+4. Refresh the browser tab containing APEX.
+
+#### How often can I COLIQ?
+
+The cooldown timers for COLIQ are:
+- First: 0 days
+- Second: 3 days
+- Third: 21 days
+- Subsequent: 60 days
+
+#### I'm going to be away from the game for some time. How are inactive accounts handled?
+
+- Paying accounts will not be removed at all
+- Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards.
+- Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards.
+- Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards.
+
+Logging in will reset the timers from above.
 
 #### I accidentally deleted some tiles. Can I reset the default screen?
 
-Answer here.
+Not currently. That being said, you should become familiar with the APEX interface and modify it to fit your needs as _any_ buffer can be made into a tile.
 
 #### People are using many acronyms. How can I find out what they are talking about?
 
-Answer here.
+Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
+
+- **MAT XXX**
+- **BUI YYY**
+
+Other acronyms:
+- MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges).
 
 #### Is there any way to trade wares privately?
 
-Answer here.
+Not currently. You can, however, with PRO list a LM (Local Market) buy ad for 0.01 currency. Do note that there are fees associated with listing ads.
 
 #### How do I coordinate with my friend?
 
 Answer here.
 
+#### How do I find how much money I have?
+
+- The **FINLA** command
+- Enable **SDBR** top-left to show your cash balances on the right side
+
 #### Why can't I use the LM (Local Market), FX (Currency Exchange), or run for governor?
 
-Answer here.
+A [PRO](../pro-license) license is required.
+
+#### Why does the game say I'm not allowed to vote for a candidate?
+
+You need to be a resident of the planet for 48 hours before you can cast a vote.
 
 #### Where can I find a corporation to join?
 
-Answer here.
+- Ask around in APEX chat, discord, or the forums.
+- Join [UFO Discord](https://discord.gg/vwcUJx8HHP) and follow the instructions to join the recruitment channels
 
 #### I have a planet name. How can I find out where it is?
 
-Answer here.
+The **PLI** command by itself (without any arguments). Once done, you can type in the name of the planet.
 
-#### What planet should I start on?
+#### What planet should I start on? What is a good starter package right now?
 
-Answer here.
-
-#### What is a good starter package right now?
-
-Answer here.
+As with most things in this game, it depends. There is not a single correct answer. 
 
 #### What is "pirating"?
 
