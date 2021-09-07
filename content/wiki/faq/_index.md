@@ -46,6 +46,10 @@ You can find in-depth information [here](../pro-license).
 
 No. While there are restrictions in place when you don't have PRO or Basic, there are only _cosmetic_ benefits to purchasing higher support tiers. For example, purchasing the universe support tier gains you no gameplay advantage of that of someone that simply purchases a month of PRO.
 
+#### Are PRO subscriptions recurring?
+
+No. There are no recurring payments.
+
 
 ## Gameplay
 
@@ -73,9 +77,9 @@ The cooldown timers for COLIQ are:
 #### I'm going to be away from the game for some time. How are inactive accounts handled?
 
 - Paying accounts will not be removed at all
-- Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards.
-- Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards.
-- Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards.
+- Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards
+- Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards
+- Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards
 
 Logging in will reset the timers from above.
 
@@ -91,7 +95,7 @@ Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 - **BUI YYY**
 
 Other acronyms:
-- MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges).
+- MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges)
 
 #### Is there any way to trade wares privately?
 
@@ -99,7 +103,11 @@ Not currently. You can, however, with PRO list a LM (Local Market) buy ad for 0.
 
 #### How do I coordinate with my friend?
 
-Answer here.
+The simplest way is to organize favorable LM (Local Market) ads. For example:
+
+- PlayerA exclusively produces H2O (water).
+- PlayerB exclusively runs FPs (Food Processors) solely producing DW (Drinking Water).
+- PlayerB purchases H2O from PlayerA and produces DW to sell on the CX.
 
 #### How do I find how much money I have?
 
@@ -116,7 +124,7 @@ You need to be a resident of the planet for 48 hours before you can cast a vote.
 
 #### Where can I find a corporation to join?
 
-- Ask around in APEX chat, discord, or the forums.
+- Ask around in APEX chat, discord, or the forums
 - Join [UFO Discord](https://discord.gg/vwcUJx8HHP) and follow the instructions to join the recruitment channels
 
 #### I have a planet name. How can I find out where it is?
@@ -125,14 +133,20 @@ The **PLI** command by itself (without any arguments). Once done, you can type i
 
 #### What planet should I start on? What is a good starter package right now?
 
-As with most things in this game, it depends. There is not a single correct answer. 
+As with most things in this game, it depends. There is not a single correct answer. Many in the community are willing to share their opinions on the matter, however, so don't hesitate to ask in-game, on the official [discord](https://discord.com/invite/rRbqqRz), or on the [forums](https://com.prosperousuniverse.com).
 
 #### What is "pirating"?
 
-Answer here.
+Pirating is when one player picks up a shipping ad and _intentionally_ does not hold up their end of the contract. This takes the following forms:
 
++ For buy/sell ads:
+  - The company paying doesn't fulfill their end of the contract (paying)
+  - The company putting forth material goods doesn't fulfill their end of the contract
++ For shipping ads:
+  - The company requesting the shipping being done doesn't pay
+  - The company doing the shipping fails to deliver, leading to the contents of the shipment being unpacked into their inventory
 
-
+Failing to fulfill a contract negatively impacts your reliability rating in game.
 
 
 ## Base
@@ -159,7 +173,7 @@ Answer here.
 
 #### How do I cancel an ad I placed on the LM (Local Market)?
 
-Answer here.
+Use the **LMOS** command to 
 
 #### I accidentally picked up a LM (Local Market) ad and I didn't mean to do so.  What should I do?
 
