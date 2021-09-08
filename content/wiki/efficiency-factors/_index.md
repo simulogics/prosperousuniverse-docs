@@ -87,7 +87,9 @@ The first experts of any company are included in its [starter package](../packag
 | 4			   	| 276.50	   	| 19.74%	   |
 | 5			   	| 915.10	   	| 28.40%	   |
 
-The days indicated above relate to a single building. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
+The days indicated above relate to a single building at 100% efficiency. Operating two buildings in the same industry, i.e. within the same Expertise category, will cut the required time in half, operating three will bring it down to a third etc. This also happens when both buildings are part of the same Production Line, e.g. two (three, four, five...) Farmsteads will bring the time down equally.
+
+Do note that the **Days Required** accumulation is reset after each expert. So to go from 0 to 2 experts will take 22.50 days.
 
 The bonus granted by an expert is a fixed value which is simply multiplied with the workforce's efficiency. For example, a workforce operating at 90% efficiency will operate at 101.2% efficiency once 3 experts are activated at the base. `90% * (100% + 12.48%) = 101.2%`
 

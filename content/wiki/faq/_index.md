@@ -50,6 +50,20 @@ No. While there are restrictions in place when you don't have PRO or Basic, ther
 
 No. There are no recurring payments.
 
+#### How long does it take to be upgraded to PRO after I've made the payment?
+
+Under normal circumstances, it should occur immediately. If even after a refresh the game does not reflect your PRO status, please contact a developer in discord or send an email to hello at prosperousuniverse dot com.
+
+#### How do I get the supporter benefits such as colors & channel access?
+
+You should receive in-game benefits immediately. For discord colors & channel access, DM a developer in discord or send an email to hello at prosperousuniverse dot com with your discord name & id (usually of the format **DiscordName#1234**).
+
+#### If the universe is already this old, am I going to be too far behind?
+
+While you will be smaller than more mature companies, there is **always** an economic need for the products the starter packages lead to you producing.
+
+
+
 
 ## Gameplay
 
@@ -148,6 +162,26 @@ Pirating is when one player picks up a shipping ad and _intentionally_ does not 
 
 Failing to fulfill a contract negatively impacts your reliability rating in game.
 
+#### I've had a building that should have made an expert by now. Why have I not gotten it?
+
+Answer here.
+
+#### What does building degradation mean and what are its effects?
+
+Answer here.
+
+#### When do I have to repair my buildings? Should I demolish and rebuild them or use the repair option?
+
+Answer here.
+
+#### How does fertility affect my buildings?
+
+Answer here.
+
+#### Is X fertility good?
+
+Answer here.
+
 
 ## Base
 
@@ -161,7 +195,12 @@ Answer here.
 
 #### Why does my production line show as halted?
 
-Answer here.
+Possible causes:
+- There is no capacity (habitation buildings) for your workers
+- There are no consumables for your workers available in the base storage
+- You do not have sufficient funds for production taxes
+- There are no workers of that tier available from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution)
+
 
 #### How do I figure out what planets have the resource I'm looking for?
 
@@ -169,11 +208,11 @@ Answer here.
 
 #### My workforce says something like 180 (40). What does the number in brackets mean?
 
-Answer here.
+The number of workforce that were pulled from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution).
 
 #### How do I cancel an ad I placed on the LM (Local Market)?
 
-Use the **LMOS** command to 
+Use the **LMOS** command to delete the ad.
 
 #### I accidentally picked up a LM (Local Market) ad and I didn't mean to do so.  What should I do?
 
@@ -193,9 +232,23 @@ Answer here.
 
 #### What happens if my mixed workforce tier building only has one tier of worker?
 
-Answer here.
+The effect of available workforce on the production line efficiency is directly proportional to the number of workers present, it is not weighted by workforce tier.
+
+For example, if you have a building that requires 20 settlers and 30 technicians but you have 20 settlers and 0 technicians, that production line will have a `20 / (20+30)` (or 0.4 / 40%) efficiency multiplier from the workforce.
 
 #### What happens if I run out of money?
+
+Answer here.
+
+#### How do I improve my company rating?
+
+Answer here.
+
+#### What are the different company ratings used for?
+
+Answer here.
+
+#### I built a RIG but I can't harvest H2O (water).  Why?
 
 Answer here.
 
@@ -227,7 +280,7 @@ Answer here.
 
 #### How do I cancel an order on the CX (Commodity Exchange)?
 
-Answer here.
+Use the **CXOS** command to delete the order.
 
 
 
