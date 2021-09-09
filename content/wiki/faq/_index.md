@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 date: 2021-09-07T07:13:49+02:00
-weight: 3
+weight: 11
 ---
 
 ## General
@@ -215,7 +215,6 @@ Possible causes:
 - You do not have sufficient funds for production taxes
 - There are no workers of that tier available from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution)
 
-
 #### How do I figure out what planets have the resource I'm looking for?
 
 Use some of the great [community tools](../community-resources/#tools):
@@ -347,10 +346,5 @@ The APEX map uses a renderer which leverages **Hardware Acceleration**. If disab
 #### I'm encountering a bug. Where do I report it?
 
 The [Bug Reporting Thread](https://com.prosperousuniverse.com/t/bugs-and-improvements/151/712) on the forums.
-
-
-
-## Miscellaneous 
-
 
 
