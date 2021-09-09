@@ -292,7 +292,7 @@ Before building a RIG, EXT, or COL it is important to check the PLI (Planet Info
 - Liquid resources require a RIG
 - Minerals & ores require a EXT
 
-Do note that many resources can be in any of the three states and the building required to extract may vary.
+Do note that many resources can be in any of the three states and the building required to extract the material may vary.
 
 
 
