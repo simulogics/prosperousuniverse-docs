@@ -276,7 +276,7 @@ In order to not be **Unrated (U)**, your account must be Basic or PRO.
 
 In order to not be **Pending (P)**:
 - Your company must be a few weeks old
-- You must fulfill some number of Local Market/Shipment ads (~10-20)
+- You must fulfill some Local Market/Shipment ads
 
 #### What are the different company ratings used for?
 
