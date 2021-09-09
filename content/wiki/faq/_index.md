@@ -205,7 +205,7 @@ Prosperous Universe is intentionally a slow-paced, real-time game. In the meanti
 - Chat with others in-game, on the [Official Discord](https://discord.com/invite/rRbqqRz), and [UFO Discord](https://discord.gg/vwcUJx8HHP)
 - You can do some future planning (making spreadsheets)
 - You can do some market research and see if trading between CXs (Commodity Exchanges) would net you profit
-- You can look at Local Markets and the CX Shipping market to see if anything is worthwhile for you to do (Requires PRO)
+- You can look at Local Markets and the CX Shipping market to see if anything is worthwhile for you to do (requires Basic)
 
 #### Why does my production line show as halted?
 
@@ -267,7 +267,8 @@ For example, if you have a building that requires 20 settlers and 30 technicians
 
 #### What happens if I run out of money?
 
-Your production lines halt. While halted, buildings continue to degrade.
+- Your production lines halt. While halted, buildings continue to degrade.
+- Warehouses will be locked if the fee is due and items will be unavailable.
 
 #### How do I improve my company rating?
 
