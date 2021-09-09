@@ -76,6 +76,24 @@ You have now successfully started your base with production buildings, worker ha
 
 _If you are missing construction materials, parts, or prefabs (4 TRU in this example), “BUILD” is greyed out_
 
+### Area Expansion
+
+Later in the game, upgrading your [Headquarters](../../wiki/headquarters) will give you access to additional base permits. You can use those to build new bases or invest them into your existing bases to expand their available building area. You can do the latter from the BS command. Note that you can only remove invested permits again if there is enough unused area in the respective base.
+
+![Area expansion](area-expansion.png)
+
+### Base Demolition
+
+It is possible to demolish a whole base and regain the used base permit by demolishing the base's core module.
+
+If you want to demolish a base, there are a few requirements:
+
+* The base must not be your HQ.
+* There must not be any other buildings besides the core module.
+* The base storage has to be empty.
+* There has to be a non-base storage (e.g. a ship) to collect the reclaimable materials (the core module's building costs, except for Core Module Kits).
+* The base's area must not be expanded via permits.
+
 
 ## About this page
 
