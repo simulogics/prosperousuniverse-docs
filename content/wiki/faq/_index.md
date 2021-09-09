@@ -60,7 +60,7 @@ You should receive in-game benefits immediately. For discord colors & channel ac
 
 #### If the universe is already this old, am I going to be too far behind?
 
-While you will be smaller than more mature companies, there is **always** an economic need for the products the starter packages lead to you producing.
+While you will be smaller than more mature companies initially, there is **always** an economic need for the products the starter packages lead to you producing.
 
 
 
@@ -164,15 +164,19 @@ Failing to fulfill a contract negatively impacts your reliability rating in game
 
 #### I've had a building that should have made an expert by now. Why have I not gotten it?
 
-Answer here.
+There a few things to note when it comes to experts:
+
+- Expert-days are only accumulated at the end of a production order
+- Expert-days assume 100% order efficiency
+- Expert-days reset after each expert. In total, it takes 21.5 days to go from 0 to 2 experts.
 
 #### What does building degradation mean and what are its effects?
 
-Answer here.
+Over time, buildings degrade and in turn, production line efficiency for that building goes down.
 
-#### When do I have to repair my buildings? Should I demolish and rebuild them or use the repair option?
+#### When do I have to repair my buildings?
 
-Answer here.
+As with many things in this game, it depends. Many in the community suggest repairing at around 90 days.
 
 #### How does fertility affect my buildings?
 
@@ -191,8 +195,6 @@ Answer here.
 
 #### What can I do while I'm waiting for my production lines to finish?
 
-Answer here.
-
 #### Why does my production line show as halted?
 
 Possible causes:
@@ -204,7 +206,10 @@ Possible causes:
 
 #### How do I figure out what planets have the resource I'm looking for?
 
-Answer here.
+Use some the great community tools:
+- [FIO PlanetSearch](https://fio.fnar.net/planetsearch)
+- [Yapt PlanetSearch](https://aeryen23.github.io/yapt/#/planetsearch)
+- [Prosperity](https://prosperity-prun.netlify.app/)
 
 #### My workforce says something like 180 (40). What does the number in brackets mean?
 
@@ -216,7 +221,7 @@ Use the **LMOS** command to delete the ad.
 
 #### I accidentally picked up a LM (Local Market) ad and I didn't mean to do so.  What should I do?
 
-Answer here.
+Answer here. 
 
 #### What do the different color plots on a planet represent?
 
@@ -224,11 +229,16 @@ Answer here.
 
 #### What happens if I run out of consumables for my workers?
 
-Answer here.
+Production halts. While production is halted, buildings continue to degrade, so it's usually in your best interest to keep workforces fed.
 
 #### Should I use luxury consumables such as PWO and COF?
 
-Answer here.
+As with many aspects of Prosperous Universe, it depends. You may need to check prices and determine if they are worthwhile. Assuming basic consumables are present:
+
+- PWO provides ~X% efficiency @ 0.2 used/100 pioneers
+- COF provides ~Y% efficiency @ 1.0 used/100 pioneers
+
+_Generally_, PWO tends to be always worthwhile while COF requires a deeper analysis. 
 
 #### What happens if my mixed workforce tier building only has one tier of worker?
 
@@ -238,7 +248,7 @@ For example, if you have a building that requires 20 settlers and 30 technicians
 
 #### What happens if I run out of money?
 
-Answer here.
+Your production lines halt. While halted, buildings continue to degrade.
 
 #### How do I improve my company rating?
 
@@ -250,7 +260,12 @@ Answer here.
 
 #### I built a RIG but I can't harvest H2O (water).  Why?
 
-Answer here.
+Before building a RIG, EXT, COL, or FRM it is important to check the PLI (Planet Info) command for the planet. Depending on planetary conditions (temperature, gravity, and pressure), resources can require different buildings to extract said resource. 
+
+- Gaseous resources require a COL
+- Liquid resources require a RIG
+- Minerals & ores require a EXT
+- FRMs require fertility
 
 
 
