@@ -286,12 +286,12 @@ In order to not be **Pending (P)**:
 
 #### I built a RIG but I can't harvest H2O (water).  Why?
 
-Before building a RIG, EXT, COL, or FRM it is important to check the PLI (Planet Info) command for the planet. Depending on planetary conditions (temperature, gravity, and pressure), resources can require different buildings to extract said resource. 
+Before building a RIG, EXT, COL, FRM, or ORC it is important to check the PLI (Planet Info) command for the planet to ensure the resource is present. Depending on planetary conditions (temperature, gravity, and pressure), resources can require different buildings to extract said resource. 
 
 - Gaseous resources require a COL
 - Liquid resources require a RIG
 - Minerals & ores require a EXT
-- FRMs require fertility
+- FRMs and ORCs require fertility
 
 
 
