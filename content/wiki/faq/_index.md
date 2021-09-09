@@ -36,7 +36,7 @@ Unfortunately not. However, you can change your company name using COLIQ.
 
 #### When will this universe be reset?
 
-Currently, there are no set dates for when this universe will reset. The universe for First Access (last universe) lasted approximately 2 years.
+Currently, there are no set dates for when this universe will reset. The current universe started on 02-23-2021. The universe for First Access (previous universe) lasted approximately 2 years.
 
 #### What's the difference between PRO/Basic/Trial?
 
@@ -180,20 +180,24 @@ As with many things in this game, it depends. Many in the community suggest repa
 
 #### How does fertility affect my buildings?
 
-Answer here.
+- Fertility allows the construction of FRMs (Farms) and ORCs (Orchards)
+- Fertility has a maximum impact of roughly -33% to +33%
 
 #### Is X fertility good?
 
-Answer here.
+As with most things in Prosperous Universe, it depends on the scenario in question. It's worth noting that since fertility has a maximum range of roughly -33% to +33%, fertility isn't quite as impactful as H2O (water) concentration.
 
 
 ## Base
 
 #### Okay, my production lines will be working for the next 24 hours. Now what?
 
-Answer here.
-
-#### What can I do while I'm waiting for my production lines to finish?
+Prosperous Universe is intentionally a slow-paced, real-time game. In the meantime, however, you can:
+- Gain familiarity with the game and its production
+- Chat with others in-game, on the [official discord](), and [UFO discord]()
+- You can do some future planning (making spreadsheets)
+- You can do some market research and see if trading between CXs (Commodity Exchanges) would net you profit
+- You can look at Local Markets and the CX Shipping market to see if anything is worthwhile for you to do (Requires PRO)
 
 #### Why does my production line show as halted?
 
@@ -206,7 +210,7 @@ Possible causes:
 
 #### How do I figure out what planets have the resource I'm looking for?
 
-Use some the great community tools:
+Use some of the great [community tools](../community-resources/#tools):
 - [FIO PlanetSearch](https://fio.fnar.net/planetsearch)
 - [Yapt PlanetSearch](https://aeryen23.github.io/yapt/#/planetsearch)
 - [Prosperity](https://prosperity-prun.netlify.app/)
@@ -219,13 +223,21 @@ The number of workforce that were pulled from the [workforce reserve pool](../..
 
 Use the **LMOS** command to delete the ad.
 
-#### I accidentally picked up a LM (Local Market) ad and I didn't mean to do so.  What should I do?
+#### I accidentally picked up a LM (Local Market) ad and I didn't mean to do so. What should I do?
 
-Answer here. 
+You should contact the player which placed the ad and let them know of the situation. If neither party fulfills any portion of the contract, the contract will be canceled with both parties being unaffected rating-wise.
 
 #### What do the different color plots on a planet represent?
 
-Answer here.
+You can click on the plots yourself to inspect them.
+
+- Grey: Unused plot
+- Blue: Used plot
+- Yellow: Your plot
+- Red: Administration Center
+- Dark Red: Population Infrastructure
+- Green: Chamber of Global Commerce
+- Pink: Local Market
 
 #### What happens if I run out of consumables for my workers?
 
@@ -235,8 +247,8 @@ Production halts. While production is halted, buildings continue to degrade, so 
 
 As with many aspects of Prosperous Universe, it depends. You may need to check prices and determine if they are worthwhile. Assuming basic consumables are present:
 
-- PWO provides ~X% efficiency @ 0.2 used/100 pioneers
-- COF provides ~Y% efficiency @ 1.0 used/100 pioneers
+- PWO alone provides ~87% efficiency @ 0.2 used daily/100 pioneers
+- COF alone provides ~91% efficiency @ 1.0 used daily/100 pioneers
 
 _Generally_, PWO tends to be always worthwhile while COF requires a deeper analysis. 
 
@@ -252,11 +264,17 @@ Your production lines halt. While halted, buildings continue to degrade.
 
 #### How do I improve my company rating?
 
-Answer here.
+In order to not be **Unrated (U)**, your account must be Basic or PRO.
+
+In order to not be **Pending (P)**:
+- Your company must be a few weeks old
+- You must fulfill some number of Local Market/Shipment ads (~10-20)
 
 #### What are the different company ratings used for?
 
-Answer here.
+- Activity: How often your account is logged in
+- Reliability: How reliable your company is at fulfilling LM (Local Market) ads
+- Stability: How financially stable your company is
 
 #### I built a RIG but I can't harvest H2O (water).  Why?
 
@@ -305,7 +323,7 @@ Use the **CXOS** command to delete the order.
 
 #### I'm missing a lot of information from my map and APEX is really slow. Why?
 
-Answer here.
+The APEX map uses a renderer which leverages **Hardware Acceleration**. If disabled for your browser, it will either fail to function properly or fall-back on the much slower, more CPU intensive software renderer.
 
 #### I'm encountering a bug. Where do I report it?
 
