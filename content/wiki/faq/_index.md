@@ -56,7 +56,7 @@ Under normal circumstances, it should occur immediately. If even after a refresh
 
 #### How do I get the supporter benefits such as colors & channel access?
 
-You should receive in-game benefits immediately. For discord colors & channel access, DM a developer in discord or send an email to hello at prosperousuniverse dot com with your discord name & id (usually of the format **DiscordName#1234**).
+You should receive in-game benefits immediately. For Discord colors & channel access, DM a Developer in discord or send an email to hello at prosperousuniverse dot com with your Discord name & id (usually of the format **DiscordName#1234**).
 
 #### If the universe is already this old, am I going to be too far behind?
 
@@ -110,6 +110,10 @@ Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 
 Other acronyms:
 - MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges)
+- LM - [Local Market](../../tutorials/planetary-projects/#local-markets)
+- COGC - [Chamber of Global Commerce](../../tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
+- POPI - [Population Infrastructure](../../tutorials/planetary-population/)
+- For all others, check the [Command List](../commands-list/) page
 
 #### Is there any way to trade wares privately?
 
@@ -138,7 +142,7 @@ You need to be a resident of the planet for 48 hours before you can cast a vote.
 
 #### Where can I find a corporation to join?
 
-- Ask around in APEX chat, discord, or the forums
+- Ask around in APEX chat, [Official Discord](https://discord.com/invite/rRbqqRz), or the [forums](https://com.prosperousuniverse.com)
 - Join [UFO Discord](https://discord.gg/vwcUJx8HHP) and follow the instructions to join the recruitment channels
 
 #### I have a planet name. How can I find out where it is?
@@ -187,6 +191,10 @@ As with many things in this game, it depends. Many in the community suggest repa
 
 As with most things in Prosperous Universe, it depends on the scenario in question. It's worth noting that since fertility has a maximum range of roughly -33% to +33%, fertility isn't quite as impactful as H2O (water) concentration.
 
+#### How does the FX (Currency Exchange) work?
+
+Read the [FX Tutorial](../../tutorials/foreign-exchange/)
+
 
 ## Base
 
@@ -194,7 +202,7 @@ As with most things in Prosperous Universe, it depends on the scenario in questi
 
 Prosperous Universe is intentionally a slow-paced, real-time game. In the meantime, however, you can:
 - Gain familiarity with the game and its production
-- Chat with others in-game, on the [official discord](), and [UFO discord]()
+- Chat with others in-game, on the [Official Discord](https://discord.com/invite/rRbqqRz), and [UFO Discord](https://discord.gg/vwcUJx8HHP)
 - You can do some future planning (making spreadsheets)
 - You can do some market research and see if trading between CXs (Commodity Exchanges) would net you profit
 - You can look at Local Markets and the CX Shipping market to see if anything is worthwhile for you to do (Requires PRO)
@@ -293,23 +301,34 @@ Before building a RIG, EXT, COL, or FRM it is important to check the PLI (Planet
 
 #### How do I get another currency?
 
-Answer here.
+- Load up goods into a ship, fly to another CX, and sell the goods at the foreign CX for the currency
+- Use the FX (Foreign Exchange) to purchase another currency (requires PRO)
+- List a LM (Local Market) ad to sell materials for another currency (requires PRO)
+- Accept a Buy ad on a LM (Local Market) for another currency (requires Basic)
+- Fulfill a shipping contract for another currency (requires Basic)
 
-#### How much fuel should I be using on my flights to the CX?
+#### How much fuel should I be using on my flights to the CX (Commodity Exchange)?
 
-Answer here.
+As with many aspects of Prosperous Universe, it depends on your scenario. Many in the community, however, suggest when starting that you:
+- Set **Reactor Usage** (FTL Drive) to minimum
+- Set **Fuel Usage** (STL Drive) to a few ticks above minimum and modify the slider until it makes sense
+- Ensure you are available (i.e. not asleep) when the ship lands
 
-#### I bought something on the CX but I can't find it. Where did it go?
+#### I bought something on the CX (Commodity Exchange) but I can't find it. Where did it go?
 
-Answer here.
+- If you rented a warehouse on the station, it will be in the warehouse storage
+- If you have a ship attached to the station, it will be in the ship storage
+- Otherwise, the CX will create a contract for you to pick it up.  You can use the **CONTS** command or click **SDBR** in the upper-left to show pending contracts.
 
 #### How/where do I pick up the goods I just bought?
 
-Answer here.
+You need to fly to the CX (Commodity Exchange) and retrieve the items.
 
 #### I'm trying to sell something on the CX (Commodity Exchange), but it won't let me select a storage location. What do I do?
 
-Answer here.
+In order to sell items on the CX, you need to ensure that those items are available in a storage on the CX. Storage is defined as:
+- A ship attached to the station
+- A warehouse on the station
 
 #### How do I cancel an order on the CX (Commodity Exchange)?
 
@@ -327,24 +346,11 @@ The APEX map uses a renderer which leverages **Hardware Acceleration**. If disab
 
 #### I'm encountering a bug. Where do I report it?
 
-Answer here.
+The [Bug Reporting Thread](https://com.prosperousuniverse.com/t/bugs-and-improvements/151/712) on the forums.
 
 
 
 ## Miscellaneous 
 
-#### What is CoGC?
 
-Answer here.
 
-#### What is a turnip and why is it prosperous?
-
-Answer here.
-
-#### How does the FX (Currency Exchange) work?
-
-Answer here.
-
-#### Why should I make a spreadsheet?
-
-Answer here.
