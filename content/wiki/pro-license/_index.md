@@ -18,6 +18,7 @@ This page lists all the features impacted by owning a PRO license. You can acqui
 |Governorship|TRIAL users __cannot run for governor of a planet__.|PRO users can __run for governor__.|
 |Planetary Projects|TRIAL users __cannot contribute to planetary projects__.|PRO users can __contribute to any planetary project__.|
 |Global Chamber of Commerce Voting|TRIAL users __cannot vote on CoGC programs__.|PRO users __can vote on CoGC programs__.|
+|Production Queue Management|TRIAL users __cannot re-order their production queues__.|PRO users __can move production orders around in the queue__.
 <!---|Price Bands|TRIAL users can only trade within __relatively narrow price bands__ on the commodity exchanges.|PRO user companies are assigned trust ratings and can therefore trade __without any price bands__ on the commodity exchanges.|-->
 
 __*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a TRIAL license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads.
