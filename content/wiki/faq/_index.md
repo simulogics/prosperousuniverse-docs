@@ -36,7 +36,7 @@ Unfortunately not. However, you can change your company name using COLIQ.
 
 #### When will this universe be reset?
 
-Currently, there are no set dates for when this universe will reset. The current universe started on 02-23-2021. The universe for First Access (previous universe) lasted approximately 2 years.
+Currently, there are no set dates for when this universe will reset. The current universe started on February 23, 2021. The universe for First Access (previous universe) lasted approximately 2 years.
 
 #### What's the difference between PRO/Basic/Trial?
 
