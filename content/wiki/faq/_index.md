@@ -212,6 +212,7 @@ Prosperous Universe is intentionally a slow-paced, real-time game. In the meanti
 Possible causes:
 - There is no capacity (habitation buildings) for your workers
 - There are no consumables for your workers available in the base storage
+- There are no inputs available for the recipe
 - You do not have sufficient funds for production taxes
 - There are no workers of that tier available from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution)
 
@@ -345,6 +346,15 @@ Use the **CXOS** command to delete the order.
 ### I'm missing a lot of information from my map and APEX is really slow. Why?
 
 The APEX map uses a renderer which leverages **Hardware Acceleration**. If disabled for your browser, it will either fail to function properly or fall-back on the much slower, more CPU intensive software renderer.
+
+### I'm seeing a bunch of **Hydration Timeout** errors in the UI. What should I do?
+
+Hydration Timeouts happen when the game client doesn't receive data in a certain time-frame (the request times out). This generally means:
+- Your have internet connection issues
+- APEX servers have internet connection issues
+- APEX servers are slower than usual and not responding in time
+
+The vast majority of the time, a simple F5 (refresh) fixes the issue. In some scenarios, the servers (or the ISP hosting the servers) could be the cause--in which case, it may be worthwhile to ask in discord if any others are seeing similar issues.
 
 ### I'm encountering a bug. Where do I report it?
 
