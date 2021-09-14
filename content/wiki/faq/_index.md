@@ -315,9 +315,14 @@ As with many aspects of Prosperous Universe, it depends on your scenario. Many i
 
 #### I bought something on the CX (Commodity Exchange) but I can't find it. Where did it go?
 
-- If you rented a warehouse on the station, it will be in the warehouse storage
-- If you have a ship attached to the station, it will be in the ship storage
-- Otherwise, the CX will create a contract for you to pick it up.  You can use the **CONTS** command or click **SDBR** in the upper-left to show pending contracts.
++ Ensure you _actually_ purchased it
+  - Bring up a **CXOB** buffer to the material.  Example: `CXOB RAT.IC1`
+  - See if your company name is present in the Requests list.  If so, you merely have a bid for goods and need to either:
+    - Wait for somebody to be willing to sell at the your price
+	- Take down your existing order using the **CXOS** command and place another one for the lowest asking price
++ If you rented a warehouse on the station, it will be in the warehouse storage
++ If you have a ship attached to the station, it will be in the ship storage
++ Otherwise, the CX will create a contract for you to pick it up.  You can use the **CONTS** command or click **SDBR** in the upper-left to show pending contracts.
 
 #### How/where do I pick up the goods I just bought?
 
