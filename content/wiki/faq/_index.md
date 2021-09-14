@@ -90,7 +90,7 @@ The cooldown timers for COLIQ are:
 
 #### I'm going to be away from the game for some time. How are inactive accounts handled?
 
-- Accounts with any payment on file will not be removed at all
+- PRO accounts will not be removed at all
 - Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards
 - Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards
 - Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards
@@ -324,6 +324,8 @@ As with many aspects of Prosperous Universe, it depends on your scenario. Many i
 You need to fly to the CX (Commodity Exchange) and retrieve the items.
 
 #### I'm trying to sell something on the CX (Commodity Exchange), but it won't let me select a storage location. What do I do?
+
+The CX is a space station in a separate orbit from planets. You are required to transport goods to the station.
 
 In order to sell items on the CX, you need to ensure that those items are available in a storage on the CX. Storage is defined as:
 - A ship attached to the station
