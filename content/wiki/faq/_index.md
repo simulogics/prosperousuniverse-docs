@@ -90,7 +90,7 @@ The cooldown timers for COLIQ are:
 
 ### I'm going to be away from the game for some time. How are inactive accounts handled?
 
-- Accounts with any payment on file will not be removed at all
+- PRO accounts will not be removed at all
 - Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards
 - Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards
 - Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards
@@ -212,6 +212,7 @@ Prosperous Universe is intentionally a slow-paced, real-time game. In the meanti
 Possible causes:
 - There is no capacity (habitation buildings) for your workers
 - There are no consumables for your workers available in the base storage
+- There are no inputs available for the recipe
 - You do not have sufficient funds for production taxes
 - There are no workers of that tier available from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution)
 
@@ -314,15 +315,22 @@ As with many aspects of Prosperous Universe, it depends on your scenario. Many i
 
 ### I bought something on the CX (Commodity Exchange) but I can't find it. Where did it go?
 
-- If you rented a warehouse on the station, it will be in the warehouse storage
-- If you have a ship attached to the station, it will be in the ship storage
-- Otherwise, the CX will create a contract for you to pick it up.  You can use the **CONTS** command or click **SDBR** in the upper-left to show pending contracts.
++ Ensure you _actually_ purchased it
+  - Bring up a **CXOB** buffer to the material.  Example: `CXOB RAT.IC1`
+  - See if your company name is present in the Requests list.  If so, you merely have a bid for goods and need to either:
+    - Wait for somebody to be willing to sell at the your price
+	- Take down your existing order using the **CXOS** command and place another one for the lowest asking price
++ If you rented a warehouse on the station, it will be in the warehouse storage
++ If you have a ship attached to the station, it will be in the ship storage
++ Otherwise, the CX will create a contract for you to pick it up.  You can use the **CONTS** command or click **SDBR** in the upper-left to show pending contracts.
 
 ### How/where do I pick up the goods I just bought?
 
 You need to fly to the CX (Commodity Exchange) and retrieve the items.
 
 ### I'm trying to sell something on the CX (Commodity Exchange), but it won't let me select a storage location. What do I do?
+
+The CX is a space station in a separate orbit from planets. You are required to transport goods to the station.
 
 In order to sell items on the CX, you need to ensure that those items are available in a storage on the CX. Storage is defined as:
 - A ship attached to the station
@@ -338,6 +346,15 @@ Use the **CXOS** command to delete the order.
 ### I'm missing a lot of information from my map and APEX is really slow. Why?
 
 The APEX map uses a renderer which leverages **Hardware Acceleration**. If disabled for your browser, it will either fail to function properly or fall-back on the much slower, more CPU intensive software renderer.
+
+### I'm seeing a bunch of **Hydration Timeout** errors in the UI. What should I do?
+
+Hydration Timeouts happen when the game client doesn't receive data in a certain time-frame (the request times out). This generally means:
+- Your have internet connection issues
+- APEX servers have internet connection issues
+- APEX servers are slower than usual and not responding in time
+
+The vast majority of the time, a simple F5 (refresh) fixes the issue. In some scenarios, the servers (or the ISP hosting the servers) could be the cause--in which case, it may be worthwhile to ask in discord if any others are seeing similar issues.
 
 ### I'm encountering a bug. Where do I report it?
 
