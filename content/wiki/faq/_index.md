@@ -353,12 +353,11 @@ The APEX map uses a renderer which leverages **Hardware Acceleration**. If disab
 
 ### I'm seeing a bunch of **Hydration Timeout** errors in the UI. What should I do?
 
-Hydration Timeouts happen when the game client doesn't receive data in a certain time-frame (the request times out). This generally means:
-- Your have internet connection issues
-- APEX servers have internet connection issues
-- APEX servers are slower than usual and not responding in time
+Hydration Timeouts happen when the game client doesn't receive data of the individual game entities in a certain time-frame (the request times out). In general, there are two major causes:
+- APEX servers are slower than usual and not responding in time. This can happen if one of the servers is rebooting for example.
+- A game entity is running into an error and cannot respond to the request
 
-The vast majority of the time, a simple F5 (refresh) fixes the issue. In some scenarios, the servers (or the ISP hosting the servers) could be the cause--in which case, it may be worthwhile to ask in discord if any others are seeing similar issues.
+The vast majority of the time, simply refreshing the browser after waiting for a moment fixes the issue. In some scenarios, the servers (or the ISP hosting the servers) could be the cause--in which case, it may be worthwhile to ask in discord if any others are seeing similar issues.
 
 ### I'm encountering a bug. Where do I report it?
 
