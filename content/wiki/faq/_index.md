@@ -195,6 +195,10 @@ As with most things in Prosperous Universe, it depends on the scenario in questi
 
 Read the [FX Tutorial](../../tutorials/foreign-exchange/)
 
+### I tried delivering a shipment but it says "Fulfillment Attempted." What do I do?
+
+This message means that the user in question does not have sufficient storage space (weight or volume) to store the shipment. Contact the user to let them know.
+
 
 ## Base
 
@@ -256,7 +260,7 @@ Production halts. While production is halted, buildings continue to degrade, so 
 As with many aspects of Prosperous Universe, it depends. You may need to check prices and determine if they are worthwhile. Assuming basic consumables are present:
 
 - PWO alone provides ~87% efficiency @ 0.2 used daily/100 pioneers
-- COF alone provides ~91% efficiency @ 1.0 used daily/100 pioneers
+- COF alone provides ~91% efficiency @ 0.5 used daily/100 pioneers
 
 _Generally_, PWO tends to be always worthwhile while COF requires a deeper analysis. 
 
