@@ -14,6 +14,7 @@ This is a list of all resources created by the community. Please let us know if 
 | Community           | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP)        | Community Discord for discussing politics, finding trade partners, etc        |   |
 | Community           | [Russian-Speaking PrUn Discord](https://discord.gg/uqaKf9CWHD)     | Russian-Speaking PrUn Discord                                                 |   |
 | Tools               | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)              | Discord for everything related to FIO and other 3rd party tools for the game. |   |
+| APEX Chat           | [APEX Chat Server](https://discord.gg/39629axAxG)                  | A read-only discord chat with all in-game planet chats.                       |   |
 
 ## News
 
@@ -29,7 +30,7 @@ This is a list of all resources created by the community. Please let us know if 
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Rain's Master Base Planner                        | https://docs.google.com/spreadsheets/d/1OPa0RJcCT3LTUs7eVmcw2tJwP5yZ3TsQBR07GufVIlU/edit?usp=sharing    |
 | Rain's System Overview and Planet Finder          | https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272 |
-| Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1QBndNjIYIhqSzjk1iflNAK2m-wXTo04kaWRFXySpR6c/edit?usp=sharing    |
+| Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1LZLOTlF76M5MlSNZZ4Trft1qVUz3-wF8Z9l4761BWo0/edit?usp=sharing    |
 | Illuminate                                        | https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033 |
 | P/D/C Calculator Template                         | https://docs.google.com/spreadsheets/d/1lMbzrl18bu36hv9xWgA-gToh-EycrY14BE_8aNzFfJk/edit?usp=sharing    |
 | FIO Data Import Spreadsheet                       | https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing    |
