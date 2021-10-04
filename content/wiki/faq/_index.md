@@ -155,7 +155,7 @@ As with most things in this game, it depends. There is not a single correct answ
 
 ### What is "pirating"?
 
-Pirating is when one player picks up a shipping ad and _intentionally_ does not hold up their end of the contract. This takes the following forms:
+Pirating is when a player places or picks up an ad and _intentionally_ does not hold up their end of the contract. This takes the following forms:
 
 + For buy/sell ads:
   - The company paying doesn't fulfill their end of the contract (paying)

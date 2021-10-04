@@ -141,7 +141,6 @@ _Instead of Extractor:_ __Collector (COL):__  Extracts gases from the atmosphere
 #### Recommended starter planets
 _With Extractor:_ Katoa (Castillo-Ito Mercantile)  
 _With Collector:_ Katoa (Castillo-Ito Mercantile)  
-_With Collector:_ XK-745c (Castillo-Ito Mercantile)  
 
 #### Starting Experts
 2 Fuel Refining Experts
