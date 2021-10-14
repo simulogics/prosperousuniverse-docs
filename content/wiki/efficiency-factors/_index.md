@@ -72,7 +72,7 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 | Metallurgy			| Smelter (SME), Metalist Studio (FS), Glass Furnace (GF), High-Power Blast Furnace (ASM) |
 | Chemistry				| Chemical Plant (CHP), Polymer Plant (POL), Laboratory (LAB), Technetium Processing (TNP), Advanced Material Lab (AML), Einsteinium Enrichment (EEP) |
 | Fuel Refining			| Refinery (REF) |
-| Electronics			| Cleanroom (CLR), Electronics Plant (ELP), Software Development (SD), Software Labs (SL) |
+| Electronics			| Cleanroom (CLR), Energy Component Assembly (ECA), Electronics Plant (ELP), Software Development (SD), Software Labs (SL) |
 
 
 #### Expert spawn rates & bonuses
