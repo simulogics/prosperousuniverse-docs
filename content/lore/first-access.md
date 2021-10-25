@@ -1,23 +1,9 @@
-# Lore
+---
+title: "First Access"
+date: 2021-10-25T16:03:25+02:00
+weight: 1
+---
 
-## Early Access
-
-| Corporations                                      | Major Planets                                     | Major Events                                      |
-|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| [ANTS] Antares Synticate                          | Avalon                                            | Carbon Bubble                                     |
-| [FIOC] FIO Corporation                            | Boucher                                           |                                                   |
-| [FOWL] Fiendish Organization for World Larceny    | [Deimos]                                          |                                                   |
-| [GDP] Galactic Development Project                | Ementior                                          |                                                   |
-| [GTU] Galactic Trade Union]                       | Katoa                                             |                                                   |
-| [KAWA] Kawakawa Corp                              | Montem                                            |                                                   |
-| [NEM]  Nemesis Corp                               | Phobos                                            |                                                   |
-| [IKO]  Oikos Corp]                                | Prism                                             |                                                   |
-| [QWNE] Quinten Essentials                         | Promitor                                          |                                                   |
-| [SNF]  Supernova Foundries                        | Umbra                                             |                                                   |
-| [NEM] Nemesis Corp                                | Vallis                                            |                                                   |
-| [[AHI] Yellow Fin, Inc.](EA/Corps/AHI.md)         |                                                   |                                                   |
-
-## First Access
 
 | Corporations                                      | Major Planets                                     | Major Events                                      |
 |---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
@@ -25,11 +11,11 @@
 | [GTU] Galactic Trade Union]                       | Katoa                                             | Boucher Colonization                              |
 | [QWNE] Quinten Essentials                         | Montem                                            | Boucher Election won by QWNE                      |
 | [SNF]  Supernova Foundries                        | Prism                                             | Boucher Election won by molp                      |
-| [[AHI] Yellow Fin, Inc.](FA/Corps/AHI.md)         | Promitor                                          | Carbon Bubble                                     |
+| [[AHI] Yellow Fin, Inc.](../corporations/ahi#during-first-access)     | Promitor                                          | Carbon Bubble                                     |
 |                                                   | Pyrgos                                            | CUOP                                              |
 |                                                   | Umbra                                             | Electronics Market Birth                          |
 |                                                   | Vallis                                            | Esabab's Withdraw                                 |
-|                                                   | [The Temple Planet](FA/planets/Temple.md)         | F2P Player Wave                                   |
+|                                                   | [The Temple Planet](../planets/temple)         | F2P Player Wave                                   |
 |                                                   |                                                   | Frostwood Disappearance                           |
 |                                                   |                                                   | Imp the Great Trader                              |
 |                                                   |                                                   | GDP BSE Project                                   |
