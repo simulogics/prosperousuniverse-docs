@@ -9,13 +9,13 @@ weight: 2
 |---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
 | [ANTS] Antares Syndicate                          | Avalon                                            | Carbon Bubble                                     |
 | [FIOC] FIO Corporation                            | Boucher                                           |                                                   |
-| [FOWL] Fiendish Organization for World Larceny    | Deimos                                          |                                                   |
+| [FOWL] Fiendish Organization for World Larceny    | Deimos                                            |                                                   |
 | [GDP] Galactic Development Project                | Ementior                                          |                                                   |
 | [GTU] Galactic Trade Union                        | Katoa                                             |                                                   |
 | [KAWA] Kawakawa Corp                              | Montem                                            |                                                   |
 | [NEM]  Nemesis Corp                               | Phobos                                            |                                                   |
 | [IKO]  Oikos Corp                                 | Prism                                             |                                                   |
 | [QWNE] Quinten Essentials                         | Promitor                                          |                                                   |
-| [SNF]  Supernova Foundries                        | Umbra                                             |                                                   |
-| [NEM] Nemesis Corp                                | Vallis                                            |                                                   |
-| [[AHI] Yellow Fin, Inc.](../corporations/ahi#during-early-access)         |                                                   |                                                   |
+| [RUM] The Rum Runners                             | Umbra                                             |                                                   |
+| [SNF]  Supernova Foundries                        | Vallis                                            |                                                   |
+| [[AHI] Yellow Fin, Inc.](../corporations/ahi#during-early-access)         |                                                   |                                                   
