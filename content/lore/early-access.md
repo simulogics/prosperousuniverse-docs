@@ -12,7 +12,7 @@ weight: 2
 | [FOWL] Fiendish Organization for World Larceny    | Deimos                                            |                                                   |
 | [GDP] Galactic Development Project                | Ementior                                          |                                                   |
 | [GTU] Galactic Trade Union                        | Katoa                                             |                                                   |
-| [KAWA] Kawakawa Corp                              | Montem                                            |                                                   |
+| [[KAWA] Kawakawa, Inc.](../corporations/kawa#during-early-access)                              | Montem                                            |                                                   |
 | [NEM]  Nemesis Corp                               | Phobos                                            |                                                   |
 | [IKO]  Oikos Corp                                 | Prism                                             |                                                   |
 | [QWNE] Quinten Essentials                         | Promitor                                          |                                                   |
