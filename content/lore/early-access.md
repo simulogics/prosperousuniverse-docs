@@ -13,7 +13,7 @@ weight: 2
 | [GDP] Galactic Development Project                | Ementior                                          |                                                   |
 | [GTU] Galactic Trade Union                        | Katoa                                             |                                                   |
 | [[KAWA] Kawakawa, Inc.](../corporations/kawa#during-early-access)                              | Montem                                            |                                                   |
-| [NEM]  Nemesis Corp                               | Phobos                                            |                                                   |
+| [NEM]  Nemesis Corp                               | Ementior, Pyrgos                                  |N-cartel, H Gas giant, Arclight project            |
 | [IKO]  Oikos Corp                                 | Prism                                             |                                                   |
 | [QWNE] Quinten Essentials                         | Promitor                                          |                                                   |
 | [RUM] The Rum Runners                             | Umbra                                             |                                                   |
