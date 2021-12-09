@@ -17,7 +17,7 @@ weight: 2
 | [NEM]  | Nemesis Corp |
 | [IKO]  | Oikos Corp |
 | [QWNE] | Quinten Essentials |
-| [RUM]  | The Rum Runners |
+| [RUM]  | [The Rum Runners](../corporations/rum#the-rum-runners) |
 | [SNF]  | Supernova Foundries |
 | [AHI]  | [Yellow Fin, Inc.](../corporations/ahi#during-early-access)|
 
