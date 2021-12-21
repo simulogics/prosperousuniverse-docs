@@ -66,8 +66,8 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 |-----------------------|-------------------------------------------------------------------			|
 | Resource Extraction	| Collector (COL), Extractor (EXT),	Rig (RIG), Incinerator (INC)				|
 | Manufacturing  		| Basic Materials Plant (BMP), Textile Manufacturing (CLF), 3D Printer (PPF), Weaving Plant (WPL), Medium Component Assembly (MCA), Small Components Assembly (SCA), Appliances Factory (APF)	|
-| Agriculture  			| Farmstead (FRM), Hydroponics Farm (HYF)										|
-| Food Industries		| Food Processor (FP), Fermenter (FF), In-Vitro Plant (IVP), Orchard (ORC) |
+| Agriculture  			| Farmstead (FRM), Hydroponics Farm (HYF), Orchard (ORC)        				|
+| Food Industries		| Food Processor (FP), Fermenter (FF), In-Vitro Plant (IVP)                     |
 | Construction			| Prefab Plant MK1 (PP1), Welding Plant (WEL), Prefab Plant MK2 (PP2), Prefab Plant MK3 (PP3), Prefab Plant MK4 (PP4) |
 | Metallurgy			| Smelter (SME), Metalist Studio (FS), Glass Furnace (GF), High-Power Blast Furnace (ASM) |
 | Chemistry				| Chemical Plant (CHP), Polymer Plant (POL), Laboratory (LAB), Technetium Processing (TNP), Advanced Material Lab (AML), Einsteinium Enrichment (EEP) |
