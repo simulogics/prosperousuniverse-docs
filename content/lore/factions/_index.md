@@ -5,6 +5,8 @@ date: 2021-12-21T09:34:14+01:00
 
 ## Antares Initiative
 
+![Faction: Antares Initiative](faction_antares_initiative.png)
+
 |    |    |
 | -- | -- |
 | Name | Antares Initiative |
@@ -14,6 +16,8 @@ date: 2021-12-21T09:34:14+01:00
 At the time the planet-killer was discovered, early colonization efforts on Mars had just started to bear fruit. Not quite self-sustaining yet, the young colony had to decide whether to focus on making Mars habitable, accepting the risk of unknown consequences caused by a total destruction of earth, or to divert resources to the exodus project. The population was divided over the topic and eventually, the Antares Initiative split off to pursue a cost-effective way to reach the new homeworlds. Their technology is very basic and makes use of whatever was available on Mars at the time. They were among the first to leave and did so with many small, autonomous ships. Due to their sub-standard propulsion systems they only arrived very late in the colonies.
 
 ## Castillo-Ito Mercantile
+
+![Faction: Castillo-Ito Mercantile](faction_castillo_ito.png)
 
 |    |    |
 | -- | -- |
@@ -25,6 +29,8 @@ Castillo-Ito Mercantile is the result of a merger between the Ito Robotics Corpo
 
 ## Exodus Council
 
+![Faction: Exodus Council](faction_exodus_council.png)
+
 |    |    |
 | -- | -- |
 | Name | Exodus Council |
@@ -35,6 +41,8 @@ After initial attempts on part of various nation-states to get programs to build
 
 ## Insitor Cooperative
 
+![Faction: Insitor Cooperative](faction_insitor_cooperative.png)
+
 |    |    |
 | -- | -- |
 | Name | Insitor Cooperative |
@@ -44,6 +52,8 @@ After initial attempts on part of various nation-states to get programs to build
 Before the exodus, South America had become the breadbasket of the world and the countries and corporations of the continent had their mind set on becoming the same in the new worlds. Coordinated by the Insitor Bank, a cooperative owned and controlled mostly by agricultural and bio-tech companies, they opted for a monolithic approach, building a single huge, completely self-sufficient generation ship with more greenhouse and livestock capacity than any other design pursued by other factions. To satisfy the enormous need for resources, they pushed their governments to nationalize most of the private mining companies. Their colonization target was a very fertile planet they christened Promitor.
 
 ## NEO Charter Exploration
+
+![Faction: NEO Charter Exploration](faction_neo_charter_exploration.png)
 
 |    |    |
 | -- | -- |
