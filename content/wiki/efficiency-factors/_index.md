@@ -65,7 +65,7 @@ Each expert grants a bonus to a certain industry. Each industry, in turn, encomp
 | Expertise	   			| buildings (+ BUI tickers)														|
 |-----------------------|-------------------------------------------------------------------			|
 | Resource Extraction	| Collector (COL), Extractor (EXT),	Rig (RIG), Incinerator (INC)				|
-| Manufacturing  		| Basic Materials Plant (BMP), Textile Manufacturing (CLF), 3D Printer (PPF), Weaving Plant (WPL), Medium Component Assembly (MCA), Small Components Assembly (SCA), Spacecraft Prefab Plant (SPP), Appliances Factory (AAF), Spacecraft Propulsion Factory (SPF)	|
+| Manufacturing  		| Basic Materials Plant (BMP), Textile Manufacturing (CLF), 3D Printer (PPF), Weaving Plant (WPL), Medium Component Assembly (MCA), Small Components Assembly (SCA), Spacecraft Prefab Plant (SPP), Appliances Factory (APF), Advanced Appliances Factory (AAF), Spacecraft Propulsion Factory (SPF)	|
 | Agriculture  			| Farmstead (FRM), Hydroponics Farm (HYF), Orchard (ORC)        				|
 | Food Industries		| Food Processor (FP), Fermenter (FF), In-Vitro Plant (IVP)                     |
 | Construction			| Prefab Plant MK1 (PP1), Welding Plant (WEL), Prefab Plant MK2 (PP2), Unit Prefab Plant (UPF), Prefab Plant MK3 (PP3), Prefab Plant MK4 (PP4) |
