@@ -26,7 +26,7 @@ We think that the browser is a very capable gaming platform, available on pretty
 
 ### Can Prosperous Universe be played on mobile?
 
-A mobile version of Prosperous Universe is coming soon, please stay tuned for updates.
+Yes, a mobile version of Prosperous Universe has been released. Just open the game's URL on a mobile browser to access it.
 
 ### Will the game be available on Steam / the Apple App Store / my favorite platform?
 
