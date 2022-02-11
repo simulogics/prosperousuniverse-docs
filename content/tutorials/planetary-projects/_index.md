@@ -154,7 +154,7 @@ Which Faction you are able to select depends on whether the planet is in Faction
 
 **Local Market fees:** This section allows you to impose fees on the planet's [Local Market](../local-markets) (if there is one). The base fee denotes the up-front cost that residents have to pay to place an ad on the Local Market. The time factor determines what the ad will additionally cost them per day. For instance, setting the values to 100 CIS and 5 CIS respectively will put the total price of an ad running for five days to 125 CIS. Note that both values are limited in faction space; in the example shown above, the limits are 50-150 for the base fee (the value left of the forward slash) and 3-8 for the time factor (after the slash).
 
-**Production fees:** You may set different [production](../production) fees for each industry here. These fees are collected when a production order is placed in any production line on the planet, and they scale linearly with the order size. The amount and collector are listed near the bottom of every PRODCO window as shown below. Note that production fees are also limited within faction space. The possible range is listed at the top of the Local Rules list (10-30 in the example above).
+**Production fees:** You may set different [production](../production) fees for each industry and workforce tier here. The fee limits depend on whether your planet is in faction space. Additionally, more advanced workforce tiers have a higher upper limit. Production fees are collected when a production order is placed in any production line on the planet, and they scale linearly with the order size. Fees for buildings using multiple different workforce tiers are calculated via a weighted average depending on the composition of the overall workforce. The amount and collector of the fee are listed near the bottom of every PRODCO window as shown below.
 
 ![Production fees example](production-fees-example.png)
 
@@ -169,6 +169,18 @@ In the "Population" tab of the LR window, you can find a set of options and info
 **Infrastructure projects:** You can see a list of all [population infrastructure](#population-infrastructure) projects alongside the level that has been built by players on the planet, the currently active level and the target level. As the governor, you can set the latter yourself. Each population period, starting with a new population report, the current level will be set to the target level you selected (or the built level if you select "max"). This means you can run infrastructure below the maximum available level, for example if your population currently doesn't need the full need satisfaction and you don't want players to "waste" more upkeep materials than absolutely necessary. The rightmost column can help you make these decisions as it will show you how much each project contributed to a need's total satisfaction last period.
 
 **Need fulfillment (last period):** This section gives you an overview of last period's total need satisfaction levels to make it easier to gauge whether you need to upgrade certain kinds of infrastructure or raise their target levels.
+
+#### Government Programs
+
+In the "Programs" tab of the LR window, you can start political programs that will grant the planet a specific benefit for a certain time. Programs have a cooldown period of one week, so you can only run one program per week. If a program is active when the planet's [population report](../../tutorials/planetary-population#happiness--growth) is generated, it will affect this report's numbers.
+
+**Types of government programs:**
+* **Immigration:**: Add a certian number of workers of the chosen tier to your planet's population.
+* **Family Support:** Increase the growth of your PIO, SET and TEC population by a certain percentage.
+* **Education:** Increase the rate of workers leveling up to a higher tier by a certain percentage. 
+* **Festivities:** Increase the overall happiness of the planet's population by a certain percentage.
+
+You can check the details of a program's effect and its costs when you select it in the programs tab before activating it.
 
 ### Population Infrastructure
 
