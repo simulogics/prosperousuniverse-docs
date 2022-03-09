@@ -101,6 +101,8 @@ The example above refers to a Buying Ad. Selling Ads work exactly the same, with
 
 ![Selling Ad](selling-ad.png)
 
+Note that the provisioning condition can only be fulfilled from a "fixed" storage (e.g. a base or a warehouse, but not a ship) to make sure that the provisioned commodities are still present when the buyer pickes them up later.
+
 Before the seller fulfills condition #1, their partner will only be able to fulfill condition #2, i.e. pay for the commodity:
 
 ![Partner Selling Ad Pending](selling-ad-partner-pending.png)
@@ -157,6 +159,13 @@ If they do not react within those 24 hours, the contract will be breached automa
 ![Contract Extended Partner](contract-extended-partner.png)
 
 If company A still does not deliver during the extension period, company B will be faced with the same choice again once the deadline is exceeded. It is possible to prolong a contract indefinitely this way, 24 hours at a time.
+
+## Blocklist
+If you have a suspicion that an APEX user may be a pirate trying to delibarely breach shipping contracts to capture the involved commodities, or have otherwise had a bad experience with a specific contract partner, you can **block** them from accepting your LM ads from their USR command (e.g. "USR PirateUserName").
+
+When a user you blocked tries to accept one of your LM ads, they will receive an rejection message.
+
+Blocked users are listed under the Local Market Blocklist (LMBL) command, where you can also **unblock** them again.
 
 ## Edge cases
 
