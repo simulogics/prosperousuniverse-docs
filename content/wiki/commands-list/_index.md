@@ -34,6 +34,12 @@ If no parameters are supplied the command will show a list of all your inventori
 
 If the parameter contains a system or planet address (for example `INV XK-745` or `INV XK-745a`) it will only show inventories at that location.
 
+__MTRA__  
+_Optional parameter: material ticker_  
+_Optional parameter: source store ID_  
+_Optional parameter: target store ID_  
+Allows you to transfer a specific amount of items between two inventories. The material to be transferred as well as the source and target stores can be specified via the command's parameters or chosen from drop-down menus in the command window itself. Note that this command is also accessible (with pre-filled transfer details) via dragging an item from the source store to the target store and dropping it on the “AMT” slot.
+
 __WF__  
 _Mandatory parameter: base ID_  
 Shows an overview over a base’s workforce and their needs. The more sophisticated the workforce tier, the higher their needs. If you can’t supply your workers with the consumables they need, the efficiency of buildings they operate will drop. Accessible via the “Workforce” button in a concrete BS window.
