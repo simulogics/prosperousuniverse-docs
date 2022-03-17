@@ -294,6 +294,20 @@ __WAR__
 _Mandatory parameter: Planet ID_
 Shows public and private warehouse information like the amount of available storage units, the rental fees and so on.
 
+## Notification commands
+
+__NOTS__
+_No possible parameter_
+Displays a list of in-game notifications. Click a notification to get more information.
+
+__NOTIG__
+_No possible paramter_
+Allows you to change your in-game notification settings. Disabled types of notifications will not show up in the `NOTS` command.
+
+__NOTPNS__
+_No possible parameter_
+Allows you to change your push notification settings. Choose which types of notifications should be sent to you via email and in which frequency.
+
 ## Transmission commands
 
 __TRA__  
