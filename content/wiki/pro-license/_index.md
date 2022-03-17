@@ -10,7 +10,7 @@ This page lists all the features impacted by owning a PRO license. You can acqui
 |---|---|---|
 |Local Markets|TRIAL users may trade on official __commodity exchanges__, but cannot close any bulletin-board-style contracts on the local markets. __*__|PRO user companies are assigned trust ratings and can place or accept orders on the __local markets__. This includes posting and accepting __shipping contracts__.|
 |Space Flight|TRIAL users may not have more than __2 ships in flight simultaneously__.|PRO users can have an __unlimited number of ships in flight simultaneously__.|
-|Unload on arrival|TRIAL users __cannot activate "unload on arrival"__.|PRO users __can have ships automatically unload their cargo on arrival.__|
+|Unload on arrival|TRIAL users __cannot activate “unload on arrival”__.|PRO users __can have ships automatically unload their cargo on arrival.__|
 |Shipbuilding|TRIAL users can design their own spaceship __blueprints__, but cannot use shipyards to build the ships.|PRO users can enter their blueprints and the required materials at a shipyard to __build their own custom spaceships__.|
 |Corporations|TRIAL users may __join an existing corporation__, but not found their own.|PRO users can __found and oversee their own corporation__.|
 |Foreign Exchange|TRIAL users __cannot trade currencies__ on the foreign exchange market.|PRO users can freely place buy and sell orders to __trade all currencies__ on the foreign exchange market.|
