@@ -122,6 +122,11 @@ __CXL__
 _No possible parameter_  
 Lists all existing Commodity Exchanges. From here, you can quickly access a concrete Commodity Exchange without having to remember its particular parameter for the CX command.
 
+__CXM__  
+_Mandatory parameter: material ticker_  
+_Optional parameter: planet ID_  
+Compares commodity exchange information for the specified material across _all_ commodity exchanges. Exchanges will be sorted by their distance to the given planet (if one was entered).
+
 __CX__  
 _Mandatory parameter: Commodity Exchange ID_  
 This is where you can buy and sell items from a particular market. Select the commodity category from the dropdown menu. Accessible for example by clicking the name of a commodity exchange in the CXL window.
@@ -239,7 +244,7 @@ Instead of entering the planet ID by hand, you may also click the planet directl
 If no planet ID is provided a search box is being displayed instead of the planet data which allows to search for planets.
 
 __STI__  
-_Obligatory parameter: Station ID_  
+_Mandatory parameter: Station ID_  
 Shows general information about a space station and provides access to its  Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
 
 ## Planetary project commands
@@ -277,35 +282,35 @@ Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via
 ### Administration Center commands
 
 __ADM__
-_Mandatory parameter: Planet ID_
+_Mandatory parameter: Planet ID_  
 Shows information on the planet's [Administration Center](../../tutorials/planetary-projects/#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
 
 __LR__
-_Mandatory parameter: Planet ID_
+_Mandatory parameter: Planet ID_  
 Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
 
 __ADMT__
-_Mandatory parameter: Term ID_
+_Mandatory parameter: Term ID_  
 Shows the election results of a previous term. Accessible by clicking the number of the desired term in the ADM window. Alternatively, the term ID can be entered by hand; it consists of the following string of characters: “p-”[Planet ID] “t-”[Term Number]. For example, to view the second election term of Planet FO-250a, the term ID would be: _p-FO-250a t-2_
 
 ### Warehouse commands
 
 __WAR__
-_Mandatory parameter: Planet ID_
+_Mandatory parameter: Planet ID_  
 Shows public and private warehouse information like the amount of available storage units, the rental fees and so on.
 
 ## Notification commands
 
 __NOTS__
-_No possible parameter_
+_No possible parameter_  
 Displays a list of in-game notifications. Click a notification to get more information.
 
 __NOTIG__
-_No possible paramter_
+_No possible paramter_  
 Allows you to change your in-game notification settings. Disabled types of notifications will not show up in the `NOTS` command.
 
 __NOTPNS__
-_No possible parameter_
+_No possible parameter_  
 Allows you to change your push notification settings. Choose which types of notifications should be sent to you via email and in which frequency.
 
 ## Transmission commands
