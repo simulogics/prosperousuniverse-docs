@@ -30,7 +30,7 @@ Yes, a mobile version of Prosperous Universe has been released. Just open the ga
 
 ### Will the game be available on Steam / the Apple App Store / my favorite platform?
 
-First and foremost, Prosperous Universe is a browser-based game. While we do have plans to provide a client software that could be offered on platforms like Steam or the Apple App Store, this is a low priority for us right now.
+First and foremost, Prosperous Universe is a browser-based game. We have released it on [Steam](https://store.steampowered.com/app/1761220/Prosperous_Universe/) as well, supporting Windows and Linux at the moment, other platforms like Apple App Store are a low priority for us right now though.
 
 ### Can I change my username?
 
