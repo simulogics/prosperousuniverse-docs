@@ -32,7 +32,6 @@ This is a list of all resources created by the community. Please let us know if 
 | Rain's System Overview and Planet Finder          | https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272 |
 | Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1AT0EC3aB3SoXBIMHzqchvSw0MLD4IJdcKhPT7YzCniY/edit#gid=1884208544 |
 | Illuminate                                        | https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033 |
-| P/D/C Calculator Template                         | https://docs.google.com/spreadsheets/d/1lMbzrl18bu36hv9xWgA-gToh-EycrY14BE_8aNzFfJk/edit?usp=sharing    |
 | FIO Data Import Spreadsheet                       | https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing    |
 | Governorship Accounting Template                  | https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing    |
 | Governance Expenses Template                      | https://docs.google.com/spreadsheets/d/1yunwfdcR3CMMNKOV4snCbY5B-KvJ5Kq36xLDCFg0cp8/edit?usp=sharing    |
