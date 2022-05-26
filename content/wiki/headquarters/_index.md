@@ -22,7 +22,7 @@ Each upgrade is more expensive than the one before. Starting from level 6, upgra
 
 ### Faction bonuses
 
-Depending on the faction of your HQ's location (find it in the **PLI** command of the planet your HQ is located on), it will grant you a bonus on your production efficiency in certain industries:
+Depending on the faction of your HQ's location (find it in the **PLI** command of the planet your HQ is located on), it will grant you a bonus on your production efficiency in certain industries across all your bases:
 * **Antares Initiative:** 5% bonus on electronics
 * **Castillo-Ito Mercantile:** 5% bonus on manufacturing
 * **Insitor Cooperative:** 3% bonus on agriculture, 2% on food industries
