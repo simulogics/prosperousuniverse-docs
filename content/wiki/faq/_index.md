@@ -199,6 +199,44 @@ Read the [FX Tutorial](../../tutorials/foreign-exchange/)
 
 This message means that the user in question does not have sufficient storage space (weight or volume) to store the shipment. Contact the user to let them know.
 
+### What happens when you don't pay your warehouse fee?
+
+Your warehouse is locked and you cannot use it or access any materials contained within it. If you fail to pay for multiple weeks, you will need to pay each missing week before it unlocks.
+
+### Is there a notepad I can use in game?
+
+Not *specifically* a notepad. However, you can make a new chat group just for yourself and type in there.
+- Click **COM**
+- Click **NEW GROUP**
+- Type "Notepad"
+- Click **CREATE**
+- Dock the buffer as a tile
+
+Doing this has the added benefit of allowing you to type tickers in the chat and viewing the up-to-date price for those tickers.
+
+### How do I get the special ticker links in the chat?
+
+Simply type the ticker.  For example: `RAT.IC1`
+
+### How can I find a planet on the map?
+- Have **MU NAV** visible (click the **MAP** button)
+- Hover over a link to the planet to see the pulsating radial around the system
+
+To find a link to a planet by name:
+- Click **NEW BFR**
+- Type **PLI** and hit enter
+- Type in the name of the planet and click it
+- Click the **SYSI** (System Information) button at the top of the newly created **PLI** buffer
+- Mouse over the planet link
+
+### How can I test how much fuel and how long it takes to get somewhere?
+- Click **NEW BFR**
+- Type **BLU** and hit enter
+- Click **CREATE NEW**
+- The standard blueprint preset is your starter ship
+- Click **TEST** next to the **VIEW** button
+- Click **BTF** button in the upper-right (Blueprint Flight Simulator)
+- Add a Origin, Destination, and modify settings as necessary.
 
 ## Base
 
@@ -299,6 +337,35 @@ Before building a RIG, EXT, or COL it is important to check the PLI (Planet Info
 
 Do note that many resources can be in any of the three states and the building required to extract the material may vary.
 
+### How do recurring orders work?
+
+Recurring orders is a [PRO](https://handbook.apex.prosperousuniverse.com/wiki/pro-license/) feature. When a recurring order moves from the pending queue to the active queue, the same order is re-added to the *bottom* of the pending queue. In this way, the recurring order system allows you to cycle through recipes repeatedly.
+
+### How many times can you upgrade the HQ level?
+
+- With a Trial/Basic account, you can upgrade up to HQ level 5.
+- With a PRO account, you can upgrade an infinite amount of times. The costs of HQ upgrades does go up, however.
+
+If your account degrades from PRO to Basic, you maintain your existing HQ level but cannot upgrade until you have PRO again.
+
+### Is there a way to know the costs of future HQ levels?
+
+In-game, you can only see the next level's costs. However, members of the community have tracked the [HQ level costs](https://pct.fnar.net/hq/).
+
+### What parts do I get from demolishing a building?
+
+You will get a percentage of the parts depending on how long it has been since you last repaired. If you demolish the building within one hour of building it, you will receive all parts back.  To view the parts you will receive:
+- Click **BS**
+- Click **VIEW BASE**
+- Click **BUILDINGS**
+- Find the building you are considering demolishing
+- Materials listed under **Reclaimable materials** are the parts you will get back
+
+### How can I calculate my workforce's efficiency?
+
+Workforce calculations sometimes change and aren't directly exposed in the game.  However, members of the community have calcuated the [efficiency formulas](https://pct.fnar.net/workforce/).
+
+
 
 ## Commodity Exchange
 
@@ -344,6 +411,17 @@ In order to sell items on the CX, you need to ensure that those items are availa
 
 Use the **CXOS** command to delete the order.
 
+### How do you read the CX charts (CXPC)?
+
+The CX charts (CXPC command) are **Candlestick Charts**. You can modify the timeframe in the upper-left and the transaction grouping timeframe in the upper-right. As you move your mouse over horizontally, values in the upper-left will change relative to where you are hovering:
+- **O** - Open price - The price at the start of the timeframe
+- **H** - High price - The highest price of the timeframe
+- **L** - Low price - The lowest price of the timeframe
+- **C** - Close price - The price at the end of the timeframe
+- **Vol** - Volume - The total units sold times the price.
+- **SMA** - Simple Moving Average - The average price (blue line).
+
+The number of units sold is represented by the bars at the bottom.
 
 ## Bugs
 

@@ -29,7 +29,8 @@ Depending on the faction of your HQ's location (find it in the **PLI** command o
 * **NEO Charter Exploration:** 2% bonus on metallurgy, 3% on construction
 * **No faction:** 2% bonus on chemistry, fuel refining and resource extraction
 
-Furthermore, this bonus is modified by the ratio of used base permits to available base permits. The lower this ratio is the higher the bonus.  
+Furthermore, this bonus is modified by the ratio of used base permits to available base permits. The lower this ratio is the higher the bonus.
+The bonus is calculated by the following formula: `Multiplier = -2 * (UsedPermits / TotalPermits) + 3`
 
 You can relocate your HQ to another one of your bases every 30 days. It will keep its current level.
 
