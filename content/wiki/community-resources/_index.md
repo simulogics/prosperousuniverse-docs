@@ -31,6 +31,8 @@ This is a list of all resources created by the community. Please let us know if 
 | Rain's Master Base Planner                        | https://docs.google.com/spreadsheets/d/1OPa0RJcCT3LTUs7eVmcw2tJwP5yZ3TsQBR07GufVIlU/edit?usp=sharing    |
 | Rain's System Overview and Planet Finder          | https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272 |
 | Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1AT0EC3aB3SoXBIMHzqchvSw0MLD4IJdcKhPT7YzCniY/edit#gid=1884208544 |
+| Master Storage and Consumables x FIO              | https://docs.google.com/spreadsheets/d/15gbWAFxbkOwQOc7hI8W4TAdhj__sLaoxRP24EY33y54/edit?usp=sharing    |
+| PRUN Utilities                                    | https://docs.google.com/spreadsheets/d/11IltJmi06t2RdzQDLuAalTDvuZyZ-g0MNEnC6kGSZJg/edit?usp=sharing    |
 | Illuminate                                        | https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033 |
 | FIO Data Import Spreadsheet                       | https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing    |
 | Governorship Accounting Template                  | https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing    |
@@ -46,6 +48,7 @@ This is a list of all resources created by the community. Please let us know if 
 | Extension/Utility | FIO Tooltips           | binarygod                        | https://github.com/Manderius/PrUn_Tooltips                                                 | Show exchange data on inventory items on mouse-over.                                           |
 | Extension/Utility | PCT Wiki               | PCT Discord                      | https://pct.fnar.net/                                                                      | PrUn Community Tools wiki of detailed game mechanics.                                          |
 | Utility           | Plex Tools             | Plexucra                         | http://prun.plexucra.de/                                                                   | Tools for the daily work of a galactic CEO with a starmap, profit analyzer, and much more.     |
+| Utility           | Prosper                | b3dtime                          | https://prosper.run/                                                                       | A tool to visualize production chains as well as show the values of your inventory.            |
 | Map/Search        | Prosperity             | Ined                             | https://prosperity-prun.netlify.app/                                                       | Search a 2D map, find resource locations, and plot jump routes.                                |
 | Base Management   | PRUNner                | Jacudibu                         | https://github.com/Jacudibu/PRUNner/                                                       | Standalone base planning app to establish your empire without using spreadsheets!              |
 | APEX Modification | PrUnTools              | binarygod                        | https://github.com/timthedevguy/PrUnTools_Public                                           | Collection of TamperMonkey APEX console mods.                                                  |
