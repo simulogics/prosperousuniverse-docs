@@ -147,7 +147,7 @@ These four commands relate to concrete commodities on a concrete market. Next to
 “INFO”: CXP, which shows an overview over current bids, ask amounts, all-time highs and lows etc.
 “CHART”: CXPC. Shows a candlestick chart of a commodity’s price over time. If it says “No data”, the commodity hasn’t been sold in the indicated time period. Select a longer time window to fix it.
 “ORDERS”: CXOB command, where you can see pending requests and offers.
-“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than TRIAL licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
+“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than FREE licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
 
 ## Space flight commands
 It is recommended you use the FLT command and access the other commands from there. To see all these commands in action, have a look at the space-flight tutorial.
