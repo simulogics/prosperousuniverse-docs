@@ -54,6 +54,28 @@ A shipyard's buffer allows you to select one of your blueprints from a drop-down
 
 A shipbuilding project primarily consists of a big list of materials that you need to provide to start the actual building process. You can transfer the required materials from any local storage (which you can select from the drop-down menu at the top of the materials list). Once the material bill has been filled completely, you can start the building process. After a few days (depending on the size of your ship), your new ship will be added to your fleet (which you can always view via the FLT command).
 
+### Ship Upgrades
+The second type of shipyard project is an __upgrade project__.
+
+![Ship upgrade project](ship-upgrade.png)
+
+To initiate an upgrade project, you need to select two blueprints:
+* __Origin Blueprint:__ The blueprint of the ship that you want to modify. You can check a ship's blueprint via its SHP command.
+* __Target Blueprint:__ The blueprint you want the ship to end up with after the upgrade.
+
+The costs for upgrading a ship depend on the difference between the blueprints you select. You will have to provide all the materials present in the target blueprint that were not already part of the origin blueprint.
+
+![Upgraded ship selection](ship-upgrade-selection.png)
+
+When opening an upgrade project in its SHYP command, there will be a dropdown menu to select the ship you want to be upgraded. An upgrade project cannot be started without selecting a ship. Note that to be able to select a ship in the first place, it needs to be __present at the shipyard's location__.
+
+To actually start the upgrade process, the ship needs to also fulfill the following criteria:
+* The ship's blueprint needs to match the origin blueprint of the project.
+* The ship's inventory as well as its STL and FTL fuel tanks need to be empty.
+* The ship cannot already be used in another ongoing upgrade project.
+
+Once you start an upgrade project, the selected ship will be locked until the upgrade is completed. This means its stores cannot be interacted with and it cannot start a flight.
+
 ## Ship Damage
 
 ![Ship damage](ship-damage.png)
