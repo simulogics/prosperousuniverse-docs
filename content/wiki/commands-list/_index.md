@@ -113,6 +113,10 @@ __CONTS__
 _No possible parameter_  
 Displays a list of all your contracts from Commodity Exchanges and Local Markets. Click any contract to open its CONT buffer. Note that you can also view Pending Contracts by selecting them from the list in the right sidebar. (If you can’t see the sidebar, toggle it on using the SDBR button on the left.) Learn more about contracts in the “Trading” and “Local Markets” tutorials.
 
+__CONTD__
+_Optional parameter: contract ID_
+Displays a list of all your contract drafts. Specifying a contract id, or clicking on any draft, will open the draft detail view, where the draft can be edited and sent out.
+
 ## Commodity Exchange commands
 These following commands all pertain to Commodity Exchanges. The first two are probably the most useful. See all these commands in action in the “Getting Started” tutorial.
 
