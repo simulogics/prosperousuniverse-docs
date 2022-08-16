@@ -40,7 +40,7 @@ Unfortunately not. However, you can change your company name using COLIQ.
 
 Currently, there are no set dates for when this universe will reset. The current universe started on February 23, 2021. The universe for First Access (previous universe) lasted approximately 2 years.
 
-### What's the difference between PRO/Basic/Trial?
+### What's the difference between PRO/BASIC/FREE?
 
 You can find in-depth information [here](../pro-license).
 
@@ -117,7 +117,7 @@ Other acronyms:
 
 ### Is there any way to trade wares privately?
 
-Yes, via the usage of the **CONTD** command.
+Yes, PRO users can create custom contracts using the **CONTD** command and send them to other players. Closing contracts requires a PRO or BASIC license.
 
 ### How do I coordinate with my friend?
 
@@ -343,7 +343,7 @@ Recurring orders is a [PRO](https://handbook.apex.prosperousuniverse.com/wiki/pr
 
 ### How many times can you upgrade the HQ level?
 
-- With a Trial/Basic account, you can upgrade up to HQ level 5.
+- With a FREE/BASIC account, you can upgrade up to HQ level 5.
 - With a PRO account, you can upgrade an infinite amount of times. The costs of HQ upgrades does go up, however.
 
 If your account degrades from PRO to Basic, you maintain your existing HQ level but cannot upgrade until you have PRO again.

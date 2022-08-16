@@ -113,6 +113,10 @@ __CONTS__
 _No possible parameter_  
 Displays a list of all your contracts from Commodity Exchanges and Local Markets. Click any contract to open its CONT buffer. Note that you can also view Pending Contracts by selecting them from the list in the right sidebar. (If you can’t see the sidebar, toggle it on using the SDBR button on the left.) Learn more about contracts in the “Trading” and “Local Markets” tutorials.
 
+__CONTD__
+_Optional parameter: contract ID_
+Displays a list of all your contract drafts. Specifying a contract id, or clicking on any draft, will open the draft detail view, where the draft can be edited and sent out.
+
 ## Commodity Exchange commands
 These following commands all pertain to Commodity Exchanges. The first two are probably the most useful. See all these commands in action in the “Getting Started” tutorial.
 
@@ -147,7 +151,7 @@ These four commands relate to concrete commodities on a concrete market. Next to
 “INFO”: CXP, which shows an overview over current bids, ask amounts, all-time highs and lows etc.
 “CHART”: CXPC. Shows a candlestick chart of a commodity’s price over time. If it says “No data”, the commodity hasn’t been sold in the indicated time period. Select a longer time window to fix it.
 “ORDERS”: CXOB command, where you can see pending requests and offers.
-“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than TRIAL licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
+“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than FREE licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
 
 ## Space flight commands
 It is recommended you use the FLT command and access the other commands from there. To see all these commands in action, have a look at the space-flight tutorial.
