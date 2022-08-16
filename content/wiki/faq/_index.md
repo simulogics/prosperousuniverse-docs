@@ -117,7 +117,7 @@ Other acronyms:
 
 ### Is there any way to trade wares privately?
 
-Not currently. You can, however, with PRO list a LM (Local Market) buy ad for 0.01 currency. Do note that there are fees associated with listing ads.
+Yes, PRO users can create custom contracts using the `CONTD` command and send them to other players. Closing contracts requires a PRO or BASIC license.
 
 ### How do I coordinate with my friend?
 
