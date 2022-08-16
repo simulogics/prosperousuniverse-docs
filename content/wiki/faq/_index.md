@@ -117,7 +117,7 @@ Other acronyms:
 
 ### Is there any way to trade wares privately?
 
-Not currently. You can, however, with PRO list a LM (Local Market) buy ad for 0.01 currency. Do note that there are fees associated with listing ads.
+Yes, via the usage of the **CONTD** command.
 
 ### How do I coordinate with my friend?
 
@@ -365,6 +365,32 @@ You will get a percentage of the parts depending on how long it has been since y
 
 Workforce calculations sometimes change and aren't directly exposed in the game.  However, members of the community have calcuated the [efficiency formulas](https://pct.fnar.net/workforce/).
 
+### How do I repair my ship?
+
+- Click your ship's transponder link or name link in the **FLT** tile/buffer.
+- Acquire the **Repair costs** materials and place them into a planet's **Base inventory**.
+- Fly your ship to that planet
+- Click your ship's transponder link or name link and click **REPAIR**
+
+### What do the numbers in parenthesis next to the planet plots means?
+
+The **(+###)** is the number of "ghost plots" or the number of plots taken that is over the capacity of the planet. For your first base, you are permitted to start on any planet (including full planets).  If the planet is at capacity, the number of ghost plots increases. This allows new players to be able to settle any initial planet without hindrance.
+
+Do note that for any subsequent base, you are unable to settle planets that are capacity. If a regular plot player is reaped (due to inactivity), the first ghost plot takes its place.
+
+### What does it mean when a contract is "closed"?
+
+The word **close** or **closed** has a legal meaning of "both parties agree to the contract and it is unchangeable." Effectively, it means both parties accept the terms.
+
+### Why would I want to multiply orders?
+
+When starting out, you generally never want to multiply orders. However, after some time, you will end up multiplying orders to:
+
+- Stagger production outputs
+- Maintain output ratios (a very common use-case is FRM outputs for RAT)
+- Reduce how frequently you need to interact with a production line
+
+The major reason you don't want to multiply orders in the early game is because expert accumulation is done at the completion of an order.  So if you are 6 hours away from your next expert, but you queue up a 20x order which takes 48 hours, you won't gain the benefit of the additional expert for that order.
 
 
 ## Commodity Exchange
