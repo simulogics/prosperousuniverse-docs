@@ -363,7 +363,7 @@ You will get a percentage of the parts depending on how long it has been since y
 
 ### How can I calculate my workforce's efficiency?
 
-Workforce calculations sometimes change and aren't directly exposed in the game.  However, members of the community have calcuated the [efficiency formulas](https://pct.fnar.net/workforce/).
+Workforce calculations sometimes change and aren't directly exposed in the game.  However, members of the community have calculated the [efficiency formulas](https://pct.fnar.net/workforce/).
 
 ### How do I repair my ship?
 
