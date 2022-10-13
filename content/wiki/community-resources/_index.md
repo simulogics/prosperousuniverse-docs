@@ -31,6 +31,7 @@ This is a list of all resources created by the community. Please let us know if 
 | Rain's Master Base Planner                        | https://docs.google.com/spreadsheets/d/1OPa0RJcCT3LTUs7eVmcw2tJwP5yZ3TsQBR07GufVIlU/edit?usp=sharing    |
 | Rain's System Overview and Planet Finder          | https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272 |
 | Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1AT0EC3aB3SoXBIMHzqchvSw0MLD4IJdcKhPT7YzCniY/edit#gid=1884208544 |
+| Master Storage and Consumables                    | https://docs.google.com/spreadsheets/d/1lfkW_hEUSg4mbUoCrocxRS5QOp1rGDSc5kcT10w0d9w/edit#gid=1487597491 |
 | Master Storage and Consumables x FIO              | https://docs.google.com/spreadsheets/d/15gbWAFxbkOwQOc7hI8W4TAdhj__sLaoxRP24EY33y54/edit?usp=sharing    |
 | PRUN Utilities                                    | https://docs.google.com/spreadsheets/d/11IltJmi06t2RdzQDLuAalTDvuZyZ-g0MNEnC6kGSZJg/edit?usp=sharing    |
 | Illuminate                                        | https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033 |
