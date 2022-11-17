@@ -91,6 +91,7 @@ The cooldown timers for COLIQ are:
 ### I'm going to be away from the game for some time. How are inactive accounts handled?
 
 - PRO accounts will not be removed at all
+- BASIC accounts will be notified after 120 days of inactivity and deleted 31 days afterwards
 - Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards
 - Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards
 - Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards
