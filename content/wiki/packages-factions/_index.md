@@ -79,18 +79,16 @@ Promitor (Insitor Cooperative)
 
 ### Manufacturer
 __Short description__  
-Manufacturers extract atmospheric gases to produce plastics and carbon.
+Manufacturers produce construction granulate, tools and plastics for their trade partners to process further.
 
 __Long description__  
-As a manufacturer, you will be a versatile creature which does not depend too much on a single industry. Your company's main purposes will be the collection of gases from your planet's atmosphere and the production of polyethylene, which in turn can be used to produce clothing and building parts by your trade partners.
+As a manufacturer, you will be a versatile creature which does not depend too much on a single industry. Your company's main purpose will be to supply your trade partners with goods such as basic clothing and building parts. Getting started as a manufacturer is quite complex logistically, as you will have to buy your input materials from a nearby commodity exchange.
 
 #### Important notes
-Your production lines will need carbon and hydrogen to operate. While hydrogen can be extracted from the atmosphere of certain planets directly, you will depend on other companies to sell you carbon, which is more likely to circulate on planets providing water and high fertility.
+Your production lines will need hydrogen and carbon to operate. Hydrogen can be extracted from the atmosphere of certain planets directly, but initially you should look into buying it from a commodity exchange. Carbon is produced by an incinerator from various agricultural goods that will also be available on the market.
 
 #### Recommended starter buildings
-__Collector (COL):__  Extracts gases from the atmosphere.  
-__Incinerator (INC):__ Extracts carbon from plants.  
-__Basic Materials Plant (BMP):__ Produces a host of materials and end products needed to bootstrap a colony.
+__Basic Materials Plant (BMP) (2x):__ Produces a host of materials and end products needed to bootstrap a colony.
 
 #### Recommended starter planets
 Vallis (NEO Charter Exploration)  

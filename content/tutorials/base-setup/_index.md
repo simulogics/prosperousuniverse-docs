@@ -60,7 +60,7 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Victualler: Rig, Farmstead, Food Processor  
 * Metallurgist: Extractor, Smelter  
 * Carbon Farmer: 2x Farmstead, Incinerator  
-* Manufacturer: Collector, Incinerator, Basic Materials Plant  
+* Manufacturer: 2x Basic Materials Plant  
 * Constructor: Basic Materials Plant, Prefab Plant Mk 1  
 * Fuel Engineer: Refinery; Collector _or_ Extractor
 
