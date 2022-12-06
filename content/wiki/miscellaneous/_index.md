@@ -30,9 +30,4 @@ The APEX chat has a number of special functions.
 - **Linking companies**: Preceding any company code with the dollar sign *$* will make it clickable in the chat window and link to the company profile.  
 - **Linking licensees**: Preceding any person's name with the @ sign will make it clickable in the chat window and link to the licensee's profile.  
 
-
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

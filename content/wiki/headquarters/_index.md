@@ -34,8 +34,4 @@ The bonus is calculated by the following formula: `Multiplier = -2 * (UsedPermit
 
 You can relocate your HQ to another one of your bases every 30 days. It will keep its current level.
 
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

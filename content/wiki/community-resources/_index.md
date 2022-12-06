@@ -60,3 +60,4 @@ This is a list of all resources created by the community. Please let us know if 
 | Map               | Universe Map Tool      | McCowen                          | http://prosperous.freecluster.eu/                                                          | Pan and Zoom this map of systems, FTL flight paths, system and planet names and faction space. |
 | Search            | yapt                   | aeryen                           | https://aeryen23.github.io/yapt/                                                           | Search planets, info about a company & general base count.                                     |
 
+{{% about-this-page %}}

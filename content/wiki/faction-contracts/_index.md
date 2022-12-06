@@ -55,8 +55,4 @@ If you don't want to receive faction contract offers you can disable the offers 
 
 ![Disable faction contract offers in FA command](./disable.png)
 
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

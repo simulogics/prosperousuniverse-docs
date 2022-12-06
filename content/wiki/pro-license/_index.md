@@ -25,8 +25,4 @@ This page lists all the features impacted by owning a PRO license. You can acqui
 
 __*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a FREE license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads.
 
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

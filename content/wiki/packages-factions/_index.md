@@ -177,9 +177,4 @@ Before the exodus, South America had become the breadbasket of the world and the
 #### Controlled planets
 Promitor, SW-926C, Hortus c
 
-
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

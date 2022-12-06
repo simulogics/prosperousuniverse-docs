@@ -350,9 +350,4 @@ Allows you to create a new Screen. To call this command, you may use the “ADD�
 __FIN, FINLA, FINIS, FINBS__  
 These four commands provide you with a detailed overview over your company’s financial situation. More information on these commands will follow shortly.
 
-
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}

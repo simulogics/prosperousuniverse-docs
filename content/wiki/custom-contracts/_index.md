@@ -42,8 +42,4 @@ Adding someone to the blocklist will prevent the reception of contract drafts fr
 
 Sending a contract draft requires a `PRO` license, closing one either `BASIC` or `PRO`.
 
-## About this page
-
-This page is part of the APEX handbook's wiki section. If you are looking for an introduction to APEX, please refer to the [tutorials](../../tutorials).
-
-If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
+{{% about-this-page %}}
