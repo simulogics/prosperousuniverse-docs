@@ -65,8 +65,8 @@ __HQ__
 _No possible parameter_  
 Shows you which of your bases currently is your company headquarters and allows you to relocate your headquarters to another base for different [faction bonuses](../headquarters). You can also upgrade your headquarters here to unlock additional base permits and production queue slots.
 
-__BRA__
-_No possible parameter_
+__BRA__  
+_No possible parameter_  
 Allows you to select one of your bases and repair multiple of its buildings at once by specifying a minimum building condition. All buildings in the selected base at or below that condition will be included in the repairs.
 
 ## Social commands
