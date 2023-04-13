@@ -268,7 +268,7 @@ Use some of the great [community tools](../community-resources/#tools):
 
 ### My workforce says something like 180 (40). What does the number in brackets mean?
 
-The number of workforce that were pulled from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution).
+The number of workforce that were pulled from the [workforce reserve pool](../../tutorials/legacy-tutorials/planetary-population/index.html#worker-redistribution).
 
 ### How do I cancel an ad I placed on the LM (Local Market)?
 
