@@ -111,9 +111,9 @@ Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 
 Other acronyms:
 - MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges)
-- LM - [Local Market](../../tutorials/planetary-projects/#local-markets)
-- COGC - [Chamber of Global Commerce](../../tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
-- POPI - [Population Infrastructure](../../tutorials/planetary-population/)
+- LM - [Local Market](../../tutorials/legacy-tutorials/planetary-projects/#local-markets)
+- COGC - [Chamber of Global Commerce](../../tutorials/legacy-tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
+- POPI - [Population Infrastructure](../../tutorials/legacy-tutorials/planetary-population/)
 - For all others, check the [Command List](../commands-list/) page
 
 ### Is there any way to trade wares privately?
@@ -194,7 +194,7 @@ As with most things in Prosperous Universe, it depends on the scenario in questi
 
 ### How does the FX (Currency Exchange) work?
 
-Read the [FX Tutorial](../../tutorials/foreign-exchange/)
+Read the [FX Tutorial](../../tutorials/legacy-tutorials/foreign-exchange/)
 
 ### I tried delivering a shipment but it says "Fulfillment Attempted." What do I do?
 
@@ -257,7 +257,7 @@ Possible causes:
 - There are no consumables for your workers available in the base storage
 - There are no inputs available for the recipe
 - You do not have sufficient funds for production taxes
-- There are no workers of that tier available from the [workforce reserve pool](../../tutorials/planetary-population/#worker-redistribution)
+- There are no workers of that tier available from the [workforce reserve pool](../../tutorials/legacy-tutorials/planetary-population/#worker-redistribution)
 
 ### How do I figure out what planets have the resource I'm looking for?
 
