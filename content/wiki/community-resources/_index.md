@@ -26,19 +26,19 @@ This is a list of all resources created by the community. Please let us know if 
 
 ## Spreadsheets
 
-| Name                                              | Link                                                                                                    |
-|---------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Rain's Master Base Planner                        | https://docs.google.com/spreadsheets/d/1OPa0RJcCT3LTUs7eVmcw2tJwP5yZ3TsQBR07GufVIlU/edit?usp=sharing    |
-| Rain's System Overview and Planet Finder          | https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272 |
-| Rain's Master Base Planner (with FIO Integration) | https://docs.google.com/spreadsheets/d/1AT0EC3aB3SoXBIMHzqchvSw0MLD4IJdcKhPT7YzCniY/edit#gid=1884208544 |
-| Master Storage and Consumables                    | https://docs.google.com/spreadsheets/d/1lfkW_hEUSg4mbUoCrocxRS5QOp1rGDSc5kcT10w0d9w/edit#gid=1487597491 |
-| Master Storage and Consumables x FIO              | https://docs.google.com/spreadsheets/d/15gbWAFxbkOwQOc7hI8W4TAdhj__sLaoxRP24EY33y54/edit?usp=sharing    |
-| PRUN Utilities                                    | https://docs.google.com/spreadsheets/d/11IltJmi06t2RdzQDLuAalTDvuZyZ-g0MNEnC6kGSZJg/edit?usp=sharing    |
-| Illuminate                                        | https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033 |
-| FIO Data Import Spreadsheet                       | https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing    |
-| Governorship Accounting Template                  | https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing    |
-| Governance Expenses Template                      | https://docs.google.com/spreadsheets/d/1yunwfdcR3CMMNKOV4snCbY5B-KvJ5Kq36xLDCFg0cp8/edit?usp=sharing    |
-| Population Calculator (by PiBoy314)               | https://docs.google.com/spreadsheets/d/1JO_tkU6R8d_WiPA7hVJ685WrdyJhaOxP_Q9cU-1kfNo/edit#gid=827834260  |
+| Name                                              | Link                                                                                                                           |
+|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Rain's Master Base Planner                        | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1OPa0RJcCT3LTUs7eVmcw2tJwP5yZ3TsQBR07GufVIlU/edit?usp=sharing)    |
+| Rain's System Overview and Planet Finder          | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1coW_1dmdnEZuAJNwgVOQd8TA9TEOC36igqsiDm4spq0/edit#gid=1088718272) |
+| Rain's Master Base Planner (with FIO Integration) | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1AT0EC3aB3SoXBIMHzqchvSw0MLD4IJdcKhPT7YzCniY/edit#gid=1884208544) |
+| Master Storage and Consumables                    | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1lfkW_hEUSg4mbUoCrocxRS5QOp1rGDSc5kcT10w0d9w/edit#gid=1487597491) |
+| Master Storage and Consumables x FIO              | [Google spreadsheets](https://docs.google.com/spreadsheets/d/15gbWAFxbkOwQOc7hI8W4TAdhj__sLaoxRP24EY33y54/edit?usp=sharing)    |
+| PRUN Utilities                                    | [Google spreadsheets](https://docs.google.com/spreadsheets/d/11IltJmi06t2RdzQDLuAalTDvuZyZ-g0MNEnC6kGSZJg/edit?usp=sharing)    |
+| Illuminate                                        | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1DEdjT23XCx8BmLvc_lihKkYY3qLR-HZxe5KkNqMqWWo/edit#gid=1905179033) |
+| FIO Data Import Spreadsheet                       | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing)    |
+| Governorship Accounting Template                  | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing)    |
+| Governance Expenses Template                      | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1yunwfdcR3CMMNKOV4snCbY5B-KvJ5Kq36xLDCFg0cp8/edit?usp=sharing)    |
+| Population Calculator (by PiBoy314)               | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1JO_tkU6R8d_WiPA7hVJ685WrdyJhaOxP_Q9cU-1kfNo/edit#gid=827834260)  |
 
 ## Tools
 
