@@ -53,12 +53,12 @@ This is a list of all resources created by the community. Please let us know if 
 | Map/Search        | Prosperity          | Ined                         | https://prosperity-prun.netlify.app/             | Search a 2D map, find resource locations, and plot jump routes.                                |
 | Utility           | PrUnIcon            | allocator                    | https://pastebin.com/aWe7XJ7a                    | Modified colors and icons for material boxes.                                                  |
 | Base Management   | PRUNner             | Jacudibu                     | https://github.com/Jacudibu/PRUNner/             | Standalone base planning app to establish your empire without using spreadsheets!              |
+| Utility           | PRUNplanner         | Scorpio                      | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
 | APEX Modification | PrUnTools           | binarygod                    | https://github.com/timthedevguy/PrUnTools_Public | Collection of TamperMonkey APEX console mods.                                                  |
 | Extension         | PMMG Extended       | PiBoy314 (Orig Yarek)        | https://sites.google.com/view/pmmgextended       | Improve and tweak the interface elements of Prosperous Universe (and more!)                    |
 | Extension/Utility | Screens Inline      | Rynx                         | https://github.com/Manderius/PrUn_Addon          | Add individual screens inline as well as add preferred exchange links for material buffers.    |
 | Utility           | Universal Logistics | wyago                        | https://universallogistics.app/                  | An exploratory tool for visualizing material supply chains and optimizing building profits.    |
 | Map               | Universe Map Tool   | McCowen                      | http://prosperous.freecluster.eu/                | Pan and Zoom this map of systems, FTL flight paths, system and planet names and faction space. |
 | Search            | yapt                | aeryen                       | https://aeryen23.github.io/yapt/                 | Search planets, info about a company & general base count.                                     |
-| Utility           | PRUNplanner         | Scorpio                      | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
 
 {{% about-this-page %}}
