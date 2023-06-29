@@ -322,11 +322,9 @@ In order to not be **Pending (P)**:
 - Your company must be a few weeks old
 - You must fulfill some Local Market/Shipment ads
 
-### What are the different company ratings used for?
+### How is the company rating determined?
 
-- Activity: How often your account is logged in
-- Reliability: How reliable your company is at fulfilling LM (Local Market) ads
-- Stability: How financially stable your company is
+The rating considers the value of contracts you fulfilled versus the value of contracts you breached. High-value contracts are generally more impactful, but there is always a mix of the most valuable and the most recent contracts being considered, so that the company rating is as accurate a representation of a company's reliability as possible.
 
 ### I built a RIG but I can't harvest H2O (water).  Why?
 

@@ -88,7 +88,7 @@ Note that your ships will take attrition damage from several factors:
 * __Radiation:__ The harsh radiation of a sun during FTL flight, especially when close-by, weakens the ship's hull. Radiation plating reduces this type of damage.
 <!---* __Micrometeoroids:__ On STL flights between planets a ship will get hit by micrometeoroids. The exact damage depends on the density of micrometeoroids in the systems you're traveling through. Specialized whipple shields reduce this type of damage.-->
 
-Ships below a condition of 80% start to become slower. You can repair a ship from its SHP command. This will require a certain amount of hull plates and shield components depending on your ship's condition.
+Ships below a condition of 80% start to become slower. You can repair a ship from its SHP command. This will require a certain amount of hull plates as well as shield and structural components depending on your ship's condition.
 
 ## About this page
 

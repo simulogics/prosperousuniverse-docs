@@ -343,6 +343,10 @@ Embeds a YouTube video. The ID is the succession of numbers and letters after â€
 
 ## Other commands
 
+__ARC__  
+_No possible parameter_  
+Shows the current status of your APEX Representation Center and allows you to contribute funds towards raising its level.
+
 __COLIQ__  
 _No possible parameter_  
 Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. The following cooldown times apply to the COLIQ command: The first COLIQ becomes available immediately after company creation, the second one 3 days after using the first one. The wait time for the third COLIQ is 21 days, and every following cooldown is 60 days long. If there have not been any commodity or local market trades and no contributions to planetary or corporation projects an immediate COLIQ might be possible. Please note that misusing the COLIQ command may result in your account being (temporarily) banned!
@@ -353,5 +357,9 @@ Allows you to create a new Screen. To call this command, you may use the â€œADDâ
 
 __FIN, FINLA, FINIS, FINBS__  
 These four commands provide you with a detailed overview over your companyâ€™s financial situation. More information on these commands will follow shortly.
+
+__LEAD__  
+_No possible parameter_  
+Shows company-level leaderboards. The type of leaderboard can be chosen from a dropdown menu at the top. Some leaderboards support additional selectors (such as specifiying the data's time range).
 
 {{% about-this-page %}}
