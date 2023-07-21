@@ -27,7 +27,8 @@ There are a few keyboard shortcuts for APEX:
 ## APEX chat commands
 
 The APEX chat has a number of special functions.  
-- **Linking companies**: Preceding any company code with the dollar sign *$* will make it clickable in the chat window and link to the company profile.  
-- **Linking licensees**: Preceding any person's name with the @ sign will make it clickable in the chat window and link to the licensee's profile.  
+- **Linking companies**: Preceding any company code with the dollar sign `$` will make it clickable in the chat window and link to the company profile.  
+- **Linking licensees**: Preceding any person's name with the `@` sign will make it clickable in the chat window and link to the licensee's profile.
+-  **Linking commodity price information**: Posting a commodity's ticker together with a commodity exchange code (for example `HE3.CI1`) will display the current price information for that commodity.  
 
 {{% about-this-page %}}
