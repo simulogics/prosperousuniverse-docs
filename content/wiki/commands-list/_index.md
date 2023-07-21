@@ -360,6 +360,6 @@ These four commands provide you with a detailed overview over your company’s f
 
 __LEAD__  
 _No possible parameter_  
-Shows company-level leaderboards. The type of leaderboard can be chosen from a dropdown menu at the top. Some leaderboards support additional selectors (such as specifiying the data's time range).
+Shows company-level leaderboards. The type of leaderboard can be chosen from a dropdown menu at the top. Some leaderboards support additional selectors (such as specifying the data's time range).
 
 {{% about-this-page %}}
