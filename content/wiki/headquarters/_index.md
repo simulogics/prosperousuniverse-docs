@@ -23,11 +23,11 @@ Each upgrade is more expensive than the one before. Starting from level 6, upgra
 ### Faction bonuses
 
 Depending on the faction of your HQ's location (find it in the **PLI** command of the planet your HQ is located on), it will grant you a bonus on your production efficiency in certain industries across all your bases:
-* **Antares Initiative:** 5% bonus on electronics
-* **Castillo-Ito Mercantile:** 5% bonus on manufacturing
-* **Insitor Cooperative:** 3% bonus on agriculture, 2% on food industries
-* **NEO Charter Exploration:** 2% bonus on metallurgy, 3% on construction
-* **No faction:** 2% bonus on chemistry, fuel refining and resource extraction
+* **Antares Initiative:** 10% bonus on electronics
+* **Castillo-Ito Mercantile:** 10% bonus on manufacturing
+* **Insitor Cooperative:** 6% bonus on agriculture, 4% on food industries
+* **NEO Charter Exploration:** 4% bonus on metallurgy, 6% on construction
+* **No faction:** 4% bonus each on chemistry, fuel refining and resource extraction
 
 Furthermore, this bonus is modified by the ratio of used base permits to available base permits. The lower this ratio is the higher the bonus.
 The bonus is calculated by the following formula: `Multiplier = -2 * (UsedPermits / TotalPermits) + 3`
