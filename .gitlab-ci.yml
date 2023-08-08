@@ -1,8 +1,19 @@
 # All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:0.111.3
+image: registry.gitlab.com/pages/hugo:0.117.0
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  DOCKER_HOST: tcp://docker:2376
+  # Specify to Docker where to create the certificates. Docker
+  #  creates them automatically on boot, and creates
+  # `/certs/client` to share between the service and job
+  # container, thanks to volume mount from config.toml
+  DOCKER_TLS_CERTDIR: "/certs"
+  # These are usually specified by the entrypoint, however the
+  # Kubernetes executor doesn't run entrypoints
+  # https://gitlab.com/gitlab-org/gitlab-runner/-/issues/4125
+  DOCKER_TLS_VERIFY: 1
+  DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
 
 test:
   stage: test
