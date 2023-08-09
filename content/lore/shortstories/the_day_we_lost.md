@@ -4,7 +4,6 @@ date = 2023-08-08T17:38:25+02:00
 description = "A Prosperous Universe Story by Copious"
 +++
 
-# The Day We Lost
 **_A Prosperous Universe Story by Copious_**
 
 Have you ever misplaced a day? Not a fleeting moment, or an hour, but an

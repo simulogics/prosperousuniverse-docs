@@ -4,7 +4,6 @@ date = 2023-08-08T17:38:25+02:00
 description = "A Prosperous Universe Story by Copious"
 +++
 
-# A Pro Pruner Move : From the Book of JonJon
 **_A Prosperous Universe Story by Copious_**
 
 JonJon looked every bit the Earth native in the sea of glowing comm chips that surrounded him in the dark passenger transport on Promitor. Anyone without one stood out like a sore thumb in Prosperous Space. It was one of the key differences between Earth natives and those fully committed to life out here on the frontiers of space. Oh sure, Earth natives liked to think they did lots of space travel with their vacations to the mineral baths of Mars or the world spanning golf resort they’d turned the Moon into. JonJon knew better.
@@ -38,6 +37,5 @@ JonJon leveled his company issued flamer and triggered the jet of flame just as 
 From the sounds he could hear over the comm in his pocket, his fellow Beandogs were having mixed results. A few men were down, but it sounded like there were no breaches in the wall and the company profits had been protected. JonJon started jogging towards the nearest corner of the field when he saw the Pruner from earlier clear the brush around the field at a run and turn to look at him. “Hey Earther, wanna see a pro Pruner move?”
 
 And then the man tried to vault up on top of the wall, and missed. When his flamer tank hit the corner of the long, low wall, the fluid spilled out into the bean field and ignited. JonJon never even heard the Pruner scream.
-
 
 To the best of JonJon’s knowledge, that man’s well-to-do family from Arclight is still trying to buy his body back from the corporation that employed him at the time. Apparently, they want to be reimbursed for the entire charred field of beans before they’ll give up the casket.
