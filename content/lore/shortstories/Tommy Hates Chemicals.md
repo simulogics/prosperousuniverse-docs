@@ -14,7 +14,7 @@ The tri Tommy was interested in, the kind sold in little back alleys that could 
 
 The doctors thought it was a classic case of overexertion and put the man on light duty for a week. He let them think that they were right while he consolidated his new triglyceride cartel, after confirming his suspicions that he’d just been knocked out by the odd tasting chip that had made its way into his mouth. He did this through a complete lack of regard for inflicting pain and taking life. That was why Tommy needed JonJon for protection. Tommy was pretty sure this new gang leader was from an old Earth mob family, but JonJon just thought they had probably watched too many of the historical films popular this far away from the hyper relays used to transmit modern holovids. JonJon also thought there were more than a few chemicals in the tri that Tommy liked to smoke, but he kept that to himself.
 
-The Cleaners had been formed into quite the gang under this lucky new leader. They jealously protected their secret, and more than one missing person in the last couple of months was whispered to be a result of crossing them. JonJon was wary of them, but he figured they needed customers or they would have no profits. As long as he and Tommy didn’t give them any reason to get nervous or suspect them of snitching, they should be just fine.
+The Cleaners had been formed into quite the gang under this lucky new leader. They jealously protected their secret, and more than one missing person in the last couple of months was whispered to be a result of crossing them. JonJon was wary of them, but he figured they needed customers, or they would have no profits. As long as he and Tommy didn’t give them any reason to get nervous or suspect them of snitching, they should be just fine.
 
 JonJon and Tommy slipped into the side alley behind the food processing plant and came up short. The new leader, Justin, and his goons were waiting at the far end. There were more of them than usual, and Justin had never come himself. Justin was in a classical suit from Old Earth. The real deal, not some nylon Prosperous Space fabrication. It must have cost a fortune.
 
@@ -28,7 +28,7 @@ JonJon took a peak over the railing and saw a lot of red on the fan blades. Well
 
 Justin burst out laughing and nearly lost his hat. “Oh sorry JonJon, just had to have a little fun with him.” He motioned over to one of his men and a large sack arced between the man and JonJon. Still holding up Tommy with one hand, JonJon snatched the sack out of the air, slipped it into his jacket, and tossed back a sack of credits. 
 
-“You know Tommy won’t say it but I will, Justin. Your gang name is spot on with the way you’ve been raising prices. You are going to clean out poor Tommy here at this rate.”
+“You know Tommy won’t say it, but I will, Justin. Your gang name is spot on with the way you’ve been raising prices. You are going to clean out poor Tommy here at this rate.”
 
 “I’ve got expenses, not that it’s any of your business. You know anyone else making this stuff?”
 
