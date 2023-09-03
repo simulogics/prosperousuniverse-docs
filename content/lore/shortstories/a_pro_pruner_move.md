@@ -1,5 +1,5 @@
 +++
-title = "A Pro Pruner Move : From the Book of JonJon"
+title = "A Pro Pruner Move : Book of JonJon"
 date = 2023-08-08T17:38:25+02:00
 description = "A Prosperous Universe Story by Copious"
 +++
