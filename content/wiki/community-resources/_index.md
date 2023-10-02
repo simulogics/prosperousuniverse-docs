@@ -12,7 +12,7 @@ This is a list of all resources created by the community. Please let us know if 
 |-----------|----------------------------------------------------------------|-------------------------------------------------------------------------------|---|
 | Official  | [Prosperous Universe](https://discord.com/invite/rRbqqRz)      | Official Discord instance of Prosperous Universe                              |   |
 | Community | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP)    | Community Discord for discussing politics, finding trade partners, etc        |   |
-| Community | [Russian-Speaking PrUn Discord](https://discord.gg/uqaKf9CWHD) | Russian-Speaking PrUn Discord                                                 |   |
+| Community | [Russian-Speaking PrUn Discord](https://discord.gg/MxytqvBE9S) | Russian-Speaking PrUn Discord                                                 |   |
 | Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)          | Discord for everything related to FIO and other 3rd party tools for the game. |   |
 | APEX Chat | [APEX Chat Server](https://discord.gg/39629axAxG)              | A read-only discord chat with all in-game planet chats.                       |   |
 
