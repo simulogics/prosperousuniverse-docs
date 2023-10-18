@@ -6,7 +6,7 @@ description = "A Prosperous Universe Story by Copious"
 
 **_A Prosperous Universe Story by Copious_**
 
-	JonJon didn’t like Elon at all. The boss was paying him well or he would never have visited this place to begin with. Elon wreaked, an unfortunate side effect of all the burning and processing of magnesite that occurred on the planet. The locals lovingly referred to it as “Elon’s musk”, but JonJon’s recent stint as a Beandog hadn’t been enough to prepare him for the ever present stench. After being here a few days, JonJon could say without a doubt he preferred the occasional Fart Pot to Elon’s musk.
+JonJon didn’t like Elon at all. The boss was paying him well or he would never have visited this place to begin with. Elon wreaked, an unfortunate side effect of all the burning and processing of magnesite that occurred on the planet. The locals lovingly referred to it as “Elon’s musk”, but JonJon’s recent stint as a Beandog hadn’t been enough to prepare him for the ever present stench. After being here a few days, JonJon could say without a doubt he preferred the occasional Fart Pot to Elon’s musk.
 
 He was currently picking his way around a burn pit, trying to peer through the smoke as he walked. These places were dangerous because of the low visibility. One step wrong and he’d be sliding down into the slowly smoldering pile of charcoal and magnesite at the bottom of the huge open pit. Burns like these were one of the main reasons for Elon’s distinct smell, and the low visibility was why JonJon had decided it was worth the risk to search here. What better place to hide stolen goods than around a big smoking pit that made your eyes water? 
 
@@ -60,7 +60,7 @@ As the skimmer took off and flew in a long slow arc towards their destination, E
 
 JonJon’s vision blurred and tunneled, until he slumped against his flight restraints unconscious……..
 
------------------------------------------------------------------------------------------------
+---
 
 Elon waited until he was sure JonJon was all the way out before he thumbed his communicator. “Please be advised, I am in control of the skimmer incoming from your north. Have one of our interrogation teams ready at hangar two. I am bringing in a prisoner.”
 
