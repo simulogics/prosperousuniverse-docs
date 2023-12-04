@@ -6,7 +6,7 @@ description = "A Prosperous Universe Story by Copious"
 
 **_A Prosperous Universe Story by Copious_**
 
-    JonJon was cold. He couldn’t remember the last time he’d been this cold. He sat up, looking around the sterile steel room he found himself in. The only softness in the room was his mattress and blanket, set up on an aluminum gurney over polished steel floors. 
+JonJon was cold. He couldn’t remember the last time he’d been this cold. He sat up, looking around the sterile steel room he found himself in. The only softness in the room was his mattress and blanket, set up on an aluminum gurney over polished steel floors. 
 
 He tried to think. What was the last thing he remembered? Elon had drugged him in the skimmer. Was this an interrogation room? JonJon didn’t think so. For starters, he wasn’t restrained. He hopped up and strode across the room to the door, and found it unlocked. Man was this floor cold on his bare feet!
 
