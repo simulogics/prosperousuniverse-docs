@@ -16,13 +16,15 @@ This is a list of all resources created by the community. Please let us know if 
 | Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)          | Discord for everything related to FIO and other 3rd party tools for the game. |   |
 | APEX Chat | [APEX Chat Server](https://discord.gg/39629axAxG)              | A read-only discord chat with all in-game planet chats.                       |   |
 
-## News
+## News and Guides
 
-| Type | Name              | Link                                    | Description                                                                             |
-|------|-------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
-| News | Prosperous Turnip | https://prosperousturnip.com/           | The best, totally real, super not fake, news from the Prosperous Universe!              |
-| News | PrUniverse Report | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
-| News | Rain's Blog       | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
+| Type  | Name              | Link                                    | Description                                                                             |
+|-------|-------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
+| News  | Prosperous Turnip | https://prosperousturnip.com/           | The best, totally real, super not fake, news from the Prosperous Universe!              |
+| News  | PrUniverse Report | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
+| News  | Rain's Blog       | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
+| Guide | Governor Guide    | [Google Doc](https://docs.google.com/document/d/1pDvP3Iz-MDIa_uoQPsJDDOHn72dK7T02k1oAa94K2W0/edit) | Archiel's Good Governance guide, getting started as a governor. |
+
 
 ## Spreadsheets
 
@@ -38,6 +40,7 @@ This is a list of all resources created by the community. Please let us know if 
 | FIO Data Import Spreadsheet                       | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing)    |
 | Governorship Accounting Template                  | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing)    |
 | Governance Expenses Template                      | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1yunwfdcR3CMMNKOV4snCbY5B-KvJ5Kq36xLDCFg0cp8/edit?usp=sharing)    |
+| Governor Upkeep and Population Calculator         | [Google spreadsheets](https://docs.google.com/spreadsheets/d/19mg6DKaGi_cfjLNyb8AeS00oddgMbepTDf9RIkOMocw/edit#gid=0)    |
 | Population Calculator (by PiBoy314)               | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1JO_tkU6R8d_WiPA7hVJ685WrdyJhaOxP_Q9cU-1kfNo/edit#gid=827834260)  |
 
 ## Tools
