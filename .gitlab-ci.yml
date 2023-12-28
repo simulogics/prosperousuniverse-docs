@@ -22,29 +22,30 @@ test:
   extends: .docker_job
   stage: test
   script:
-  - hugo
+    - hugo
   except:
-  - master
-  - staging
+    - master
+    - staging
 
 pages:
   extends: .docker_job
   stage: deploy
   script:
-  - hugo
+    - hugo
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - staging
+    - staging
 
 deploy:
   stage: deploy
+  image: registry.gitlab.com/pages/hugo:0.117.0
   variables:
     HANDBOOK_DOMAIN: handbook.apex.prosperousuniverse.com
   script:
-  - hugo --baseURL "https://${HANDBOOK_DOMAIN}/" --destination "/home/simulogics/websites/${HANDBOOK_DOMAIN}"
+    - hugo --baseURL "https://${HANDBOOK_DOMAIN}/" --destination "/home/simulogics/websites/${HANDBOOK_DOMAIN}"
   tags:
     - pu_handbook_production_deployment
   only:
-  - master
+    - master
