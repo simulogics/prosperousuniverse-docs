@@ -35,17 +35,11 @@ pages:
 
 deploy:
   stage: deploy
-  before_script:
-  - apk add rsync openssh
-  - mkdir "${HOME}/.ssh"
-  - echo "${SSH_PRIVATE_KEY}" > "${HOME}/.ssh/id_rsa"
-  - chmod 700 "${HOME}/.ssh/id_rsa"
-  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
+  variables:
+    HANDBOOK_DOMAIN: handbook.apex.prosperousuniverse.com
   script:
-  - hugo -b "https://handbook.apex.prosperousuniverse.com/"
-  - rsync -a --delete -e ssh public/ gitlab@159.69.55.249:/opt/gitlab/handbook.apex.prosperousuniverse.com/
-  artifacts:
-    paths:
-    - public
+  - hugo --baseURL "https://${HANDBOOK_DOMAIN}/" --destination "/home/simulogics/websites/${HANDBOOK_DOMAIN}"
+  tags:
+    - pu_handbook_production_deployment
   only:
   - master
