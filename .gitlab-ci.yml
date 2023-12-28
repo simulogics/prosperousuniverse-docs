@@ -62,7 +62,7 @@ deploy:
   variables:
     HANDBOOK_DOMAIN: handbook.apex.prosperousuniverse.com
   script:
-    - rm -r "/home/simulogics/websites/${HANDBOOK_DOMAIN}/*"
+    - rm -rf "/home/simulogics/websites/${HANDBOOK_DOMAIN}/*"
     - cp -a public/* "/home/simulogics/websites/${HANDBOOK_DOMAIN}/"
   tags:
     - pu_handbook_production_deployment
