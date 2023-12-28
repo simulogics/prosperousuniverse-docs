@@ -15,6 +15,11 @@ image: registry.gitlab.com/pages/hugo:0.117.0
     DOCKER_TLS_VERIFY: 1
     DOCKER_CERT_PATH: "$DOCKER_TLS_CERTDIR/client"
 
+stages:
+  - test
+  - build
+  - deploy
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
@@ -38,13 +43,27 @@ pages:
   only:
     - staging
 
-deploy:
-  stage: deploy
-  image: registry.gitlab.com/pages/hugo:0.117.0
+build:
+  extends: .docker_job
+  stage: build
   variables:
     HANDBOOK_DOMAIN: handbook.apex.prosperousuniverse.com
   script:
-    - hugo --baseURL "https://${HANDBOOK_DOMAIN}/" --destination "/home/simulogics/websites/${HANDBOOK_DOMAIN}"
+    - hugo --baseURL "https://${HANDBOOK_DOMAIN}/"
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 day
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  variables:
+    HANDBOOK_DOMAIN: handbook.apex.prosperousuniverse.com
+  script:
+    - rm -r "/home/simulogics/websites/${HANDBOOK_DOMAIN}/*"
+    - cp -a public/* "/home/simulogics/websites/${HANDBOOK_DOMAIN}/"
   tags:
     - pu_handbook_production_deployment
   only:
