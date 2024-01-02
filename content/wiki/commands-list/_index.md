@@ -259,7 +259,7 @@ If no planet ID is provided a search box is being displayed instead of the plane
 
 __STI__  
 _Mandatory parameter: Station ID_  
-Shows general information about a space station and provides access to its  Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
+Shows general information about a space station and provides access to its infrastructure. Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
 
 ## Planetary project commands
 
@@ -338,7 +338,7 @@ _Optional parameter: title_
 Brings up a green screen to help you record your own transmission. Use the optional parameter to give it a title.
 
 __XYTV__  
-_Mandatory parameter:_  
+_Mandatory parameter:_ YouTube ID  
 Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL.
 
 ## Other commands

@@ -20,7 +20,7 @@ The next big steps will be ultimately preparing the game for the full launch (TB
 
 The game can be played for free! However, licensees playing for free have to deal with a few restrictions on what their companies can do. Upgrading to PRO is possible at any time by selecting a subscription plan (starting at 8€). Support tier packages are also available that give players in-game perks and PrUn merchandise. This crowdfunding-like system allows early adopters to help fund development and get some great perks in return.
 
-### Why a browser-based game in 2021?
+### Why still make a browser-based game today?
 
 We think that the browser is a very capable gaming platform, available on pretty much every computer and every system in the world. It's the perfect match for the kind of play style we have in mind, allowing people to play from their office or while doing something else without having to download, install and run client software.
 
