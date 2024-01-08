@@ -9,6 +9,22 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
 
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[languages]
+[languages.en]
+title = "Prosperous Universe Handbook"
+weight = 1
+languageName = "English"
+
+[languages.de]
+title = "Prosperous Universe Handbuch"
+weight = 2
+languageName = "Deutsch"
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -38,8 +54,3 @@ home = [ "HTML", "RSS", "JSON"]
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "blue"
-
-# English is the default language
-defaultContentLanguage = "en"
-# Force to have /en/my-page and /fr/my-page routes, even for default language.
-defaultContentLanguageInSubdir= true
