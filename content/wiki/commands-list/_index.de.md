@@ -298,6 +298,14 @@ __LR__
 _Obligatorischer Parameter: Planeten-ID_  
 Zeigt die Lokalen Gesetze eines Planeten an, sofern dieser über eine Planetare Verwaltung verfügt. Zu den Lokalen Gesetzen gehören Produktionssteuern sowie Gebühren für Anzeigen auf lokalen Marktplätzen.
 
+__MOT__
+_Obligatorische Parameter: I-Administrations-ID, m-Antrags-ID_
+Zeigt einen Antrag an, inklusive seiner Komponenten, dem aktuellen Status sowie den Abstimmungsergebnissen. Dieser Command ist nur im Regierungskontext verfügbar.
+
+__MOTS__
+_Optionaler Parameter: Planeten-ID_
+Zeigt eine Liste aller Anträge für einen Planeten.
+
 __POL__
 _Optionaler Parameter: Nutzername_
 Zeigt die aktuellen und vergangenen Ämter eines Nutzers inklusive der aktuellen Kandidaturen.

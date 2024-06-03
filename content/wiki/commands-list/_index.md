@@ -311,6 +311,14 @@ __LR__
 _Mandatory parameter: Planet ID_  
 Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
 
+__MOT__
+_Mandatory parameters: I-administration ID, m-motion ID_
+Displays a motion, including its components, current status and votes. This command is only available in government contexts.
+
+__MOTS__
+_Optional parameter: Planet ID_
+Displays a list of motions for a certain planet.
+
 __POL__
 _Optional parameter: User name_
 Shows the current and past political offices held by a user, including current runs.
