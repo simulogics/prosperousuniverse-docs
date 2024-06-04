@@ -300,11 +300,11 @@ Zeigt die Lokalen Gesetze eines Planeten an, sofern dieser über eine Planetare 
 
 __MOT__
 _Obligatorische Parameter: I-Administrations-ID, m-Antrags-ID_
-Zeigt einen Antrag an, inklusive seiner Komponenten, dem aktuellen Status sowie den Abstimmungsergebnissen. Dieser Command ist nur im Regierungskontext verfügbar.
+Zeigt einen Antrag an, inklusive seiner Komponenten, dem aktuellen Status sowie den Abstimmungsergebnissen.
 
 __MOTS__
-_Optionaler Parameter: Planeten-ID_
-Zeigt eine Liste aller Anträge für einen Planeten.
+_Optionaler Parameter: Antrags-ID_
+Zeigt eine Liste aller Anträge für den aktuellen Regierungskontext oder Details zu einem spezifischen Antrag.
 
 __POL__
 _Optionaler Parameter: Nutzername_

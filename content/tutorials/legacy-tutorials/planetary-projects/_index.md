@@ -136,7 +136,7 @@ If you'd like to run for governor, select the RUN button below the list to throw
 
 #### Being the Governor
 
-**NOTE:** Recent updates changed the process of how political actions are handled. Bigger planets are now ruled by parliaments instead of solo governors. In any case though, to manage political actions you now have to switch to the respective **government context** (via CTXS at the top of the screen), and then issue **motions** via the `MOT` command. These will be voted upon by all government members and then, if the motion passes by majority decision, the included actions ("components") will be executed.
+**NOTE:** Recent updates changed the process of how political actions are handled. Bigger planets are now ruled by parliaments instead of solo governors. In any case though, to manage political actions you now have to switch to the respective **government context** (via CTXS at the top of the screen), and then issue **motions** via the `MOTS` command. These will be voted upon by all government members and then, if the motion passes by majority decision, the included actions ("components") will be executed.
 
 If you won the election, you may now set the fees that apply on your planet until the end of your term. To do so, bring up the LR window of your planet (e.g. by selecting it at the top of the ADM window). It will show the current fees and feature an EDIT button at the top.
 

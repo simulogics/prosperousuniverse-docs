@@ -313,11 +313,11 @@ Shows the Local Rules of a planet, given that it has an Administration Center. L
 
 __MOT__
 _Mandatory parameters: I-administration ID, m-motion ID_
-Displays a motion, including its components, current status and votes. This command is only available in government contexts.
+Displays a motion, including its components, current status and votes.
 
 __MOTS__
-_Optional parameter: Planet ID_
-Displays a list of motions for a certain planet.
+_Optional parameter: Motion ID_
+Displays a list of motions for the currently active government context.
 
 __POL__
 _Optional parameter: User name_
