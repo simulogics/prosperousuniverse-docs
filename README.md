@@ -12,7 +12,7 @@ All contributions are being reviewed by a Prosperous Universe team member and th
 
 There are two ways to contribute content: Using the GitHub website or Editing the wiki on your own machine. Both types are explained below.
 
-We are using a Hugo theme with lots of features. Please have a look at their [documentation](https://learn.netlify.com/en/cont/) for more information about it.
+We are using a Hugo theme with lots of features. Please have a look at their [documentation](https://themes.gohugo.io/themes/hugo-theme-relearn/) for more information about it.
 
 ## Contribute by using the GitHub website
 
