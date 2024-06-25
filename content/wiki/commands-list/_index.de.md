@@ -284,19 +284,31 @@ __LMP__
 _Obligatorischer Parameter: Planeten-ID_  
 Ermöglicht die Platzierung einer Kauf- oder Verkaufsanzeige auf einem bestimmten lokalen Marktplatz. Zugriff über die Schaltfläche "Anzeige erstellen" in einem LM-Fenster.
 
-### Commands zur Planetaren Verwaltung
+### Politische Commands
 
 __ADM__
 _Obligatorischer Parameter: Planeten-ID_  
 Zeigt Informationen zur [Planetaren Verwaltung](../../tutorials/planetary-projects/#administration-center) des Planeten (sofern vorhanden), z.B. den aktuellen Gouverneur, die Organisation (Fraktion oder Konzern), die Gebühren und Steuern einzieht, sowie alle KandidatInnen für die kommende Amtszeit. Ermöglicht es jedem, für das Gouverneursamt des Planeten zu kandidieren, und den BewohnerInnen des Planeten, für ihre bevorzugten KandidatInnen zu stimmen.
 
+__GOV__
+_Obligatorischer Parameter: Planeten-ID_ 
+Zeigt Informationen über die aktuelle und vergangene Regierungen eines Planeten sowie die Anträge, über die abgestimmt wurde.
+
 __LR__
 _Obligatorischer Parameter: Planeten-ID_  
 Zeigt die Lokalen Gesetze eines Planeten an, sofern dieser über eine Planetare Verwaltung verfügt. Zu den Lokalen Gesetzen gehören Produktionssteuern sowie Gebühren für Anzeigen auf lokalen Marktplätzen.
 
-__ADMT__
-_Obligatorischer Parameter: Amtsperioden-ID_  
-Zeigt die Wahlergebnisse einer früheren Amtsperiode. Zugriff per Klick auf die Nummer der gewünschten Amtszeit im ADM-Fenster. Alternativ kann die Amtsperioden-ID auch manuell eingegeben werden. Sie besteht aus folgender Zeichenkombination: "p-"[Planeten-ID] "t-"[Nummer der Amtsperiode]. Um beispielsweise die zweite Wahlperiode von Planet FO-250a anzuzeigen, wäre die Amtsperioden-ID: _p-FO-250a t-2_
+__MOT__
+_Obligatorische Parameter: I-Administrations-ID, m-Antrags-ID_
+Zeigt einen Antrag an, inklusive seiner Komponenten, dem aktuellen Status sowie den Abstimmungsergebnissen.
+
+__MOTS__
+_Optionaler Parameter: Antrags-ID_
+Zeigt eine Liste aller Anträge für den aktuellen Regierungskontext oder Details zu einem spezifischen Antrag.
+
+__POL__
+_Optionaler Parameter: Nutzername_
+Zeigt die aktuellen und vergangenen Ämter eines Nutzers inklusive der aktuellen Kandidaturen.
 
 ### Lagerhaus-Commands
 

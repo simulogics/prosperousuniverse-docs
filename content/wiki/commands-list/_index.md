@@ -297,19 +297,31 @@ __LMP__
 _Mandatory parameter: Planet ID_  
 Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the “POST AD” button in an LM window.
 
-### Administration Center commands
+### Political commands
 
 __ADM__
 _Mandatory parameter: Planet ID_  
 Shows information on the planet's [Administration Center](../../tutorials/planetary-projects/#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
 
+__GOV__
+_Mandatory parameter: Planet ID_
+Shows information on a planet's current and previous governments and the motions that were voted on.
+
 __LR__
 _Mandatory parameter: Planet ID_  
 Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
 
-__ADMT__
-_Mandatory parameter: Term ID_  
-Shows the election results of a previous term. Accessible by clicking the number of the desired term in the ADM window. Alternatively, the term ID can be entered by hand; it consists of the following string of characters: “p-”[Planet ID] “t-”[Term Number]. For example, to view the second election term of Planet FO-250a, the term ID would be: _p-FO-250a t-2_
+__MOT__
+_Mandatory parameters: I-administration ID, m-motion ID_
+Displays a motion, including its components, current status and votes.
+
+__MOTS__
+_Optional parameter: Motion ID_
+Displays a list of motions for the currently active government context.
+
+__POL__
+_Optional parameter: User name_
+Shows the current and past political offices held by a user, including current runs.
 
 ### Warehouse commands
 
