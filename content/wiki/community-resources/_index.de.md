@@ -63,5 +63,6 @@ Dies ist eine Liste aller Ressourcen, die von unserer Community erstellt wurden.
 | Utility           | Universal Logistics | wyago                        | https://universallogistics.app/                  | Ein exploratives Tool zur Visualisierung von Materiallieferketten und zur Optimierung der Gewinne.    |
 | Map               | Universe Map Tool   | McCowen                      | http://prosperous.freecluster.eu/                | Karte zu Systemen, FTL-Flugrouten, System- und Planetennamen sowie Fraktionsgebieten mit Pan- und Zoom-Funktion |
 | Search            | yapt                | aeryen                       | https://aeryen23.github.io/yapt/                 | Suchen Sie nach Planeten, Informationen zu einem Unternehmen und der allgemeinen Basisanzahl.                                     |
+| Map               | Taiyi's Prosperous Universe Map  | Taiyi                        | https://universemap.duckdns.org/                 | Interaktive Karte mit Ressourcensuche und Filterfunktion                        |
 
 {{% about-this-page %}}
