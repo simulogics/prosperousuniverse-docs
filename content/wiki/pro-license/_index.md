@@ -23,6 +23,14 @@ This page lists all the features impacted by owning a PRO license. You can acqui
 | Commodity Exchange Material Info  | FREE users __cannot access the CXM command__.                                                                                             | PRO users __can access the CXM command__ to compare CX information on a material across all exchanges.                                                             |
 | Building Repair Assistant         | FREE users __can see__ the total amount of repair materials.                                                                              | PRO users __can repair all buildings__ of a base at once.                                                                                                          |
 
-__*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a FREE license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads.
+__*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a FREE license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads. It also allows accepting custom contracts that other players send to you.
+
+## PRO license gifting
+
+Players with a PRO license can gift some of their remaining PRO license time to another player. The gifted time will be added to the recipients remaining PRO license time. If the recipient doesn’t have an active PRO license, one is created.
+
+The default fallback license of PRO license time gifts is the FREE license. Meaning that a player that had the FREE license before will fall back to the FREE license after the PRO time runs out. If a player had BASIC before, they will fall back to BASIC.
+
+There is a new command (`GIFT`) that shows an overview of received and sent gifts. It also allows sending a gift by selecting the number of days and the recipient. The minimum number of gifted days is 3.
 
 {{% about-this-page %}}

@@ -23,6 +23,14 @@ Auf dieser Seite werden alle Features aufgeführt, die durch den Erhalt einer PR
 | Warenbörse-Materialinfo  | FREE-NutzerInnen können nicht auf den CXM-Befehl zugreifen.                                                                                             | PRO-NutzerInnen können auf den CXM-Befehl zugreifen, um CX-Informationen zu einem Material über alle Börsen hinweg zu vergleichen.                                                             |
 | Gebäudereparaturassistent         | FREE-NutzerInnen können die Gesamtmenge der Reparaturmaterialien einsehen.                                                                              | PRO-NutzerInnen können alle Gebäude einer Basis auf einmal reparieren.                                                                                                          |
 
-__*__ Bitte beachten Sie: Hatten Sie jemals eine kostenpflichtige PRO-Lizenz (d.h. es ist mindestens eine Zahlung mit Ihrem Konto verknüpft), wird diese nach Ablauf in eine BASIC-Lizenz statt in eine FREE-Lizenz umgewandelt. Mit einer BASIC-Lizenz können Sie Anzeigen auf lokalen Marktplätzen annehmen, aber keine eigenen Anzeigen inserieren.
+__*__ Bitte beachten Sie: Hatten Sie jemals eine kostenpflichtige PRO-Lizenz (d.h. es ist mindestens eine Zahlung mit Ihrem Konto verknüpft), wird diese nach Ablauf in eine BASIC-Lizenz statt in eine FREE-Lizenz umgewandelt. Mit einer BASIC-Lizenz können Sie z.B. Anzeigen auf lokalen Marktplätzen annehmen, aber keine eigenen Anzeigen inserieren. Des Weiteren erlaubt die BASIC Lizenz benutzerdefinierte Verträge die Ihnen von anderen Spielern zugeschickt werden anzunehmen.
+
+## PRO-Lizenz Geschenke
+
+Spieler mit einer PRO-Lizenz können einen Teil ihrer verbleibenden Lizenzzeit an andere Spieler verschenken. Dem beschenkten Spieler wird die zusätzliche PRO-Lizenz Zeit gutgeschrieben, bzw. eine neue PRO-Lizenz angelegt, falls noch keine vorhanden war. 
+
+Nach Ablauf der PRO-Lizenz fällt der Spieler auf die FREE-Lizenz zurück. Dies bedeutet, dass ein Spieler der zuvor eine FREE-Lizenz hatte auch nach Ablauf eine FREE-Lizenz besitzt. Hatte ein Spieler eine BASIC-Lizenz, wird diese nach Ablauf wieder aktiviert. 
+
+Das `GIFT` Command zeigt eine Liste von erhaltenen und verschenkten PRO-Lizenz Zeit Geschenken an. Es ist mit diesem Command auch möglich, PRO-Lizenz Zeit an andere Spieler zu verschenken.
 
 {{% about-this-page %}}
