@@ -361,6 +361,10 @@ Ermöglicht Ihnen, einen neuen Screen zu erstellen. Um diesen Befehl aufzurufen,
 __FIN, FINLA, FINIS, FINBS__  
 Mithilfe dieser vier Befehle erhalten Sie einen detaillierten Überblick über die finanzielle Situation Ihres Unternehmens. Weitere Informationen zu diesen Commands folgen bald.
 
+__GIFT__  
+_Keine möglichen Parameter_  
+Zeigt eine Liste von erhaltenen und verschenkten PRO-Lizenz Zeit Geschenken an. Es ist möglich PRO-Lizenz Zeit an andere Spieler zu verschenken.
+
 __LEAD__  
 _Keine möglichen Parameter_  
 Zeigt Leaderboards auf Unternehmensebene an. Die Art des Leaderboards kann über das Dropdown-Menü oben ausgewählt werden. Einige Leaderboards unterstützen zusätzliche Selektoren (z.B. die Angabe der Daten-Zeitspanne).

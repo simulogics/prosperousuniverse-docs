@@ -374,6 +374,10 @@ Allows you to create a new Screen. To call this command, you may use the “ADD�
 __FIN, FINLA, FINIS, FINBS__  
 These four commands provide you with a detailed overview over your company’s financial situation. More information on these commands will follow shortly.
 
+__GIFT__
+_No possible parameter_
+Allows to gift PRO license time to other players and provides and overview of sent and received gifts.
+
 __LEAD__  
 _No possible parameter_  
 Shows company-level leaderboards. The type of leaderboard can be chosen from a dropdown menu at the top. Some leaderboards support additional selectors (such as specifying the data's time range).
