@@ -33,4 +33,6 @@ The default fallback license of PRO license time gifts is the FREE license. Mean
 
 There is a new command (`GIFT`) that shows an overview of received and sent gifts. It also allows sending a gift by selecting the number of days and the recipient. The minimum number of gifted days is 3.
 
+Please note that it is not permitted to trade PRO license gifts for in-game valuables or real world money. 
+
 {{% about-this-page %}}

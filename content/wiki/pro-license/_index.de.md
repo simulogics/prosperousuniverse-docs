@@ -33,4 +33,6 @@ Nach Ablauf der PRO-Lizenz fällt der Spieler auf die FREE-Lizenz zurück. Dies 
 
 Das `GIFT` Command zeigt eine Liste von erhaltenen und verschenkten PRO-Lizenz Zeit Geschenken an. Es ist mit diesem Command auch möglich, PRO-Lizenz Zeit an andere Spieler zu verschenken.
 
+Hinweis: Der Handel mit PRO-Lizenz Geschenken gegen in-game Wertsachen oder echtem Geld ist nicht gestattet. 
+
 {{% about-this-page %}}
