@@ -69,6 +69,10 @@ __BRA__
 _Optional parameter: planet ID_
 Allows you to select one of your bases and repair multiple of its buildings at once by specifying a minimum building condition. All buildings in the selected base at or below that condition will be included in the repairs.
 
+__UPCK__
+_Mandatory parameter: store ID_
+Shows a list of all consumable bundles in the selected store. Allows to unpack one or more bundles. Bundles are always unpacked into the same store they are currently in.
+
 ## Social commands
 
 __FA__  

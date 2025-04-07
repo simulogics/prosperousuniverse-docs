@@ -28,8 +28,12 @@ __BUI__
 _Obligatorischer Parameter: Gebäude-Ticker_  
 Zeigt Informationen zu einem Gebäudetyp an: Welche Art von Arbeitskräften hier beschäftigt sind, wie viel Platz das Gebäude einnimmt und welche Teile beim Bau benötigt werden. Zugriff durch Klicken auf einen Gebäudetyp im BSC-Fenster.
 
+__EXP__  
+_Obligatorischer Parameter: Basis-ID_  
+Listet alle Bereiche auf, die Boni von ExpertInnen erhalten können, und zeigt an, welche ExpertInnen derzeit in der angegebenen Basis eingesetzt werden. Klicken Sie auf "ENTFERNEN", um ExpertInnen zu deaktivieren, die dann in der Spalte ganz rechts als verfügbar aufgeführt werden. Klicken Sie auf "AKTIVIEREN", um sie wieder an die Arbeit zu schicken. Erreichbar über die Schaltfläche "Experten" in einem konkreten BS-Fenster.  
+
 __INV__  
-_Optionaler Parameter: Addresse oder Lager-ID_  
+_Optionaler Parameter: Adresse oder Lager-ID_  
 Werden keine Parameter angegeben, zeigt dieser Command eine Liste all Ihrer Bestände an, einschließlich der Basislager, Frachträume, Treibstofftanks und Lager-Einheiten. Durch Klicken auf die Schaltfläche "ANZEIGEN" wird der Inhalt des ausgewählten Inventars angezeigt. Oben links finden Sie mehrere Sortiermöglichkeiten (ANZ: Anzahl, MAS: Gewicht, VOL: Volumen). Klicken Sie auf das Symbol links daneben, können Sie zwischen Listen- und Rastermodus umschalten. Letzterer zeigt weitere Informationen zu jeder Ware, wie Gewicht, Volumen und Buchwert.
 
 Enthält der Parameter eine System- oder Planetenadresse (z. B. `INV XK-745` oder `INV XK-745a`), werden nur die Bestände an diesem Standort angezeigt.
@@ -40,13 +44,14 @@ _Optionaler Parameter: Ursprungslager-ID_
 _Optionaler Parameter: Ziellager-ID_  
 Ermöglicht Ihnen, eine bestimmte Menge an Artikeln zwischen zwei Lagern zu übertragen. Das zu übertragende Material sowie die Ursprungs- und Ziellager können über die Parameter des Befehls angegeben oder aus Dropdown-Menüs im Command-Fenster ausgewählt werden. Dieser Command lässt sich auch ausführen (mit vorab ausgefüllten Details zum Transfer), indem Sie ein Element aus dem Ursprungslager in das Ziellager ziehen und es auf dem "AMT"-Slot ablegen.
 
+__UPCK__  
+_Obligatorischer Parameter: Lager-ID_  
+Zeigt eine Liste mit verfügbaren Konsumgüterpaketen im angegebenen Lager an. Erlaubt es einzelne oder alle Konsumgüterpakete zu entpacken. Konsumgüterpakete werden immer in das gleiche Lager entpackt in dem sie liegen.
+
 __WF__  
 _Obligatorischer Parameter: Basis-ID_  
 Zeigt einen Überblick zur Belegschaft einer Basis, einschließlich deren Bedürfnisse. Je anspruchsvoller die Belegschaftsstufe, desto höher sind ihre Anforderungen. Wenn Sie Ihre Mitarbeitenden nicht mit den benötigten Versorgungsgütern versorgen, sinkt die Effizienz der von ihnen betriebenen Gebäude. Erreichbar über die Schaltfläche "Belegschaft" in einem konkreten BS-Fenster.
 
-__EXP__  
-_Obligatorischer Parameter: Basis-ID_  
-Listet alle Bereiche auf, die Boni von ExpertInnen erhalten können, und zeigt an, welche ExpertInnen derzeit in der angegebenen Basis eingesetzt werden. Klicken Sie auf "ENTFERNEN", um ExpertInnen zu deaktivieren, die dann in der Spalte ganz rechts als verfügbar aufgeführt werden. Klicken Sie auf "AKTIVIEREN", um sie wieder an die Arbeit zu schicken. Erreichbar über die Schaltfläche "Experten" in einem konkreten BS-Fenster.  
 
 ## Produktionslinien-Commands
 
