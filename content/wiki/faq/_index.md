@@ -54,7 +54,7 @@ No. There are no recurring payments.
 
 ### How long does it take to be upgraded to PRO after I've made the payment?
 
-Under normal circumstances, it should occur immediately. If even after a refresh the game does not reflect your PRO status, please contact a developer in discord or send an email to hello at prosperousuniverse dot com.
+Under normal circumstances, it should occur immediately. If even after a refresh the game doesn’t reflect your PRO status, please contact a developer in discord or send an email to hello at prosperousuniverse dot com.
 
 ### How do I get the supporter benefits such as colors & channel access?
 
@@ -90,11 +90,13 @@ The cooldown timers for COLIQ are:
 
 ### I'm going to be away from the game for some time. How are inactive accounts handled?
 
-- PRO accounts will not be removed at all
-- BASIC accounts will be notified after 120 days of inactivity and deleted 31 days afterwards
-- Accounts less than 7 days old will be notified after 3 days of inactivity and deleted 5 days afterwards
-- Accounts less than 14 days old will be notified after 14 days of inactivity and deleted 7 days afterwards
-- Accounts more than 14 days old will be notified after 31 days of inactivity and deleted 21 days afterwards
+We don’t delete inactive accounts, but the company associated with an inactive account.
+
+- Companies from PRO accounts will not be liquidated at all
+- Companies from BASIC accounts will be notified after 180 days of inactivity and liquidated 31 days afterward
+- Companies from accounts less than 7 days old will be notified after 6 days of inactivity and liquidated 5 days afterward
+- Companies less than 21 days old will be notified after 21 days of inactivity and liquidated 7 days afterward
+- Companies more than 21 days old will be notified after 72 days of inactivity and liquidated 21 days afterward
 
 Logging in will reset the timers from above.
 
@@ -102,7 +104,7 @@ Logging in will reset the timers from above.
 
 Not currently. That being said, you should become familiar with the APEX interface and modify it to fit your needs as _any_ buffer can be made into a tile.
 
-### People are using many acronyms. How can I find out what they are talking about?
+### People are using many acronyms. How can I find out what they’re talking about?
 
 Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 
@@ -198,11 +200,11 @@ Read the [FX Tutorial](../../tutorials/legacy-tutorials/foreign-exchange/)
 
 ### I tried delivering a shipment but it says "Fulfillment Attempted." What do I do?
 
-This message means that the user in question does not have sufficient storage space (weight or volume) to store the shipment. Contact the user to let them know.
+This message means that the user in question doesn’t have sufficient storage space (weight or volume) to store the shipment. Contact the user to let them know.
 
 ### What happens when you don't pay your warehouse fee?
 
-Your warehouse is locked and you cannot use it or access any materials contained within it. If you fail to pay for multiple weeks, you will need to pay each missing week before it unlocks.
+Your warehouse is locked and you can’t use it or access any materials contained within it. If you fail to pay for multiple weeks, you will need to pay each missing week before it unlocks.
 
 ### Is there a notepad I can use in game?
 
@@ -256,7 +258,7 @@ Possible causes:
 - There is no capacity (habitation buildings) for your workers
 - There are no consumables for your workers available in the base storage
 - There are no inputs available for the recipe
-- You do not have sufficient funds for production taxes
+- You don’t have sufficient funds for production taxes
 - There are no workers of that tier available from the [workforce reserve pool](../../tutorials/legacy-tutorials/planetary-population/#worker-redistribution)
 
 ### How do I figure out what planets have the resource I'm looking for?
@@ -296,7 +298,7 @@ Production halts. While production is halted, buildings continue to degrade, so 
 
 ### Should I use luxury consumables such as PWO and COF?
 
-As with many aspects of Prosperous Universe, it depends. You may need to check prices and determine if they are worthwhile. Assuming basic consumables are present:
+As with many aspects of Prosperous Universe, it depends. You may need to check prices and determine if they’re worthwhile. Assuming basic consumables are present:
 
 - PWO alone provides ~87% efficiency @ 0.2 used daily/100 pioneers
 - COF alone provides ~91% efficiency @ 0.5 used daily/100 pioneers
@@ -345,7 +347,7 @@ Recurring orders is a [PRO](https://handbook.apex.prosperousuniverse.com/wiki/pr
 - With a FREE/BASIC account, you can upgrade up to HQ level 5.
 - With a PRO account, you can upgrade an infinite amount of times. The costs of HQ upgrades does go up, however.
 
-If your account degrades from PRO to Basic, you maintain your existing HQ level but cannot upgrade until you have PRO again.
+If your account degrades from PRO to Basic, you maintain your existing HQ level but can’t upgrade until you have PRO again.
 
 ### Is there a way to know the costs of future HQ levels?
 
@@ -357,7 +359,7 @@ You will get a percentage of the parts depending on how long it has been since y
 - Click **BS**
 - Click **VIEW BASE**
 - Click **BUILDINGS**
-- Find the building you are considering demolishing
+- Find the building you’re considering demolishing
 - Materials listed under **Reclaimable materials** are the parts you will get back
 
 ### How can I calculate my workforce's efficiency?
@@ -373,9 +375,9 @@ Workforce calculations sometimes change and aren't directly exposed in the game.
 
 ### What do the numbers in parenthesis next to the planet plots means?
 
-The **(+###)** is the number of "ghost plots" or the number of plots taken that is over the capacity of the planet. For your first base, you are permitted to start on any planet (including full planets).  If the planet is at capacity, the number of ghost plots increases. This allows new players to be able to settle any initial planet without hindrance.
+The **(+###)** is the number of "ghost plots" or the number of plots taken that is over the capacity of the planet. For your first base, you’re permitted to start on any planet (including full planets).  If the planet is at capacity, the number of ghost plots increases. This allows new players to be able to settle any initial planet without hindrance.
 
-Do note that for any subsequent base, you are unable to settle planets that are capacity. If a regular plot player is reaped (due to inactivity), the first ghost plot takes its place.
+Do note that for any subsequent base, you’re unable to settle planets that are capacity. If a regular plot player is reaped (due to inactivity), the first ghost plot takes its place.
 
 ### What does it mean when a contract is "closed"?
 
@@ -389,7 +391,7 @@ When starting out, you generally never want to multiply orders. However, after s
 - Maintain output ratios (a very common use-case is FRM outputs for RAT)
 - Reduce how frequently you need to interact with a production line
 
-The major reason you don't want to multiply orders in the early game is because expert accumulation is done at the completion of an order.  So if you are 6 hours away from your next expert, but you queue up a 20x order which takes 48 hours, you won't gain the benefit of the additional expert for that order.
+The major reason you don't want to multiply orders in the early game is because expert accumulation is done at the completion of an order.  So if you’re 6 hours away from your next expert, but you queue up a 20x order which takes 48 hours, you won't gain the benefit of the additional expert for that order.
 
 
 ## Commodity Exchange
@@ -407,7 +409,7 @@ The major reason you don't want to multiply orders in the early game is because 
 As with many aspects of Prosperous Universe, it depends on your scenario. Many in the community, however, suggest when starting that you:
 - Set **Reactor Usage** (FTL Drive) to minimum
 - Set **Fuel Usage** (STL Drive) to a few ticks above minimum and modify the slider until it makes sense
-- Ensure you are available (i.e. not asleep) when the ship lands
+- Ensure you’re available (i.e. not asleep) when the ship lands
 
 ### I bought something on the CX (Commodity Exchange) but I can't find it. Where did it go?
 
@@ -426,7 +428,7 @@ You need to fly to the CX (Commodity Exchange) and retrieve the items.
 
 ### I'm trying to sell something on the CX (Commodity Exchange), but it won't let me select a storage location. What do I do?
 
-The CX is a space station in a separate orbit from planets. You are required to transport goods to the station.
+The CX is a space station in a separate orbit from planets. You’re required to transport goods to the station.
 
 In order to sell items on the CX, you need to ensure that those items are available in a storage on the CX. Storage is defined as:
 - A ship attached to the station
@@ -438,7 +440,7 @@ Use the **CXOS** command to delete the order.
 
 ### How do you read the CX charts (CXPC)?
 
-The CX charts (CXPC command) are **Candlestick Charts**. You can modify the timeframe in the upper-left and the transaction grouping timeframe in the upper-right. As you move your mouse over horizontally, values in the upper-left will change relative to where you are hovering:
+The CX charts (CXPC command) are **Candlestick Charts**. You can modify the timeframe in the upper-left and the transaction grouping timeframe in the upper-right. As you move your mouse over horizontally, values in the upper-left will change relative to where you’re hovering:
 - **O** - Open price - The price at the start of the timeframe
 - **H** - High price - The highest price of the timeframe
 - **L** - Low price - The lowest price of the timeframe
@@ -458,7 +460,7 @@ The APEX map uses a renderer which leverages **Hardware Acceleration**. If disab
 
 Hydration Timeouts happen when the game client doesn't receive data of the individual game entities in a certain time-frame (the request times out). In general, there are two major causes:
 - APEX servers are slower than usual and not responding in time. This can happen if one of the servers is rebooting for example.
-- A game entity is running into an error and cannot respond to the request
+- A game entity is running into an error and can’t respond to the request
 
 The vast majority of the time, simply refreshing the browser after waiting for a moment fixes the issue. In some scenarios, the servers (or the ISP hosting the servers) could be the cause--in which case, it may be worthwhile to ask in discord if any others are seeing similar issues.
 

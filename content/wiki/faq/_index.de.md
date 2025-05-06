@@ -90,11 +90,13 @@ Die Abklingzeiten für COLIQ sind:
 
 ### Ich werde für einige Zeit nicht im Spiel aktiv sein. Wie wird mit inaktiven Konten umgegangen?
 
-- PRO-Konten werden nicht entfernt
-- BASIC-Konten werden nach 120 Tagen Inaktivität benachrichtigt und 31 Tage danach gelöscht
-- Konten, die weniger als 7 Tage alt sind, werden nach 3 Tagen Inaktivität benachrichtigt und 5 Tage danach gelöscht
-- Konten, die weniger als 14 Tage alt sind, werden nach 14 Tagen Inaktivität benachrichtigt und 7 Tage danach gelöscht
-- Konten, die älter als 14 Tage sind, werden nach 31 Tagen Inaktivität benachrichtigt und 21 Tage danach gelöscht
+Inaktive Konten werden nicht gelöscht, es wird jedoch die zugehörige Firma liquidiert. 
+
+- Firmen von PRO-Konten werden nicht entfernt
+- Firmen von BASIC-Konten werden nach 180 Tagen Inaktivität benachrichtigt und 31 Tage danach gelöscht
+- Firmen von Konten, die weniger als 7 Tage alt sind, werden nach 6 Tagen Inaktivität benachrichtigt und 5 Tage danach gelöscht
+- Firmen die weniger als 21 Tage alt sind, werden nach 21 Tagen Inaktivität benachrichtigt und 7 Tage danach gelöscht
+- Firmen die älter als 21 Tage sind, werden nach 72 Tagen Inaktivität benachrichtigt und 21 Tage danach gelöscht
 
 Wenn Sie sich anmelden, werden die oben genannten Timer zurückgesetzt.
 
