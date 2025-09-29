@@ -1,5 +1,5 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:0.140.2
+# All available Hugo versions are listed here: https://docker.hugomods.com/docs/tags/
+image: docker.io/hugomods/hugo:base-0.150.0
 
 .docker_job:
   variables:
