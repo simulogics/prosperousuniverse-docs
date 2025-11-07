@@ -67,6 +67,14 @@ Once the motion passes, a contract with the specified contractor is formed. Once
 
 The infrastructure remains operational during the upgrade process.
 
-## Infrastructure Name
+## Infrastructure Naming
 
-It is possible to give any infrastructure a name. Again, this is possible via a motion. There is no limit on how often the name of an infrastructure can be changed. 
+It is possible to give any infrastructure a name. Again, this is possible via a motion. There is no limit on how often the name of an infrastructure can be changed.
+
+## Assets
+
+The `ASTS` (Assets) command provides an overview of infrastructure projects in their various stages. It lists infrastructure projects that are under construction, owned infrastructure (i.e., finished projects) and constructed projects. The command is available in the company and government contexts, and its content is adjusted accordingly: a company can never have an entry in the "Own" subsection, a government cannot construct infrastructure directly, thus the "Constructed" subsection will be empty.
+
+The command will also show helpful links to the respective construction stores in the "Under construction" section. 
+
+![Assets command](./assets.png)
