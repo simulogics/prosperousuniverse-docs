@@ -1,7 +1,6 @@
 ---
 title: "Baukosten"
 date: 2018-09-18T17:13:49+02:00
-weight: 1
 ---
 
 Auf dieser Seite sind alle geltenden Regelungen zu Baukosten aufgeführt. Wenn Sie wissen möchten, wie man Gebäude aufbaut, werfen Sie einen Blick auf die Seite zum [Basis-Setup](../../tutorials/base-setup/).

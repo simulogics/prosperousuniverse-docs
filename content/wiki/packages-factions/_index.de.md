@@ -1,7 +1,6 @@
 ---
 title: "Startpakete und Fraktionen"
 date: 2018-09-18T17:13:49+02:00
-weight: 4
 ---
 
 Diese Seite hilft Ihnen, bei der Gründung Ihres Unternehmens eine passende Kombination aus Startpaket, Fraktion und Standort zu finden. Das Befolgen dieser Ratschläge ist besonders wichtig, wenn Sie neu bei APEX sind. Entscheiden Sie sich am besten zunächst für ein Startpaket und werfen Sie dann einen Blick auf die verschiedenen Fraktionen und die Planeten, die diese kontrollieren. Bestimmte Planeten eignen sich für manche Berufe besser als andere, und manche Planeten und Berufe funktionieren überhaupt nicht zusammen! Je besser ein Planet für Ihre Industrie geeignet ist, desto größer ist allerdings auch die lokale Konkurrenz.

@@ -1,7 +1,6 @@
 ---
 title: "Sonstiges"
 date: 2018-09-18T17:13:49+02:00
-weight: 10
 ---
 
 Diese Seite bietet Informationen zu verschiedenen Themen, die weder von der Tutorial-Reihe noch von anderen Wiki-Seiten abgedeckt werden.

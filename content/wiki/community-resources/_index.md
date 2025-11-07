@@ -1,7 +1,6 @@
 ---
 title: "Community Resources"
 date: 2021-09-07T07:13:49+02:00
-weight: 3
 ---
 
 This is a list of all resources created by the community. Please let us know if some resource is missing or outdated.

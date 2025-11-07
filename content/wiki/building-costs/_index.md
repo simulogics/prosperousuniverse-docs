@@ -1,7 +1,6 @@
 ---
 title: "Building costs"
 date: 2018-09-18T17:13:49+02:00
-weight: 1
 ---
 
 This page lists all the rules in place for building costs. If you would like to know how to set up buildings, have a look at the [Base setup](../../tutorials/current-tutorials/02-first-base/index.html) page.

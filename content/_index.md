@@ -7,7 +7,7 @@ date: 2018-09-18T17:06:00+02:00
 
 ## Welcome, licensees!
 
-The APEX Handbook is divided in two big sections:
+The APEX Handbook is divided into two big sections:
 
 The [tutorials](tutorials) are a collection of step-by-step guides on different procedures such as setting up your company, making use of your spacecraft, forming a Corporation, etc. Tutorials 1 and 2 (2.1-2.5) cover the fundamentals, while the later tutorials feature more advanced information.
 

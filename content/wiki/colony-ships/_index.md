@@ -1,7 +1,6 @@
 ---
 title: "Colony Ships"
 date: 2025-09-15T11:54:49+02:00
-weight: 6
 ---
 
 ## Blueprint

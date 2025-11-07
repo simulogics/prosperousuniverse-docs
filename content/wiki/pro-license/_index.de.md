@@ -1,7 +1,6 @@
 ---
 title: "PRO-Lizenz"
 date: 2018-09-18T17:13:49+02:00
-weight: 9
 ---
 
 Auf dieser Seite werden alle Features aufgeführt, die durch den Erhalt einer PRO-Lizenz beeinflusst werden. Die PRO-Lizenz können Sie über den [APEX-Hub](https://prosperousuniverse.com/premium) erwerben.

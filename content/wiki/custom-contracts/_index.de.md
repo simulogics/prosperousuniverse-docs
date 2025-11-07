@@ -1,7 +1,6 @@
 ---
 title: "Benutzerdefinierte Verträge"
 date: 2022-07-25T10:30:49+02:00
-weight: 3
 ---
 
 ## Allgemeine Informationen

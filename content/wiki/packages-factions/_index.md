@@ -1,7 +1,6 @@
 ---
 title: "Packages and factions"
 date: 2018-09-18T17:13:49+02:00
-weight: 4
 ---
 
 This page will help you find a suitable combination of package, faction and starting location when first establishing your company. Following the advice below is especially vital if you are new to APEX. You best settle on a package first and then have a look at the different factions and the planets they control. Certain planets are better suited for some professions than others, and some planets and professions do not work together at all! But of course, the better suited a planet is for your industry, the higher the local competition will be.

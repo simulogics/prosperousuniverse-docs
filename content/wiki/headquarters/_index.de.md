@@ -1,7 +1,6 @@
 ---
 title: "Der Firmensitz"
 date: 2021-02-08T17:13:49+02:00
-weight: 5
 ---
 
 ## Allgemeine Informationen

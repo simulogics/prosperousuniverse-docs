@@ -1,7 +1,6 @@
 ---
 title: "FAQ"
 date: 2021-09-07T07:13:49+02:00
-weight: 11
 ---
 
 {{< table-of-contents >}}

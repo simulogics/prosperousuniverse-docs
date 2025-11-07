@@ -1,7 +1,6 @@
 ---
 title: "Community-Ressourcen"
 date: 2021-09-07T07:13:49+02:00
-weight: 3
 ---
 
 Dies ist eine Liste aller Ressourcen, die von unserer Community erstellt wurden. Bitte teilen Sie uns mit, wenn eine Ressource fehlt oder veraltet ist.

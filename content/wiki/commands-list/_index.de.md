@@ -1,7 +1,6 @@
 ---
 title: "Command-Liste"
 date: 2018-09-18T17:13:49+02:00
-weight: 2
 ---
 
 Dies ist eine umfassende Liste aller Commands, die Ihnen in APEX zur Verfügung stehen. Sie sind nach ihren jeweiligen Einsatzgebieten gruppiert. Um diese Liste zu verstehen, müssen Sie bereits mit der [Funktionsweise von Commands](../../tutorials/commands) vertraut sein. Sie können die gesamte Liste durchlesen, um sich einen Überblick zu verschaffen, oder sie als Referenz zum Nachschlagen bestimmter Befehle verwenden.

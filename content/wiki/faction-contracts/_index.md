@@ -1,7 +1,6 @@
 ---
 title: "Faction Contracts"
 date: 2022-12-05T10:30:49+02:00
-weight: 3
 ---
 
 ## General information

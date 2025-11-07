@@ -1,7 +1,6 @@
 ---
 title: "PRO License"
 date: 2018-09-18T17:13:49+02:00
-weight: 9
 ---
 
 This page lists all the features impacted by owning a PRO license. You can acquire a PRO license from the [APEX hub](https://prosperousuniverse.com/premium).
