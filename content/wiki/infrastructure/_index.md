@@ -13,7 +13,7 @@ Infrastructure projects are large, planetary projects that are being initiated b
 
 So far the only type of infrastructure is [gateways](../infrastructure-gateway).
 
-A planet's infrastructure is listed in the `PLI` and `INF` commands.
+A planet's infrastructure is listed in the `PLI` and `INF` commands. Please note that `INF` also shows planetary projects.
 
 ![Infrastructure List](./infrastructure-list.png)
 
