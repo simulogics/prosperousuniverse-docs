@@ -22,7 +22,7 @@ This is a list of many resources created by the community. Please let us know if
 | News  | Prosperous Turnip | https://prosperousturnip.com/           | The best, totally real, super not fake, news from the Prosperous Universe!              |
 | News  | PrUniverse Report | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
 | News  | Rain's Blog       | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
-| Guide | Beginners Guide   | https://steamcommunity.com/sharedfiles/filedetails/?id=3545186148 | Laaxus's Complete Beginners Guide                             |                           
+| Guide | Beginners Guide   | [Steam Community Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3545186148) | Laaxus's Complete Beginners Guide    |                           
 | Guide | Governor Guide    | [Google Doc](https://docs.google.com/document/d/1pDvP3Iz-MDIa_uoQPsJDDOHn72dK7T02k1oAa94K2W0/edit) | Archiel's Good Governance guide, getting started as a governor. |
 
 
@@ -48,7 +48,7 @@ This is a list of many resources created by the community. Please let us know if
 | Type              | Name                | Author                       | Link                                             | Description                                                                                    |
 |-------------------|---------------------|------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------|
 | Extension/Utility | FIO                 | Kovus, Saganaki, Many Others | https://fio.fnar.net/                            | Search planets, find shipping ads, see your consumable burn, and much much more.               |
-| Extension         | Refined Prun        | Razenpok                     | https://chromewebstore.google.com/detail/refined-prun/coabeheneafgglpakallmkienlidgaof  | Simplifies the Prosperous Universe interface and adds useful features |
+| Extension         | Refined Prun        | Razenpok                     | [Chrome Web Store](https://chromewebstore.google.com/detail/refined-prun/coabeheneafgglpakallmkienlidgaof)  | Simplifies the Prosperous Universe interface and adds useful features |
 | Utility           | PRUNplanner         | Scorpio                      | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
 | Library/Utility   | ApexUtils           | binarygod                    | https://github.com/timthedevguy/ApexUtils        | JavaScript class to assist in integrating custom code to APEX console.                         |
 | Extension/Utility | FIO Tooltips        | binarygod                    | https://github.com/Manderius/PrUn_Tooltips       | Show exchange data on inventory items on mouse-over.                                           |
