@@ -3,7 +3,7 @@ title: "Community Resources"
 date: 2021-09-07T07:13:49+02:00
 ---
 
-This is a list of all resources created by the community. Please let us know if some resource is missing or outdated.
+This is a list of many resources created by the community. Please let us know if some resource is missing or outdated.
 
 ## Discord servers
 
@@ -22,6 +22,7 @@ This is a list of all resources created by the community. Please let us know if 
 | News  | Prosperous Turnip | https://prosperousturnip.com/           | The best, totally real, super not fake, news from the Prosperous Universe!              |
 | News  | PrUniverse Report | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
 | News  | Rain's Blog       | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
+| Guide | Beginners Guide   | https://steamcommunity.com/sharedfiles/filedetails/?id=3545186148 | Laaxus's Complete Beginners Guide                             |                           
 | Guide | Governor Guide    | [Google Doc](https://docs.google.com/document/d/1pDvP3Iz-MDIa_uoQPsJDDOHn72dK7T02k1oAa94K2W0/edit) | Archiel's Good Governance guide, getting started as a governor. |
 
 
@@ -46,22 +47,22 @@ This is a list of all resources created by the community. Please let us know if 
 
 | Type              | Name                | Author                       | Link                                             | Description                                                                                    |
 |-------------------|---------------------|------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Library/Utility   | ApexUtils           | binarygod                    | https://github.com/timthedevguy/ApexUtils        | JavaScript class to assist in integrating custom code to APEX console.                         |
 | Extension/Utility | FIO                 | Kovus, Saganaki, Many Others | https://fio.fnar.net/                            | Search planets, find shipping ads, see your consumable burn, and much much more.               |
+| Extension         | Refined Prun        | Razenpok                     | https://chromewebstore.google.com/detail/refined-prun/coabeheneafgglpakallmkienlidgaof  | Simplifies the Prosperous Universe interface and adds useful features |
+| Utility           | PRUNplanner         | Scorpio                      | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
+| Library/Utility   | ApexUtils           | binarygod                    | https://github.com/timthedevguy/ApexUtils        | JavaScript class to assist in integrating custom code to APEX console.                         |
 | Extension/Utility | FIO Tooltips        | binarygod                    | https://github.com/Manderius/PrUn_Tooltips       | Show exchange data on inventory items on mouse-over.                                           |
 | Extension/Utility | PCT Wiki            | PCT Discord                  | https://pct.fnar.net/                            | PrUn Community Tools wiki of detailed game mechanics.                                          |
 | Utility           | Plex Tools          | Plexucra                     | http://prun.plexucra.de/                         | Tools for the daily work of a galactic CEO with a starmap, profit analyzer, and much more.     |
 | Utility           | Prosper             | b3dtime                      | https://prosper.run/                             | A tool to visualize production chains as well as show the values of your inventory.            |
 | Map/Search        | Prosperity          | Ined                         | https://prosperity-prun.netlify.app/             | Search a 2D map, find resource locations, and plot jump routes.                                |
 | Utility           | PrUnIcon            | allocator                    | https://pastebin.com/aWe7XJ7a                    | Modified colors and icons for material boxes.                                                  |
-| Base Management   | PRUNner             | Jacudibu                     | https://github.com/Jacudibu/PRUNner/             | Standalone base planning app to establish your empire without using spreadsheets!              |
-| Utility           | PRUNplanner         | Scorpio                      | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
+| Base Management   | PRUNner             | Jacudibu                     | https://github.com/Jacudibu/PRUNner/             | Archived - Standalone base planning app to establish your empire without using spreadsheets!   |
 | APEX Modification | PrUnTools           | binarygod                    | https://github.com/timthedevguy/PrUnTools_Public | Collection of TamperMonkey APEX console mods.                                                  |
-| Extension         | PMMG Extended       | PiBoy314 (Orig Yarek)        | https://sites.google.com/view/pmmgextended       | Improve and tweak the interface elements of Prosperous Universe (and more!)                    |
 | Extension/Utility | Screens Inline      | Rynx                         | https://github.com/Manderius/PrUn_Addon          | Add individual screens inline as well as add preferred exchange links for material buffers.    |
 | Utility           | Universal Logistics | wyago                        | https://universallogistics.app/                  | An exploratory tool for visualizing material supply chains and optimizing building profits.    |
 | Map               | Universe Map Tool   | McCowen                      | http://prosperous.freecluster.eu/                | Pan and Zoom this map of systems, FTL flight paths, system and planet names and faction space. |
 | Search            | yapt                | aeryen                       | https://aeryen23.github.io/yapt/                 | Search planets, info about a company & general base count.                                     |
-| Map               | Taiyi's Prosperous Universe Map  | Taiyi                        | https://universemap.duckdns.org/                 | Interactive Map with resource search and filter functionality         |
+| Map               | Taiyi's Prosperous Universe Map  | Taiyi           | https://universemap.duckdns.org/                 | Interactive Map with resource search and filter functionality                                  |
 
 {{% about-this-page %}}
