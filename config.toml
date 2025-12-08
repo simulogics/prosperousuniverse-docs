@@ -25,6 +25,11 @@ title = "Prosperous Universe Handbuch"
 weight = 2
 languageName = "Deutsch"
 
+[languages.zh-CN]
+title = "Prosperous Universe 手册"
+weight = 3
+languageName = "简体中文（社区翻译）"
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

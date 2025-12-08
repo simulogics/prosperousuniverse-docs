@@ -1,0 +1,76 @@
+---
+title: "Building costs"
+date: 2018-09-18T17:13:49+02:00
+---
+
+This page lists all the rules in place for building costs. If you would like to know how to set up buildings, have a look at the [Base setup](../../tutorials/current-tutorials/02-first-base/index.html) page.
+
+## General information
+
+The basic building costs of each building can be looked up in your base's BSC window (hit “CONSTRUCT” in your base overview):
+
+![Construct buffer](construct-buffer-pioneer-habitation.jpg)
+
+Clicking any of the buildings' symbols will reveal their BUI window, which shows their Building costs:
+
+![Habitation building costs](pioneer-habitation-details.jpg)
+
+
+However, this information only paints a part of the picture. It pertains to _this_ particular base, which is located on a concrete planet. Costs for erecting structures on other planets may deviate based on the set of rules below.
+
+## Costs calculation
+
+Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials and/or Construction Parts (“Additional resources” below) will be required _once_ for _every_ building depending on the environmental conditions at hand. The exact number of some additional resources depends on the Area cost of a building, which is indicated in its BUI window (see screenshot above).
+
+Please note that all these additional costs also pertain to [Planetary projects](../../tutorials/planetary-projects) and [Corporate projects](../../tutorials/corporations/#corporate-actions-and-projects).
+
+### Rocky Planets
+
+__Additional resource:__ Mineral Construction Granulate (MCG)  
+__Amount:__ Area x 4
+
+### Gaseous planets
+__Additional resource:__ Aerostat Foundation (AEF)  
+__Amount:__ Area / 3
+
+### Atmospheric pressure
+
+#### Low pressure (< 0.25 atm)
+
+__Additional resource:__ Poly-Sulfite Sealant (SEA)  
+__Amount:__ Area x 1
+
+#### High pressure (> 2.0 atm)
+
+__Additional resource:__ Hardened Structural Elements (HSE)  
+__Amount:__ 1 per building
+
+### Gravity
+
+#### Low gravity (< 0.25 g):
+
+__Additional resource:__ Magnetic Ground Cover (MGC)  
+__Amount:__ 1 per building
+
+#### High gravity (> 2.5 g):
+
+__Additional resource:__ High-Oxygen Breathable Liquid (BL)  
+__Amount__: 1 per building  
+_Please note: This commodity is listed under Chemicals, not Construction Materials._
+
+### Temperature
+
+#### Low temperature (<-25° C):
+
+__Additional resource:__ InsuFoam (INS)  
+__Amount:__ Area x 10
+
+#### High temperature (> 75° C):
+
+__Additional resource:__ Thermal Shielding (TSH)  
+__Amount:__ 1 per building
+
+### Fertility
+Farms and Orchards require a planet with fertile soil to be built.
+
+{{% about-this-page %}}
