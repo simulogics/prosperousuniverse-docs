@@ -1,29 +1,29 @@
 ---
-title: "Colony Ships"
+title: "拓殖船"
 date: 2025-09-15T11:54:49+02:00
 ---
 
-## Blueprint
+## 蓝图
 
-A colony ship is a special kind of ship with a pre-determined blueprint that every player has in ther list of blueprints (BLU) by default, similar to the starter ship blueprint. It starts in the "LOCKED" status, so colony ships can only ever be constructed using this exact blueprint.
+拓殖船是一种特殊类型的飞船，每个玩家的蓝图列表（BLU）中都默认有其预设蓝图，类似于起始飞船蓝图。它最初处于"锁定"状态，因此拓殖船只能使用此蓝图建造。
 
 ![Blueprint](blueprint.jpg)
 
-A major difference when compared to regular ships, is that colony ships do not have an FTL reactor or FTL fuel tank, but instead use a special type of engine called **Vortex engine**.
+与普通飞船相比，拓殖船的一个主要区别是没有FTL反应堆和FTL燃料箱，而是使用一种特殊类型的引擎，称为**涡流引擎**。
 
-## Space travel
+## 太空航行
 
-A colony ship's Vortex engine allows it to travel to nearby systems independently from FTL connections. This means *even if there is no FTL connection* between systems A and B, a colony ship will still be able to travel between them if the target system is not too distant from the ship.
+拓殖船的涡流引擎使其能够脱离FTL航道在较近的恒星系间航行。这意味着即时恒星系A和恒星系B之间*没有FTL航道*连接，如果目标恒星系距离飞船不太远，其仍然可以在它们之间穿梭。
 
 ![FlightControls](flight-controls.jpg)
 
-In a colony ship's flight controls (SFC), before entering a target destination, you will be able to see all the systems within its reach. Use this list to determine a target planet to enter that lies within one of these systems.
+在拓殖船的飞行控制界面（SFC）中，在输入目标目的地之前，您将能够看到其范围内的所有恒星系。您可以使用此列表来确定一个位于这些恒星系中的目标行星。
 
 ![FlightPlan](flight-plan.jpg)
 
-STL flight for colony ships works in the exact same way as for any other ship. However, in place of the usual FTL-related steps, its flight plan will include a "floating" step (FLO). This step will always take multiple days to complete (longer for greater distances) and will always use a set amount of Vortex fuel units.
+拓殖船的 STL 飞行方式与任何其他飞船完全相同。然而，它将用一个“浮动”（FLO）步骤取代通常与 FTL 相关的步骤。此步骤总是需要数天才能完成（距离越远，时间越长），并且总是会消耗一定量的涡流燃料单位。
 
-## Purpose
-Please note that colony ships are not meant to be a regular, efficient way of moving goods around between systems. Instead, they will situationally be useful to bridge gaps in the universe's FTL network, either by making entirely detached sectors accessible, or by offering a way around particularly long detours (at least in case the price of the required Vortex fuel is favorable enough).
+## 用途
+请注意，拓殖船并非在星系间高效运输货物的常规方式。相反，它们将在特定情况下用于跨越宇宙 FTL 网络中的空白，无论是通过使完全分离的区域可访问，还是通过提供绕过特别漫长绕行路线的方法（至少在所需涡流燃料价格足够有利的情况下）。
 
 {{% about-this-page %}}

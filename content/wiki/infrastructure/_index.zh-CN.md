@@ -1,80 +1,80 @@
 ---
-title: Infrastructure
+title: 基础设施
 date: 2025-11-06T17:00:49+02:00
 ---
 
 {{% notice style="secondary" title="Note" %}}
-This article is a preview of the upcoming gateway release.
+本文为即将发布的Gateway更新的预览。
 {{% /notice %}}
 
-## General information
+## 一般信息
 
-Infrastructure projects are large, planetary projects that are being initiated by a planetary government. They are constructed and operated by individual companies via specialized contractor contracts offered by the government.
+基础设施项目是由行星政府发起的大型行星级项目。它们由各个公司通过政府提供的特定承包商合同来建造和运营。
 
-So far the only type of infrastructure is [gateways](../infrastructure-gateway).
+到目前为止，唯一的基础设施类型是[跃迁点](../infrastructure-gateway)。
 
-A planet's infrastructure is listed in the `PLI` and `INF` commands. Please note that `INF` also shows planetary projects.
+一个行星的基础设施可在`PLI`和`INF`命令中查看。请注意，`INF`也显示行星项目。
 
 ![Infrastructure List](./infrastructure-list.png)
 
-## Infrastructure Construction
+## 基础设施建设
 
-Infrastructure can only be built by a planetary government. There are a variety of infrastructure-related motion components, and the one to build any infrastructure is "Infrastructure construction".
+基础设施只能由行星政府建设。有各种与基础设施相关的动作组件，其中用于建造任意基础设施的动作是“建造基础设施”。
 
 ![Infrastructure Construction](./infrastructure-construction.png)
 
-The following describes the typical steps to build an infrastructure.
+下面描述了建立基础设施的基本步骤。
 
-First, the "Infrastructure construction" motion has to be filled out. It specifies the payment the constructor will receive for their services. It also allows setting a deadline until which the construction has to be finished. The constructor can be any user.
+首先，必须填写“基础设施建造”议案。该议案说明了承建方将为其服务获得的报酬。它还允许设定一个必须在其之前完成建设的最后期限。承建方可以是任何用户。
 
 ![Infrastructure Construction Motion](./infrastructure-construction-motion.png)
 
-Once the motion has been successfully voted upon, a new contract between the government and the constructor's company is formed. The constructor can choose to accept/close the contract or reject it if they received it in error.
+一旦议案成功通过，政府与承建商公司之间拟定一项新合同。承建商可以选择接受并履行该合同，或在错误收到合同时予以拒绝。
 
 ![Infrastructure Construction Contract](./infrastructure-construction-contract.png)
 
-The contract consists of three parts. First, the contractor's payment. Second, a contract condition that starts the construction process. This condition has to be fulfilled by the constructor. Upon its fulfillment, the infrastructure project is started at the given location and a construction store is created. Lastly, once all construction materials have been delivered to the construction site, the last condition fulfills automatically and the infrastructure is complete.
+合同由三部分组成。首先，拟约方的付款。其次，一项由建设方触发的合同条件，用以启动建设程序。该条件必须由建设者满足。一旦满足，基础设施项目将在指定位置启动，并创建一个建设存储。最后，当所有建设材料已被运送到施工现场后，最后一项条件会自动完成，基础设施即告竣工。
 
 ![Infrastructure Construction Store](./infrastructure-construction-store.png)
 
-Please note that all infrastructures that are located in orbit have their own addresses. That means that flying to a planet's orbit is not enough to transfer construction materials, for example. The ships have to be directed to the specific infrastructure or construction site.
+请注意，位于轨道上的所有基础设施都有各自的地址。这意味着例如飞到行星轨道并不足以转移建造材料。飞船必须被设置为前往具体的基础设施或建造工地。
 
-## Infrastructure Management
+## 基础设施管理
 
-Most infrastructures require weekly upkeep to be operational. The `INFU` (infrastructure upkeep) command provides an overview of all upkeep-related information.
+大多数基础设施需要每周维护才能持续工作。`INFU`（基础设施维护）命令提供了所有与维护相关的信息概览。
 
 ![Infrastructure Upkeep](./infrastructure-upkeep.png)
 
-It shows which and how many materials are required per weekly upkeep phase, information about the current upkeep phase and a history of the last upkeep phases.
+它显示每个每周维护阶段所需的材料种类和数量、当前维护阶段的信息以及最近维护阶段的历史记录。
 
-The infrastructure's operational state will switch from "upkeep missing" to "operational" once all required materials have been transferred to the upkeep store. The upkeep store can hold upkeep materials for three upkeep phases. To gain access to the upkeep store, a contractor has to be appointed via a motion. Only these contractors can access the upkeep store.
+一旦所有必需的材料被转移到维护库存，基础设施的运行状态将从“缺少维护供给”切换为“运转中”。维护库存可以存放三次维护周期所需的维护材料。要获得对维护仓库的访问权限，必须通过一项议案任命承包商。只有这些承包商可以访问维护库存。
 
 ![Infrastructure Upkeep Motion](./infrastructure-upkeep-motion.png)
 
-In the motion editor various parameters can be selected. It defines the phase in which the upkeep contract should start and for how many phases it should run. It also allows specifying the contractor and the payment per phase. The service level objective defines the minimum ratio of the infrastructure being operational versus in "upkeep missing" state.
+在议案编辑器中可以选择各种参数。它定义了维护合约应在哪个阶段开始以及应持续多少个阶段。它还允许指定承包商和每阶段的支付金额。运营水平定义了基础设施处于运行状态与处于“缺少维护供给”状态的最小比例。
 
-For example, if the service level is defined to be 50% and the contractor provides the necessary upkeep materials on the fifth day of the upkeep phase, the contract condition will be violated, as the infrastructure has been in "upkeep missing" state for ~71%.
+例如，如果服务水平被定义为 50%，而承包商在维护阶段的第五天才提供必要的维护材料，则违反合同条款，因为该基础设施已经处于约 71%的“维护缺失”状态。
 
-It is possible to have multiple contractors for the same upkeep phase.
+同一维护阶段可以有多个承包商。
 
-## Infrastructure Upgrades
+## 基础设施升级
 
-Some infrastructures can be upgraded. The motion's selection depends on the type of the infrastructure. Here is an example of a gateway upgrade:
+有些基础设施可以升级。可采取的议案取决于基础设施的类型。下面是一个跃迁点升级的示例：
 
 ![Infrastructure Upgrade Motion](./infrastructure-upgrade.png)
 
-Once the motion passes, a contract with the specified contractor is formed. Once the contractor accepts the contract, they will gain access to a construction store, similarly as to the infrastructure construction contract.
+一旦议案通过，与指定承包商的合同即告成立。一旦承包商接受合同，他们将获得对建造库存的访问权限，类似于基础设施建造合同。
 
-The infrastructure remains operational during the upgrade process.
+升级过程中基础设施保持正常运作。
 
-## Infrastructure Naming
+## 基础设施命名
 
-It is possible to give any infrastructure a name. Again, this is possible via a motion. There is no limit on how often the name of an infrastructure can be changed.
+可以为任何基础设施命名。同样，这是通过议案来实现的。基础设施的名称可以不限次数地更改。
 
-## Assets
+## 资产
 
-The `ASTS` (Assets) command provides an overview of infrastructure projects in their various stages. It lists infrastructure projects that are under construction, owned infrastructure (i.e., finished projects) and constructed projects. The command is available in the company and government contexts, and its content is adjusted accordingly: a company can never have an entry in the "Own" subsection, a government cannot construct infrastructure directly, thus the "Constructed" subsection will be empty.
+`ASTS`（资产）命令提供了处于各个阶段的基础设施项目概览。它列出正在建设中的基础设施项目、已拥有的基础设施（即已完成的项目）和负责建造且已建成的项目。该命令在公司和政府上下文中均可用，其内容会相应调整：公司在“自有”小节中永远不会有条目，政府不能直接建设基础设施，因此“已建造”小节将为空。
 
-The command will also show helpful links to the respective construction stores in the "Under construction" section.
+该命令还会在“建造中”部分显示指向相应建筑库存的有用链接。
 
 ![Assets command](./assets.png)

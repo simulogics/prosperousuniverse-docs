@@ -1,37 +1,37 @@
 ---
-title: "PRO License"
+title: "PRO许可证"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This page lists all the features impacted by owning a PRO license. You can acquire a PRO license from the [APEX hub](https://prosperousuniverse.com/premium).
+本页面列出所有PRO许可影响的功能。您可以在[这里](https://prosperousuniverse.com/premium)获取PRO许可。
 
-| Feature | FREE License | PRO License |
+| 功能 | FREE许可 | PRO许可证 |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Local Markets | FREE users may trade on official __commodity exchanges__, but cannot close any bulletin-board-style contracts on the local markets. __*__ | PRO user companies are assigned trust ratings and can place or accept orders on the __local markets__. This includes posting and accepting __shipping contracts__. |
-| Space Flight | FREE users may not have more than __2 ships in flight simultaneously__. | PRO users can have an __unlimited number of ships in flight simultaneously__. |
-| Unload on arrival | FREE users __cannot activate “unload on arrival”__. | PRO users __can have ships automatically unload their cargo on arrival.__ |
-| Shipbuilding | FREE users can design their own spaceship __blueprints__, but cannot use shipyards to build or upgrade ships. | PRO users can enter their blueprints and the required materials at a shipyard to __build their own custom spaceships__ and upgrade them. |
-| 集团 | FREE users may __join an existing corporation__, but not found their own. | PRO users can __found and oversee their own corporation__. |
-| Foreign Exchange | FREE users __cannot trade currencies__ on the foreign exchange market. | PRO users can freely place buy and sell orders to __trade all currencies__ on the foreign exchange market. |
-| Recurring production orders | FREE users __cannot queue recurring production orders__ in their production lines. | PRO users can add __any amount of recurring production orders__ to their production line queues. |
-| Headquarters upgrades | FREE users __cannot upgrade their HQ beyond level 5__. | PRO users can __upgrade their HQ indefinitely__. |
-| Governorship | FREE users __cannot run for governor of a planet__. | PRO users can __run for governor__. |
-| Planetary Projects | FREE users __cannot contribute to planetary projects__. | PRO users can __contribute to any planetary project__. |
-| Global Chamber of Commerce Voting | FREE users __cannot vote on CoGC programs__. | PRO users __can vote on CoGC programs__. |
-| Production Queue Management | FREE users __cannot re-order their production queues__. | PRO users __can move production orders around in the queue__. |
-| Commodity Exchange Material Info | FREE users __cannot access the CXM command__. | PRO users __can access the CXM command__ to compare CX information on a material across all exchanges. |
-| Building Repair Assistant | FREE users __can see__ the total amount of repair materials. | PRO users __can repair all buildings__ of a base at once. |
+| Local Markets | FREE用户可以在官方 __商品市场__ 进行交易，但不能在本地市场上完成任何公告板式招标的成交。__*__ | PRO用户公司会被分配评价等级，并且可以在 __本地市场__ 上发布或接受订单。包括发布和接受运输合同。 |
+| 太空航行 | FREE用户 __同时在飞行中的飞船__ 不得超过 2 艘。 | PRO用户可以同时拥有 __无限数量的在飞行中的飞船__ 。 |
+| 抵达后卸货 | FREE用户不能激活 __"抵达后卸货"__ 。 | PRO用户 __可以使飞船在抵达后自动卸货__ 。 |
+| 造船 | FREE用户可以设计自己的飞船 __蓝图__ ，但不能使用造船厂来建造或升级飞船。 | PRO用户可以在船厂输入他们的蓝图和所需材料来 __建造自己的定制飞船__ 并对其进行升级。 |
+| 集团 | FREE用户可以 __加入现有的集团__ ，但不能自行创建集团。 | PRO 用户可以 __创建并监管__ 自己的集团。 |
+| 外汇 | FREE用户 __无法__ 在外汇市场进行货币交易。 | PRO用户可以自由下买卖单，在外汇市场 __交易所有货币__ 。 |
+| 重复生产订单 | FREE 用户 __无法__ 在其生产线队列中添加循环生产订单。 | PRO用户可以在其生产线队列中添加 __任意数量的循环生产订单__ 。 |
+| 总部升级 | FREE用户无法将其总部 __升级到 5 级以上__ 。 | PRO用户可以 __无限制地升级__ 其总部等级。 |
+| 管理者 | FREE用户 __无法__ 竞选行星管理者。 | PRO用户 __可以竞选管理者__ 。 |
+| 行星项目 | FREE用户 __不能__ 为行星项目做出贡献。 | PRO用户可以为 __任何行星项目__ 做出贡献。 |
+| 全球商会投票 | FREE用户 __无法__ 对全球商会计划进行投票。 | PRO用户 __可以__ 对商会计划进行投票。 |
+| 生产队列管理 | FREE用户 __无法重新排列__ 他们的生产队列。 | PRO用户 __可以在队列中移动生产订单__ 。 |
+| 跨商品市场商品信息 | FREE用户 __无法访问 CXM 命令__ 。 | PRO用户 __可以使用 CXM 命令__ 在所有交易所对某种材料的 CX 信息进行比较。 |
+| 建筑维修助手 | FREE用户可以 __浏览__ 维修材料的总量。 | PRO用户可以一次修复 __一个基地的所有建筑__ 。 |
 
-__*__ Note that if you ever possessed a paid PRO license (i.e. there is at least one payment associated with your account), it will be converted into a **BASIC** instead of a FREE license when it expires. A BASIC license will allow you to **accept local market ads**, but not place your own ads. It also allows accepting custom contracts that other players send to you.
+__*__ 请注意，如果您曾拥有过付费的 PRO 许可（即您的账户至少有一次付款记录），当其到期时它将被转换为 BASIC 而非 FREE 许可。BASIC 许可允许您**接受本地市场招标**，但不能发布自己的招标。它还允许接受其他玩家发给您的自定义合同。
 
-## PRO license gifting
+## 赠送PRO许可
 
-Players with a PRO license can gift some of their remaining PRO license time to another player. The gifted time will be added to the recipients remaining PRO license time. If the recipient doesn’t have an active PRO license, one is created.
+拥有PRO许可证的玩家可以将其剩余的一部分PRO许可证时长赠予其他玩家。被赠送的时间将添加到接受者剩余的PRO许可证时间中。没有PRO许可证的接受者将被升级到PRO许可证。
 
-The default fallback license of PRO license time gifts is the FREE license. Meaning that a player that had the FREE license before will fall back to the FREE license after the PRO time runs out. If a player had BASIC before, they will fall back to BASIC.
+赠送PRO时长过期后的默认许可为FREE许可。这意味着在PRO时长到期后，之前拥有FREE许可的玩家将回退到FREE许可。如果玩家之前拥有BASIC许可，他们将回退到BASIC许可。
 
-There is a new command (`GIFT`) that shows an overview of received and sent gifts. It also allows sending a gift by selecting the number of days and the recipient. The minimum number of gifted days is 3.
+有一个新命令（`GIFT`），用于显示已接收和已发送礼物的概览。它还允许通过选择天数和接收者来发送礼物。赠送天数的最少值为 3 天。
 
-Please note that it is not permitted to trade PRO license gifts for in-game valuables or real world money.
+请注意，不允许将PRO许可证礼物用于换取游戏内贵重物品或现实世界货币。
 
 {{% about-this-page %}}

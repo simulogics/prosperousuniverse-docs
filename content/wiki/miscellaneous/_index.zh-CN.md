@@ -1,33 +1,33 @@
 ---
-title: "Miscellaneous"
+title: "杂项"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This page lists information on various topics that can neither be covered by the tutorial series nor other wiki pages.
+本页列出一些无法由教程系列或其他维基页面涵盖的各种主题的信息。
 
-## Troubleshooting FAQ
+## 故障排查常见问题
 
-The official FAQ can be found in [this forum thread](https://com.prosperousuniverse.com/t/frequently-asked-questions/). They cover known bugs and common issues related to player accounts.
+官方常见问题（FAQ）可以在[这个论坛帖子](https://com.prosperousuniverse.com/t/frequently-asked-questions/)中找到。它们涵盖了与玩家账号相关的已知错误和常见问题。
 
-## PRO license vs. FREE license
+## PRO许可与FREE许可
 
-Some features of APEX are only (fully) accessible to PRO users. A PRO license can be acquired [here](https://prosperousuniverse.com/premium).
+APEX 的某些功能仅对 PRO 用户完全开放。可以在[此处](https://prosperousuniverse.com/premium)获取 PRO 许可。
 
-Note that if you paid for a PRO license _once_, you will keep certain advantages forever as your license will go back to BASIC status instead of FREE.
+请注意，如果你 _曾经购买过_ PRO许可，当你的许可降回BASIC状态而不是FREE时，你将永久保留某些特权。
 
-You can find more information about what the licenses entail in the [license section](../../wiki/pro-license) of the handbook.
+您可以在手册的[许可部分](../../wiki/pro-license)找到有关这些许可内容的更多信息。
 
-## APEX keyboard shortcuts
+## APEX键盘快捷键
 
-There are a few keyboard shortcuts for APEX:
-- **Ctrl + Space** opens up a new, empty buffer.
-- **Escape** closes the currently selected buffer.
+APEX 有一些键盘快捷键：
+- **Ctrl + Space**会打开一个新的缓存窗口。
+- **Esc**键关闭当前选中的缓存窗口。
 
-## APEX chat commands
+## APEX聊天命令
 
-The APEX chat has a number of special functions.
-- **Linking companies**: Preceding any company code with the dollar sign `$` will make it clickable in the chat window and link to the company profile.
-- **Linking licensees**: Preceding any person's name with the `@` sign will make it clickable in the chat window and link to the licensee's profile.
-- **Linking commodity price information**: Posting a commodity's ticker together with a commodity exchange code (for example `HE3.CI1`) will display the current price information for that commodity.
+APEX聊天具有许多特殊功能。
+- **指向公司的链接**：在任何公司代码前加上美元符号`$`将使其在聊天窗口中可点击，并链接到该公司资料。
+- **指向用户的链接**：在任何人名之前加上`@`符号将使其在聊天窗口中可点击，并链接到该用户的资料。
+- **将商品代码与商品交易所代码一起发布**（例如 HE3.CI1）将链接到该商品的当前价格信息。
 
 {{% about-this-page %}}

@@ -1,5 +1,5 @@
 ---
-title: "Prosperous Universe 手册"
+title: "Prosperous Universe手册"
 date: 2018-09-18T17:06:00+02:00
 ---
 

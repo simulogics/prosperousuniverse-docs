@@ -1,56 +1,56 @@
 ---
-title: "Faction Contracts"
+title: "派系合同"
 date: 2022-12-05T10:30:49+02:00
 ---
 
-## General information
+## 一般信息
 
-From time to time, agents of your [faction](/wiki/packages-factions/#factions) will send you a list of contract offers. These contracts span a range of tasks you'll have to fulfill, but will grant rewards in form of currency, materials or faction reputation. Accepting these contracts is optional.
+您的派系代理人会不时向您发送一份合同清单。这些合同涵盖了一系列您需要完成的任务，但会以货币、材料或派系声望的形式提供奖励。接受这些合同是可选的。
 
-## Receiving and accepting faction contracts
+## 接收和接受派系合同
 
-Once you found your first base faction agents will contact you with contract offers. These offers usually come in batches of three. You will get a notification and the contracts will appear in your `CONTS` command in the status `open`.
+当你建立第一个基地后，派系代理人将联系你并提供合同。这些招标通常以三个为一组的形式出现。你会收到通知，合同将以`公开`状态显示在你的`CONTS`命令合同列表里。
 
 ![CONTS](./conts.png)
 
-You can review each contract by clicking the view command. While there are certain types of contracts, each contract is a bit different, so make sure to have a proper look before accepting one.
+您可以点击“查看”命令来审查每一份合同。虽然存在某些类型的合同，但每份合同都有些许不同，因此在接受之前务必仔细查看。
 
-Here is an example contract:
+下面是一个合同示例：
 
 ![CONT example](./cont_example.png)
 
-The preamble is divided into two sections. The 'Faction Contract Offers' part describes how this contract is part of a contract offer and has links to the other contract offers.
+注解分为两个部分。“派系合同招标”部分描述了此合同如何作为派系合同招标的一部分，并包含指向其他招标的链接。
 
-The second part 'Mission Description' has a textual description of the mission and is basically a summary of the contract's conditions listed below.
+第二部分“任务简介”对任务有文字说明，基本上是下面列出的合同条件的摘要。
 
-At this point you have three options:
-* **Accept** the contract. The contract will move from `open` into `closed` state and behave like any other contract.
-* **Reject** the contract. This will mark the contract as `rejected`.
-* **Wait**. After 48 hours `open` contracts get cancelled automatically.
+此时你有三种选择：
+* **接受**合同。合同将从`公开`转移到`已签约`状态并像任何其他合同一样运作。
+* **拒绝**该合同。这将把合约标记为`已拒绝`。
+* **等待**。48 小时后，仍处于`公开`状态的合同会自动取消。
 
-{{% notice style="primary" title="Accepting a contract offer" icon="exclamation" %}}
-Please note that accepting one of the contract offers will automatically cancel the other contract offers.
+{{% notice style="primary" title="接受派系合同招标" icon="exclamation" %}}
+请注意，接受其中一项合同招标将自动取消其他合同招标。
 {{% /notice %}}
 
-## Rewards and reputation
+## 奖励与声望
 
-Accepting and fulfilling faction contracts is optional. There is no downside to ignoring or rejecting them other than not receiving the rewards and faction reputation.
+接受并完成派系合同是可选的。忽视或拒绝它们没有任何不利影响，唯一的后果是无法获得奖励和派系声望。
 
-There are faction contract types that are very common, like the example shown above, but once in a while you will receive a rarer type. The rarer the contract type is, the higher its rewards will be.
+有些派系合约类型非常常见，就比如上面的示例，但偶尔你也会收到更稀有的类型。合约类型越稀有，其奖励就越高。
 
-Faction contracts offer a combination of rewards in form of currency, commodities and faction reputation points.
+派系合约提供货币、商品和派系声望积分等多种奖励的组合。
 
-The amount of monetary reward depends on the type of contract and the presence of a commodity reward. Usually the monetary reward is lower if there is also a commodity reward present.
+货币奖励的数额取决于合约类型以及是否包含商品奖励。通常如果同时有商品奖励，货币奖励会较少。
 
-Commodity rewards will always have to be picked up at the location of your headquarters.
+商品奖励必须在你公司总部所在的位置领取。
 
-Successfully fulfilling faction contracts will grant faction reputation points. Everyone starts out with a faction reputation of 100. The higher the faction reputation, the higher the rewards of future faction contracts will be. The current faction reputation can be seen in the `CO` command, using your company's code:
+成功完成派系合同将获得派系声望点。所有人初始派系声望为 100。派系声望越高，未来派系合同的奖励越丰厚。可以使用贵公司的代码在`CO`命令中查看当前的派系声望：
 
 ![Faction reputation in CO command](./reputation.png)
 
-## Disabling faction contracts
+## 禁用派系合约
 
-If you don't want to receive faction contract offers you can disable the offers in the respective `FA` command. You can reach that easily by clicking the name of a faction agent.
+如果你不想接收派系合同招标，可以在相应的 FA 命令中禁用这些招标。你可以通过点击派系代理的名称轻松访问该命令。
 
 ![Disable faction contract offers in FA command](./disable.png)
 

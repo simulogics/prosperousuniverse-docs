@@ -1,5 +1,5 @@
 ---
-title: "7. Corporations"
+title: "7. 集团"
 date: 2018-09-18T17:13:49+02:00
 weight: 11
 ---
@@ -85,6 +85,6 @@ Once corporate headquarters become active, they provide a 10% productivity boost
 
 ## 关于本页
 
-This page is part of the advanced tutorial series. 使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
+本页面属于进阶教程系列的一部分。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
 
 如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord](https://discordapp.com/invite/G7gj7PT)服务器上为您提供帮助。
