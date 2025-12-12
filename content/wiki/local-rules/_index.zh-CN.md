@@ -1,82 +1,75 @@
 ---
-title: "Local Rules"
+title: "本地规则"
 date: 2024-06-27T07:26:49+02:00
 ---
 
-## General Information
+## 一般信息
 
-The local rules are a set of rules, fees and taxes that are employed for a given location. The local government can
-change the local rules via motions. All revenues from fees and taxes are transferred to the government. Local rules can
-be viewed with the `LR` command. Here is an example:
+本地规则是一套适用于特定地点的规则、费用和税收。本地政府可以通过议案修改本地规则。所有来自费用和税收的收入均转入政府。可以使用`LR`命令查看本地规则。下面是一个示例：
 
 ![local rules example](local_rules.png)
 
-## Fees
+## 费用
 
-### Local Market Fees
+### 本地市场费用
 
-The local market fee is due when posting an ad. It consists of two parts: The base fee and a time component. The time
-component increases linearly with the ad duration, e.g. how long the ad will be visible on the local market.
+发布广告时需支付本地市场费用。该费用由两部分组成：基础费用和时长收费。时长收费随广告持续时间——例如广告在本地市场可见的时长——线性增加。
 
-Depending on the location of the local market the two components have the following limits:
+根据本地市场的位置，这两部分具有以下限制：
 
-| Type | Base Part | Time Part |
+| 类型 | 基础费用 | 时长费用 |
 |--------------------|-----------|-----------|
-| Starting planet | 50 - 150 | 3 - 8 |
-| Faction planet | 25 - 200 | 2 - 10 |
-| Non-Faction planet | 0 - 9_999 | 0 - 9_999 |
+| 起始行星 | 50 - 150 | 3 - 8 |
+| 派系行星 | 25 - 200 | 2 - 10 |
+| 非派系行星 | 0 - 9_999 | 0 - 9_999 |
 
-### Production Fees
+### 生产费用
 
-Production fees have to be paid once a production order starts. The actual height of the production fee for any given
-order is determined once the order is added to the queue.
+生产费用在生产订单开始时必须支付。一旦订单加入队列，具体的生产费用金额便会确定。
 
-Production fees can be defined for each expertise category / workforce type pair. The production fee can be calculated
-by building the weighted sum of all workforces that are required by the given building.
+可以为每种专业类别/劳动力类型组合定义生产费用。生产费用可以通过对给定建筑所需的所有劳动力按权重求和来计算。
 
-Depending on the location the production fees have the following limits:
+根据地点不同，生产费用有以下限制：
 
-| Type | Production Fee |
+| 类型 | 生产费用 |
 |--------------------|----------------|
-| Starting planet | 10 - 90 |
-| Faction planet | 5 - 120 |
-| Non-Faction planet | 0 - 9_999 |
+| 起始行星 | 10 - 90 |
+| 派系行星 | 5 - 120 |
+| 非派系行星 | 0 - 9_999 |
 
-#### Example
+#### 示例
 
-The production of Polymer Granulate requires a Polymer Plant that employs 10 pioneers and 25 settlers when fully staffed.
-Let's assume the production fees for pioneers are 15 and the ones for settlers 12. In sum the production fee will be
+聚合物颗粒的生产需要一座在生产力满员时雇用 10 名先锋和 25 名定居者的聚合物工厂。
+假设先锋的生产费用为 15，而定居者的为 12。总的生产费用将是
 
 (10 * 15 + 25 * 12) / (10 + 25) = 12.9
 
-Since the Polymer Granulate only takes 8h24m to make, the final production fee is
+由于聚合物颗粒只需 8 小时 24 分钟即可制造，最终生产费用为
 
 12.9 * (8.5 / 24) = 4.56
 
-### Warehouse Fees
+### 仓库费用
 
-Warehouse fees are due each week for each rented unit. If the warehouse fee cannot be paid due to a lack of funds, the
-warehouse inventory is locked and unavailable to the user. Once funds become available the warehouse fees are
-automatically paid and unlock the inventory.
+每个租用单元的仓库费用将按周收取。如果因资金不足无法支付仓库费用，仓库库存将被锁定，用户无法访问。一旦资金到位，仓库费用会自动支付并解锁库存。
 
-Depending on the location the warehouse fees have the following limits:
+根据位置不同，仓库费用有以下限制：
 
-| Type | Production Fee |
+| 类型 | 生产费用 |
 |--------------------|----------------|
-| Starting planet | 100 - 2_500 |
-| Faction planet | 75 - 5_000 |
-| Non-Faction planet | 0 - 10_000 |
+| 起始行星 | 100 - 2_500 |
+| 派系行星 | 75 - 5_000 |
+| 非派系行星 | 0 - 10_000 |
 
-### Base Establishment Fees
+### 基地建造费用
 
-The base establishment fees are an optional, additional cost when building a base. Its purpose is to help the local government to adapt to the increase in population infrastructure upkeep materials and workforce demand due to new bases.
+基地建造费用是可选的在建造基地时收取的额外费用。其目的是帮助当地政府应对因新基地而增加的人口、基础设施维护材料和劳动力需求。
 
-The first base is always exempt from the base establishment fee.
+第一个基地始终免收基地建造费用。
 
-Depending on the location the fees have the following limits:
+根据位置不同，费用具有以下上限：
 
-| Type | Base Establishment Fee |
+| 类型 | 基地建造费用 |
 |--------------------|------------------------|
-| Starting planet | 0 - 10_000 |
-| Faction planet | 0 - 20_000 |
-| Non-Faction planet | 0 - 10_000_000 |
+| 起始行星 | 0 - 10_000 |
+| 派系行星 | 0 - 20_000 |
+| 非派系行星 | 0 - 10_000_000 |

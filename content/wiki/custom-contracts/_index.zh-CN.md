@@ -1,44 +1,44 @@
 ---
-title: "Custom Contracts"
+title: "自定义合同"
 date: 2022-07-25T10:30:49+02:00
 ---
 
-## General information
+## 一般信息
 
-The `CONTD` command allows the creation, editing and sending of contract drafts in order to create custom contracts with other parties. Custom contracts have been introduced with the **Convergence** release and additional draft types have been added with the **Liquidity** release.
+`CONTD`命令允许创建、编辑和发送合同草案，以便与其他人签订自定义合同。自定义合同随**Convergence**版本发布，并随**Liquidity**版本添加了额外的草案类型。
 
-## List of contract drafts
+## 合同草案列表
 
-Opening the `CONTD` command without any parameters will show the list of all contract drafts:
+不带任何参数地打开 `CONTD`命令将显示所有合约草案的列表：
 
 ![contract draft list](contd.png)
 
-It is possible to create new drafts, copy drafts, deleting drafts and opening existing drafts to edit them.
+可以创建新草案、复制草案、删除草案和打开现有草案进行编辑。
 
-## Editing a contract draft
+## 编辑合约草案
 
-A contract draft has two sections, one for the general information and one for the conditions.
+合同草案分为两部分，一部分是通用信息，一部分是条件。
 
-In the first section the contract can be named. The name is private and will not be visible to the contract party. Its purpose is to be able to remember what specific contract drafts are for. The contract preamble is a free text field that will be transmitted once the draft is sent to another party. The contract creator can express their intentions with the contract in text form, rather than just contract conditions.
+在第一个部分中，可以为合同命名。该名称是私有的，合同方不可见。其目的是为了能够记住特定合同草案的用途。合同注解是一个自由文本字段，一旦草案发送给另一方，就会一同发送。合同创建者可以用文本形式表达他们对合同的意图，而不仅仅是合同条件。
 
-The second section is about the contract's conditions. Clicking the "select template" button will open an overlay that allows to select a contract draft template. There are three contract templates ("buy commodity", "sell commodity", "ship commodity") that are similar to the ads available on local markets. Besides these there are also three loan contract templates.
+第二部分是关于合同的条件。点击“选择模板”按钮将打开一个叠加层，允许选择合同草案模板。有三个合同模板（“购买商品”、“出售商品”、“运输商品”），它们类似于本地市场上的广告。除此之外，还有三个贷款合同模板。
 
-Similar to the blueprints, any changes will only be saved once the save button is hit. Pressing 'DISCARD' will reset the draft to its last state.
+与蓝图类似，任何更改都只会在点击保存按钮后才会保存。“放弃”按钮会将草案重置为上次保存的状态。
 
-Individual conditions can be adjusted with the 'condition' button. Depending on the condition an overlay will allow changing materials, locations currencies, amounts etc. The 'parameter' button allows changing a condition's deadline.
+可以通过“条件”按钮调整单个条件。根据条件不同，叠加层将允许更改材料、地点、货币、数量等。“参数”按钮允许更改条件的截止日期。
 
 ![contract draft](contd2.png)
 
-## Sending a contract draft
+## 发送合同草案
 
-A contract draft can be sent to any licensee. Sending the contract will create a copy of the contract draft and convert that copy into a regular contract. It will be visible in the list of contracts `CONTS` in the open state.
+合同草案可以发送给任何被许可人。发送合同将创建合同草案的副本，并将该副本转换为常规合同。它将在合同列表`CONTS`中以公开状态显示。
 
-The recipient receives a notification about the new contract and can review it. A contract can then either be closed or rejected. In both cases the sender will receive a notification about it.
+收件人会收到一份关于新合同的通知，并可以对其进行审阅。合同可以被关闭或拒绝。在这两种情况下，发送人都会收到相应的通知。
 
-Making changes to the contract draft after it was used to create a contract will not change the created contracts. A contract draft can be used multiple times.
+在合同草案被用于创建合同后，对其进行的更改不会影响已创建的合同。一份合同草案可以被多次使用。
 
-Adding someone to the blocklist will prevent the reception of contract drafts from that licensee.
+将某人添加到黑名单将阻止接收其发送的合同草案。
 
-Sending a contract draft requires a `PRO` license, closing one either `BASIC` or `PRO`.
+发送合同草案需要`PRO`许可证，而接受合同则需要`BASIC`或`PRO`。
 
 {{% about-this-page %}}

@@ -1,179 +1,179 @@
 ---
-title: "Packages and factions"
+title: "新手包与派系"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This page will help you find a suitable combination of package, faction and starting location when first establishing your company. Following the advice below is especially vital if you are new to APEX. You best settle on a package first and then have a look at the different factions and the planets they control. Certain planets are better suited for some professions than others, and some planets and professions do not work together at all! But of course, the better suited a planet is for your industry, the higher the local competition will be.
+本页面将帮助你在初次建立公司时找到合适的新手包、派系和起始地点组合。以下建议对 APEX 新手尤为重要。你最好先确定一个新手包，然后再查看不同派系及其所控制的行星。某些行星比其他行星更适合某些职业，有些行星与某些职业根本不相配！当然，某个行星越适合你的行业，当地的竞争就越激烈。
 
-__Please note:__
-- Some recommended starter planets do not have a commodity exchange. These are not recommended if you are using APEX for the first time.
-- When setting up your base, two additional Pioneer Habitation modules are recommended regardless of package.
+__请注意：__
+- 有些推荐的入门行星没有商品交易所。如果你是第一次使用 APEX，这些行星不推荐选择。
+- 在建立你的基地时，无论选择哪个新手包，建议额外安装两个先驱者居住模块。
 
-## Packages
+## 新手包内容
 
-### Victualler
-__Short description__
-Producing agricultural products that can be used in the food industries is the foundation of every colony.
+### 食品业
+__简述__
+生产可用于食品工业的农产品是每个殖民地的基础。
 
-__Long description__
-Victuallers are the heart of the food industry. Their profession revolves around extracting water, producing ingredients and turning it all into edibles for their own and others' workforces. Without victuallers, all other industries would soon come to a halt, which is why their trade will always be relevant across the universe.
+__详述__
+食品业是食品工业的核心。他们的职业围绕抽取水源、生产原料并将其转化为可供自身及他人劳动力食用的食品展开。没有食品业，所有其他产业很快就会停摆，这就是他们的行业在整个宇宙中始终具有重要性的原因。
 
-#### Important notes
-As a victualler, you will depend on water. If you do not settle on a planet with water, you will have a hard time turning a profit. The speed at which the crops on your farms will grow depends on a planet's soil fertility - the higher the fertility, the quicker the growth.
+#### 重要说明
+作为食品商，你将依赖水源。如果你没有在有水的行星上定居，就很难获利。农场作物的生长速度取决于行星的土壤肥力——肥力越高，生长越快。
 
-#### Recommended starter buildings
-__Rig (RIG):__ Extracts liquids (water) from the ground.
-__Farmstead (FRM):__ Requires water to output different integredients used in food production and adjacent industries.
-__Food Processor (FP):__ Takes food ingredients and turns them into consumables.
+#### 推荐的起始建筑
+__钻井（RIG）__：从地下提取液体（水）。
+__农场（FRM）__：需要水来产出用于食品生产及相关行业的不同原料。
+__食品加工厂（FP）__：将食品原料加工成可消费品。
 
-#### Recommended starter planet
-Promitor (Insitor Cooperative)
-Proxion (Castillo-Ito Mercantile)
+#### 推荐的起始行星
+Promitor（因希特集团）
+Proxion（伽斯蒂尤-伊藤商业）
 
-#### Starting Experts
-2 Food Industries experts
-
-
-### Metallurgist
-__Short description__
-Metallurgists have all the knowledge and tools necessary to extract minerals and refine them into precious metals and composites.
-
-__Long description__
-If you don't mind getting your (workers') hands dirty, this might be the job for you. Operating at the base of several industry branches, metallurgists produce ores, smelt them down and supply their trade partners with refined metals that will ultimately go into the construction of buildings, ships, and other structures.
-
-#### Important notes
-Extracting ores from the ground will be an essential everyday task for your company. Make sure that your planet contains at least one mineral, or you will not be able to put your Extractor to use. Plus, if that mineral is not an ore, you cannot put it into your smelter.
-
-#### Recommended starter buildings
-__Extractor (EXT):__ Extracts ores from a planet's surface.
-__Smelter (SME):__ Refines ores into metals.
-
-#### Recommended starter planet
-Vallis (NEO Charter Exploration)
-
-#### Starting Experts
-2 Metallurgy Experts
+#### 起始专家
+2 名食品业专家
 
 
-### Carbon Farmer
-__Short description__
-Carbon farmers grow plants and extract carbon from them.
+### 冶金学家
+__简述__
+冶金学家拥有提取矿物并将其精炼成贵金属和复合材料的所有知识和工具。
 
-__Long description__
-Carbon has become a vital resource across different industries, so much so that a whole job profile has evolved around it: the carbon farmer. Even though you will be planting crops like a victualler, you will not have much to do with the food industry. Instead, your plants will be harvested for their precious carbon, which is the basis for many essential production processes in the metal and other industries.
+__详述__
+如果你不介意让自己（或工人）的手被弄脏，这份工作可能适合你。冶金学家位于多个产业分支的基础环节，生产矿石、将其熔炼并向贸易伙伴提供精炼金属，这些金属最终将用于建筑、舰船及其他结构的建造。
 
-#### Important notes
-Setting up shop on a planet with higher fertility will help increase your farms' output. If a planet is completely infertile, farms cannot be built at all, leaving your company dead in the water!
+#### 重要说明
+从地面提取矿石将是你公司每天必须进行的基本工作。请确保你的星球上至少含有一种矿物，否则你将无法使用矿场。另外，如果该矿物不是一种矿石，你也无法将其放入熔炉中。
 
-#### Recommended starter buildings
-__Farmstead (FRM) (2x):__ Requires water to output different integredients used in food production and adjacent industries.
-__Incinerator (INC):__ Extracts pure carbon from different carbon-rich plants.
+#### 推荐的起始建筑
+__矿场（EXT）__：从行星表面开采矿石。
+__冶炼厂（SME）__：将矿石炼制成金属。
 
-#### Recommended starter planets
-Promitor (Insitor Cooperative)
+#### 推荐的起始行星
+Vallis（NEO章程探索）
 
-#### Starting Experts
-2 Agriculture Experts
-
-
-### Manufacturer
-__Short description__
-Manufacturers produce construction granulate, tools and plastics for their trade partners to process further.
-
-__Long description__
-As a manufacturer, you will be a versatile creature which does not depend too much on a single industry. Your company's main purpose will be to supply your trade partners with goods such as basic clothing and building parts. Getting started as a manufacturer is quite complex logistically, as you will have to buy your input materials from a nearby commodity exchange.
-
-#### Important notes
-Your production lines will need hydrogen and carbon to operate. Hydrogen can be extracted from the atmosphere of certain planets directly, but initially you should look into buying it from a commodity exchange. Carbon is produced by an incinerator from various agricultural goods that will also be available on the market.
-
-#### Recommended starter buildings
-__Basic Materials Plant (BMP) (2x):__ Produces a host of materials and end products needed to bootstrap a colony.
-
-#### Recommended starter planets
-Vallis (NEO Charter Exploration)
-Gibson (Castillo-Ito Mercantile)
-
-#### Starting Experts
-2 Manufacturing Experts
+#### 起始专家
+2名冶金业专家
 
 
-### Constructor
-__Short description__
-Constructors know their way around building parts, from basic structural elements to complex engineering materials.
+### 碳农业
+__简述__
+碳农种植植物并从植物中提取碳。
 
-__Long description__
-You and your fellow constructors will be the key element to expanding existing bases or establishing new ones. Your output materials, mostly polyethylene and different building parts, will go toward the construction of your and your clients' buildings.
+__详述__
+碳已成为各行各业的关键资源，甚至衍生出了一整套职业：碳农。尽管你会像食品商一样种植作物，但你与食品行业并无太多关联。相反，你的植物将被收割以获取珍贵的碳，这些碳是金属及其他行业许多关键生产工艺的基础。
 
-#### Important notes
-Since you will not be extracting or mining yourself, your production will require purchasing a host of natural resources, such as Iron, Limestone, Carbon, and Hydrogen.
+#### 重要说明
+在土壤肥沃度更高的星球上开设农场将有助于提高你的农场产出。如果一个星球完全不肥沃，农场就根本无法建造，这会让你的公司寸步难行！
 
-#### Recommended starter buildings
-__Basic Materials Plant (BMP):__ Produces a host of materials and end products needed to bootstrap a colony.  
-__Prefab Plant Mk1 (PP1):__ Produces basic prefabs necessary to construct buildings.
+#### 推荐的起始建筑
+__两座农场（FRM）__：需要水来产出用于食品生产及相关行业的不同原料。
+__焚化炉（INC）__：从富含碳的植物中提取纯碳。
 
-#### Recommended starter planets
-Montem (NEO Charter Exploration)
-Vallis (NEO Charter Exploration)
-Gibson (Castillo-Ito Mercantile)
+#### 推荐的起始行星
+Promitor（因希特集团）
 
-#### Starting Experts
-2 Construction Experts
+#### 起始专家
+2名农业专家
 
 
-### Fuel Engineer
-__Short description__
-Fuel engineers extract resources and synthesize them to different types of fuels.
+### 制造业
+__简述__
+制造商为其贸易伙伴生产建筑颗粒、工具和塑料，供其进一步加工。
 
-__Long description__
-The commodities you produce will be the foundation of faster-than-light and slower-than-light space travel. Both fuel types are based on a variety of gaseous and solid ingredients, so there is plenty of room for development and specialization in your trade.
+__详述__
+作为制造商，你将成为一个多面手，不会过度依赖单一行业。你公司的主要目标是为贸易伙伴提供诸如基础服装和建筑部件等商品。作为制造商的起步在后勤上相当复杂，因为你必须从附近的商品交易所购买原料。
 
-#### Important notes
-Your Extractor will only be useful in STL fuel production if there is Galerite on your planet. You could instead opt for a Collector and settle on a planet prodiving Ammonia or Hydrogen.
+#### 重要说明
+你的生产线需要氢和碳才能运转。氢可以直接从某些行星的大气中提取，但最初你应该考虑从商品交易所购买。碳由焚化炉从各种农业物资中生产，这些物资也会在市场上出售。
 
-#### Recommended starter buildings
-__Refinery (REF):__ Produces fuels used for space flight.
-_Instead of Collector:_ __Extractor (EXT):__ Extracts ores and minerals from the surface.
-_Instead of Extractor:_ __Collector (COL):__  Extracts gases from the atmosphere.
+#### 推荐的起始建筑
+__两座基础材料厂（BMP）__：生产大量用于启动殖民地所需的各种原料和最终产品。
 
-#### Recommended starter planets
-_With Extractor:_ Katoa (Castillo-Ito Mercantile)
-_With Collector:_ Katoa (Castillo-Ito Mercantile)
+#### 推荐的起始行星
+Vallis (NEO章程探索)
+Gibson (伽斯蒂尤-伊藤商业)
 
-#### Starting Experts
-2 Fuel Refining Experts
+#### 起始专家
+2名制造业专家
 
 
-## Factions
+### 建造业
+__简述__
+建造业熟悉各种建材，从基础结构要素到复杂的工程材料。
 
-__When picking your faction and planet, make sure they work well with your desired starter package.__
+__详述__
+你和你的同伴建造者将是扩建现有基地或建立新基地的关键。你们生产的材料，主要是聚乙烯和各种建筑部件，将用于建造你和客户的建筑。
+
+#### 重要说明
+由于您不会亲自进行开采或采矿，您的生产将需要购买大量自然资源，例如铁、石灰石、碳和氢。
+
+#### 推荐的起始建筑
+__基础材料厂（BMP）__：生产一系列用于启动殖民地所需的材料和最终产品。  
+ __一型预制件工厂（PP1）__：生产建造建筑所需的基本预制件。
+
+#### 推荐的起始行星
+Montem (NEO章程探索)
+Vallis (NEO章程探索)
+Gibson (伽斯蒂尤-伊藤商业)
+
+#### 起始专家
+2名土木专家
+
+
+### 燃料业
+__简述__
+燃料工程师开采资源并将其合成为不同类型的燃料。
+
+__详述__
+你生产的商品将成为超光速和亚光速航行的基础。两种燃料类型都基于多种气体和固体成分，因此你的行业有大量的发展和专精空间。
+
+#### 重要说明
+只有当你的行星上有寰亘石（GAL）时，你才在 STL 燃料生产中使用矿场。你也可以选择使用采气站（COL）并定居在提供氨（AMM）或氢（H）的星球上。
+
+#### 推荐的起始建筑
+__炼油厂（REF）__：生产用于航天飞行的燃料。
+ _代替采气站_ ：__矿场（EXT）__：从行星表面开采矿石。
+ _代替矿场_ ：__采气站（COL）__：从大气中采集气体。
+
+#### 推荐的起始行星
+_带矿场_：Katoa（伽斯蒂尤-伊藤商业）
+_带采气站_：Katoa（伽斯蒂尤-伊藤商业）
+
+#### 起始专家
+2 名燃料业专家
+
+
+## 派系
+
+__在选择派系和星球时，确保它们与您想要的新手包相匹配。__
 
 ### 伽斯蒂尤-伊藤商业
-Castillo-Ito Mercantile controls two different colonies in their home system Benten.
+伽斯蒂尤-伊藤商业在其母星系Benten控制两个不同的殖民地。
 
-#### History
-伽斯蒂尤-伊藤商业（Castillo-Ito Mercantile）是世界领先的机器人自动化科技公司：伊藤机器人集团，与伽斯蒂尤集团——版图涉及矿业、能源、运输和金融产品等类别的跨国股份公司——商业合并后的产物。Combined, the company’s net worth easily surpases that of most smaller European countries combined. 他们很早就加入了传薪计划并在一开始就有清晰的战略规划。他们选取位于重要战略位置的关键行星，组装多批可靠的世代飞船，这些飞船最终全部成功地抵达并着陆于4个临近恒星系中的行星上。坐拥重要资源的产地，他们计划施展自己的雄心壮志并成为新世界中一股主要势力。
+#### 历史
+伽斯蒂尤-伊藤商业（Castillo-Ito Mercantile）是世界领先的机器人自动化科技公司：伊藤机器人集团，与伽斯蒂尤集团——版图涉及矿业、能源、运输和金融产品等类别的跨国股份公司——商业合并后的产物。此公司的净资产值轻易超过了多个欧洲国家的总和。他们很早就加入了传薪计划并在一开始就有清晰的战略规划。他们选取位于重要战略位置的关键行星，组装多批可靠的世代飞船，这些飞船最终全部成功地抵达并着陆于4个临近恒星系中的行星上。坐拥重要资源的产地，他们计划施展自己的雄心壮志并成为新世界中一股主要势力。
 
-#### Controlled planets
+#### 所控制行星
 Katoa, Gibson, Proxion, XK-590D, Benten c
 
 
 ### NEO章程探索
-NEO Charter Exploration has two colonies with commodity exchanges in the Moria System, which is known for its mineral-rich planets.
+NEO章程探索在Moria恒星系拥有两个设有商品市场的殖民地，该星系以富矿行星闻名。
 
-#### History
+#### 历史
 NCE是最早一家宇宙空间采矿公司。欧洲君主国授予的特许状允许他们利用地球和小行星带之间的已命名的近地天体。当传薪计划曝光后，他们已经有了开始建造大型世代飞船的一切必需基础设施。为了实现这一目标，他们捕获了一颗小行星，将其挖空并使用开采出来的矿物生产了必需的系统。所有这些行动都与地球相对独立，但是NCE仍然选择参与APEX系统以获取仅在地球上才能获取的基金和部件。在他们抵达富矿恒星系后，他们将世代飞船停泊在一艘行星的环绕轨道上并在另一颗行星上用小型飞船完成了着陆。
 
-#### Controlled planets
+#### 所控制行星
 Montem, Vallis, TK-575C
 
 
 ### 因希特集团
-The Insitor Cooperative runs a commodity exchange on their only colony Promitor in the Hortus System. Promitor is a very fertile planet and has quickly become a center for food production and processing.
+因希特集团在Hortus恒星系中的Promitor行星上运营他们唯一的商品市场。Promitor是一颗非常肥沃的行星，很快便成为了食品生产和处理的中心。
 
-#### History
+#### 历史
 在传薪计划之前，南美洲已经成为了世界的菜篮子，而在这片大洲上的国家和集团准备在新世界中融为一体。在因希特银行，一家由农业和生物科技公司控股的集团，的主导下，他们选择了一种集约化的方案：建造一艘巨大、自给自足、带有更多温室和牲畜运载能力的世代飞船，这艘飞船比其它任何派系的设计都要更加巨大。为了满足这巨大的资源需求，他们推动其政府国有化了几乎所有矿业公司。他们殖民的目标是一颗被称为普罗密托（Promitor）的异常肥沃的行星。
 
-#### Controlled planets
+#### 所控制行星
 Promitor, SW-926C, Hortus c
 
 {{% about-this-page %}}

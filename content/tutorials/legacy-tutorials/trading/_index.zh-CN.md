@@ -51,6 +51,6 @@ Open your base’s Inventory now. If you can already see the goods you just purc
 
 ## 关于本页
 
-本页是入门教程的一部份，包含第1部分和第2部分（2.1-2.5）。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
+本页是入门教程的一部分，包含第1部分和第2部分（2.1-2.5）。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
 
 如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord](https://discordapp.com/invite/G7gj7PT)服务器上为您提供帮助。

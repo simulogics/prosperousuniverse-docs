@@ -1,76 +1,76 @@
 ---
-title: "Building costs"
+title: "建筑成本"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This page lists all the rules in place for building costs. If you would like to know how to set up buildings, have a look at the [Base setup](../../tutorials/current-tutorials/02-first-base/index.html) page.
+本页面列出了所有关于建筑成本的规则。如果您想了解如何设置建筑，请参阅[基地设置页面](../../tutorials/current-tutorials/02-first-base/index.html)。
 
-## General information
+## 一般信息
 
-The basic building costs of each building can be looked up in your base's BSC window (hit “CONSTRUCT” in your base overview):
+每个建筑的基本建造费用都可以在你基地的 BSC 窗口中查看（在基地概览中点击“建造”）：
 
 ![Construct buffer](construct-buffer-pioneer-habitation.jpg)
 
-Clicking any of the buildings' symbols will reveal their BUI window, which shows their Building costs:
+点击任意建筑的标志将显示其 BUI 窗口，其中会显示其建造费用：
 
 ![Habitation building costs](pioneer-habitation-details.jpg)
 
 
-However, this information only paints a part of the picture. It pertains to _this_ particular base, which is located on a concrete planet. Costs for erecting structures on other planets may deviate based on the set of rules below.
+然而，这些信息只包含了部分情况。它仅适用于 _这个位于岩质星球上的基地_ 。在其他星球上建造建筑的成本可能会根据以下规则有所不同。
 
-## Costs calculation
+## 成本计算
 
-Every building needs a certain configuration of Construction Prefabs to be built. On top of that, Construction Materials and/or Construction Parts (“Additional resources” below) will be required _once_ for _every_ building depending on the environmental conditions at hand. The exact number of some additional resources depends on the Area cost of a building, which is indicated in its BUI window (see screenshot above).
+每栋建筑都需要特定配置的建筑预制件才能建造。除此之外，根据当前的环境条件， _每栋_ 建筑还需要 _一次性_ 提供建筑材料和/或建筑部件（以下简称“额外资源”）。某些额外资源的具体数量取决于建筑的区域成本，这在其 BUI 窗口中有所显示（参见上图）。
 
-Please note that all these additional costs also pertain to [Planetary projects](../../tutorials/planetary-projects) and [Corporate projects](../../tutorials/corporations/#corporate-actions-and-projects).
+请注意，所有这些额外成本也适用于[行星项目](../../tutorials/planetary-projects)和[集团项目](../../tutorials/corporations/#corporate-actions-and-projects)。
 
-### Rocky Planets
+### 岩石行星
 
-__Additional resource:__ Mineral Construction Granulate (MCG)  
-__Amount:__ Area x 4
+__额外资源__：矿物建筑颗粒（MCG）  
+__数量__：面积 x 4
 
-### Gaseous planets
-__Additional resource:__ Aerostat Foundation (AEF)  
-__Amount:__ Area / 3
+### 气态行星
+__额外资源__：悬空自稳定地基（AEF）  
+__数量__：面积 / 3
 
-### Atmospheric pressure
+### 大气压
 
-#### Low pressure (< 0.25 atm)
+#### 低压（< 0.25 标准大气压）
 
-__Additional resource:__ Poly-Sulfite Sealant (SEA)  
-__Amount:__ Area x 1
+__额外资源__：聚亚硫酸盐密封胶（SEA）  
+__数量__：面积 x 1
 
-#### High pressure (> 2.0 atm)
+#### 高压（> 2.0 标准大气压）
 
-__Additional resource:__ Hardened Structural Elements (HSE)  
-__Amount:__ 1 per building
+__额外资源__：硬化结构部件（HSE）  
+__数量__：每栋建筑 1 个
 
-### Gravity
+### 重力
 
-#### Low gravity (< 0.25 g):
+#### 低重力（< 0.25 g）
 
-__Additional resource:__ Magnetic Ground Cover (MGC)  
-__Amount:__ 1 per building
+__额外资源__：磁性地面覆层（MGC）  
+__数量__：每栋建筑 1 个
 
-#### High gravity (> 2.5 g):
+#### 高重力（> 2.5 g）
 
-__Additional resource:__ High-Oxygen Breathable Liquid (BL)  
-__Amount__: 1 per building  
-_Please note: This commodity is listed under Chemicals, not Construction Materials._
+__额外资源__：可呼吸液体（BL）  
+__数量__：每栋建筑 1 个  
+_请注意：此商品归类为化学品，而非建筑材料。_
 
-### Temperature
+### 温度
 
-#### Low temperature (<-25° C):
+#### 低温（< -25° C）
 
-__Additional resource:__ InsuFoam (INS)  
-__Amount:__ Area x 10
+__额外资源__：绝热泡沫（(INS）  
+__数量__：面积 x 10
 
-#### High temperature (> 75° C):
+#### 高温（> 75° C）
 
-__Additional resource:__ Thermal Shielding (TSH)  
-__Amount:__ 1 per building
+__额外资源__：热屏蔽（TSH）  
+__数量__：每栋建筑 1 个
 
-### Fertility
-Farms and Orchards require a planet with fertile soil to be built.
+### 肥沃度
+农场和果园需要建在土壤肥沃的星球上。
 
 {{% about-this-page %}}

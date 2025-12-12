@@ -1,0 +1,11 @@
+[Shortcuts-Title]
+  other = "更多"
+
+[aboutThisPage.title]
+  other = "关于本页"
+
+[aboutThisPage.wiki]
+  other = "本页面是 APEX 手册wiki部分的内容。如果您正在寻找 APEX 的介绍，请参阅[教程](../../tutorials/index.html)。"
+
+[aboutThisPage.contact]
+  other = "如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord服务器](https://discordapp.com/invite/G7gj7PT)上为您提供帮助。"

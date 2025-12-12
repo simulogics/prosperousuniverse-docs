@@ -1,91 +1,91 @@
 ---
-title: "Infrastructure: Gateways"
+title: "基础设施：超光速跃迁点"
 date: 2025-11-06T17:01:49+02:00
 ---
 
 {{% notice style="secondary" title="Note" %}}
-This article is a preview of the upcoming gateway release.
+本文为即将发布的Gateway更新的预览。
 {{% /notice %}}
 
-## General information
+## 一般信息
 
-Gateways are a type of [infrastructure](../infrastructure) that form faster-than-light connections allowing ships to travel between systems that have not been connected by regular connections before. Gateways are built and operated by planetary governments.
+跃迁点是一种[基础设施](../infrastructure)，能够形成新的超光速航道，使飞船在此前未由常规超光速航道相连的星系之间旅行。跃迁点由行星政府建造和运营。
 
-The `GTW` command provides a list of all gateways. The command allows filtering gateways by system or planet by using an additional parameter, for example: `GTW LS-300` or `GTW LS-300c`.
+`GTW`命令列出所有跃迁点。该命令允许通过附加参数按星系或行星过滤跃迁点，例如：`GTW LS-300`或`GTW LS-300c`。
 
 ![Gateway Command GTW](./gateway-command-list.png)
 
-When provided with a gateway id, the `GTW` command will show the details of the selected gateway:
+当提供一个跃迁点ID时，`GTW`命令将显示所选跃迁点的详细信息：
 
 ![Gateway Command GTW - specific gateway](./gateway-command.png)
 
-## Gateway design and construction
+## 跃迁点设计与建造
 
-The `GTWI` (gateway information) command allows planning new gateways as well as getting information about potential upgrades for existing gateways.
+`GTWI`（跃迁点信息）命令可用于规划新的跃迁点以及获取有关现有跃迁点可用升级的信息。
 
 ![Gateway Information](./gateway-gtwi.png)
 
-The key properties for gateways include:
+跃迁点的关键属性包括：
 
-* **Capacity**: Determines how many ships can travel through a given gateway in a rolling 24-hour window and how much Vortex Fuel can be stored in a gateway
-* **Volume**: Determines the maximum volume a ship can have (in m³) to be able to make the jump through the gateway
-* **Distance**: Determines the maximum distance a destination gateway can have to form a link
+* **容量**：决定在 24 小时的滚动窗口内有多少艘飞船可以通过给定的跃迁点，以及跃迁点中可以储存多少涡流燃料
+* **容积**：决定跃迁点所允许通过的最大飞船容积（以立方米计，m³）
+* **距离**：决定目标跃迁点可建立连接的最大距离
 
-All three properties can be upgraded with an infrastructure upgrade; there are limits, however: a gateway can have a maximum of five upgrades. Capacity can be upgraded up to five times, volume and distance up to three times.
+所有三项属性都可以通过基础设施升级来提升；但有一定限制：每个网关最多可以有五次升级。容量最多可以升级五次，货运量和距离最多可以各升级三次。
 
-`GTWI` will show the corresponding building or upgrade costs as well as the weekly upkeep costs.
+`GTWI`将显示相应建筑或升级的费用以及每周的维护费用。
 
-The last section has an overview of all systems that are in range of the gateway with the specified configuration.
+最后一部分是在指定配置下处于该跃迁点覆盖范围内的所有恒星系概览。
 
-Gateways are constructed like any other infrastructure: the government creates an infrastructure construction motion and appoints a constructor. For details see [infrastructure construction](./infrastructure/#infrastructure-construction)
+跃迁点的建造与其他任何基础设施相同：政府发起一项基础设施建设动议并指定建设方。详情见[基础设施建设](./infrastructure/#infrastructure-construction)。
 
-## Gateway linking
+## 跃迁点连接
 
-Gateway links are established via motions. The government selects the origin gateway and a gateway at the destination planet. The motion component will show the actual distance of the link and whether the origin and destination gateway support this distance. Both gateways have to be in range of each other to form a link.
+跃迁点通过议案建立连接。政府选择跃迁起点和目的星球上的一个跃迁点。议案面板将显示连接的实际距离，以及起点和目的跃迁点是否支持该距离。要形成连接，两个跃迁点必须在彼此的覆盖范围内。
 
 ![Gateway Linking Motion](./gateway-linking.png)
 
-A gateway that has not been linked yet, will have the `UNLINKED` link status. Once the linking motion has passed, the link status changes to `INCOMPLETE`. The link status will change to `ESTABLISHED` if the destination gateway passed the linking motion as well.
+尚未建立连接的跃迁点，其连接状态为`未连接`。一旦连接议案通过，连接状态将变为`不完全连接`。如果目的跃迁点也通过了连接议案，连接状态将变为`已连接`。
 
 ![Gateway Link Status](./gateway-link-status.png)
 
-While a single gateway can have multiple incoming link requests from other gateways, each gateway can only be linked to a single gateway.
+虽然单个跃迁点可以接收来自其它多个跃迁点的连接请求，但每个跃迁点只能连接到一个跃迁点。
 
-It is possible to unlink a gateway with the respective motion.
+可以通过相应的议案将一个传送门解除连接。
 
-## Gateway fuel
+## 跃迁点燃料
 
-Gateways require Vortex Fuel for each jump. The fuel is provided by contractors that are appointed by the government.
+跃迁点的每次跃迁都需要涡旋燃料。燃料由政府指定的承包商提供。
 
 ![Gateway Fuel Motion](./gateway-fuel-motion.png)
 
-Similar to the general infrastructure upkeep motion, fuel contractors can be appointed for several upkeep phases. The phases align with the upkeep phases. It is possible to have multiple contractors for the same phase. The service level objective defines the minimum number of successful jumps out of all attempted jumps. Fuel contractors have access to the gateway's Vortex Fuel store.
+与一般的基础设施维护流程类似，燃料承包商可被指派负责多个维护阶段。各阶段与维护阶段相对应。同一阶段可以有多个承包商。运营水平定义了在所有跳跃尝试中，至少要成功的跳跃次数。燃料承包商可以访问跃迁点的涡旋燃料储备。
 
-## Gateway traffic
+## 跃迁点流量
 
-The `GTWT` (gateway traffic) command shows information related to gateway traffic and fuel availability. It has a table showing the jumps in the last 24 hours, the current capacity, the available fuel and the fuel contractors. A table also lists outgoing and incoming jumps in the current, last and last 10 phases. The outgoing jumps are further broken down into successful and failed jump attempts. The reasons for failed jumps include: failed due to the gateway being inoperable. This is the case when the weekly upkeep is not being paid in time. Other reasons are: failed due to missing fuel and failed due to being over capacity.
+`GTWT`（跃迁点流量）命令显示与跃迁点流量和燃料可用性相关的信息。它有一张表显示过去 24 小时的跳跃次数、当前容量、可用燃料和燃料承包商。另一张表列出了当前、上个和最近 10 个阶段的出站和入站跳跃。出站跳跃还细分为成功和失败的跳跃尝试。失败跳跃的原因包括：因跃迁点无法操作而失败。当每周维护未按时支付时会出现这种情况。其他原因包括：因燃料不足而失败以及因超出容量而失败。
 
 ![Gateway Traffic](./gateway-traffic.png)
 
-## Gateway flights
+## 经跃迁点航行
 
-Gateways are incorporated in the `SFC` (ship flight controls) command. It is possible to plan a flight as usual, and the system will use gateways accordingly. It is possible to disable the usage of gateways in the route preferences. `SFC` will show the cost associated with a gateway jump.
+跃迁点被并入`SFC`（飞船飞行控制）指令。可以像往常一样规划航行，系统会自适应地使用跃迁点。可以在航线偏好设置中禁用使用跃迁点。`SFC`将显示与跃迁点跃迁相关的费用。
 
-Using a gateway adds three flight segments to the flight: `LOCK`, `GTW` and `DCAY`. During the `LOCK` segment, the ship waits for the gateway to prepare for the jump. The payment of the gateway fee happens here. `GTW` is the actual jump. Note that this does not require any of the ships own FTL fuel. `DCAY` happens right at the destination gateway after the jump. Once the ship is safe to continue its journey, the next segment starts.
+使用跃迁点会在飞行中增加三个飞行段：`LOCK`、`GTW`和`DCAY`。在`LOCK`阶段，飞船等待跃迁点准备跳跃。跃迁点费用在此时支付。`GTW`是实际的跃迁过程。请注意，这不需要任何飞船自身的 FTL 燃料。`DCAY`则发生在跳跃后的目的地跃迁点处。飞船一旦可以安全继续航行，就会开始下一个航段。
 
-Here is an example flight from Umbra to LS-300c using two separate gateway jumps.
+下面是一个示例航行，使用两次独立的跃迁点跳跃从Umbra飞往LS-300c。
 
 ![Gateway SFC](./gateway-sfc.png)
 
-If a gateway is inoperable due to missing upkeep materials, it is not possible to plan a flight using it. Gateway jumps can fail due to various reasons:
+如果一个跃迁点因缺少维护材料而无法运行，则无法使用它来计划飞行。跃迁点跳跃可能因多种原因失败：
 
-* Gateway became inoperable after the flight plan was submitted
-* Not enough funds to cover the gateway fee
-* Not enough Vortex Fuel to proceed with the jump
-* The gateway removed or changed the link to another gateway after the flight plan was submitted
+* 在飞行计划提交后，跃迁点变得无法使用
+* 没有足够的资金来支付跃迁点费用
+* 没有足够的涡流燃料来执行跳跃
+* 在提交飞行计划后，跃迁点移除或更改了与另一跃迁点的连接
 
-In all these cases the operator of the ship will receive a notification, and the flight automatically ends at the gateway.
+在所有这些情况下，飞船的操作者将收到通知，飞行会在跃迁点处自动结束。
 
-Gateway connections will be shown as pink lines on the map. A solid line means that both gateways are operational and flights in both directions are possible. If the line has little arrows, flights can only happen in the indicated direction. Dashed lines are shown when both gateways are inoperable. Connections that are `INCOMPLETE` are not shown.
+跃迁点连接将以地图上的粉色线条显示。实线表示两个跃迁点均可运行且可以进行双向飞行。若线条带有小箭头，则只能沿箭头指示的方向飞行。当两个跃迁点均无法运作时，会显示虚线。状态为`不完全连接`的连接不予显示。
 
 ![Gateway Connections](./gateway-connections.png)

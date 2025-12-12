@@ -21,9 +21,9 @@ weight: 2
 | [SNF] | Supernova Foundries |
 | [AHI] | [Yellow Fin, Inc.](../corporations/ahi#during-early-access) |
 
-## 星球
+## 行星
 
-| 星球 |
+| 行星 |
 |---------------------------------------------------|
 | Avalon |
 | Boucher |

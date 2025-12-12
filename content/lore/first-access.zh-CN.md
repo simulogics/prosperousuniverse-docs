@@ -14,7 +14,7 @@ weight: 1
 | [QWNE] | Quinten Essentials |
 | [SNF] | Supernova Foundries |
 
-## 星球
+## 行星
 
 | 星球 |
 |-----------|

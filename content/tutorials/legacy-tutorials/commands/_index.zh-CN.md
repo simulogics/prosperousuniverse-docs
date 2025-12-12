@@ -1,50 +1,50 @@
 ---
-title: "3. Commands"
+title: "3. 命令"
 date: 2018-09-18T17:13:35+02:00
 weight: 7
 ---
 
-This page explains how commands in your APEX console work. If you are looking for a comprehensive list of commands, head on over [to the wiki](../../wiki/commands-list).
+本页解释了APEX控制台中的命令如何工作。如果您正在寻找完整的命令列表，请[前往wiki](../../wiki/commands-list)。
 
 本指南也有视频版本。点击下方观看视频，或向下滚动查看文字版本。
 
 {{< youtube ZcYk2pw1gZk >}}
 
-## General rules
+## 通用规则
 
-You do not _need_ to use commands at all to use APEX. However, some commands will prove useful to get to a desired piece of content quickly. There are shortcuts for the most important ones in the left sidebar, including the “CMDS” command, which opens a list of all commands - there is no need to memorize them all.
+您_无需_使用任何命令即可使用 APEX。但是，某些命令将有助于快速获取所需内容。最重要的命令在左侧边栏中都有快捷方式，包括“CMDS”命令，它会打开所有命令的列表——无需记住所有命令。
 
 ![Command shortcuts](command-shortcuts.gif)
 
-Many windows list related commands at the top. Use them to quickly access similar content.
+许多窗口顶部都列出了相关命令。使用它们可以快速访问相似内容。
 
 ![Related commands](related-commands.gif)
 
-Commands can be entered into an empty buffer or an empty tile. (When emptying a tile or buffer, you can still see the command that was previously displayed.)
+命令可以输入到空缓存窗口或空面板中。（清空面板或缓存窗口时，您仍然可以看到之前显示的命令。）
 
 ![Buffer command](buffer-command.gif)
 
-Commands are not case-sensitive, meaning that you can use uppercase or lowercase letters as you please.
+命令不区分大小写，这意味着你可以随意使用大写或小写字母。
 
 ![Case insensitivity](case-insensitivity.gif)
 
-Every tile and every buffer in APEX corresponds to a command, no matter which way you opened it. The command can always be seen right next to the window’s title. Take for example the Base command shortcut: In the buffer that opened up, you can see a that it corresponds to the “Base” command, even though you did not enter it by hand. Clicking “View Base” from there opens a specific base using the same command, followed by a parameter. Clicking “Workforce” calls the “WF” command, clicking “Production” calls the “PROD” command, clicking “Inventory” calls the “INVP” command and so forth.
+APEX 中的每个面板和每个缓存窗口都对应一个命令，无论您以何种方式打开它。命令始终显示在窗口标题旁边。以基地命令快捷方式为例：在打开的缓存窗口中，您可以看到它对应于“Base”命令，即使您没有手动输入它。点击“查看基地”会使用相同的命令打开一个特定的基地，命令后面跟着一个参数。点击“生产力”会调用“WF”命令，点击“生产”会调用“PROD”命令，点击“库存”会调用“INVP”命令，依此类推。
 
 ![命令演示](commands-demonstration.gif)
 
-## Parameters
+## 参数
 
-Open up the CMDS buffer by selecting its shortcut on the left side. Looking at the commands list, you will notice that some commands take so-called parameters, some of which are listed as mandatory, some as optional. Commands with no parameters can only be entered on their own. Some commands need to be followed up with a parameter, and if a parameter is optional, the command by itself has a general use, but it can be followed by a parameter to display more specific information. Lastly, notice that some parameters in the commands list are called “tickers”. As you will see in the Commands list, the term’s meaning depends on the exact context.
+通过选择左侧的快捷方式打开 CMDS 缓冲区。查看命令列表，您会注意到有些命令带有所谓的参数，其中一些被列为强制参数，另一些则为可选参数。不带参数的命令只能单独输入。有些命令需要后跟一个参数，如果参数是可选的，则命令本身具有通用用途，但可以后跟一个参数以显示更具体的信息。最后，请注意命令列表中的某些参数被称为“信息签”。正如您将在命令列表中看到的那样，该术语的含义取决于具体上下文。
 
 ![CMDS buffer](cmds-buffer.png)
 
-__Example:__ The “BS” command by itself shows an overview over all your bases. Clicking “View Base” next to a concrete planet in the list opens a new buffer in which the Base command is followed up by the respective base’s ID. Clicking the Sections (“BSL” command), Production (“PROD” command), and Workforce (“WF” command) buttons in this window, you will find that the base’s ID is used by all these commands as well because they relate to this concrete base’s Sections, Production, and Workforce. (The Inventory, meanwhile, is followed up with the planet’s identifier.) These three - BSL, PROD and WF - _must_ be followed with a parameter, specifically a base ID. That is because, when looking at Sections, Production Lines, or a Workforce, it always pertains to a specific base.
+__示例__：“BS”命令本身会显示您所有基地的概览。点击列表中某个具体星球旁边的“查看基地”会打开一个新缓存窗口，其中“基地”命令后跟相应基地的 ID。点击此窗口中的“分区”（“BSL”命令）、“生产”（“PROD”命令）和“生产力”（“WF”命令）按钮，您会发现这些命令也都使用了基地的 ID，因为它们与该具体基地的分区、生产和生产力相关。（同时，INV后跟星球的标识符。）这三个命令——BSL、PROD 和 WF——_必须_后跟一个参数，也就是基地 ID。这是因为，在查看分区、生产线或生产力时，它总是与特定基地相关。
 
-Another example for the use of (mandatory) parameters would be the “MAT” command. When entered by itself, APEX will wonder which material you want to learn more about. That is why “MAT” must be followed by a material’s ID, like “CUO” for Copper Ore.
+另一个使用（强制性）参数的例子是“MAT”命令。如果单独输入，APEX 不知道您想了解哪种材料。因此，“MAT”后面必须跟着材料的 ID，例如铜矿石的“CUO”。
 
 
 ## 关于本页
 
-This page is part of the advanced tutorial series. 使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
+本页面属于进阶教程系列的一部分。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
 
 如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord](https://discordapp.com/invite/G7gj7PT)服务器上为您提供帮助。

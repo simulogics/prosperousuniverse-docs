@@ -10,7 +10,7 @@ weight: 8
 
 Follow along the steps below in APEX.
 
-## 1. General information
+## 1. 一般信息
 
 ### Fleet overview
 To access your ships, enter the fleet command, FLT, or click its shortcut in the left sidebar. In the new buffer, you can see details about each of your ships: its unique transponder code; its name; its cargo and fuel fill levels; its status (meaning if it’s currently moving around); its location; and, while it’s moving, its destination and Estimated Time of Arrival (ETA).
@@ -117,6 +117,6 @@ The following rules apply to aborting flights:
 
 ## 关于本页
 
-This page is part of the advanced tutorial series. 使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
+本页面属于进阶教程系列的一部分。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
 
 如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord](https://discordapp.com/invite/G7gj7PT)服务器上为您提供帮助。

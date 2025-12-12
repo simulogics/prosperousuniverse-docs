@@ -1,36 +1,36 @@
 ---
-title: "Headquarters"
+title: "公司总部"
 date: 2021-02-08T17:13:49+02:00
 ---
 
-## General information
+## 一般信息
 
-One of your bases always serves as your company headquarters. You can check on its current status via the **HQ command**.
+公司的总部始终是你的其中一个基地。你可以通过 HQ 命令查看其当前状态。
 
 ![HQ](HQ.png)
 
-### HQ upgrades
+### 总部升级
 
-You can upgrade your HQ if you have the required materials in the base's storage.
+如果你的基地仓库中有所需材料，你可以升级总部。
 
-Upgrading your HQ grants you one of two things:
-* Most levels grant you an additional **base permit** (beyond the 2 you start with), so you can found more bases.
-* Levels 5, 10, 13, 16, 18 and 20 grant you additional **queue slots** to make managing your production queues easier.
+升级总部会为你带来以下两种收益之一：
+* 大多数等级会授予你一个额外的基地许可（除了你起始拥有的 2 个之外），这样你可以建立更多基地。
+* 第 5、10、13、16、18 和 20 级会授予你额外的**生产队列槽**，以便更轻松地管理生产队列。
 
-Each upgrade is more expensive than the one before. Starting from level 6, upgrading your HQ is only possible with an active [PRO license](../../wiki/pro-license).
+每次升级都比上一次更昂贵。从 6 级开始，只有在激活 [PRO 许可证](../../wiki/pro-license)的情况下才能升级你的总部。
 
-### Faction bonuses
+### 派系加成
 
-Depending on the faction of your HQ's location (find it in the **PLI** command of the planet your HQ is located on), it will grant you a bonus on your production efficiency in certain industries across all your bases:
-* **Antares Initiative:** 10% bonus on electronics
-* **Castillo-Ito Mercantile:** 10% bonus on manufacturing
-* **Insitor Cooperative:** 6% bonus on agriculture, 4% on food industries
-* **NEO Charter Exploration:** 4% bonus on metallurgy, 6% on construction
-* **No faction:** 4% bonus each on chemistry, fuel refining and resource extraction
+根据你总部所在地点的派系（可在总部所在行星的**PLI**命令中查看），它将对你所有基地的某些行业生产效率上给予加成：
+* **安塔雷斯倡协**：电子行业 10%加成
+* **伽斯蒂尤-伊藤商业**：制造业 10% 加成
+* **因希特集团**：农业 6% 加成，食品业 4% 加成
+* **NEO章程探索**：冶金 4% 加成，土木 6% 加成
+* **无派系**：化学、燃料和开采各 4% 加成
 
-Furthermore, this bonus is modified by the ratio of used base permits to available base permits. The lower this ratio is the higher the bonus.
-The bonus is calculated by the following formula: `Multiplier = -2 * (UsedPermits / TotalPermits) + 3`
+此外，该奖励会根据已用基地许可数量与基地许可总数的比率进行调整。该比率越低，奖励越高。
+奖励按以下公式计算：`乘数因子 = -2 * (已用许可数 / 总许可数) + 3`
 
-You can relocate your HQ to another one of your bases every 30 days. It will keep its current level.
+你可以每 30 天将你的总部迁移到你另一个基地。总部的当前等级将保持不变。
 
 {{% about-this-page %}}

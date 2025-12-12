@@ -1,5 +1,5 @@
 ---
-title: "Commands list"
+title: "命令列表"
 date: 2018-09-18T17:13:49+02:00
 ---
 
