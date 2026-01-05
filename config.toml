@@ -40,12 +40,10 @@ home = [ "HTML", "RSS", "JSON"]
   editURL = "https://github.com/simulogics/prosperousuniverse-docs/edit/master/content/"
   # Author of the site, will be used in meta information
   author = ""
-  # Description of the site, will be used in meta information
-  description = "Prosperous Universe Wiki"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
-  disableSearch = false
+  search.disableSearch = false
   # Javascript and CSS cache are automatically busted when new version of site is generated.
   # Set this to true to disable this behavior (some proxies don't handle well this optimization)
   disableAssetsBusting = false
@@ -58,5 +56,14 @@ home = [ "HTML", "RSS", "JSON"]
   # Order sections in menu by "weight" or "title". Default to "weight"
   ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = "blue"
+  [[params.themeVariant]]
+    auto = ["blue", "prun-dark"]
+	identifier = "prun-auto"
+	name = "Auto"
+  [[params.themeVariant]]
+    identifier = "blue"
+	name = "Light"
+  [[params.themeVariant]]
+    identifier = "prun-dark"
+	name = "Dark"
   hideAuthorDate = true
