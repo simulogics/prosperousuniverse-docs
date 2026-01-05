@@ -3,10 +3,6 @@ title: "Infrastructure: Gateways"
 date: 2025-11-06T17:01:49+02:00
 ---
 
-{{% notice style="secondary" title="Note" %}}
-This article is a preview of the upcoming gateway release.
-{{% /notice %}}
-
 ## General information
 
 Gateways are a type of [infrastructure](../infrastructure) that form faster-than-light connections allowing ships to travel between systems that have not been connected by regular connections before. Gateways are built and operated by planetary governments.

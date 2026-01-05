@@ -3,10 +3,6 @@ title: Infrastructure
 date: 2025-11-06T17:00:49+02:00
 ---
 
-{{% notice style="secondary" title="Note" %}}
-This article is a preview of the upcoming gateway release.
-{{% /notice %}}
-
 ## General information
 
 Infrastructure projects are large, planetary projects that are being initiated by a planetary government. They are constructed and operated by individual companies via specialized contractor contracts offered by the government.
