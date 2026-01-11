@@ -1,6 +1,6 @@
 ---
 title: "Prosperous Universe handbook"
-date: 2018-09-18T17:06:00+02:00
+date: 2026-01-11T17:06:00+02:00
 ---
 
 # APEX handbook
@@ -11,7 +11,7 @@ The APEX Handbook is divided into two big sections:
 
 The [tutorials](tutorials) are a collection of step-by-step guides on different procedures such as setting up your company, making use of your spacecraft, forming a Corporation, etc. Tutorials 1 and 2 (2.1-2.5) cover the fundamentals, while the later tutorials feature more advanced information.
 
-The [wiki](wiki) is meant as a resource for everyone searching for concrete information on a topic. It is currently still its early stages. In the future, it will span different categories of sub-pages such as history, factions, celestial bodies, and more.
+The [wiki](wiki) is meant as a resource for everyone searching for concrete information on a topic. Contributions are welcome! If features [community resources](/wiki/community-resources), a [faq](/wiki/faq), guides on various game mechanics, and a section for in-game [lore](/lore/).
 
 ## Psst! New here?
 
