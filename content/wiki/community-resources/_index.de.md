@@ -1,19 +1,20 @@
 ---
 title: "Community-Ressourcen"
-date: 2021-09-07T07:13:49+02:00
+date: 2026-01-11T08:35:19+02:00
 ---
 
-Dies ist eine Liste aller Ressourcen, die von unserer Community erstellt wurden. Bitte teilen Sie uns mit, wenn eine Ressource fehlt oder veraltet ist.
+Dies ist eine Liste aller Ressourcen, die von unserer Community erstellt wurden. Bitte teilen Sie uns mit, wenn eine
+Ressource fehlt oder veraltet ist.
 
 ## Discord-Server
 
-| Typ       | Name                                                           | Beschreibung                                                                  |   |
-|-----------|----------------------------------------------------------------|-------------------------------------------------------------------------------|---|
-| Offiziell | [Prosperous Universe](https://discord.com/invite/rRbqqRz)      | Offizieller Discord-Server von Prosperous Universe                            |   |
-| Community | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP)    | Community-Discord zur Diskussion von Politik, Handel etc.                     |   |
-| Community | [Russischer PrUn Discord](https://discord.gg/MxytqvBE9S)       | Russischsprachiger PrUn-Discord                                               |   |
-| Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)          | Discord rund um FIO und andere 3rd-Party-Tools zum Spiel.                     |   |
-| APEX-Chat | [APEX Chat Server](https://discord.gg/39629axAxG)              | Ein "read-only" Discord mit allen Planetenchats aus dem Spiel.                |   |
+| Typ       | Name                                                        | Beschreibung                                                   |   |
+|-----------|-------------------------------------------------------------|----------------------------------------------------------------|---|
+| Offiziell | [Prosperous Universe](https://discord.com/invite/rRbqqRz)   | Offizieller Discord-Server von Prosperous Universe             |   |
+| Community | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP) | Community-Discord zur Diskussion von Politik, Handel etc.      |   |
+| Community | [Russischer PrUn Discord](https://discord.gg/MxytqvBE9S)    | Russischsprachiger PrUn-Discord                                |   |
+| Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)       | Discord rund um FIO und andere 3rd-Party-Tools zum Spiel.      |   |
+| APEX-Chat | [APEX Chat Server](https://discord.gg/39629axAxG)           | Ein "read-only" Discord mit allen Planetenchats aus dem Spiel. |   |
 
 ## News & Guides
 
@@ -69,5 +70,19 @@ Dies ist eine Liste aller Ressourcen, die von unserer Community erstellt wurden.
 | Governor Upkeep and Population Calculator         | [Google spreadsheets](https://docs.google.com/spreadsheets/d/19mg6DKaGi_cfjLNyb8AeS00oddgMbepTDf9RIkOMocw/edit#gid=0)          |
 | Population Calculator (by PiBoy314)               | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1JO_tkU6R8d_WiPA7hVJ685WrdyJhaOxP_Q9cU-1kfNo/edit#gid=827834260)  |
 
+## Ältere Tools und Richtlinien
+
+Diese Tools können immernoch hilfreich sein, es könnten jedoch neuere Materialien, Rezepte oder Sektoren der Karte
+fehlen, die in der Zwischenzeit hinzugefügt wurden.
+
+| Type            | Name                | Link                                    | Description                                                                                             |
+|-----------------|---------------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------|
+| News            | PrUniverse Report   | https://pruniversereport.wordpress.com/ | Eine Reihe von politischen, wirtschaftlichen und verschiedenen Nachrichten aus dem Prosperous Universe. |
+| News            | Rain's Blog         | https://www.rain9441.com/               | rain9441s Blog über Prosperous Universe.                                                                |
+| Utility         | Prosper             | b3dtime                                 | https://prosper.run/                                                                                    | Ein Tool um Produktionsketten zu visualisieren |
+| Base Management | PRUNner             | Jacudibu                                | https://github.com/Jacudibu/PRUNner/                                                                    | Archiviert - Eine App zur Planung Ihres Unternehmens ganz ohne Tabellenkalkulation!   |
+| Utility         | Universal Logistics | wyago                                   | https://universallogistics.app/                                                                         | Ein Werkzeug um Produktionsketten zu visualisieren und Profite auszurechnen.  |
+| Map             | Universe Map Tool   | McCowen                                 | http://prosperous.freecluster.eu/                                                                       | Eine Karte der Systeme, FTL Verbindungen, Fraktionsgrenzen und Planet- und Systemnamen. |
+| Library/Utility | ApexUtils           | binarygod                               | https://github.com/timthedevguy/ApexUtils                                                               | JavaScript Helfer um selbsterstellen Code in die APEX Konsole zu integrieren.                         |
 
 {{% about-this-page %}}
