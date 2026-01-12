@@ -73,19 +73,14 @@ This is a list of many resources created by the community. Please let us know if
 
 These tools may still be useful, but may be missing materials, recipes, or map sectors that were recently added.
 
-| Type  | Name              | Link                                    | Description                                                                             |
-|-------|-------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
-| News  | PrUniverse Report | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
-| News  | Rain's Blog       | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
-
-| Type              | Name                | Author                       | Link                                             | Description                                                                                    |
-|-------------------|---------------------|------------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Utility           | Prosper             | b3dtime                      | https://prosper.run/                             | A tool to visualize production chains as well as show the values of your inventory.            |
-| Base Management   | PRUNner             | Jacudibu                     | https://github.com/Jacudibu/PRUNner/             | Archived - Standalone base planning app to establish your empire without using spreadsheets!   |
-| Utility           | Universal Logistics | wyago                        | https://universallogistics.app/                  | An exploratory tool for visualizing material supply chains and optimizing building profits.    |
-| Map               | Universe Map Tool   | McCowen                      | http://prosperous.freecluster.eu/                | Pan and Zoom this map of systems, FTL flight paths, system and planet names and faction space. |
-| Library/Utility   | ApexUtils           | binarygod                    | https://github.com/timthedevguy/ApexUtils        | JavaScript class to assist in integrating custom code to APEX console.                         |
-
-
+| Type            | Name                | Link                                    | Description                                                                             |
+|-----------------|---------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
+| News            | PrUniverse Report   | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |
+| News            | Rain's Blog         | https://www.rain9441.com/               | rain9441's blog about everything PrUn.                                                  |
+| Utility         | Prosper             | b3dtime                                 | https://prosper.run/                                                                    | A tool to visualize production chains as well as show the values of your inventory.            |
+| Base Management | PRUNner             | Jacudibu                                | https://github.com/Jacudibu/PRUNner/                                                    | Archived - Standalone base planning app to establish your empire without using spreadsheets!   |
+| Utility         | Universal Logistics | wyago                                   | https://universallogistics.app/                                                         | An exploratory tool for visualizing material supply chains and optimizing building profits.    |
+| Map             | Universe Map Tool   | McCowen                                 | http://prosperous.freecluster.eu/                                                       | Pan and Zoom this map of systems, FTL flight paths, system and planet names and faction space. |
+| Library/Utility | ApexUtils           | binarygod                               | https://github.com/timthedevguy/ApexUtils                                               | JavaScript class to assist in integrating custom code to APEX console.                         |
 
 {{% about-this-page %}}
