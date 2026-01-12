@@ -17,41 +17,40 @@ This is a list of many resources created by the community. Please let us know if
 
 ## News and Guides
 
-| Type  | Name              | Link                                    | Description                                                                             |
-|-------|-------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
-| News  | Prosperous Turnip | https://prosperousturnip.com/           | The best, totally real, super not fake, news from the Prosperous Universe!              |
-| Guide | Beginners Guide   | [Steam Community Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3545186148) | Laaxus's Complete Beginners Guide    |                           
-| Guide | Governor Guide    | [Web Link](https://oogcapitalmanagement.com/posts/good-governance/) | Good Governance guide: getting started as a governor.       |
+| Type  | Name              | Link                                                                                       | Description                                                                |
+|-------|-------------------|--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| News  | Prosperous Turnip | https://prosperousturnip.com/                                                              | The best, totally real, super not fake, news from the Prosperous Universe! |
+| Guide | Beginners Guide   | [Steam Community Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3545186148) | Laaxus's Complete Beginners Guide                                          |                           
+| Guide | Governor Guide    | [Web Link](https://oogcapitalmanagement.com/posts/good-governance/)                        | Good Governance guide: getting started as a governor.                      |
 
 ## Tools
 
-| Type              | Name                | Author                    | Link                                             | Description                                                                                    |
-|-------------------|---------------------|---------------------------|--------------------------------------------------|------------------------------------------------------------------------------------------------|
-| Extension/Utility | FIO                 | Kovus, Saganaki, and more | https://fio.fnar.net/                            | Search planets, find shipping ads, see your consumable burn, and much much more.               |
-| Extension         | Refined Prun        | Razenpok                  | [Chrome Web Store](https://chromewebstore.google.com/detail/refined-prun/coabeheneafgglpakallmkienlidgaof), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/refined-prun/)   | Simplifies the Prosperous Universe interface and adds useful features |
-| Utility           | PRUNplanner         | Scorpio                   | https://prunplanner.org/                         | Empire and Base Planning and Management Tool                                                   |
-| Wiki              | PCT Wiki            | PCT Discord               | https://pct.fnar.net/                            | PrUn Community Tools wiki of detailed game mechanics.                                          |
-| Map               | Taiyi's Prosperous Universe Map  | Taiyi        | https://universemap.taiyibureau.de/              | Interactive Map with resource search and filter functionality                                  |
-| Map               | Shipping Tracker    | OptimizedFunction         | https://tracking.benten.space/                   | Map with shipment tracking                                                                     |
-| Planet Search     | yapt                | aeryen                    | https://aeryen23.github.io/yapt/                 | Search planets, info about a company & general base count.                                     |
-| Map/Search        | Prosperity          | Ined                      | https://prosperity-prun.netlify.app/             | Search a 2D map, find resource locations, and plot jump routes.                                |
-| Utility           | Plex Tools          | Plexucra                  | http://prun.plexucra.de/                         | Tools for the daily work of a galactic CEO with a starmap, profit analyzer, and much more.     |
-| Utility           | OOG Tools           | Archiel                   | [OOG Tools](https://oogcapitalmanagement.com/tools/)          | Various tools: Government Material Efficiency calc, intel lookup, infrastructure calc.         |
-| Utility           | Profitable Prun     | Jackinabox                | https://profitableprun.com/                      | Inflation calc, profit per area calc, and more.                                                |
-| Utility           | PU Price Model      | Taiyi                     | https://benten.space/calculator/pricecalc        | A pricing model based on [this paper](https://benten.space/price_prediction_study.pdf).        |
-| Extension         | PrUnIcon            | allocator                 | https://pastebin.com/aWe7XJ7a                    | Modified colors and icons for material boxes.                                                  |
-| Extension         | FIO Tooltips        | binarygod                 | https://github.com/Manderius/PrUn_Tooltips       | Show exchange data on inventory items on mouse-over.                                           |
-| Extension         | PrUnTools           | binarygod                 | https://github.com/timthedevguy/PrUnTools_Public | Collection of TamperMonkey APEX console mods.                                                  |
-| Extension         | Screens Inline      | Rynx                      | https://github.com/Manderius/PrUn_Addon          | Add individual screens inline as well as add preferred exchange links for material buffers.    |
-
+| Type              | Name                            | Author                    | Link                                                                                                                                                                                | Description                                                                                 |
+|-------------------|---------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Extension/Utility | FIO                             | Kovus, Saganaki, and more | https://fio.fnar.net/                                                                                                                                                               | Search planets, find shipping ads, see your consumable burn, and much much more.            |
+| Extension         | Refined Prun                    | Razenpok                  | [Chrome Web Store](https://chromewebstore.google.com/detail/refined-prun/coabeheneafgglpakallmkienlidgaof), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/refined-prun/) | Simplifies the Prosperous Universe interface and adds useful features                       |
+| Utility           | PRUNplanner                     | Scorpio                   | https://prunplanner.org/                                                                                                                                                            | Empire and Base Planning and Management Tool                                                |
+| Wiki              | PCT Wiki                        | PCT Discord               | https://pct.fnar.net/                                                                                                                                                               | PrUn Community Tools wiki of detailed game mechanics.                                       |
+| Map               | Taiyi's Prosperous Universe Map | Taiyi                     | https://universemap.taiyibureau.de/                                                                                                                                                 | Interactive Map with resource search and filter functionality                               |
+| Map               | Shipping Tracker                | OptimizedFunction         | https://tracking.benten.space/                                                                                                                                                      | Map with shipment tracking                                                                  |
+| Planet Search     | yapt                            | aeryen                    | https://aeryen23.github.io/yapt/                                                                                                                                                    | Search planets, info about a company & general base count.                                  |
+| Map/Search        | Prosperity                      | Ined                      | https://prosperity-prun.netlify.app/                                                                                                                                                | Search a 2D map, find resource locations, and plot jump routes.                             |
+| Utility           | Plex Tools                      | Plexucra                  | http://prun.plexucra.de/                                                                                                                                                            | Tools for the daily work of a galactic CEO with a starmap, profit analyzer, and much more.  |
+| Utility           | OOG Tools                       | Archiel                   | [OOG Tools](https://oogcapitalmanagement.com/tools/)                                                                                                                                | Various tools: Government Material Efficiency calc, intel lookup, infrastructure calc.      |
+| Utility           | Profitable Prun                 | Jackinabox                | https://profitableprun.com/                                                                                                                                                         | Inflation calc, profit per area calc, and more.                                             |
+| Utility           | PU Price Model                  | Taiyi                     | https://benten.space/calculator/pricecalc                                                                                                                                           | A pricing model based on [this paper](https://benten.space/price_prediction_study.pdf).     |
+| Extension         | PrUnIcon                        | allocator                 | https://pastebin.com/aWe7XJ7a                                                                                                                                                       | Modified colors and icons for material boxes.                                               |
+| Extension         | FIO Tooltips                    | binarygod                 | https://github.com/Manderius/PrUn_Tooltips                                                                                                                                          | Show exchange data on inventory items on mouse-over.                                        |
+| Extension         | PrUnTools                       | binarygod                 | https://github.com/timthedevguy/PrUnTools_Public                                                                                                                                    | Collection of TamperMonkey APEX console mods.                                               |
+| Extension         | Screens Inline                  | Rynx                      | https://github.com/Manderius/PrUn_Addon                                                                                                                                             | Add individual screens inline as well as add preferred exchange links for material buffers. |
 
 ## APIs
 
-| Name                | Author                       | Link                                  | Description                                                                                    |
-|---------------------|------------------------------|---------------------------------------|------------------------------------------------------------------------------------------------|
-| FIO Rest API        | Kovus, Saganaki, and others  | https://rest.fnar.net                 | The widely used rest API for retrieving many different types of game data.                     |
-| FIO API (new)       | Kovus, Saganaki, and others  | https://api.fnar.net/index.html       | A partially complete replacement for the FIO rest API.                                         |
-| PRUNplanner API     | Scorpio, and others          | https://prunplanner.org/api              | Empire and Base Planning and Management Tool                                                   |
+| Name            | Author                      | Link                            | Description                                                                |
+|-----------------|-----------------------------|---------------------------------|----------------------------------------------------------------------------|
+| FIO Rest API    | Kovus, Saganaki, and others | https://rest.fnar.net           | The widely used rest API for retrieving many different types of game data. |
+| FIO API (new)   | Kovus, Saganaki, and others | https://api.fnar.net/index.html | A partially complete replacement for the FIO rest API.                     |
+| PRUNplanner API | Scorpio, and others         | https://prunplanner.org/api     | Empire and Base Planning and Management Tool                               |
 
 ## Spreadsheets
 
@@ -67,7 +66,7 @@ This is a list of many resources created by the community. Please let us know if
 | FIO Data Import Spreadsheet                       | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1QBzhk9XeeCToU72pREC0V_mHBMDUg01fO2XVZDTImQc/edit?usp=sharing)    |
 | Governorship Accounting Template                  | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1HFc3vTyLSVDj4PyPSKrVnE3MO5a3oSb61m_0Opu8CAA/edit?usp=sharing)    |
 | Governance Expenses Template                      | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1yunwfdcR3CMMNKOV4snCbY5B-KvJ5Kq36xLDCFg0cp8/edit?usp=sharing)    |
-| Governor Upkeep and Population Calculator         | [Google spreadsheets](https://docs.google.com/spreadsheets/d/19mg6DKaGi_cfjLNyb8AeS00oddgMbepTDf9RIkOMocw/edit#gid=0)    |
+| Governor Upkeep and Population Calculator         | [Google spreadsheets](https://docs.google.com/spreadsheets/d/19mg6DKaGi_cfjLNyb8AeS00oddgMbepTDf9RIkOMocw/edit#gid=0)          |
 | Population Calculator (by PiBoy314)               | [Google spreadsheets](https://docs.google.com/spreadsheets/d/1JO_tkU6R8d_WiPA7hVJ685WrdyJhaOxP_Q9cU-1kfNo/edit#gid=827834260)  |
 
 ## Old Tools and Guides
