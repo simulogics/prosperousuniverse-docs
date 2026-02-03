@@ -11,7 +11,7 @@ date: 2018-09-18T17:06:00+02:00
 
 [教程](tutorials)是一组分步引导你完成各种流程的内容合集。包括如何建立你的公司，设立你的集团，诸如此类。教程1和2（2.1-2.5）包含了基础指引，而其后的教程涉及更多的进阶信息。
 
-[Wiki](wiki)提供了关于各种主题的可靠信息。它还在编撰阶段。未来，它将被扩展出更多的内容合集，例如历史、派系、天体，以及更多。
+[Wiki](wiki)提供了关于各种主题的可靠信息。欢迎为这里的内容作出贡献！这里包含[社区资源](/wiki/community-resources)，[常见问题解答](/wiki/faq)，各项游戏机制指南以及游戏[背景故事](/lore/)版块
 
 ## 嘘！新来的？
 
@@ -27,4 +27,4 @@ date: 2018-09-18T17:06:00+02:00
 
 欢迎访问[论坛](https://com.prosperousuniverse.com/)或[Discord服务器](https://discordapp.com/invite/G7gj7PT)与玩家社群和开发者交流，或提出你的任何建议。
 
-![开拓者插图](explorers-artwork.jpg)
+![Explorers artwork](explorers-artwork.jpg)
