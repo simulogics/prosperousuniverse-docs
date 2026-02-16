@@ -11,7 +11,6 @@ This is a list of many resources created by the community. Please let us know if
 |-----------|----------------------------------------------------------------|-------------------------------------------------------------------------------|
 | Official  | [Prosperous Universe](https://discord.com/invite/rRbqqRz)      | Official Discord instance of Prosperous Universe                              |
 | Community | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP)    | Community Discord for discussing politics, finding trade partners, etc        |
-| Community | [Russian-Speaking PrUn Discord](https://discord.gg/MxytqvBE9S) | Russian-Speaking PrUn Discord                                                 |
 | Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)          | Discord for everything related to FIO and other 3rd party tools for the game. |
 | APEX Chat | [APEX Chat Server](https://discord.gg/39629axAxG)              | A read-only discord chat with all in-game planet chats.                       |
 
@@ -35,7 +34,9 @@ This is a list of many resources created by the community. Please let us know if
 | Map               | Shipping Tracker                | OptimizedFunction         | https://tracking.benten.space/                                                                                                                                                      | Map with shipment tracking                                                                  |
 | Planet Search     | yapt                            | aeryen                    | https://aeryen23.github.io/yapt/                                                                                                                                                    | Search planets, info about a company & general base count.                                  |
 | Map/Search        | Prosperity                      | Ined                      | https://prosperity-prun.netlify.app/                                                                                                                                                | Search a 2D map, find resource locations, and plot jump routes.                             |
+| Utility           | Auroras Explorer                | ivy_exe                   | https://explorer.auroras.xyz/                                                                                                                                                       | Collection of tools for Prosperous Universe                                                 |
 | Utility           | Plex Tools                      | Plexucra                  | http://prun.plexucra.de/                                                                                                                                                            | Tools for the daily work of a galactic CEO with a starmap, profit analyzer, and much more.  |
+| Utility           | PrUnderground                   | Zillatron                 | https://prunderground.app/                                                                                                                                                          | A community trade registry for Prosperous Universe. List what you sell, find what you need. |
 | Utility           | OOG Tools                       | Archiel                   | [OOG Tools](https://oogcapitalmanagement.com/tools/)                                                                                                                                | Various tools: Government Material Efficiency calc, intel lookup, infrastructure calc.      |
 | Utility           | Profitable Prun                 | Jackinabox                | https://profitableprun.com/                                                                                                                                                         | Inflation calc, profit per area calc, and more.                                             |
 | Utility           | PU Price Model                  | Taiyi                     | https://benten.space/calculator/pricecalc                                                                                                                                           | A pricing model based on [this paper](https://benten.space/price_prediction_study.pdf).     |
@@ -73,6 +74,7 @@ This is a list of many resources created by the community. Please let us know if
 
 These tools may still be useful, but may be missing materials, recipes, or map sectors that were recently added.
 
+ 
 | Type            | Name                | Link                                    | Description                                                                             |
 |-----------------|---------------------|-----------------------------------------|-----------------------------------------------------------------------------------------|
 | News            | PrUniverse Report   | https://pruniversereport.wordpress.com/ | A source of serious political, economic and miscellaneous news from across the cluster. |

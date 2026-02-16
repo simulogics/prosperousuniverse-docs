@@ -24,7 +24,7 @@ Commands can be entered into an empty buffer or an empty tile. (When emptying a 
 
 ![Buffer command](buffer-command.gif)
 
-Commands are not case-sensitive, meaning that you can use uppercase or lowercase letters as you please.
+Commands are not case-sensitive, meaning that you can use uppercase or lowercase letters as you please. However, ***arguments*** to commands may be case-sensitive, so keep that in mind.
 
 ![Case insensitivity](case-insensitivity.gif)
 
