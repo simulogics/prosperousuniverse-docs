@@ -12,7 +12,6 @@ Ressource fehlt oder veraltet ist.
 |-----------|-------------------------------------------------------------|----------------------------------------------------------------|---|
 | Offiziell | [Prosperous Universe](https://discord.com/invite/rRbqqRz)   | Offizieller Discord-Server von Prosperous Universe             |   |
 | Community | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP) | Community-Discord zur Diskussion von Politik, Handel etc.      |   |
-| Community | [Russischer PrUn Discord](https://discord.gg/MxytqvBE9S)    | Russischsprachiger PrUn-Discord                                |   |
 | Tools     | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj)       | Discord rund um FIO und andere 3rd-Party-Tools zum Spiel.      |   |
 | APEX-Chat | [APEX Chat Server](https://discord.gg/39629axAxG)           | Ein "read-only" Discord mit allen Planetenchats aus dem Spiel. |   |
 

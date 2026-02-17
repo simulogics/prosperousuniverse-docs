@@ -3,7 +3,7 @@ title: "Commands list"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
+This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/legacy-tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
 
 ## Base commands
 

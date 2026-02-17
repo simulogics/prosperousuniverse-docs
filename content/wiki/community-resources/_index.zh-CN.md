@@ -11,7 +11,6 @@ date: 2026-01-11T07:13:49+02:00
 |-----------|----------------------------------------------------------------|-------------------------------------------------------------------------------|
 | 官方 | [Prosperous Universe](https://discord.com/invite/rRbqqRz) | Prosperous Universe官方服务器 |
 | 社区 | [Unified Faction Operations](https://discord.gg/vwcUJx8HHP) | 讨论政治、寻找贸易伙伴的社区Discord |
-| 社区 | [Russian-Speaking PrUn Discord](https://discord.gg/MxytqvBE9S) | 俄语PrUn Discord |
 | 工具 | [PrUn Community Tools](https://discord.gg/XsKwwcMMNj) | 用于处理与FIO和其他第三方游戏工具相关的所有事务的Discord |
 | APEX聊天 | [APEX Chat Server](https://discord.gg/39629axAxG) | 一个只读的Discord聊天，包含所有游戏内的行星聊天。 |
 
