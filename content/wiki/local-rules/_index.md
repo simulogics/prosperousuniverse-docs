@@ -61,11 +61,11 @@ automatically paid and unlock the inventory.
 
 Depending on the location the warehouse fees have the following limits:
 
-| Type               | Production Fee |
-|--------------------|----------------|
-| Starting planet    | 100 - 2_500    |
-| Faction planet     | 75 - 5_000     |
-| Non-Faction planet | 0 - 10_000     |
+| Type               | Warehouse Fee |
+|--------------------|---------------|
+| Starting planet    | 100 - 2_500   |
+| Faction planet     | 75 - 5_000    |
+| Non-Faction planet | 0 - 10_000    |
 
 ### Base Establishment Fees
 

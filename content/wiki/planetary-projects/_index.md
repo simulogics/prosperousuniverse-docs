@@ -1,18 +1,12 @@
 ﻿---
-title: "6. 行星项目"
-date: 2018-09-18T17:13:49+02:00
+title: "Planetary Projects"
+date: 2026-05-19T16:24:00+02:00
 weight: 10
 ---
 
-{{% notice note %}}
-This guide is also partly available in video format. __Click below to watch the video or scroll down for the written version.__
-{{% /notice %}}
-
-{{< youtube dtXVowBEvfQ >}}
-
 ## Introduction
 
-Planetary projects are collectively erected and maintained structures that provide a bonus or service to the inhabitants of a planet. If projects are present on a planet, they will be listed under “Infrastructure” in the `PLI` as well as the `PPS` command (accessible at the top of the `PLI` command).
+Planetary projects are collectively erected and maintained structures that provide a bonus or service to the inhabitants of a planet. If projects are present on a planet, they will be listed under "Planetary Projects" in the `PLI` as well as the `PPS` command (accessible at the top of the `PLI` command).
 
 ![PP button](pp-button.png)
 
@@ -22,24 +16,27 @@ Clicking “details” next to an entry in the `PPS` window will reveal more inf
 
 ## Building a planetary project
 
-New planetary projects can be initiated by anybody with a base on the respective planet. To do so, open the planet’s `PPS` window and select “contribute” next to the desired planetary project.
+New planetary projects can be initiated by anybody with a base on the respective planet. To do so, open the planet's `PPS` window and select “contribute” next to the desired planetary project.
 
 ![Contribute to PP](contribute.png)
 
 In the new project window - the project being a CoGC in this example -, you can track the cost of building the project, the progress that has been made towards its construction, and the individual contributions made by inhabitants of the planet. Use the sliders to select the size your contribution.
 
-
 ![CoGC in construction](cogc-in-construction.png)
 
 Once all contributions have been filled by the planet’s inhabitants, the finished project will become visible as a green plot on the planet. Clicking the plot will open a new buffer about the project.
 
-## Planetary project types
+## Providing upkeep for a planetary project
 
 Once built, a planetary project might require a regular upkeep to stay active. As long as the upkeep is not being paid, the project remains “on strike” and provides no bonuses. Similarly to the construction of a planetary project, contributions towards its upkeep can be made by anyone residing on the planet in question.
 
 ![Contribute to upkeep](contribute-to-upkeep.png)
 
-To contribute, open the project’s buffer by clicking its name under “Infrastructure” or its plot on the planet (in a PLI window). Under “Upkeep”, select “contribute”. In the new window, set the slider(s) to the desired amount and hit “CONTRIBUTE”. Your contribution will be listed at the bottom along with all other recently made contributions.
+To contribute, open the project’s buffer by clicking its name under “Infrastructure” or its plot on the planet (in a `PLI` window). Under “Upkeep”, select “contribute”. In the new window, set the slider(s) to the desired amount and hit “CONTRIBUTE”. Your contribution will be listed at the bottom along with all other recently made contributions.
+
+## Planetary project types
+
+There are several types of planetary projects.
 
 ### Chamber of Global Commerce (CoGC)
 
@@ -57,21 +54,21 @@ Click a program’s name or the respective “view details / vote” button lear
 
 ![Vote buffer](vote-buffer.png)
 
-Votes are not equal, but instead depend on the voting company's influence, which in turn depends on the size and composition of their work force. Each _individual worker_ grants influence; a pioneer grants 1 influence, and hence 100 pioneers grant 100 influence. Higher tier workforces have higher multipliers:
+Votes are not equal, but instead depend on the voting company's influence, which in turn depends on the size and composition of their work force. Each _individual worker_ grants influence; a pioneer grants 1 influence, and hence 100 pioneers grant 100 influence. Higher tier workforces have higher multipliers:  
 
-| Worker type | Influence multiplier |
-|---------------|---------------------------|
-| Pioneer | 1 |
-| Settler | 1.25 |
-| Technician | 1.5 |
-| Engineer | 1.75 |
-| Scientist | 2 |
+| Worker type  | 	Influence multiplier  |
+|--------------|------------------------|
+| Pioneer      | 1	                     |
+| Settler      | 1.25                   |
+| Technician   | 1.5                    |
+| Engineer     | 1.75                   |
+| Scientist    | 2                      |
 
 For example, a company employing 200 pioneers, 100 settlers, and 200 technicians has an influence of 200 * 1 + 100 * 1.25 + 200 * 1.5 = 625.
 
 #### Upkeep Costs
 
-The CoGC's programs require payment of an upkeep cost in the form of materials to go into effect.
+The CoGC's programs require payment of an upkeep cost in the form of materials to go into effect.  
 
 ![Program upkeep](cogc-upkeep.png)
 
@@ -79,11 +76,11 @@ The materials required as upkeep are DW, MCG, PE and RAT.  The total amount requ
 
 ### Local Markets
 
-Local Markets are a means for exchanging goods outside of Commodity Exchanges. Due to their important role in the economy, please refer to [this dedicated tutorial](../local-markets) on how they are used.
+Local Markets are a means for exchanging goods outside of Commodity Exchanges. Due to their important role in the economy, please refer to [this dedicated tutorial](../../tutorials/legacy-tutorials/local-markets) on how they are used.
 
 ### Warehouses
 
-As of the release of the Presence update, you are allowed to rent warehouses on planets regardless of having a base there or not. Warehouses are used to store commodities and function as a normal storage unit; they can be especially useful when trading with other players.
+As of the release of the Presence update, you are allowed to rent warehouses on planets regardless of having a base there or not. Warehouses are used to store commodities and function as a normal storage unit; they can be especially useful when trading with other players. 
 
 ![warehouse](warehouse.png)
 
@@ -95,46 +92,63 @@ Warehouses can be extended up to level 20. The cost of each extension is a multi
 
 | Level | Cost factor | Available units | Rentable units |
 |-------|-------------|-----------------|----------------|
-| 1 | 1 | 50 | 1 |
-| 2 | 1 | 150 | 1 |
-| 3 | 1 | 300 | 2 |
-| 4 | 2 | 500 | 2 |
-| 5 | 2 | 750 | 3 |
-| 6 | 3 | 1050 | 3 |
-| 7 | 3 | 1400 | 4 |
-| 8 | 4 | 1800 | 4 |
-| 9 | 4 | 2250 | 5 |
-| 10 | 5 | 2750 | 5 |
-| 11 | 5 | 3300 | 6 |
-| 12 | 6 | 3900 | 6 |
-| 13 | 6 | 4550 | 7 |
-| 14 | 7 | 5250 | 7 |
-| 15 | 7 | 6000 | 8 |
-| 16 | 8 | 6800 | 8 |
-| 17 | 8 | 7650 | 9 |
-| 18 | 9 | 8550 | 9 |
-| 19 | 9 | 9500 | 10 |
-| 20 | 10 | 10500 | 10 |
+| 1     | 1           | 50              | 1              |
+| 2     | 1           | 150             | 2              |
+| 3     | 1           | 300             | 3              |
+| 4     | 2           | 500             | 4              |
+| 5     | 2           | 750             | 5              |
+| 6     | 3           | 1050            | 6              |
+| 7     | 3           | 1400            | 7              |
+| 8     | 4           | 1800            | 8              |
+| 9     | 4           | 2250            | 9              |
+| 10    | 5           | 2750            | 10             |
+| 11    | 5           | 3300            | 11             |
+| 12    | 6           | 3900            | 12             |
+| 13    | 6           | 4550            | 13             |
+| 14    | 7           | 5250            | 14             |
+| 15    | 7           | 6000            | 15             |
+| 16    | 8           | 6800            | 16             |
+| 17    | 8           | 7650            | 17             |
+| 18    | 9           | 8550            | 18             |
+| 19    | 9           | 9500            | 19             |
+| 20    | 10          | 10500           | 20             |
+
+Warehouses on commodity exchange stations have a virtually unlimited number of available units. Each company can rent up to 2000 units. The weekly rental fee increases linearly up to 1000 units. After that it grows exponentially. The formula is:
+
+`#units * (<base_fee> + max(0, #units - 1000))`
 
 ### Administration Center
 
-The AC allows you to hold elections for a planetary governor, who can set taxes and fees. Only planetary residents are eligible to vote, but anyone can run. Each term is two weeks long.
+The Administration Center allows holding elections for a planetary parliament.
 
-Once erected on a planet, the building will be listed as the “Planetary Administration Center” under Infrastructure in the PLI window. Clicking the entry will open the ADM window, which lists information on the current governor and the next election. The governor's Corporation and Faction are important because one of them always collects the total local fees paid by the planet's residents (see below).
+Once erected on a planet, the building will be listed as the “Planetary Administration Center” under Infrastructure in the `PLI` command. Clicking the entry will open the `ADM` command, which lists information about the members of parliament and the next election.
+
+The main purpose of the Administration Center is to create and vote on motions to set taxes and fees. Only planetary residents are eligible to vote, but anyone can run. Each term is 28 days long. Elections take place in the last eight days of each term.
 
 ![ADM](adm-overview.png)
 
 #### The Election Campaign
 
-The current candidates for governor are listed at the bottom of the upcoming term section. Select the VOTE button next to your favorite candidate to cast your vote.
+The current candidates for the parliament are listed at the bottom of the 'Upcoming term' section. The electoral system is based on approval voting: Every inhabitant can vote for all candidates they approve of. In the end, the candidates with the most votes will become members of parliament and the single candidate with the most votes will become governor.
+
+The number of seats in the parliament is determined by the number of bases a planet has:
+
+| # sites | seats |
+|---------|-------|
+| < 25    | 2     |
+| < 100   | 3     |
+| < 300   | 5     |
+| >= 300  | 7     |
 
 ![Voting](adm-vote.png)
 
-If you'd like to run for governor, select the RUN button below the list to throw your hat in the ring. All residents of the planet will be notified about the outcome of the election.
+If you'd like to run for governor, select the RUN button below the list to throw your hat in the ring. 
+
+All residents of the planet will be notified about the outcome of the election.
 
 ![Election outcome](voting-outcome.png)
 
-#### Being the Governor
+#### Being the Governor / Member of Parliament
 
 **NOTE:** Recent updates changed the process of how political actions are handled. Bigger planets are now ruled by parliaments instead of solo governors. In any case though, to manage political actions you now have to switch to the respective **government context** (via CTXS at the top of the screen), and then issue **motions** via the `MOTS` command. These will be voted upon by all government members and then, if the motion passes by majority decision, the included actions ("components") will be executed.
 
@@ -142,7 +156,7 @@ If you won the election, you may now set the fees that apply on your planet unti
 
 ![ADM Edit](adm-edit.png)
 
-Clicking it will allow you to change the metrics shown below. Note that certain restrictions to the rules apply within faction-space, i.e. on the starting planets and other planets in their systems.
+Clicking it will allow you to change the metrics shown below. Note that certain restrictions to the rules apply within faction-space, i.e. on the starting planets and other planets in their systems. 
 
 ![LR buffer](lr-buffer.png)
 
@@ -154,9 +168,9 @@ If you select your Corporation, the money will be distributed among all members 
 
 Which Faction you are able to select depends on whether the planet is in Faction space, in which case the ruling Faction can be selected – or not, in which case you may select the Faction you yourself belong to (i.e. the one determined by your original starting planet). Select the desired entity and hit UPDATE below to lock in your choice.
 
-**Local Market fees:** This section allows you to impose fees on the planet's [Local Market](../local-markets) (if there is one). The base fee denotes the up-front cost that residents have to pay to place an ad on the Local Market. The time factor determines what the ad will additionally cost them per day. For instance, setting the values to 100 CIS and 5 CIS respectively will put the total price of an ad running for five days to 125 CIS. Note that both values are limited in faction space; in the example shown above, the limits are 50-150 for the base fee (the value left of the forward slash) and 3-8 for the time factor (after the slash).
+**Local Market fees:** This section allows you to impose fees on the planet's [Local Market](../../tutorials/legacy-tutorials/local-markets) (if there is one). The base fee denotes the up-front cost that residents have to pay to place an ad on the Local Market. The time factor determines what the ad will additionally cost them per day. For instance, setting the values to 100 CIS and 5 CIS respectively will put the total price of an ad running for five days to 125 CIS. Note that both values are limited in faction space; in the example shown above, the limits are 50-150 for the base fee (the value left of the forward slash) and 3-8 for the time factor (after the slash).
 
-**Production fees:** You may set different [production](../production) fees for each industry and workforce tier here. The fee limits depend on whether your planet is in faction space. Additionally, more advanced workforce tiers have a higher upper limit. Production fees are collected when a production order is placed in any production line on the planet, and they scale linearly with the order size. Fees for buildings using multiple different workforce tiers are calculated via a weighted average depending on the composition of the overall workforce. The amount and collector of the fee are listed near the bottom of every PRODCO window as shown below.
+**Production fees:** You may set different [production](../../tutorials/legacy-tutorials/production) fees for each industry and workforce tier here. The fee limits depend on whether your planet is in faction space. Additionally, more advanced workforce tiers have a higher upper limit. Production fees are collected when a production order is placed in any production line on the planet, and they scale linearly with the order size. Fees for buildings using multiple different workforce tiers are calculated via a weighted average depending on the composition of the overall workforce. The amount and collector of the fee are listed near the bottom of every PRODCO window as shown below.
 
 ![Production fees example](production-fees-example.png)
 
@@ -174,12 +188,12 @@ In the "Population" tab of the LR window, you can find a set of options and info
 
 #### Government Programs
 
-In the "Programs" tab of the LR window, you can start political programs that will grant the planet a specific benefit for a certain time. Programs have a cooldown period of one week, so you can only run one program per week. If a program is active when the planet's [population report](../../tutorials/planetary-population#happiness--growth) is generated, it will affect this report's numbers.
+In the "Programs" tab of the LR window, you can start political programs that will grant the planet a specific benefit for a certain time. Programs have a cooldown period of one week, so you can only run one program per week. If a program is active when the planet's [population report](../../tutorials/legacy-tutorials/planetary-population#happiness--growth) is generated, it will affect this report's numbers.
 
 **Types of government programs:**
-* **Immigration:**: Add a certian number of workers of the chosen tier to your planet's population.
+* **Immigration:**: Add a certain number of workers of the chosen tier to your planet's population.
 * **Family Support:** Increase the growth of your PIO, SET and TEC population by a certain percentage.
-* **Education:** Increase the rate of workers leveling up to a higher tier by a certain percentage.
+* **Education:** Increase the rate of workers leveling up to a higher tier by a certain percentage. 
 * **Festivities:** Increase the overall happiness of the planet's population by a certain percentage.
 
 You can check the details of a program's effect and its costs when you select it in the programs tab before activating it.
@@ -188,14 +202,12 @@ You can check the details of a program's effect and its costs when you select it
 
 ![Population infrastructure](population-infrastructure-container.png)
 
-The "Population infrastructure" project does not have to be built and exists on all planets by default. Opening it will show you a list of  all the planetary projects that serve to satisfy the planetary population's needs. Find out more about planetary populations in the respective [section](../../tutorials/planetary-population) of the tutorial.
+The "Population infrastructure" project does not have to be built and exists on all planets by default. Opening it will show you a list of  all the planetary projects that serve to satisfy the planetary population's needs. Find out more about planetary populations in the respective [section](../../tutorials/legacy-tutorials/planetary-population) of the tutorial.
 
 ### Shipyards
 
-Planetary shipyards allow you to construct new ships from your own blueprint designs. Find out more in the respective [section](../../tutorials/shipbuilding) of the tutorial.
+Planetary shipyards allow you to construct new ships from your own blueprint designs. Find out more in the respective [section](../../tutorials/legacy-tutorials/shipbuilding) of the tutorial.
 
-## 关于本页
+## About this page
 
-本页面属于进阶教程系列的一部分。使用两侧的箭头按顺序浏览可用教程，从入门到越来越特定的主题。
-
-如果您遇到错误或找不到问题的答案，我们很乐意在我们的[Discord](https://discordapp.com/invite/G7gj7PT)服务器上为您提供帮助。
+If you encounter an error or cannot find the answers to your questions, we will gladly help you on our [Discord server](https://discordapp.com/invite/G7gj7PT).
