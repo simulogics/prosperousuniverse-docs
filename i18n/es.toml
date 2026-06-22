@@ -1,0 +1,11 @@
+[Shortcuts-Title]
+  other = "Más"
+
+[aboutThisPage.title]
+  other = "Sobre esta página"
+
+[aboutThisPage.wiki]
+  other = "Esta página es parte de la sección wiki del manual de APEX. Si estás buscando una introducción a APEX, por favor consulta los [tutoriales](../../tutorials/index.html)."
+
+[aboutThisPage.contact]
+  other = "Si encuentras un error o no puedes encontrar las respuestas a tus preguntas, con gusto te ayudaremos en nuestro [servidor de Discord](https://discordapp.com/invite/G7gj7PT)."
