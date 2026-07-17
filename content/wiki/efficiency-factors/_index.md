@@ -106,6 +106,6 @@ Neutral fertility (i.e. no yellow) indicates a modifier of +0%. Poor fertility (
 
 ### CoGC programs
 
-The [Chamber of Global Commerce](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc), if existent on a planet and active, can provide a temporary bonus to productivity. As is the case with experts, the respective percentage is simply added on top. For example, the CoGC program _Education Events: Pioneers_ provdes a 10 % bonus to all pioneer-operated buildings as long as it is active, and the program _Advertising Campaign: Agriculture_ grants a 25 % bonus to all facilities in the agriculture sector.
+The [Chamber of Global Commerce](../planetary-projects/index.html#chamber-of-global-commerce-cogc), if existent on a planet and active, can provide a temporary bonus to productivity. As is the case with experts, the respective percentage is simply added on top. For example, the CoGC program _Education Events: Pioneers_ provdes a 10 % bonus to all pioneer-operated buildings as long as it is active, and the program _Advertising Campaign: Agriculture_ grants a 25 % bonus to all facilities in the agriculture sector.
 
 {{% about-this-page %}}
