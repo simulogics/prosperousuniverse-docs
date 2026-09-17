@@ -182,7 +182,7 @@ Over time, buildings degrade and in turn, production line efficiency for that bu
 
 ### When do I have to repair my buildings?
 
-As with many things in this game, it depends. Many in the community suggest repairing at around 90 days.
+As with many things in this game, it depends. Many in the community suggest repairing at around 60 days.
 
 ### How does fertility affect my buildings?
 
@@ -302,7 +302,7 @@ As with many aspects of Prosperous Universe, it depends. You may need to check p
 - PWO alone provides ~87% efficiency @ 0.2 used daily/100 pioneers
 - COF alone provides ~91% efficiency @ 0.5 used daily/100 pioneers
 
-_Generally_, PWO tends to be always worthwhile while COF requires a deeper analysis. 
+_Generally_, PWO tends to be always worthwhile while COF requires a deeper analysis.
 
 ### What happens if my mixed workforce tier building only has one tier of worker?
 
@@ -329,7 +329,7 @@ The rating considers the value of contracts you fulfilled versus the value of co
 
 ### I built a RIG but I can't harvest H2O (water).  Why?
 
-Before building a RIG, EXT, or COL it is important to check the PLI (Planet Info) command for the planet to ensure the resource is present. Depending on planetary conditions (temperature, gravity, and pressure), resources can require different buildings to extract said resource. 
+Before building a RIG, EXT, or COL it is important to check the PLI (Planet Info) command for the planet to ensure the resource is present. Depending on planetary conditions (temperature, gravity, and pressure), resources can require different buildings to extract said resource.
 
 - Gaseous resources require a COL
 - Liquid resources require a RIG

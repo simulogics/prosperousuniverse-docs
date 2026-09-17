@@ -182,7 +182,7 @@ Over time, buildings degrade and in turn, production line efficiency for that bu
 
 ### 我什么时候需要修理我的建筑？
 
-As with many things in this game, it depends. Many in the community suggest repairing at around 90 days.
+As with many things in this game, it depends. Many in the community suggest repairing at around 60 days.
 
 ### 土地肥沃度如何影响我的建筑？
 
