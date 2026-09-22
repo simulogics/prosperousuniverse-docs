@@ -3,374 +3,761 @@ title: "Command-Liste"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-Dies ist eine umfassende Liste aller Commands, die Ihnen in APEX zur Verfügung stehen. Sie sind nach ihren jeweiligen Einsatzgebieten gruppiert. Um diese Liste zu verstehen, müssen Sie bereits mit der [Funktionsweise von Commands](../../tutorials/commands) vertraut sein. Sie können die gesamte Liste durchlesen, um sich einen Überblick zu verschaffen, oder sie als Referenz zum Nachschlagen bestimmter Befehle verwenden.
+Dies ist eine umfassende Liste aller Commands, die Ihnen in APEX zur Verfügung stehen. Sie sind nach ihren jeweiligen Einsatzgebieten gruppiert. Um diese Liste zu verstehen, müssen Sie bereits mit der [Funktionsweise von Commands](../../tutorials/legacy-tutorials/commands) vertraut sein. Sie können die gesamte Liste durchlesen, um sich einen Überblick zu verschaffen, oder sie als Referenz zum Nachschlagen bestimmter Commands verwenden.
 
-## Grundlegende Commands
+Parameter in `<spitzen Klammern>` sind obligatorisch, Parameter in `[eckigen Klammern]` optional.
 
-__BS__  
-_Optionaler Parameter: Basis-ID_  
-Öffnet einen Überblick all Ihrer Basen. Zeigt weitere Informationen zu einer konkreten Basis an, wenn eine Basis-ID folgt, z.B. indem Sie im allgemeinen BS-Fenster auf "Basis anzeigen" klicken. Bietet Zugriff auf die meisten anderen basisbezogenen Befehle.
+| Kategorie | Commands |
+|-----------|----------|
+| [Basen](#bases) | [`BS`](#bs), [`BSC`](#bsc), [`BBL`](#bbl), [`BBC`](#bbc), [`BUI`](#bui), [`WF`](#wf), [`EXP`](#exp), [`HQ`](#hq), [`BRA`](#bra) |
+| [Produktion](#production) | [`PROD`](#prod), [`PRODQ`](#prodq), [`PRODCO`](#prodco) |
+| [Bestände](#inventory) | [`INV`](#inv), [`MTRA`](#mtra), [`UPCK`](#upck) |
+| [Schiffe und Flüge](#ships-and-flights) | [`FLT`](#flt), [`SHP`](#shp), [`SHPF`](#shpf), [`SHPI`](#shpi), [`SFC`](#sfc), [`SI`](#si), [`RT`](#rt), [`RTE`](#rte) |
+| [Schiffsbau](#ship-building) | [`BLU`](#blu), [`SHY`](#shy), [`SHYP`](#shyp) |
+| [Verträge](#contracts) | [`CONTS`](#conts), [`CONT`](#cont), [`CONTD`](#contd) |
+| [Warenbörse](#commodity-exchange) | [`CXL`](#cxl), [`CX`](#cx), [`CXM`](#cxm), [`CXP`](#cxp), [`CXPC`](#cxpc), [`CXOB`](#cxob), [`CXPO`](#cxpo), [`CXOS`](#cxos), [`CXO`](#cxo), [`MAT`](#mat) |
+| [Devisenhandel](#foreign-exchange) | [`FX`](#fx), [`FXP`](#fxp), [`FXPC`](#fxpc), [`FXOB`](#fxob), [`FXPO`](#fxpo), [`FXOS`](#fxos), [`FXO`](#fxo) |
+| [Lokale Marktplätze](#local-markets) | [`LMOS`](#lmos), [`LM`](#lm), [`LMA`](#lma), [`LMP`](#lmp) |
+| [Karten und Orte](#maps-and-locations) | [`MU`](#mu), [`MS`](#ms), [`SYSI`](#sysi), [`PLI`](#pli), [`STNS`](#stns) |
+| [Planetare Projekte](#planetary-projects) | [`PPS`](#pps), [`PP`](#pp), [`PPI`](#ppi), [`POPR`](#popr), [`WAR`](#war) |
+| [Infrastruktur](#infrastructure) | [`INF`](#inf), [`INFU`](#infu), [`ASTS`](#asts), [`GTW`](#gtw), [`GTWI`](#gtwi), [`GTWT`](#gtwt) |
+| [Politik](#politics) | [`ADM`](#adm), [`GOV`](#gov), [`LR`](#lr), [`MOTS`](#mots), [`MOT`](#mot), [`POL`](#pol) |
+| [Soziales](#social) | [`FA`](#fa), [`CO`](#co), [`USR`](#usr), [`BDGS`](#bdgs), [`CONS`](#cons), [`COM`](#com), [`COMC`](#comc), [`COMP`](#comp), [`COMG`](#comg), [`COMU`](#comu) |
+| [Benachrichtigungen](#notifications) | [`NOTS`](#nots), [`NOTIG`](#notig), [`NOTPNS`](#notpns) |
+| [Unternehmen und Finanzen](#company-and-finances) | [`FIN`](#fin), [`FINBS`](#finbs), [`FINIS`](#finis), [`FINLA`](#finla), [`LEAD`](#lead), [`ARC`](#arc), [`GIFT`](#gift), [`COLIQ`](#coliq) |
+| [Interface und Übertragungen](#interface-and-transmissions) | [`CS`](#cs), [`SCRN`](#scrn), [`LIC`](#lic), [`TRA`](#tra), [`XIT`](#xit), [`XYTV`](#xytv) |
 
-__BSC__  
-_Obligatorischer Parameter: Planeten-ID_  
-Ermöglicht die Erstellung einer neuen Basis auf einem Planeten. Zeigt notwendige Baumaterialien und ermöglicht die Auswahl einer Parzelle auf der Oberfläche. 
+## Basen {#bases}
 
-__BSL__  
-_Obligatorischer Parameter: Basis-ID_  
-Öffnet eine Übersicht der Gebäude in einer bestimmten Basis. Zugriff über die Schaltfläche GEBÄUDE in einem konkreten BS-Fenster. Klicken Sie auf "ABREISSEN", um ein Gebäude zu zerstören. Dadurch erhalten Sie je nach Alter einen Teil der für den Bau aufgewendeten Ressourcen zurück. Die erstatteten Materialien werden unter "Zurückgewinnbare Baumaterialien" aufgeführt.
+Basis-Commands geben eine Basis über den Planeten an, auf dem sie liegt, zum Beispiel `BS XK-745a`.
 
-__BSC__  
-_Obligatorischer Parameter: Basis-ID_  
-Öffnet das Konstruktionsfenster einer bestimmten Basis. Zugriff über die Schaltfläche "BAUEN" in einem konkreten BS-Fenster. Verwenden Sie die Registerkarten oben, um sich die verschiedenen Gebäudekategorien anzusehen. Unter "Fläche" finden Sie den Flächenbedarf eines Gebäudes sowie (nach dem Schrägstrich) die in Ihrer Basis verfügbare Fläche. Unter "Belegschaft" sehen Sie die Anzahl und Art der Arbeitskräfte, die für den Betrieb dieses Gebäudes erforderlich sind.
+### BS – Basen {#bs}
 
-__BUI__  
-_Obligatorischer Parameter: Gebäude-Ticker_  
-Zeigt Informationen zu einem Gebäudetyp an: Welche Art von Arbeitskräften hier beschäftigt sind, wie viel Platz das Gebäude einnimmt und welche Teile beim Bau benötigt werden. Zugriff durch Klicken auf einen Gebäudetyp im BSC-Fenster.
+`BS [Planeten-ID]`
 
-__EXP__  
-_Obligatorischer Parameter: Basis-ID_  
-Listet alle Bereiche auf, die Boni von ExpertInnen erhalten können, und zeigt an, welche ExpertInnen derzeit in der angegebenen Basis eingesetzt werden. Klicken Sie auf "ENTFERNEN", um ExpertInnen zu deaktivieren, die dann in der Spalte ganz rechts als verfügbar aufgeführt werden. Klicken Sie auf "AKTIVIEREN", um sie wieder an die Arbeit zu schicken. Erreichbar über die Schaltfläche "Experten" in einem konkreten BS-Fenster.  
+Zeigt eine Übersicht all Ihrer Basen oder die Details Ihrer Basis auf dem angegebenen Planeten. Die Basisansicht bietet Schaltflächen für die meisten anderen Basis-Commands.
 
-__INV__  
-_Optionaler Parameter: Adresse oder Lager-ID_  
-Werden keine Parameter angegeben, zeigt dieser Command eine Liste all Ihrer Bestände an, einschließlich der Basislager, Frachträume, Treibstofftanks und Lager-Einheiten. Durch Klicken auf die Schaltfläche "ANZEIGEN" wird der Inhalt des ausgewählten Inventars angezeigt. Oben links finden Sie mehrere Sortiermöglichkeiten (ANZ: Anzahl, MAS: Gewicht, VOL: Volumen). Klicken Sie auf das Symbol links daneben, können Sie zwischen Listen- und Rastermodus umschalten. Letzterer zeigt weitere Informationen zu jeder Ware, wie Gewicht, Volumen und Buchwert.
+### BSC – Basiskonstruktion {#bsc}
 
-Enthält der Parameter eine System- oder Planetenadresse (z. B. `INV XK-745` oder `INV XK-745a`), werden nur die Bestände an diesem Standort angezeigt.
+`BSC <Planeten-ID>`
 
-__MTRA__  
-_Optionaler Parameter: Material-Ticker_  
-_Optionaler Parameter: Ursprungslager-ID_  
-_Optionaler Parameter: Ziellager-ID_  
-Ermöglicht Ihnen, eine bestimmte Menge an Artikeln zwischen zwei Lagern zu übertragen. Das zu übertragende Material sowie die Ursprungs- und Ziellager können über die Parameter des Befehls angegeben oder aus Dropdown-Menüs im Command-Fenster ausgewählt werden. Dieser Command lässt sich auch ausführen (mit vorab ausgefüllten Details zum Transfer), indem Sie ein Element aus dem Ursprungslager in das Ziellager ziehen und es auf dem "AMT"-Slot ablegen.
+Errichtet eine neue Basis auf einem Planeten. Zeigt die benötigten Baumaterialien und lässt Sie eine Parzelle auswählen.
 
-__UPCK__  
-_Obligatorischer Parameter: Lager-ID_  
-Zeigt eine Liste mit verfügbaren Konsumgüterpaketen im angegebenen Lager an. Erlaubt es einzelne oder alle Konsumgüterpakete zu entpacken. Konsumgüterpakete werden immer in das gleiche Lager entpackt in dem sie liegen.
+### BBL – Gebäude einer Basis {#bbl}
 
-__WF__  
-_Obligatorischer Parameter: Basis-ID_  
-Zeigt einen Überblick zur Belegschaft einer Basis, einschließlich deren Bedürfnisse. Je anspruchsvoller die Belegschaftsstufe, desto höher sind ihre Anforderungen. Wenn Sie Ihre Mitarbeitenden nicht mit den benötigten Versorgungsgütern versorgen, sinkt die Effizienz der von ihnen betriebenen Gebäude. Erreichbar über die Schaltfläche "Belegschaft" in einem konkreten BS-Fenster.
+`BBL <Planeten-ID>`
 
+Listet die Gebäude einer Basis auf. ABREISSEN entfernt ein Gebäude und erstattet je nach Alter einen Teil der Materialien. Die mögliche Erstattung wird unter "Zurückgewinnbare Baumaterialien" aufgeführt.
 
-## Produktionslinien-Commands
+**Schnellzugriff:** die Schaltfläche GEBÄUDE in `BS`.
 
-__PROD__  
-_Obligatorischer Parameter: Basis-ID_  
-Zeigt die Produktionslinien einer bestimmten Basis. Erreichbar über die Schaltfläche "Produktion" in einem konkreten BS-Fenster. Jede Produktionslinie kann aus einem oder mehreren Gebäuden desselben Typs bestehen.
+### BBC – Gebäude bauen {#bbc}
 
-__PRODQ__  
-_Obligatorischer Parameter: Produktionslinien-ID_  
-Ermöglicht Ihnen, in der Warteschlange befindliche Aufträge zu stornieren, jedoch nicht diejenigen, die bereits verarbeitet werden. Der Effizienzwert wird von mehreren Faktoren beeinflusst, darunter der Zufriedenheit Ihrer Mitarbeitenden, dem von ExpertInnen bereitgestellten Bonus und in einigen Fällen der Bodenfruchtbarkeit des Planeten. Zugriff über die Schaltfläche "Details" in einem PROD-Fenster.
+`BBC <Planeten-ID>`
 
-__PRODCO__  
-_Obligatorischer Parameter: Produktionslinien-ID_  
-Ermöglicht Ihnen, einen neuen Produktionsauftrag zu erteilen. Wählen Sie im Dropdown-Menü einen Primär-Output aus, legen Sie eine Auftragsgröße fest und stellen Sie Ihre Bestellung in die Warteschlange. Wenn für Ihre Bestellung Input-Materialien erforderlich sind (wie unten gezeigt), stellen Sie zunächst sicher, dass diese verfügbar sind. Zugriff über die Schaltfläche "AUFTRAG ERSTELLEN" in einem PROD-Fenster.
+Baut ein neues Gebäude in einer Basis. Die Registerkarten oben wechseln zwischen den Gebäudekategorien. "Fläche" zeigt den Flächenbedarf des Gebäudes und die verbleibende Fläche Ihrer Basis, "Belegschaft" die benötigten Arbeitskräfte.
 
-__HQ__  
-_Keine möglichen Parameter_  
-Zeigt Ihnen, welche Ihrer Basen derzeit Ihr Firmensitz ist, und ermöglicht Ihnen, Ihren Hauptsitz an eine andere Basis zu verlegen, um andere Fraktionsboni zu erhalten. Außerdem können Sie hier Ihren Hauptsitz ausbauen, um zusätzliche Basisgenehmigungen und Slots in der Produktionswarteschlange freizuschalten.
+**Schnellzugriff:** die Schaltfläche BAUEN in `BS`.
 
-__BRA__  
-_Optionaler Parameter: Planeten-ID_
-Ermöglicht Ihnen, eine Ihrer Basen auszuwählen und mehrere ihrer Gebäude gleichzeitig zu reparieren, indem Sie einen Mindestzustand für das Gebäude festlegen. Alle Gebäude in der ausgewählten Basis, die sich in diesem Zustand befinden oder darunter liegen, werden in die Reparaturen einbezogen.
+### BUI – Gebäudeinformationen {#bui}
 
-## Soziale Commands
+`BUI <Gebäude-Ticker>`
 
-__FA__  
-_Obligatorischer Parameter: Fraktionscode_  
-Zeigt Informationen zur angegebenen Fraktion an.
+Zeigt einen Gebäudetyp: die Belegschaft, die er beschäftigt, die Fläche, die er einnimmt, und die zum Bau benötigten Materialien.
 
-__CO__  
-_Obligatorischer Parameter: Firmencode_  
-Zeigt Informationen zum angegebenen Unternehmen an. (Hier kommt der vierstellige Code zum Einsatz, den Sie gleich zu Beginn für Ihr Unternehmen gewählt haben.) Ermöglicht unter anderem, Firmenleitung einzusehen und zu kontaktieren.
+**Schnellzugriff:** Klick auf einen Gebäudetyp in `BBC`.
 
-__USR__  
-_Obligatorischer Parameter: User name_  
-Zeigt das Unternehmen, das Registrierungsdatum und den Verbindungsstatus eines Benutzerkontos an. Erreichbar über die Spalte "Geschäftsführer" in einem CO-Fenster. Durch Klicken auf die Schaltfläche "NUTZER STUMMSCHALTEN" werden alle Nachrichten, die diese Person sendet, für Sie unsichtbar.
+### WF – Belegschaft {#wf}
 
-__COM__  
-_Keine möglichen Parameter_  
-Listet alle Kommunikationskanäle auf, denen Sie in der Vergangenheit beigetreten sind. Sie treten automatisch einem Kanal bei, wenn Sie zum ersten Mal darauf klicken. Um einen Kanal wieder zu verlassen, öffnen Sie ihn und wählen Sie "VERLASSEN".
+`WF <Planeten-ID>`
 
-__COMC__  
-_Keine möglichen Parameter_  
-Listet alle öffentlichen Kommunikationskanäle auf. Sie können einem Kanal beitreten, indem Sie ihn aus der Liste auswählen.
+Zeigt die Belegschaft einer Basis und ihre Bedürfnisse. Höhere Belegschaftsstufen haben mehr Bedürfnisse. Erhalten die Arbeitskräfte nicht die benötigten Versorgungsgüter, sinkt die Effizienz ihrer Gebäude.
 
-__COMG__  
-_Obligatorischer Parameter: Kanal-ID_  
-Öffnet einen privaten Gruppenchat. Sind Sie diesem zuvor bereits beigetreten, wird er durch die Eingabe des Namens direkt geöffnet. Wenn Sie den Namen eines Raums eingeben, der noch nicht existiert oder den Sie noch nicht betreten haben, öffnen Sie den Chat über "Konversation beginnen". Auch über die Schaltfläche "NEUE GRUPPE" im COM-Fenster erreichbar.
+**Schnellzugriff:** die Schaltfläche BELEGSCHAFT in `BS`.
 
-__COMP__  
-_Obligatorischer Parameter: Kanal-ID_  
-Öffnet einen bestehenden öffentlichen Chat wie "Global" oder "Hilfe". Sie können keinen neuen öffentlichen Chat erstellen.
+### EXP – ExpertInnen {#exp}
 
-__COMU__  
-_Obligatorischer Parameter: Nutzername_  
-Startet ein privates Zwei-Personen-Gespräch mit dem angegebenen Benutzerkonto. Beginnen Sie mit der Eingabe des Kontonamens, bis er in der Liste angezeigt wird, und klicken Sie dann darauf. Erreichbar über die Schaltfläche "NEUER PRIVATKANAL" im COM-Fenster.
+`EXP <Planeten-ID>`
 
-__CONS__  
-_Keine möglichen Parameter_  
-Zeigt Ihnen, wer gerade in APEX online ist. Zugriff über die Schaltfläche "CONS" unten rechts in APEX.
+Zeigt die Bereiche, die ExpertInnen verbessern können, und die einer Basis zugewiesenen ExpertInnen. ENTFERNEN deaktiviert eine Expertin oder einen Experten, AKTIVIEREN schickt sie wieder an die Arbeit.
 
-## Vertrags-Commands
+**Schnellzugriff:** die Schaltfläche EXPERTEN in `BS`.
 
-__CONT__  
-_Obligatorischer Parameter: Vertrags-ID_  
-Mit diesem Befehl können Sie einen bestimmten Vertrag anzeigen. Nach dem Command muss ein langer und komplexer Parameter folgen, der den Vertrag identifiziert. Aus diesem Grund wird allgemein empfohlen, den Befehl "CONTS" zu verwenden und dann auf den/die gewünschten Vertrag/Verträge zu klicken.
+### HQ – Firmensitz {#hq}
 
-__CONTS__  
-_Keine möglichen Parameter_  
-Zeigt eine Liste all Ihrer Verträge von Warenbörsen und lokalen Marktplätzen an. Klicken Sie auf einen beliebigen Vertrag, um seinen CONT-Buffer zu öffnen. Beachten Sie, dass Sie ausstehende Verträge auch anzeigen können, indem Sie sie aus der Liste in der rechten Seitenleiste auswählen. (Wenn Sie die Seitenleiste nicht sehen können, schalten Sie sie mit der SEITL-Schaltfläche auf der linken Seite ein.) Erfahren Sie mehr über Verträge in den Tutorials "Handel" und "Lokale Marktplätze".
+`HQ`
 
-__CONTD__
-_Optionaler Parameter: Vertrags-ID_
-Zeigt eine Liste aller Ihrer Vertragsentwürfe an. Wenn Sie eine Vertrags-ID angeben oder auf einen Entwurf klicken, wird die Detailansicht des Entwurfs geöffnet, in der der Entwurf bearbeitet und versendet werden kann.
+Zeigt, welche Ihrer Basen Ihr Firmensitz ist. Verlegen Sie ihn für andere [Fraktionsboni](../headquarters) an eine andere Basis, oder bauen Sie ihn aus, um zusätzliche Basisgenehmigungen und Slots in der Produktionswarteschlange freizuschalten.
 
-## Warenbörsen-Commands
-Die folgenden Commands beziehen sich auf Warenbörsen. Die ersten beiden sind wahrscheinlich die nützlichsten.
+### BRA – Reparaturassistent {#bra}
 
-__CXOS__  
-_Keine möglichen Parameter_  
-Zeigt einen Verlauf Ihrer Ver- und Ankaufsorders an, den Sie hier anzeigen und löschen können. Durch das Löschen einer noch nicht oder zumindest nicht vollständig ausgeführten Order ziehen Sie diese vom Markt zurück.
+`BRA [Planeten-ID]`
 
-__CXO__  
-_Obligatorischer Parameter: Vertrags-ID_  
-Zeigt Informationen zu einer Order an, die Sie in der Vergangenheit getätigt haben. Zugriff über die "ANSEHEN"-Schaltflächen im CXOS-Fenster.
+Repariert mehrere Gebäude einer Basis auf einmal: Alle Gebäude, deren Zustand dem festgelegten Wert entspricht oder darunter liegt, werden einbezogen.
 
-__CXL__  
-_Keine möglichen Parameter_  
-Listet alle vorhandenen Warenbörsen auf. Von hier aus können Sie schnell auf eine konkrete Warenbörse zugreifen, ohne sich deren spezielle Parameter für den CX-Befehl merken zu müssen.
+## Produktion {#production}
 
-__CXM__  
-_Obligatorischer Parameter: Material-Ticker_  
-_Optionaler Parameter: Planeten-ID_  
-Vergleicht Warenbörseninformationen für das angegebene Material über alle Warenbörsen hinweg. Die Börsen werden nach ihrer Entfernung zum angegebenen Planeten sortiert (falls einer eingegeben wurde).
+### PROD – Produktion {#prod}
 
-__CX__  
-_Obligatorischer Parameter: Warenbörsen-ID_  
-Hier können Sie Artikel auf einem bestimmten Markt kaufen und verkaufen. Wählen Sie im Dropdown-Menü die Warenkategorie aus. Zugriff zum Beispiel durch Klicken auf den Namen einer Warenbörse im CXL-Fenster.
+`PROD [Planeten-ID]`
 
-__MAT__  
-_Obligatorischer Parameter: material ID_  
-Materialien und Waren sind im Wesentlichen dasselbe. Ihr Ticker ist die aus zwei oder drei Buchstaben bestehende Kennung, die auch im Symbol des Materials bzw. der Ware auftaucht. Der Ticker für Stahl lautet beispielsweise STL. "Verarbeitung" gibt an, was aus diesem Material in welcher Produktionslinie hergestellt werden kann, während "Produktion" zeigt, wie und wo das Material hergestellt werden kann. Zugriff zum Beispiel durch Klicken auf das Symbol einer Ware im CX-Fenster.
+Zeigt die Produktionslinien all Ihrer Basen oder der Basis auf dem angegebenen Planeten. Jede Produktionslinie besteht aus einem oder mehreren Gebäuden desselben Typs.
 
-__CXP, CXPC, CXOB, CXPO__  
-_Obligatorischer Parameter: Waren-ID + Warenbörsen-ID_  
-Diese vier Befehle beziehen sich auf konkrete Waren auf einem konkreten Markt. Neben einem Wareneintrag im CX-Fenster finden Sie die Schaltflächen "INFO", "CHART", "ORDERS" und "HANDEL". "INFO": CXP, das einen Überblick über aktuelle Gebote, angebotene Mengen, Allzeit-Hoch und -Tiefs usw. zeigt. "CHART": CXPC. Zeigt ein Kerzenchart des Warenpreises im Zeitverlauf. Wenn "Keine Daten" angezeigt wird, wurde die Ware im angegebenen Zeitraum nicht verkauft. Wählen Sie ein längeres Zeitfenster, um das Problem zu beheben. "ORDERS": CXOB-Command, mit dem Sie ausstehende Anfragen und Angebote sehen können. "TRADE": CXPO, mit dem Sie Kauf- und Verkaufsorders innerhalb der aktuellen Preisspanne platzieren können. Letztere wird anhand eines Drei-Tage-Durchschnitts ermittelt und ist für BenutzerInnen mit PRO-Lizenz breiter als für Konten mit FREE-Lizenz. Um schnell den aktuell niedrigsten Ankaufs- oder Verkaufspreis festzulegen, verwenden Sie die Schaltflächen "setzen" in der Zeile „Ankauf / Verkauf". In der Zeile "Lagerort" können Sie den Lagerort auswählen, von dem aus Sie Ihre Waren verkaufen möchten.
+**Schnellzugriff:** die Schaltfläche PRODUKTION in `BS`.
 
-## Weltraumflug-Commands
-Es wird empfohlen, den FLT-Befehl zu verwenden und von dort aus auf die anderen Befehle zuzugreifen. Um all diese Befehle in Aktion zu sehen, werfen Sie einen Blick auf das Tutorial "Aufrechterhaltung der Basis und Flug".
+### PRODQ – Produktionswarteschlange {#prodq}
 
-__FLT__  
-_Optionaler Parameter: System-ID / Planeten-ID_  
-Der Flotten-Commandl wird einzeln eingegeben und zeigt all Ihre Schiffe an. In jeder Zeile werden Daten zu einem Ihrer Schiffe angezeigt, z.B. dessen Transpondercode, Name, Status, Füllstand und Standort sowie Informationen zu einem laufenden Flug. Wenn Sie nach dem Flotten-Command die ID eines Systems oder Planeten eingeben, werden all Ihre Schiffe angezeigt, die derzeit dort stationiert sind. (Die ID ist der Parameter, den Sie oben in einem Buffer sehen können, wenn Sie ein System in der Karte des Universums oder einen Planeten in einer Systemkarte auswählen.)
+`PRODQ <Produktionslinien-ID>`
 
-__SHP__  
-_Obligatorischer Parameter: Schiffstranspondercode_  
-Zeigt Informationen zu einem Ihrer Schiffe an. Benennen Sie Ihr Schiff um, indem Sie auf seinen aktuellen Namen (oder "unbenannt") klicken und einen neuen Namen eingeben. Zugriff durch Klicken auf den Transpondercode eines Schiffes im FLT-Fenster.
+Zeigt die Auftragswarteschlange einer Produktionslinie. Aufträge in der Warteschlange können storniert werden, laufende Aufträge nicht. Die angezeigte Effizienz hängt von der Zufriedenheit der Arbeitskräfte, von ExpertInnen und bei manchen Gebäuden von der Fruchtbarkeit des Planeten ab.
 
-__SHPF__  
-_Obligatorischer Parameter: Schiffstranspondercode_  
-Zeigt den Treibstoffstatus eines Schiffes an. Zugriff durch Klicken auf die Treibstoffleiste eines Schiffes im FLT-Fenster.
+**Schnellzugriff:** die Schaltfläche DETAILS in `PROD`.
 
-__SHPI__  
-_Obligatorischer Parameter: Schiffstranspondercode_  
-Zeigt den Bestand eines Schiffes an, der durch Gewicht und Volumen seiner Ladung begrenzt ist. Zugriff durch Klicken auf die Inventarleiste eines Schiffes im FLT-Fenster.
+### PRODCO – Produktionsauftrag {#prodco}
 
-__SFC__  
-_Obligatorischer Parameter: Schiffstranspondercode_  
-Die Schaltfläche "STARTEN" neben jedem Schiff in der FLT-Liste ruft den SFC-Command gefolgt vom Transpondercode des Schiffs auf. Wenn Sie eine Planeten-ID oder Stations-ID im Bereich "Ziel" eingeben, den gewünschten Treibstoffverbrauch festlegen und auf "Start" klicken, können Sie ein Schiff zu einem neuen Ziel schicken.
+`PRODCO <Produktionslinien-ID>`
 
-__SI__  
-_Obligatorischer Parameter: Schiffstranspondercode_  
-Zeigt alle öffentlichen Informationen zu dem ausgewählten Schiff an. Zugriff durch Klicken auf ein dreieckiges Schiffssymbol in einer Systemkarte oder einem Planeteninfofenster.
+Stellt einen neuen Produktionsauftrag in die Warteschlange. Wählen Sie das Produkt und die Auftragsgröße, und stellen Sie sicher, dass die unten angezeigten Input-Materialien verfügbar sind.
 
-## Schiffsbau-Commands
+**Schnellzugriff:** die Schaltfläche AUFTRAG ERSTELLEN in `PROD`.
 
-__BLU__
-_Optionaler Parameter: Blueprint-ID_
-Öffnet eine Liste all Ihrer Schiffsentwürfe oder eines bestimmten Entwurfs, wenn eine ID angegeben wurde.
+## Bestände {#inventory}
 
-__SHY__
-_Obligatorischer Parameter: Planeten-ID_
-Öffnet den Schiffswerft-Buffer des gewünschten Planeten.
+### INV – Bestände {#inv}
 
-__SHYP__
-_Obligatorischer Parameter: Projekt-ID_
-Öffnet das gewünschte Schiffbauprojekt.
+`INV [Adresse oder Lager-ID]`
 
-## Devisenhandel-Commands
+Listet all Ihre Bestände auf: Basislager, Frachträume, Treibstofftanks und Lager-Einheiten in Lagerhäusern. Mit einem System oder Planeten (zum Beispiel `INV XK-745` oder `INV XK-745a`) werden nur die Bestände an diesem Ort angezeigt. Mit einer Lager-ID öffnet sich dieser Bestand.
 
-__FX__  
-_Keine möglichen Parameter_  
-FX zeigt Ihnen eine Wechselkursmatrix, in der Sie sehen können, wie viel eine Währung im Vergleich zu einer anderen wert ist. Die Basiswährungen sind vertikal angeordnet, die Notierungswährungen horizontal.
+Innerhalb eines Bestands können Sie nach Anzahl (ANZ), Gewicht (MAS) oder Volumen (VOL) sortieren. Die Rasteransicht zeigt Gewicht, Volumen und Buchwert jedes Materials.
 
-__FXP__  
-_Obligatorischer Parameter: Währungspaar-Ticker_  
-Verwenden Sie FXP in Kombination mit einem Ticker aus zwei Währungskennungen, getrennt durch einen Schrägstrich oder Punkt, zum Beispiel: FXP AIC/CIS. Alternativ klicken Sie einfach auf den entsprechenden Wert in der FX-Matrix.
+### MTRA – Materialtransfer {#mtra}
 
-__FXOB__  
-_Obligatorischer Parameter: Währungspaar-Ticker_  
-Verwenden Sie diesen Befehl, um offene Orders eines beliebigen Währungspaares anzuzeigen, zum Beispiel: FXOB AIC/CIS.
+`MTRA [Material-Ticker] [Ursprungslager-ID] [Ziellager-ID]`
 
-__FXPC__  
-_Obligatorischer Parameter: Währungspaar-Ticker_  
-Zeigt den Wechselkursverlauf eines beliebigen Währungspaares an, zum Beispiel: FXPC AIC/CIS.
+Überträgt eine Menge eines Materials zwischen zwei Beständen. Was nicht als Parameter angegeben wird, kann im Fenster ausgewählt werden.
 
-__FXPO__  
-_Obligatorischer Parameter: Währungspaar-Ticker_  
-Verwenden Sie diesen Befehl, um eine Devisenhandelorder zu erteilen, d.h. eine Währung auszugeben, um eine andere zu kaufen. Geben Sie FXPO gefolgt vom gewünschten Ticker ein, zum Beispiel AIC/NCC. Wählen Sie anschließend die entsprechende Registerkarte aus, um die gewünschte Währung zu kaufen oder zu verkaufen. Beachten Sie, dass es sich bei den von Ihnen angegebenen Zahlen um Lots handelt, also um 1.000 von jeder Währung.
+**Schnellzugriff:** Ziehen Sie ein Material aus dem Ursprungsbestand und legen Sie es auf dem "AMT"-Slot des Zielbestands ab.
 
-__FXOS__  
-_Keine möglichen Parameter_  
-Zeigt alle von Ihnen aufgegebenen Devisenhandelorders an.
+### UPCK – Auspacken {#upck}
 
-## Karten-Commands
-Karten können per Drag & Drop mit der linken Maustaste verschoben und mit der rechten Maustaste rotiert werden.
+`UPCK <Lager-ID>`
 
-__MU__  
-_Obligatorischer Parameter: CX/NAV/INV/POL_  
-Öffnet eine der vier verschiedenen Karten des Universums. Sie zeigen alle dasselbe Universum, dienen jedoch unterschiedlichen Zwecken, wie unten beschrieben. Die miteinander verbundenen Punkte auf der Karte sind Sternensysteme. Wenn Sie mit der Maus über ein System fahren, können Sie dessen Kennung sehen. Auf allen Karten können Sie unten die Anzeige verschiedener Arten von Informationen ein- oder ausschalten. Sie können diese Daten auch nach Zeitraum filtern (z.B. 1 Stunde, 12 Stunden, 24 Stunden).
+Listet die Konsumgüterpakete in einem Lager auf und packt sie aus. Pakete werden in das Lager ausgepackt, in dem sie liegen.
 
-MU CX: Zeigt an, wo Ihre Warenbörsen stattfinden.
+## Schiffe und Flüge {#ships-and-flights}
 
-MU NAV: Zeigt Verkehrsdaten an. Solange "Flotte" aktiviert ist, werden die Standorte Ihrer Schiffe durch gelbe Pfeile markiert.
+Beginnen Sie mit `FLT`: Die meisten anderen Schiffs-Commands lassen sich von dort aus öffnen. Das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight) zeigt sie in Aktion.
 
-MU INV: Ermöglicht Ihnen, die Verteilung Ihrer Lagerflächen im Universum anzuzeigen. Dieses Feature ist noch nicht verfügbar.
+### FLT – Flotte {#flt}
 
-MU POL: Zeigt eine politische Karte. Dieses Feature ist noch nicht verfügbar.
+`FLT [System- oder Planeten-ID]`
 
-__MS__  
-_Obligatorischer Parameter: System-ID_  
-Wie auf der Karte des Universums markieren gelbe Pfeile Ihre Schiffe. Die Wireframe-Struktur in der Mitte ist der Star des Systems. Die Kreise, die ihn umringen, sind entweder erdähnliche Planeten (weiß) oder Gasriesen (orange). Weiße Quadrate stehen für Stationen. Wenn Sie mit der Maus über einen Planeten oder eine Station fahren, wird die zugehörige ID angezeigt. Anstatt die System-ID manuell einzugeben, können Sie auch auf das gewünschte System in der Karte des Universums klicken.
+Listet all Ihre Schiffe mit Transpondercode, Name, Status, Ladung, Standort und aktuellem Flug auf. Mit einer System- oder Planeten-ID werden nur die Schiffe an diesem Ort angezeigt.
 
-__SYSI__
-_Optionaler Parameter: System-ID_
-Alle Systeme, ob benannt oder unbenannt, haben eine ID, die aus der Sektor-ID (zwei Buchstaben) und der Systemkennung besteht. Der Systeminformations-Command zeigt grundlegende Informationen über das System an, wie seinen Namen, Sternenklasse, Mikrometeorid-Dichte und Fraktionszugehörigkeit. Er enthält eine Liste aller Planeten und Stationen in diesem System. Wird keine System-ID angegeben, wird anstelle der Systemdaten ein Suchfeld angezeigt, mit dem nach Systemen gesucht werden kann.
+### SHP – Schiff {#shp}
 
-__PLI__
-_Optionaler Parameter: Planeten-ID_
-Alle Planeten, ob benannt oder unbenannt, haben eine ID, die aus der System-ID gefolgt von einem eindeutigen Buchstaben besteht. PLI enthält Shortcuts zu Ihrer Flotte und Ihrem Inventar auf diesem Planeten. Hier können Sie unter anderem sehen, welche Ressourcen aus diesem Planeten und seiner Atmosphäre gewonnen werden können und ob sich der Planet für den Pflanzenanbau eignet oder nicht. Der Balken, der Letzteres anzeigt, beginnt in der Mitte und je weiter er sich nach links oder rechts erstreckt, desto unfruchtbarer bzw. fruchtbarer ist der Planet. Schließlich geben Typ und Temperatur an, ob Sie zusätzliche Baumaterialien benötigen, um eine Basis auf diesem Planeten zu errichten. Jeder nicht-graue Bereich auf einem Planeten kann angeklickt werden, um weitere Informationen darüber zu erhalten. Bisher gibt es folgende Farben: Blau (andere Unternehmen), Dunkelblau (Projekt eines anderen Konzerns), Gelb (eigenes Unternehmen), Dunkelgelb (Projekt eines eigenen Konzerns), Grün (CoGC), Rot (Warenbörse). Anstatt die Planeten-ID manuell einzugeben, können Sie auch direkt auf den Planeten in der Systemkarte klicken, um auf das PLI-Fenster zuzugreifen. Wird keine Planeten-ID angegeben, wird anstelle der Planetendaten ein Suchfeld angezeigt, mit dem nach Planeten gesucht werden kann.
+`SHP <Transpondercode>`
 
-__STI__  
-_Obligatorischer Parameter: Stations-ID_  
-Zeigt allgemeine Informationen zu einer Station an und ermöglicht den Zugriff auf deren Infrastruktur. Erreichbar durch Klicken auf eine Station (quadratisches Symbol) auf einer Systemkarte oder in einem Planeteninfofenster.
+Zeigt die Details eines Ihrer Schiffe. Klicken Sie auf den Namen des Schiffs, um es umzubenennen.
 
-## Commands für planetare Projekte
+**Schnellzugriff:** Klick auf den Transpondercode eines Schiffs in `FLT`.
 
-__PPS__  
-_Obligatorischer Parameter: Planeten-ID_  
-Zeigt alle planetaren Projekte auf dem gewünschten Planeten an.
+### SHPF – Schiffstreibstoff {#shpf}
 
-__PP__  
-_Obligatorischer Parameter: Planeten- & Projekt-ID_  
-Zeigt Informationen zu einem konkreten planetaren Projekt. Aufgrund der langen und komplexen Parameter empfiehlt es sich, diese Informationen über den "Details"-Button neben dem gewünschten Projekt im PPS-Buffer abzurufen.
+`SHPF <Transpondercode>`
 
-__POPR__
-_Obligatorischer Parameter: Planeten-ID_   
-Zeigt die Bevölkerungsberichte des angegebenen Planeten mit Informationen zur Größe, Bedürfniserfüllung und Wachstum der Planetenbevölkerung.
+Zeigt die Treibstoffstände eines Schiffs.
 
-### Commands für lokale Marktplätze
+**Schnellzugriff:** Klick auf die Treibstoffleiste eines Schiffs in `FLT`.
 
-__LMOS__
-_Keine möglichen Parameter_  
-Zeigt eine Übersicht all Ihrer Anzeigen.
+### SHPI – Schiffsbestand {#shpi}
 
-__LM__
-_Obligatorischer Parameter: Planeten-ID_  
-Zeigt alle verfügbaren Anzeigen auf einem bestimmten lokalen Marktplatz an. Zugriff per Klick auf den Infrastruktureintrag "Lokaler Marktplatz" (falls vorhanden) in einem beliebigen PLI-Fenster.
+`SHPI <Transpondercode>`
 
-__LMA__
-_Obligatorischer Parameter: Anzeigen-ID_  
-Zeigt Details zur gesuchten Anzeige an. Zugriff durch Auswahl einer Anzeige im LM-Fenster.
+Zeigt den Frachtraum eines Schiffs. Der Frachtraum ist durch Gewicht und Volumen begrenzt.
 
-__LMP__
-_Obligatorischer Parameter: Planeten-ID_  
-Ermöglicht die Platzierung einer Kauf- oder Verkaufsanzeige auf einem bestimmten lokalen Marktplatz. Zugriff über die Schaltfläche "Anzeige erstellen" in einem LM-Fenster.
+**Schnellzugriff:** Klick auf die Ladungsleiste eines Schiffs in `FLT`.
 
-### Politische Commands
+### SFC – Schiffsflug-Steuerung {#sfc}
 
-__ADM__
-_Obligatorischer Parameter: Planeten-ID_  
-Zeigt Informationen zur [Planetaren Verwaltung](../../tutorials/planetary-projects/#administration-center) des Planeten (sofern vorhanden), z.B. den aktuellen Gouverneur, die Organisation (Fraktion oder Konzern), die Gebühren und Steuern einzieht, sowie alle KandidatInnen für die kommende Amtszeit. Ermöglicht es jedem, für das Gouverneursamt des Planeten zu kandidieren, und den BewohnerInnen des Planeten, für ihre bevorzugten KandidatInnen zu stimmen.
+`SFC <Transpondercode>`
 
-__GOV__
-_Obligatorischer Parameter: Planeten-ID_ 
-Zeigt Informationen über die aktuelle und vergangene Regierungen eines Planeten sowie die Anträge, über die abgestimmt wurde.
+Plant und startet einen Flug. Geben Sie einen Planeten oder eine Station als Ziel ein, legen Sie den Treibstoffverbrauch fest und klicken Sie auf "Start".
 
-__LR__
-_Obligatorischer Parameter: Planeten-ID_  
-Zeigt die Lokalen Gesetze eines Planeten an, sofern dieser über eine Planetare Verwaltung verfügt. Zu den Lokalen Gesetzen gehören Produktionssteuern sowie Gebühren für Anzeigen auf lokalen Marktplätzen.
+**Schnellzugriff:** die Schaltfläche STARTEN in `FLT`.
 
-__MOT__
-_Obligatorische Parameter: I-Administrations-ID, m-Antrags-ID_
-Zeigt einen Antrag an, inklusive seiner Komponenten, dem aktuellen Status sowie den Abstimmungsergebnissen.
+### SI – Schiffsinformationen {#si}
 
-__MOTS__
-_Optionaler Parameter: Antrags-ID_
-Zeigt eine Liste aller Anträge für den aktuellen Regierungskontext oder Details zu einem spezifischen Antrag.
+`SI <Transpondercode>`
 
-__POL__
-_Optionaler Parameter: Nutzername_
-Zeigt die aktuellen und vergangenen Ämter eines Nutzers inklusive der aktuellen Kandidaturen.
+Zeigt die öffentlichen Informationen zu einem beliebigen Schiff, auch zu Schiffen anderer SpielerInnen.
 
-### Lagerhaus-Commands
+**Schnellzugriff:** Klick auf das Dreieck eines Schiffs in einer Systemkarte oder in `PLI`.
 
-__WAR__
-_Obligatorischer Parameter: Planeten-ID_  
-Zeigt öffentliche und private Informationen zu Lagerhäusern an, so etwa die Anzahl der verfügbaren Lager-Einheiten, die Mietgebühren usw.
+### RT – Routen {#rt}
 
-## Commands für Benachrichtigungen
+`RT [Routen-ID]`
 
-__NOTS__
-_Keine möglichen Parameter_  
-Zeigt eine Liste der In-Game-Benachrichtigungen an. Klicken Sie auf eine Benachrichtigung, um weitere Informationen zu erhalten.
+Listet all Ihre Routen auf oder öffnet eine einzelne Route. Erstellen und bearbeiten Sie Routen und weisen Sie ihnen Schiffe zu. Siehe [Routen](../routes).
 
-__NOTIG__
-_No possible paramter_  
-Ermöglicht Ihnen, Ihre Benachrichtigungseinstellungen im Spiel zu ändern. Deaktivierte Benachrichtigungstypen werden im `NOTS`-Befehl nicht angezeigt.
+### RTE – Routenausführungen {#rte}
 
-__NOTPNS__
-_Keine möglichen Parameter_  
-Ermöglicht Ihnen, Ihre Push-Benachrichtigungseinstellungen zu ändern. Wählen Sie aus, welche Arten von Benachrichtigungen Ihnen per E-Mail in welcher Häufigkeit zugesendet werden sollen.
+`RTE [Transpondercode]`
 
-## Commands für Übertragungen
+Zeigt den Fortschritt aller Schiffe auf Routen oder eines einzelnen Schiffs. Siehe [Routen](../routes/#monitoring-route-execution).
 
-__TRA__  
-_Keine möglichen Parameter_  
-Öffnet eine Liste mit allen Übertragungen, z.B. Video-Tutorials.
+## Schiffsbau {#ship-building}
 
-__XIT__  
-_Optionaler Parameter: Titel_  
-Öffnet einen grünen Bildschirm, der Ihnen bei der Aufzeichnung Ihrer eigenen Übertragung hilft. Verwenden Sie den optionalen Parameter, um ihm einen Titel zu geben.
+### BLU – Blueprints {#blu}
 
-__XYTV__  
-_Obligatorischer Parameter:_ YouTube-ID  
-Bettet ein YouTube-Video ein. Die ID ist die Folge von Zahlen und Buchstaben nach "v=" in der URL des Videos.
+`BLU [Blueprint-ID]`
 
-## Sonstige Commands
+Listet all Ihre Schiffsentwürfe auf oder öffnet einen davon.
 
-__ARC__  
-_Keine möglichen Parameter_  
-Zeigt den aktuellen Status Ihres APEX-Repräsentanzzentrums an und ermöglicht es Ihnen, Mittel zur Erhöhung seines Levels beizusteuern.
+### SHY – Schiffswerft {#shy}
 
-__COLIQ__  
-_Keine möglichen Parameter_  
-Ermöglicht Ihnen, Ihr Unternehmen zu liquidieren. Das Unternehmen wird hierdurch gelöscht, sodass Sie mit demselben Account ganz von vorne beginnen können. Aktualisieren Sie den APEX-Tab nach der Verwendung. Für den COLIQ-Befehl gelten folgende Abklingzeiten: Die erste COLIQ ist sofort nach Firmengründung verfügbar, die zweite 3 Tage nach Verwendung des ersten. Die Wartezeit für die dritte COLIQ beträgt 21 Tage und jede weitere Abklingzeit beträgt 60 Tage. Wenn es keinen Warenhandel, Geschäfte auf lokale Marktplätzen und keine Beiträge zu planetaren oder Konzernprojekten gegeben hat, kann eine sofortige COLIQ möglich sein. Bitte beachten Sie, dass ein Missbrauch des COLIQ-Befehls zur (vorübergehenden) Sperrung Ihres Kontos führen kann!
+`SHY [Planeten-ID]`
 
-__CS__  
-_Keine möglichen Parameter_  
-Ermöglicht Ihnen, einen neuen Screen zu erstellen. Um diesen Befehl aufzurufen, können Sie oben die Schaltfläche "NEU" verwenden. Alles über Screens erfahren Sie im Tutorial zum APEX-Interface.
+Zeigt die Schiffswerft eines Planeten.
 
-__FIN, FINLA, FINIS, FINBS__  
-Mithilfe dieser vier Befehle erhalten Sie einen detaillierten Überblick über die finanzielle Situation Ihres Unternehmens. Weitere Informationen zu diesen Commands folgen bald.
+### SHYP – Schiffswerftprojekte {#shyp}
 
-__GIFT__  
-_Keine möglichen Parameter_  
-Zeigt eine Liste von erhaltenen und verschenkten PRO-Lizenz Zeit Geschenken an. Es ist möglich PRO-Lizenz Zeit an andere Spieler zu verschenken.
+`SHYP [Projekt-ID]`
 
-__LEAD__  
-_Keine möglichen Parameter_  
-Zeigt Leaderboards auf Unternehmensebene an. Die Art des Leaderboards kann über das Dropdown-Menü oben ausgewählt werden. Einige Leaderboards unterstützen zusätzliche Selektoren (z.B. die Angabe der Daten-Zeitspanne).
+Listet all Ihre Schiffbauprojekte auf oder öffnet eines davon.
+
+## Verträge {#contracts}
+
+### CONTS – Verträge {#conts}
+
+`CONTS`
+
+Listet all Ihre Verträge auf. Klicken Sie auf einen Vertrag, um ihn in `CONT` zu öffnen. Ausstehende Verträge werden auch in der rechten Seitenleiste aufgeführt, die Sie mit der Schaltfläche SEITL auf der linken Seite ein- und ausblenden. Siehe das [Vertrags-Tutorial](../../tutorials/legacy-tutorials/contracts).
+
+### CONT – Vertrag {#cont}
+
+`CONT <Vertrags-ID>`
+
+Zeigt einen einzelnen Vertrag. Vertrags-IDs sind lang, daher ist es einfacher, Verträge über `CONTS` zu öffnen.
+
+### CONTD – Vertragsentwürfe {#contd}
+
+`CONTD [Entwurfs-ID]`
+
+Listet Ihre Vertragsentwürfe auf oder öffnet einen davon, um ihn zu bearbeiten und zu versenden. Siehe [Benutzerdefinierte Verträge](../custom-contracts).
+
+## Warenbörse {#commodity-exchange}
+
+Ein Warenbörsen-Ticker kombiniert ein Material und eine Börse, zum Beispiel `RAT.NC1`. [Ein Guide zum Markt](../../tutorials/current-tutorials/05-market-guide) zeigt diese Commands in Aktion.
+
+### CXL – Warenbörsen {#cxl}
+
+`CXL`
+
+Listet alle Warenbörsen auf.
+
+### CX – Warenbörse {#cx}
+
+`CX <Börsencode>`
+
+Zeigt eine Warenbörse und ihre Materialien, nach Kategorien sortiert. Jedes Material hat Schaltflächen für die unten beschriebenen Ticker-Commands.
+
+**Schnellzugriff:** Klick auf eine Börse in `CXL`.
+
+### CXM – Materialvergleich {#cxm}
+
+`CXM <Material-Ticker> [Planeten-ID]`
+
+Vergleicht ein Material über alle Warenbörsen hinweg. Mit einer Planeten-ID werden die Börsen nach ihrer Entfernung zu diesem Planeten sortiert.
+
+### CXP – Preisinformationen {#cxp}
+
+`CXP <Ticker>`
+
+Zeigt aktuelle Gebote und Angebote, Allzeithochs und -tiefs und mehr.
+
+**Schnellzugriff:** die Schaltfläche INFO in `CX`.
+
+### CXPC – Preischart {#cxpc}
+
+`CXPC <Ticker>`
+
+Zeigt ein Kerzenchart des Preises im Zeitverlauf. "Keine Daten" bedeutet, dass im gewählten Zeitraum nichts gehandelt wurde. Wählen Sie einen längeren Zeitraum.
+
+**Schnellzugriff:** die Schaltfläche CHART in `CX`.
+
+### CXOB – Orderbuch {#cxob}
+
+`CXOB <Ticker>`
+
+Zeigt die offenen Kauf- und Verkaufsorders.
+
+**Schnellzugriff:** die Schaltfläche ORDERS in `CX`.
+
+### CXPO – Order aufgeben {#cxpo}
+
+`CXPO <Ticker>`
+
+Gibt eine Kauf- oder Verkaufsorder innerhalb der aktuellen Preisspanne auf. Die Spanne basiert auf einem Drei-Tage-Durchschnitt und ist für PRO-NutzerInnen breiter. Die Schaltflächen "setzen" übernehmen das aktuell beste Gebot bzw. Angebot, unter "Bestand" wählen Sie, von wo aus verkauft wird.
+
+**Schnellzugriff:** die Schaltfläche HANDEL in `CX`.
+
+### CXOS – Warenbörsen-Orders {#cxos}
+
+`CXOS`
+
+Listet Ihre Kauf- und Verkaufsorders auf. Wenn Sie eine nicht vollständig ausgeführte Order löschen, ziehen Sie sie vom Markt zurück.
+
+### CXO – Warenbörsen-Order {#cxo}
+
+`CXO <Order-ID>`
+
+Zeigt eine Ihrer Orders.
+
+**Schnellzugriff:** die Schaltfläche ANSEHEN in `CXOS`.
+
+### MAT – Material {#mat}
+
+`MAT <Material-Ticker>`
+
+Zeigt ein Material: was daraus hergestellt werden kann ("Verarbeitung") und wie es produziert wird ("Produktion"). Der Ticker ist das Kürzel im Symbol des Materials, zum Beispiel STL für Stahl.
+
+**Schnellzugriff:** Klick auf das Symbol eines Materials, zum Beispiel in `CX`.
+
+## Devisenhandel {#foreign-exchange}
+
+Ein Währungspaar besteht aus zwei Währungscodes, getrennt durch einen Schrägstrich oder einen Punkt, zum Beispiel `AIC/CIS`. Siehe das [Devisenhandel-Tutorial](../../tutorials/legacy-tutorials/foreign-exchange).
+
+### FX – Wechselkurse {#fx}
+
+`FX`
+
+Zeigt eine Matrix der Wechselkurse, mit den Basiswährungen vertikal und den Notierungswährungen horizontal angeordnet.
+
+### FXP – Wechselkursinformationen {#fxp}
+
+`FXP <Währungspaar>`
+
+Zeigt Wechselkursinformationen für ein Währungspaar.
+
+**Schnellzugriff:** Klick auf einen Kurs in `FX`.
+
+### FXPC – Wechselkurschart {#fxpc}
+
+`FXPC <Währungspaar>`
+
+Zeigt den Wechselkursverlauf eines Währungspaares.
+
+### FXOB – Orderbuch {#fxob}
+
+`FXOB <Währungspaar>`
+
+Zeigt die offenen Orders für ein Währungspaar.
+
+### FXPO – Order aufgeben {#fxpo}
+
+`FXPO <Währungspaar>`
+
+Gibt eine Devisenorder auf, mit der Sie eine Währung gegen eine andere kaufen. Mengen werden in Lots zu je 1.000 Einheiten jeder Währung angegeben.
+
+### FXOS – Devisenorders {#fxos}
+
+`FXOS`
+
+Listet all Ihre Devisenorders auf.
+
+### FXO – Devisenorder {#fxo}
+
+`FXO <Order-ID>`
+
+Zeigt eine Ihrer Devisenorders.
+
+**Schnellzugriff:** Klick auf eine Benachrichtigung über einen Devisenhandel.
+
+## Lokale Marktplätze {#local-markets}
+
+### LMOS – Anzeigen auf lokalen Marktplätzen {#lmos}
+
+`LMOS`
+
+Listet all Ihre Anzeigen auf lokalen Marktplätzen auf.
+
+### LM – Lokaler Marktplatz {#lm}
+
+`LM <Planeten- oder Stations-ID>`
+
+Zeigt die Anzeigen auf einem lokalen Marktplatz.
+
+**Schnellzugriff:** der Infrastruktureintrag "Lokaler Marktplatz" in `PLI`.
+
+### LMA – Anzeige {#lma}
+
+`LMA <Anzeigen-ID>`
+
+Zeigt die Details einer Anzeige.
+
+**Schnellzugriff:** Klick auf eine Anzeige in `LM`.
+
+### LMP – Anzeige erstellen {#lmp}
+
+`LMP <Planeten- oder Stations-ID>`
+
+Erstellt eine Anzeige auf einem lokalen Marktplatz.
+
+**Schnellzugriff:** die Schaltfläche ANZEIGE ERSTELLEN in `LM`.
+
+## Karten und Orte {#maps-and-locations}
+
+Ziehen Sie eine Karte mit der linken Maustaste, um sie zu verschieben, und mit der rechten Maustaste, um sie zu drehen. Manche Karten lassen sich mit der Option "Fix 2D" in 2D anzeigen.
+
+### MU – Karte des Universums {#mu}
+
+`MU [CX | NAV]`
+
+Zeigt die Karte des Universums. Die verbundenen Punkte sind Sternensysteme. Fahren Sie mit der Maus über eines, um seine ID zu sehen. Mit den Schaltern unten blenden Sie Kartenebenen ein und aus, und manche Daten lassen sich nach Zeitraum filtern.
+
+* `MU CX` zeigt die Warenbörsen.
+* `MU NAV` zeigt den Verkehr. Solange "Flotte" aktiviert ist, sind Ihre Schiffe mit gelben Pfeilen markiert. Siehe das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight).
+
+### MS – Systemkarte {#ms}
+
+`MS <System-ID>`
+
+Zeigt ein Sternensystem mit seinem Stern in der Mitte. Kreise sind Gesteinsplaneten (weiß) oder Gasplaneten (orange), Quadrate sind Raumstationen. Fahren Sie mit der Maus darüber, um die ID zu sehen. Ihre Schiffe sind mit gelben Pfeilen markiert. Aktivieren Sie "traffic", um die Schiffe anderer NutzerInnen als weiße Pfeile zu sehen.
+
+**Schnellzugriff:** Klick auf ein System in der Karte des Universums.
+
+### SYSI – Systeminformationen {#sysi}
+
+`SYSI [System-ID]`
+
+Zeigt Name, Sternenklasse, Mikrometeoriten-Dichte und Fraktionszugehörigkeit eines Systems sowie eine Liste seiner Planeten und Stationen. Eine System-ID besteht aus der Sektor-ID (zwei Buchstaben) und der Systemnummer, zum Beispiel `XK-745`. Ohne ID können Sie nach Systemen suchen.
+
+### PLI – Planeteninformationen {#pli}
+
+`PLI [Planeten-ID]`
+
+Zeigt einen Planeten: die Ressourcen im Boden und in der Atmosphäre, seine Fruchtbarkeit sowie Typ und Temperatur, die bestimmen, ob eine Basis [zusätzliche Baumaterialien](../building-costs) benötigt. Enthält außerdem Links zu Ihrer Flotte und Ihren Beständen auf dem Planeten. Eine Planeten-ID besteht aus der System-ID gefolgt von einem Buchstaben, zum Beispiel `XK-745a`. Ohne ID können Sie nach Planeten suchen.
+
+Der Fruchtbarkeitsbalken beginnt in der Mitte: Je weiter er nach links reicht, desto unfruchtbarer ist der Planet, je weiter nach rechts, desto fruchtbarer.
+
+Klicken Sie auf eine farbige Parzelle, um Details zu sehen:
+
+* Blau: andere Unternehmen
+* Dunkelblau: Projekt eines anderen Konzerns
+* Gelb: Ihr Unternehmen
+* Dunkelgelb: Projekt Ihres Konzerns
+* Grün: Globale Handelskammer
+* Rot: Warenbörse
+
+**Schnellzugriff:** Klick auf einen Planeten in einer Systemkarte.
+
+### STNS – Stationen {#stns}
+
+`STNS [Stations-ID]`
+
+Listet alle Raumstationen auf oder zeigt die öffentlichen Informationen und die Infrastruktur einer Station.
+
+**Schnellzugriff:** Klick auf eine Station (quadratisches Symbol) in einer Systemkarte oder in `PLI`.
+
+## Planetare Projekte {#planetary-projects}
+
+### PPS – Planetare Projekte {#pps}
+
+`PPS <Planeten-ID>`
+
+Listet alle planetaren Projekte eines Planeten auf.
+
+### PP – Planetares Projekt {#pp}
+
+`PP <Planeten-ID> <Projekt-ID>`
+
+Zeigt ein planetares Projekt. Einfacher öffnen Sie es über die Schaltfläche DETAILS in `PPS`.
+
+### PPI – Parzelleninformationen {#ppi}
+
+`PPI <Parzellen-ID>`
+
+Zeigt Informationen über eine Parzelle auf der Oberfläche eines Planeten.
+
+### POPR – Bevölkerungsbericht {#popr}
+
+`POPR <Planeten-ID>`
+
+Zeigt die Bevölkerungsberichte eines Planeten: Größe, Bedürfniserfüllung und Wachstum der Bevölkerung.
+
+### WAR – Lagerhaus {#war}
+
+`WAR <Planeten- oder Stations-ID>`
+
+Zeigt öffentliche und private Informationen zu Lagerhäusern, etwa die verfügbaren Lager-Einheiten und die Mietgebühren.
+
+## Infrastruktur {#infrastructure}
+
+Siehe [Infrastruktur](../infrastructure) und [Sprungtore](../infrastructure-gateway).
+
+### INF – Infrastruktur {#inf}
+
+`INF [System-ID]`
+
+Listet die Infrastruktur der Planeten eines Systems auf, einschließlich planetarer Projekte.
+
+### INFU – Infrastruktur-Instandhaltung {#infu}
+
+`INFU <Infrastruktur-ID>`
+
+Zeigt die Instandhaltung einer Infrastruktur: die pro wöchentlicher Instandhaltungsphase benötigten Materialien, die aktuelle Phase und einen Verlauf vergangener Phasen. Siehe [Infrastrukturverwaltung](../infrastructure/#infrastructure-management).
+
+### ASTS – Assets {#asts}
+
+`ASTS`
+
+Listet Infrastrukturprojekte im Bau, eigene Infrastruktur und selbst errichtete Infrastruktur auf. Die Liste hängt vom Kontext ab: Ein Unternehmen besitzt nie Infrastruktur, eine Regierung errichtet nie selbst welche. Siehe [Assets](../infrastructure/#assets).
+
+### GTW – Sprungtore {#gtw}
+
+`GTW [System-, Planeten- oder Sprungtor-ID]`
+
+Listet alle Sprungtore auf oder nur die in einem System oder bei einem Planeten, zum Beispiel `GTW LS-300` oder `GTW LS-300c`. Mit einer Sprungtor-ID werden die Details dieses Sprungtors angezeigt.
+
+### GTWI – Sprungtor-Informationen {#gtwi}
+
+`GTWI`
+
+Plant neue Sprungtore und Ausbauten bestehender Sprungtore. Zeigt Kapazität, Volumen und Distanz einer Konfiguration, die Bau- oder Ausbaukosten, die wöchentliche Instandhaltung und die Systeme in Reichweite. Siehe [Design und Bau von Sprungtoren](../infrastructure-gateway/#gateway-design-and-construction).
+
+### GTWT – Sprungtor-Verkehr {#gtwt}
+
+`GTWT <Sprungtor-ID>`
+
+Zeigt Verkehr und Treibstoff eines Sprungtors: Sprünge der letzten 24 Stunden, die aktuelle Kapazität, den verfügbaren Treibstoff, die Treibstoff-Auftragnehmer sowie ausgehende und eingehende Sprünge pro Phase, einschließlich fehlgeschlagener Sprünge und ihrer Gründe. Siehe [Sprungtor-Verkehr](../infrastructure-gateway/#gateway-traffic).
+
+## Politik {#politics}
+
+### ADM – Planetare Verwaltung {#adm}
+
+`ADM <Planeten-ID>`
+
+Zeigt die [Planetare Verwaltung](../planetary-projects/#administration-center) eines Planeten: den aktuellen Gouverneur, die Fraktion oder den Konzern, der Gebühren und Steuern einzieht, und die KandidatInnen für die nächste Amtszeit. Hier kann jeder für das Gouverneursamt kandidieren, und die BewohnerInnen des Planeten stimmen hier ab.
+
+### GOV – Regierung {#gov}
+
+`GOV <Planeten-ID>`
+
+Zeigt die aktuelle und die vorherigen Regierungen eines Planeten sowie die Anträge, über die sie abgestimmt haben.
+
+### LR – Lokale Gesetze {#lr}
+
+`LR <Planeten-ID>`
+
+Zeigt die [Lokalen Gesetze](../local-rules) eines Planeten mit Planetarer Verwaltung, etwa Produktionsgebühren und Gebühren für Anzeigen auf lokalen Marktplätzen.
+
+### MOTS – Anträge {#mots}
+
+`MOTS [Antrags-ID]`
+
+Listet die Anträge des aktuell aktiven Regierungskontexts auf.
+
+### MOT – Antrag {#mot}
+
+`MOT <Planetare Verwaltung> <Antrags-ID>`
+
+Zeigt einen Antrag mit seinen Komponenten, dem aktuellen Status und den Stimmen.
+
+### POL – Politische Ämter {#pol}
+
+`POL [Nutzername]`
+
+Zeigt die aktuellen und vergangenen politischen Ämter eines Nutzers bzw. einer Nutzerin, einschließlich laufender Kandidaturen.
+
+## Soziales {#social}
+
+### FA – Fraktion {#fa}
+
+`FA <Fraktionscode>`
+
+Zeigt Informationen über eine Fraktion.
+
+### CO – Unternehmen {#co}
+
+`CO <Firmencode>`
+
+Zeigt Informationen über ein Unternehmen, einschließlich der Firmenleitung, die Sie von hier aus kontaktieren können.
+
+### USR – Nutzer {#usr}
+
+`USR <Nutzername>`
+
+Zeigt das Unternehmen, das Registrierungsdatum und den Online-Status eines Nutzerkontos. NUTZER STUMMSCHALTEN blendet alle Nachrichten dieser Person für Sie aus.
+
+**Schnellzugriff:** Klick auf die Geschäftsführung in `CO`.
+
+### BDGS – Abzeichen {#bdgs}
+
+`BDGS`
+
+Listet alle Nutzerabzeichen auf und erklärt, wofür sie stehen.
+
+### CONS – Nutzer online {#cons}
+
+`CONS`
+
+Zeigt, wer gerade in APEX online ist.
+
+**Schnellzugriff:** die Schaltfläche CONS unten rechts in APEX.
+
+### COM – Kanäle {#com}
+
+`COM`
+
+Listet die Kanäle auf, denen Sie beigetreten sind. Wenn Sie einen Kanal öffnen, treten Sie ihm bei. Um ihn zu verlassen, öffnen Sie den Kanal und wählen Sie VERLASSEN.
+
+### COMC – Kanalkatalog {#comc}
+
+`COMC`
+
+Listet alle öffentlichen Kanäle auf. Wählen Sie einen aus, um ihm beizutreten.
+
+### COMP – Öffentlicher Kanal {#comp}
+
+`COMP <Kanal>`
+
+Öffnet einen öffentlichen Kanal wie "global" oder "help". Öffentliche Kanäle können nicht erstellt werden.
+
+### COMG – Gruppenchat {#comg}
+
+`COMG <Kanal>`
+
+Öffnet einen privaten Gruppenchat. Wenn er noch nicht existiert oder Sie ihm noch nicht beigetreten sind, öffnen Sie ihn über "Konversation beginnen".
+
+**Schnellzugriff:** die Schaltfläche NEUE GRUPPE in `COM`.
+
+### COMU – Privatchat {#comu}
+
+`COMU <Nutzername>`
+
+Startet eine private Unterhaltung mit einem Nutzer bzw. einer Nutzerin.
+
+**Schnellzugriff:** die Schaltfläche NEUER PRIVATKANAL in `COM`.
+
+## Benachrichtigungen {#notifications}
+
+### NOTS – Benachrichtigungen {#nots}
+
+`NOTS`
+
+Listet Ihre In-Game-Benachrichtigungen auf. Klicken Sie auf eine, um Details zu sehen.
+
+### NOTIG – In-Game-Benachrichtigungseinstellungen {#notig}
+
+`NOTIG`
+
+Legt fest, welche Benachrichtigungen in `NOTS` angezeigt werden.
+
+### NOTPNS – Push-Benachrichtigungseinstellungen {#notpns}
+
+`NOTPNS`
+
+Legt fest, welche Benachrichtigungen Ihnen per E-Mail zugesendet werden und wie oft.
+
+## Unternehmen und Finanzen {#company-and-finances}
+
+### FIN – Finanzen {#fin}
+
+`FIN`
+
+Zeigt eine Finanzübersicht und die letzten Bargeldbuchungen.
+
+### FINBS – Bilanz {#finbs}
+
+`FINBS`
+
+Zeigt Ihr Vermögen und Ihre Verbindlichkeiten.
+
+### FINIS – Gewinn- und Verlustrechnung {#finis}
+
+`FINIS`
+
+Zeigt Ihren Gewinn und Verlust.
+
+### FINLA – Liquide Mittel {#finla}
+
+`FINLA`
+
+Zeigt Ihre liquiden Mittel, etwa Bargeld.
+
+### LEAD – Leaderboards {#lead}
+
+`LEAD`
+
+Zeigt Leaderboards auf Unternehmensebene. Wählen Sie das Leaderboard oben aus. Manche bieten zusätzliche Filter, etwa einen Zeitraum.
+
+### ARC – APEX-Repräsentanzzentrum {#arc}
+
+`ARC`
+
+Zeigt das Level Ihres APEX-Repräsentanzzentrums und ermöglicht es Ihnen, Mittel zu seiner Aufwertung beizusteuern.
+
+### GIFT – PRO-Lizenz verschenken {#gift}
+
+`GIFT`
+
+Verschenkt PRO-Lizenzzeit an andere SpielerInnen und listet Ihre gesendeten und erhaltenen Geschenke auf.
+
+### COLIQ – Unternehmen liquidieren {#coliq}
+
+`COLIQ`
+
+Liquidiert Ihr Unternehmen, sodass Sie mit demselben Account von vorne beginnen können. Laden Sie APEX anschließend neu.
+
+Abklingzeiten:
+
+* die erste Liquidation ist direkt nach der Firmengründung verfügbar
+* die zweite 3 Tage nach der ersten
+* die dritte 21 Tage nach der zweiten
+* jede weitere 60 Tage nach der vorherigen
+
+Eine sofortige Liquidation kann möglich sein, wenn Sie weder an einer Warenbörse noch auf einem lokalen Marktplatz gehandelt und nicht zu planetaren oder Konzernprojekten beigetragen haben.
+
+**Ein Missbrauch von `COLIQ` kann zur (vorübergehenden) Sperrung Ihres Kontos führen.**
+
+## Interface und Übertragungen {#interface-and-transmissions}
+
+### CS – Screen erstellen {#cs}
+
+`CS`
+
+Erstellt einen neuen Screen, wie die Schaltfläche NEU oben. Siehe den [Interface-Guide](../../tutorials/current-tutorials/07-interface-guide).
+
+### SCRN – Screens {#scrn}
+
+`SCRN`
+
+Listet Ihre Screens auf. Benennen Sie sie um, kopieren oder löschen Sie sie, und verwalten Sie Screenvariablen.
+
+### LIC – Lizenz {#lic}
+
+`LIC`
+
+Zeigt Ihre aktuelle APEX-Lizenz und wann sie abläuft. Von hier aus können Sie Ihre Lizenz verwalten oder anderen SpielerInnen PRO-Zeit schenken.
+
+### TRA – Übertragungen {#tra}
+
+`TRA`
+
+Listet alle Übertragungen (Video-Tutorials) auf.
+
+### XIT – Greenscreen {#xit}
+
+`XIT [Titel]`
+
+Zeigt einen Greenscreen, mit dem Sie Ihre eigene Übertragung aufzeichnen können, optional mit Titel.
+
+### XYTV – YouTube-Video {#xytv}
+
+`XYTV <Video-ID>`
+
+Bettet ein YouTube-Video ein. Die ID ist der Teil nach `v=` in der URL des Videos.
 
 {{% about-this-page %}}

@@ -5,384 +5,759 @@ date: 2018-09-18T17:13:49+02:00
 
 This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/legacy-tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
 
-## Base commands
+Parameters in `<angle brackets>` are required, parameters in `[square brackets]` are optional.
 
-__BS__  
-_Optional parameter: base ID_  
-By itself shows an overview over all your bases. Shows more info on a concrete base when followed by a base ID, e.g. by clicking “View Base” in the generic BS window. Provides access to most other base-related commands.
+| Category | Commands |
+|----------|----------|
+| [Bases](#bases) | [`BS`](#bs), [`BSC`](#bsc), [`BBL`](#bbl), [`BBC`](#bbc), [`BUI`](#bui), [`WF`](#wf), [`EXP`](#exp), [`HQ`](#hq), [`BRA`](#bra) |
+| [Production](#production) | [`PROD`](#prod), [`PRODQ`](#prodq), [`PRODCO`](#prodco) |
+| [Inventory](#inventory) | [`INV`](#inv), [`MTRA`](#mtra), [`UPCK`](#upck) |
+| [Ships and flights](#ships-and-flights) | [`FLT`](#flt), [`SHP`](#shp), [`SHPF`](#shpf), [`SHPI`](#shpi), [`SFC`](#sfc), [`SI`](#si), [`RT`](#rt), [`RTE`](#rte) |
+| [Ship building](#ship-building) | [`BLU`](#blu), [`SHY`](#shy), [`SHYP`](#shyp) |
+| [Contracts](#contracts) | [`CONTS`](#conts), [`CONT`](#cont), [`CONTD`](#contd) |
+| [Commodity exchange](#commodity-exchange) | [`CXL`](#cxl), [`CX`](#cx), [`CXM`](#cxm), [`CXP`](#cxp), [`CXPC`](#cxpc), [`CXOB`](#cxob), [`CXPO`](#cxpo), [`CXOS`](#cxos), [`CXO`](#cxo), [`MAT`](#mat) |
+| [Foreign exchange](#foreign-exchange) | [`FX`](#fx), [`FXP`](#fxp), [`FXPC`](#fxpc), [`FXOB`](#fxob), [`FXPO`](#fxpo), [`FXOS`](#fxos), [`FXO`](#fxo) |
+| [Local markets](#local-markets) | [`LMOS`](#lmos), [`LM`](#lm), [`LMA`](#lma), [`LMP`](#lmp) |
+| [Maps and locations](#maps-and-locations) | [`MU`](#mu), [`MS`](#ms), [`SYSI`](#sysi), [`PLI`](#pli), [`STNS`](#stns) |
+| [Planetary projects](#planetary-projects) | [`PPS`](#pps), [`PP`](#pp), [`PPI`](#ppi), [`POPR`](#popr), [`WAR`](#war) |
+| [Infrastructure](#infrastructure) | [`INF`](#inf), [`INFU`](#infu), [`ASTS`](#asts), [`GTW`](#gtw), [`GTWI`](#gtwi), [`GTWT`](#gtwt) |
+| [Politics](#politics) | [`ADM`](#adm), [`GOV`](#gov), [`LR`](#lr), [`MOTS`](#mots), [`MOT`](#mot), [`POL`](#pol) |
+| [Social](#social) | [`FA`](#fa), [`CO`](#co), [`USR`](#usr), [`BDGS`](#bdgs), [`CONS`](#cons), [`COM`](#com), [`COMC`](#comc), [`COMP`](#comp), [`COMG`](#comg), [`COMU`](#comu) |
+| [Notifications](#notifications) | [`NOTS`](#nots), [`NOTIG`](#notig), [`NOTPNS`](#notpns) |
+| [Company and finances](#company-and-finances) | [`FIN`](#fin), [`FINBS`](#finbs), [`FINIS`](#finis), [`FINLA`](#finla), [`LEAD`](#lead), [`ARC`](#arc), [`GIFT`](#gift), [`COLIQ`](#coliq) |
+| [Interface and transmissions](#interface-and-transmissions) | [`CS`](#cs), [`SCRN`](#scrn), [`LIC`](#lic), [`TRA`](#tra), [`XIT`](#xit), [`XYTV`](#xytv) |
 
-__BSC__  
-_Mandatory parameter: planet ID_  
-Allows to create a new base on a planet. It shows necessary building materials and allows to select a plot on the surface. 
+## Bases
 
-__BSL__  
-_Mandatory parameter: base ID_  
-Opens an overview over the buildings in a concrete base. Accessible via the BUILDINGS (formerly “SECTIONS”) button in a concrete BS window. Click “DEMOLISH” to destroy a Section, which will refund some of the resources that went into its construction, depending on its age. The possible refunded materials are listed as “Reclaimable materials”.
+Base commands identify a base by the planet it is on, for example `BS XK-745a`.
 
-__BSC__  
-_Mandatory parameter: base ID_  
-Opens the Construct window of a concrete base. Accessible via the “Construct” button in a concrete BS window. Use the tabs at the top to cycle through different building categories. The line labeled “Area” indicates a building's area cost and, after the slash, the area left available in your base. The line labeled Workforce” shows the number and type of workforce required to operate this building.
+### BS – Bases {#bs}
 
-__BUI__  
-_Mandatory parameter: building ticker_  
-Displays information on a building type: which kind of worker is employed here, how much space the building takes up and which parts go into its construction. Accessible by clicking a building type in the BSC window.
+`BS [planet ID]`
 
-__INV__  
-_Optional parameter: address or store ID_  
-If no parameters are supplied the command will show a list of all your inventories, including base storage, cargo holds, fuel tanks and warehouse storage units. Clicking on the "open" button will show the contents of the selected inventory. In the top left, you will find several sorting options (AMT: amount, WGT: weight, VOL: volume) as well as a symbol to their left. Click it to toggle between list and grid mode; the latter shows more information on each commodity, such as their weight, volume, and book value.
+Shows an overview of all your bases, or the details of your base on the given planet. The base view has buttons for most other base commands.
 
-If the parameter contains a system or planet address (for example `INV XK-745` or `INV XK-745a`) it will only show inventories at that location.
+### BSC – Base construction {#bsc}
 
-__MTRA__  
-_Optional parameter: material ticker_  
-_Optional parameter: source store ID_  
-_Optional parameter: target store ID_  
-Allows you to transfer a specific amount of items between two inventories. The material to be transferred as well as the source and target stores can be specified via the command's parameters or chosen from drop-down menus in the command window itself. Note that this command is also accessible (with pre-filled transfer details) via dragging an item from the source store to the target store and dropping it on the “AMT” slot.
+`BSC <planet ID>`
 
-__WF__  
-_Mandatory parameter: base ID_  
-Shows an overview over a base’s workforce and their needs. The more sophisticated the workforce tier, the higher their needs. If you can’t supply your workers with the consumables they need, the efficiency of buildings they operate will drop. Accessible via the “Workforce” button in a concrete BS window.
+Creates a new base on a planet. Shows the required building materials and lets you choose a plot.
 
-__EXP__  
-_Mandatory parameter: base ID_  
-Lists all fields which can receive bonuses by Experts and shows which Experts are currently being used in the specified base. Hit “REMOVE” to deactivate an expert, who is then listed as available in the rightmost column. Click “ACT” to send them back to work. Accessible via the “Experts” button in a concrete BS window. 
-Production Line commands
+### BBL – Base buildings {#bbl}
 
-__PROD__  
-_Mandatory parameter: base ID_  
-Shows the Production Lines in a specific base. Accessible via the “Production” button in a concrete BS window. Each Production Line may consist of one or more buildings of the same type.
+`BBL <planet ID>`
 
-__PRODQ__  
-_Mandatory parameter: Production Line ID_  
-Allows you to cancel queued orders, but not the ones that are already being processed. The Efficiency value is influenced by multiple factors including your workers’ satisfaction, the bonus provided by Experts and, in some cases, the planet’s soil fertility. Accessible via the “Details” button in a PROD window.
+Lists the buildings of a base. DEMOLISH removes a building and refunds part of its materials, depending on its age. The possible refund is listed as "Reclaimable materials".
 
-__PRODCO__  
-_Mandatory parameter: Production Line ID_  
-Allows you to place a new Production order. Select a Primary Output from the dropdown menu, set an order size and queue your order. If your order requires input materials (as shown at the bottom), make sure they are available first. Accessible via the “New Order” button in a PROD window.
-
-__HQ__  
-_No possible parameter_  
-Shows you which of your bases currently is your company headquarters and allows you to relocate your headquarters to another base for different [faction bonuses](../headquarters). You can also upgrade your headquarters here to unlock additional base permits and production queue slots.
+**Shortcut:** the BUILDINGS button in `BS`.
 
-__BRA__  
-_Optional parameter: planet ID_
-Allows you to select one of your bases and repair multiple of its buildings at once by specifying a minimum building condition. All buildings in the selected base at or below that condition will be included in the repairs.
+### BBC – Construct building {#bbc}
 
-__UPCK__
-_Mandatory parameter: store ID_
-Shows a list of all consumable bundles in the selected store. Allows to unpack one or more bundles. Bundles are always unpacked into the same store they are currently in.
-
-## Social commands
+`BBC <planet ID>`
 
-__FA__  
-_Mandatory parameter: Faction code_  
-Displays information about the specified faction.
+Constructs a new building in a base. The tabs at the top switch between building categories. "Area" shows the building's area cost and the area left in your base, "Workforce" shows the workers it needs.
 
-__CO__  
-_Mandatory parameter: Company code_  
-Displays information about the specified company. (This is where the four-digit code you chose for your company in very the beginning finds its use.) Among other things, allows to view and contact the company’s owner.
+**Shortcut:** the CONSTRUCT button in `BS`.
 
-__USR__  
-_Mandatory parameter: User name_  
-Shows a user’s company, registration date, and connection status. Accessible via the “Managing Director” column in a CO window. Clicking the “MUTE USER” button renders all messages this user sends invisible to you.
+### BUI – Building information {#bui}
 
-__COM__  
-_No possible parameters_  
-Lists all communication channels you have joined in the past. You automatically join a channel when first clicking on it. To leave a channel again, open it and select “LEAVE”.
+`BUI <building ticker>`
 
-__COMC__  
-_No possible parameters_  
-Lists all public communication channels. You can join a channel by selecting it from the list.
+Shows a building type: the workforce it employs, the area it takes up and the materials needed to build it.
 
-__COMG__  
-_Mandatory parameter: channel ID_  
-Opens a private group chat. If you previously joined it, entering its name will open the chat directly. If you enter the name of a room that does not exist yet or that you haven’t previously entered, “Start Conversation” will open the chat. Also accessible via the “NEW GROUP” button in the COM window.
+**Shortcut:** click a building type in `BBC`.
 
-__COMP__  
-_Mandatory parameter: channel ID_  
-Opens an existing public chat like “global” or “help”. You cannot create a new public chat.
+### WF – Workforce {#wf}
 
-__COMU__  
-_Mandatory parameter: user name_  
-Starts a private two-person conversation with the specified user. Start entering their name until it appears in the list, then click it. Accessible via the “NEW PRIVATE” button in the COM window.
+`WF <planet ID>`
 
-__CONS__  
-_No possible parameters_  
-Shows you who is currently online in APEX. Accessible via the “CONS” button in the bottom right of APEX.
+Shows the workforce of a base and their needs. Higher workforce tiers have more needs. If workers don't get the consumables they need, the efficiency of their buildings drops.
 
-## Contract commands
+**Shortcut:** the WORKFORCE button in `BS`.
 
-__CONT__  
-_Mandatory parameter: contract ID_  
-This command allows you to view a specific contract. It must be followed up with a long and complex parameter identifying the contract, which is why it is generally recommended to use “CONTS” command and then clicking the desired contract(s).
+### EXP – Experts {#exp}
 
-__CONTS__  
-_No possible parameter_  
-Displays a list of all your contracts from Commodity Exchanges and Local Markets. Click any contract to open its CONT buffer. Note that you can also view Pending Contracts by selecting them from the list in the right sidebar. (If you can’t see the sidebar, toggle it on using the SDBR button on the left.) Learn more about contracts in the “Trading” and “Local Markets” tutorials.
+`EXP <planet ID>`
 
-__CONTD__
-_Optional parameter: contract ID_
-Displays a list of all your contract drafts. Specifying a contract id, or clicking on any draft, will open the draft detail view, where the draft can be edited and sent out.
+Shows the fields experts can boost and the experts assigned to a base. REMOVE deactivates an expert, ACT puts them back to work.
 
-## Commodity Exchange commands
-These following commands all pertain to Commodity Exchanges. The first two are probably the most useful. See all these commands in action in the “Getting Started” tutorial.
+**Shortcut:** the EXPERTS button in `BS`.
 
-__CXOS__  
-_No possible parameter_  
-Shows a history of your Sell and Buy orders, which you can view and delete from here. By deleting an order that hasn’t been filled yet, or at least not completely, you withdraw it from the market.
+### HQ – Headquarters {#hq}
 
-__CXO__  
-_Mandatory parameter: Contract ID_  
-Shows information on an order you made in the past. Accessible via the “VIEW” buttons in the CXOS window.
+`HQ`
 
-__CXL__  
-_No possible parameter_  
-Lists all existing Commodity Exchanges. From here, you can quickly access a concrete Commodity Exchange without having to remember its particular parameter for the CX command.
+Shows which base is your headquarters. Relocate it to another base for different [faction bonuses](../headquarters), or upgrade it to unlock more base permits and production queue slots.
 
-__CXM__  
-_Mandatory parameter: material ticker_  
-_Optional parameter: planet ID_  
-Compares commodity exchange information for the specified material across _all_ commodity exchanges. Exchanges will be sorted by their distance to the given planet (if one was entered).
+### BRA – Building repair assistant {#bra}
 
-__CX__  
-_Mandatory parameter: Commodity Exchange ID_  
-This is where you can buy and sell items from a particular market. Select the commodity category from the dropdown menu. Accessible for example by clicking the name of a commodity exchange in the CXL window.
+`BRA [planet ID]`
 
-__MAT__  
-_Mandatory parameter: material ID_  
-Materials and commodities are essentially the same thing. Their ticker is the two- or three-letter identifier you can see in each of their little icons. For example, the ticker for Steel is STL. “Wrought product” indicates what can be made from this material and in which Production Line, while “Production” shows you how and where the material itself can be produced. Accessible for example by clicking a commodity’s icon in the CX window.
+Repairs several buildings of a base at once: all buildings at or below the condition you set are included.
 
-__CXP, CXPC, CXOB, CXPO__  
-_Mandatory parameter: commodity ID + ComEx ID_  
-These four commands relate to concrete commodities on a concrete market. Next to an entry of a commodity in the CX window, you’ll find the buttons labeled “INFO”, “CHART”, “ORDERS”, and “TRADE”.
-“INFO”: CXP, which shows an overview over current bids, ask amounts, all-time highs and lows etc.
-“CHART”: CXPC. Shows a candlestick chart of a commodity’s price over time. If it says “No data”, the commodity hasn’t been sold in the indicated time period. Select a longer time window to fix it.
-“ORDERS”: CXOB command, where you can see pending requests and offers.
-“TRADE”: CXPO, which lets you place Buy and Sell Orders within the current Price Band. The latter is determined by a three-day average and is wider for PRO licensees than FREE licensees. To quickly set the current lowest bid or asking price, use the “set” buttons in the “Ask / Bid” line. The “Inventory” line lets you select the storage location from which to sell your commodities.
+## Production
 
-## Space flight commands
-It is recommended you use the FLT command and access the other commands from there. To see all these commands in action, have a look at the space-flight tutorial.
+### PROD – Production {#prod}
 
-__FLT__  
-_Optional parameter: system ID / planet ID_  
-Entered by itself, the Fleet command shows all of your ships. Every line shows data on one of your ships, like its transponder code, name, status, fill status, location, and information about an ongoing flight. Following up the fleet command with the ID of a system or planet shows all of your ships currently stationed there. (The ID is simply the parameter you can see at the top of a buffer by selecting a system in the Universe Map or a planet in a system map.)
+`PROD [planet ID]`
 
-__SHP__  
-_Mandatory parameter: ship transponder code_  
-Shows information on one of your ships. Rename your ship by clicking its current name (or “unnamed”) and entering a new one.
-Accessible by clicking the Transponder code of a ship in the FLT window.
+Shows the production lines of all your bases, or of the base on the given planet. Each production line consists of one or more buildings of the same type.
 
-__SHPF__  
-_Mandatory parameter: ship transponder code_  
-Shows a ship’s fuel status. Accessible by clicking the fuel bar of a ship in the FLT window.
+**Shortcut:** the PRODUCTION button in `BS`.
 
-__SHPI__  
-_Mandatory parameter: ship transponder code_  
-Shows a ship’s inventory, which is limited in the weight and volume of its cargo. Accessible by clicking the inventory bar of a ship in the FLT window.
+### PRODQ – Production queue {#prodq}
 
-__SFC__  
-_Mandatory parameter: ship transponder code_  
-The “FLY” button next to each ship in the FLT list calls the SFC command followed by the ship’s transponder code. By entering a planet ID or station ID into the Location property, setting the desired Fuel usage and hitting Start, you can send a ship to a new destination.
+`PRODQ <production line ID>`
 
-__SI__  
-_Mandatory parameter: ship transponder code_  
-Shows all the public information available on the selected ship. Accessible by clicking a ship triangle in a System map or Planet Info window.
+Shows the order queue of a production line. Queued orders can be cancelled, orders in progress can't. The efficiency shown depends on worker satisfaction, experts and, for some buildings, the planet's fertility.
 
-## Ship building commands
+**Shortcut:** the DETAILS button in `PROD`.
 
-__BLU__
-_Optional parameter: blueprint ID_
-Opens a list of all your ship blueprints or a specific blueprint if an ID was specified.
+### PRODCO – Production order {#prodco}
 
-__SHY__
-_Mandatory parameter: planet ID_
-Opens the shipyard buffer of the desired planet.
+`PRODCO <production line ID>`
 
-__SHYP__
-_Mandatory parameter: project ID_
-Opens the desired shipbuilding project.
+Queues a new production order. Choose the output and the order size, and make sure the input materials shown at the bottom are available.
 
-## Foreign Exchange commands
-To see these commands in action, have a look at the “Foreign Exchange” tutorial.
+**Shortcut:** the NEW ORDER button in `PROD`.
 
-__FX__  
-_No possible parameter_  
-FX shows you a matrix of exchange rates where you can see how much one currency is worth in terms of another. The base currencies are arranged vertically, the quote currencies horizontally.
+## Inventory
 
-__FXP__  
-_Mandatory parameter: commodity pair ticker_  
-Use FXP followed by a ticker of two currency identifiers divided by a slash or dot, for example: FXP AIC/CIS. Alternatively, just click the respective value in the FX matrix.
+### INV – Inventories {#inv}
 
-__FXOB__  
-_Mandatory parameter: commodity pair ticker_  
-Use this command to see open orders of any currency pair, for example: FXOB AIC/CIS.
+`INV [address or store ID]`
 
-__FXPC__  
-_Mandatory parameter: commodity pair ticker_  
-Shows the exchange rate history of any currency pair, for example: FXPC AIC/CIS.
+Lists all your inventories: base stores, cargo holds, fuel tanks and warehouse units. With a system or planet (for example `INV XK-745` or `INV XK-745a`), only the inventories at that location are listed. With a store ID, that inventory opens.
 
-__FXPO__  
-_Mandatory parameter: commodity pair ticker_  
-Use this command to place a foreign exchange order, i.e. to spend one currency to buy another. Enter FXPO followed by the desired ticker, for instance AIC/NCC. Next, select the appropriate tab in order to buy or sell the desired currency. Note that the numbers you indicate are Lots, that is, 1000 of each currency. For more in-depth information, have a look at the [Foreign Exchange tutorial](../../tutorials/foreign-exchange).
+Inside an inventory, sort by amount (AMT), weight (WGT) or volume (VOL). The grid view shows each material's weight, volume and book value.
 
-__FXOS__  
-_No possible parameter_  
-Shows all foreign exchange orders you placed.
+### MTRA – Material transfer {#mtra}
 
-## Map commands
-Maps can be navigated by dragging and dropping the left mouse button to move around and the right mouse button to rotate. Some maps can be displayed in 2D instead of 3D by toggling on the “Fix 2D” property.
+`MTRA [material ticker] [source store ID] [target store ID]`
 
-__MU__  
-_Mandatory parameter: CX/NAV/INV/POL_  
-Opens one of the four different Universe maps. They all show the same Universe, but they serve different purposes, as described below. The interconnected dots on the map are star systems. By hovering over a system, you can see its identifier. Throughout all maps, you can toggle the display of different types of information on or off at the bottom. You may also filter that data by time period (e.g. 1 hours, 12 hours, 24 hours).
+Transfers an amount of a material between two inventories. Anything not given as a parameter can be chosen in the window.
 
-MU CX: Shows where your commodity exchanges are taking place.
+**Shortcut:** drag a material from the source inventory and drop it on the AMT slot of the target inventory.
 
-MU NAV: Shows traffic data. As long as “fleet” is toggled on, your ships’ locations are marked by yellow arrows. Learn more about traffic data in the “Space Flight” tutorial.
+### UPCK – Unpack {#upck}
 
-MU INV: Allows you to view the distribution of your storage in the universe. This is not yet available.
+`UPCK <store ID>`
 
-MU POL: Shows a political map. This is not yet available.
+Lists the consumable bundles in a store and unpacks them. Bundles are unpacked into the store they are in.
 
-__MS__  
-_Mandatory parameter: system ID_  
-Like on the Universe Map, yellow arrows mark your ships. Turn on “traffic” to also see the location of other users’ ships, which are marked by white arrows. The wireframe structure in the middle is the system’s star; the circles orbiting it are either rocky (white) or gaseous (orange) planets. White square represent space stations. Hovering over a planet or space station shows its ID. Instead of manually entering the system ID, you may click on the desired system in the Universe map.
+## Ships and flights
 
-__SYSI__
-_Optional parameter: system ID_
-All systems, named or unnamed, have and ID which consists of the sector ID (two letters) and the system number. The system information commands shows basic information about the system, like its name, star type, micrometeoroid density and faction affinity. It has a list of all planets and stations in that system.
-If no system ID is provided a search box is being displayed instead of the system data which allows to search for systems.
+Start with `FLT`: most other ship commands can be opened from there. The [space flight tutorial](../../tutorials/legacy-tutorials/space-flight) shows them in action.
 
-__PLI__
-_Optional parameter: planet ID_
-All planets, named or unnamed, have an ID, which is the system’s ID followed by a unique letter. Planet Info contains shortcuts to your Fleet and Inventory on that planet. Among other things, you can see here which Resources can be extracted from this planet and its atmosphere, and whether or not the planet lends itself to growing plants. The bar indicating the latter starts in the middle, and the further it extends to the left or right, the more infertile or fertile the planet is respectively. Finally, the Type and Temperature indicate whether you are going to need [additional Construction Materials](../building-costs) to set up a base on this planet.
-Each non-grey plot on a planet can be clicked to obtain more information about it. The following colors exist as of yet: blue (other companies), dark blue (other Corp.'s project), yellow (own company), dark yellow (own Corp.'s project), green (CoGC), red (commodity exchange)
-Instead of entering the planet ID by hand, you may also click the planet directly in the System map to access its PLI window.
-If no planet ID is provided a search box is being displayed instead of the planet data which allows to search for planets.
+### FLT – Fleet {#flt}
 
-__STI__  
-_Mandatory parameter: Station ID_  
-Shows general information about a space station and provides access to its infrastructure. Accessible by clicking a station (square symbol) on a System map or in a Planet Info window.
+`FLT [system or planet ID]`
 
-## Planetary project commands
+Lists all your ships with their transponder code, name, status, cargo, location and current flight. With a system or planet ID, only the ships at that location are listed.
 
-__PPS__  
-_Mandatory parameter: planet ID_  
-Shows all planetary projects on the desired planet.
+### SHP – Ship {#shp}
 
-__PP__  
-_Mandatory parameter: planet & project ID_  
-Shows information on a concrete planetary project. Due to the long and complex parameter, it is recommended to access this information via the “details” button next to the desired project in the PPS buffer.
+`SHP <transponder code>`
 
-__PPI__
-_Mandatory parameter: planet_
-Shows information about a plot on the planet's surface.
+Shows the details of one of your ships. Click the ship's name to rename it.
 
-__POPR__
-_Mandatory parameter: planet ID_   
-Shows the population reports of the specified planet with information on the planetary population's size, need satisfaction and growth.
+**Shortcut:** click a ship's transponder code in `FLT`.
 
-### Local Market commands
+### SHPF – Ship fuel {#shpf}
 
-__LMOS__
-_No possible parameter_  
-Shows all your Local Market Ads.
+`SHPF <transponder code>`
 
-__LM__
-_Mandatory parameter: Planet ID_  
-Shows all available Ads at a given Local Market. Accessible by clicking the Infrastructure entry “Local Market” (if existant) in any PLI window.
+Shows the fuel levels of a ship.
 
-__LMA__
-_Mandatory parameter: Ad ID_  
-Shows the details of the specified Local Market ad. Accessible by selecting an ad in the LM window.
+**Shortcut:** click a ship's fuel bar in `FLT`.
 
-__LMP__
-_Mandatory parameter: Planet ID_  
-Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via the “POST AD” button in an LM window.
+### SHPI – Ship inventory {#shpi}
 
-### Political commands
+`SHPI <transponder code>`
 
-__ADM__
-_Mandatory parameter: Planet ID_  
-Shows information on the planet's [Administration Center](../../tutorials/planetary-projects/#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
+Shows the cargo hold of a ship. The hold is limited by weight and volume.
 
-__GOV__
-_Mandatory parameter: Planet ID_
-Shows information on a planet's current and previous governments and the motions that were voted on.
+**Shortcut:** click a ship's cargo bar in `FLT`.
 
-__LR__
-_Mandatory parameter: Planet ID_  
-Shows the Local Rules of a planet, given that it has an Administration Center. Local Rules include taxes on production as well as fees for Local Market ads.
+### SFC – Ship flight control {#sfc}
 
-__MOT__
-_Mandatory parameters: I-administration ID, m-motion ID_
-Displays a motion, including its components, current status and votes.
+`SFC <transponder code>`
 
-__MOTS__
-_Optional parameter: Motion ID_
-Displays a list of motions for the currently active government context.
+Plans and starts a flight. Enter a planet or station as the destination, set the fuel usage and press Start.
 
-__POL__
-_Optional parameter: User name_
-Shows the current and past political offices held by a user, including current runs.
+**Shortcut:** the FLY button in `FLT`.
 
-### Warehouse commands
+### SI – Ship information {#si}
 
-__WAR__
-_Mandatory parameter: Planet ID_  
-Shows public and private warehouse information like the amount of available storage units, the rental fees and so on.
+`SI <transponder code>`
 
-## Notification commands
+Shows the public information on any ship, including ships of other players.
 
-__NOTS__
-_No possible parameter_  
-Displays a list of in-game notifications. Click a notification to get more information.
+**Shortcut:** click a ship's triangle on a system map or in `PLI`.
 
-__NOTIG__
-_No possible paramter_  
-Allows you to change your in-game notification settings. Disabled types of notifications will not show up in the `NOTS` command.
+### RT – Routes {#rt}
 
-__NOTPNS__
-_No possible parameter_  
-Allows you to change your push notification settings. Choose which types of notifications should be sent to you via email and in which frequency.
+`RT [route ID]`
 
-## Transmission commands
+Lists all your routes, or opens a single route. Create and edit routes and assign ships to them. See [Routes](../routes).
 
-__TRA__  
-_No possible parameter_  
-Brings up a list with all transmissions, i.e. video tutorials.
+### RTE – Route executions {#rte}
 
-__XIT__  
-_Optional parameter: title_  
-Brings up a green screen to help you record your own transmission. Use the optional parameter to give it a title.
+`RTE [transponder code]`
 
-__XYTV__  
-_Mandatory parameter:_ YouTube ID  
-Embeds a YouTube video. The ID is the succession of numbers and letters after “v=” in the video’s URL.
+Shows the progress of all ships on routes, or of a single ship. See [Routes](../routes/#monitoring-route-execution).
 
-## Other commands
+## Ship building
 
-__ARC__  
-_No possible parameter_  
-Shows the current status of your APEX Representation Center and allows you to contribute funds towards raising its level.
+### BLU – Blueprints {#blu}
 
-__COLIQ__  
-_No possible parameter_  
-Allows you to liquidate your company. It will be scrapped and you get to start over entirely with the same account. Refresh APEX after using it. The following cooldown times apply to the COLIQ command: The first COLIQ becomes available immediately after company creation, the second one 3 days after using the first one. The wait time for the third COLIQ is 21 days, and every following cooldown is 60 days long. If there have not been any commodity or local market trades and no contributions to planetary or corporation projects an immediate COLIQ might be possible. Please note that misusing the COLIQ command may result in your account being (temporarily) banned!
+`BLU [blueprint ID]`
 
-__CS__  
-_No possible parameter_  
-Allows you to create a new Screen. To call this command, you may use the “ADD” button at the top. Learn all about Screens in the APEX interface tutorial.
+Lists all your ship blueprints, or opens one.
 
-__FIN, FINLA, FINIS, FINBS__  
-These four commands provide you with a detailed overview over your company’s financial situation. More information on these commands will follow shortly.
+### SHY – Shipyard {#shy}
 
-__GIFT__
-_No possible parameter_
-Allows to gift PRO license time to other players and provides and overview of sent and received gifts.
+`SHY [planet ID]`
 
-__LEAD__  
-_No possible parameter_  
-Shows company-level leaderboards. The type of leaderboard can be chosen from a dropdown menu at the top. Some leaderboards support additional selectors (such as specifying the data's time range).
+Shows the shipyard of a planet.
+
+### SHYP – Shipyard projects {#shyp}
+
+`SHYP [project ID]`
+
+Lists all your shipbuilding projects, or opens one.
+
+## Contracts
+
+### CONTS – Contracts {#conts}
+
+`CONTS`
+
+Lists all your contracts. Click a contract to open it in `CONT`. Pending contracts are also listed in the right sidebar, which the SDBR button on the left toggles. See the [contracts tutorial](../../tutorials/legacy-tutorials/contracts).
+
+### CONT – Contract {#cont}
+
+`CONT <contract ID>`
+
+Shows a single contract. Contract IDs are long, so it's easier to open contracts from `CONTS`.
+
+### CONTD – Contract drafts {#contd}
+
+`CONTD [draft ID]`
+
+Lists your contract drafts, or opens one to edit and send it. See [custom contracts](../custom-contracts).
+
+## Commodity exchange
+
+A commodity exchange ticker combines a material and an exchange, for example `RAT.NC1`. The [market guide](../../tutorials/current-tutorials/05-market-guide) shows these commands in action.
+
+### CXL – Commodity exchanges {#cxl}
+
+`CXL`
+
+Lists all commodity exchanges.
+
+### CX – Commodity exchange {#cx}
+
+`CX <exchange code>`
+
+Shows a commodity exchange and its materials, sorted into categories. Each material has buttons for the ticker commands below.
+
+**Shortcut:** click an exchange in `CXL`.
+
+### CXM – Material comparison {#cxm}
+
+`CXM <material ticker> [planet ID]`
+
+Compares a material across all commodity exchanges. With a planet ID, the exchanges are sorted by their distance to that planet.
+
+### CXP – Price information {#cxp}
+
+`CXP <ticker>`
+
+Shows current bids and asks, all-time highs and lows, and more.
+
+**Shortcut:** the INFO button in `CX`.
+
+### CXPC – Price chart {#cxpc}
+
+`CXPC <ticker>`
+
+Shows a candlestick chart of the price over time. "No data" means nothing was traded in the selected period. Choose a longer one.
+
+**Shortcut:** the CHART button in `CX`.
+
+### CXOB – Order book {#cxob}
+
+`CXOB <ticker>`
+
+Shows the open buy and sell orders.
+
+**Shortcut:** the ORDERS button in `CX`.
+
+### CXPO – Place order {#cxpo}
+
+`CXPO <ticker>`
+
+Places a buy or sell order within the current price band. The band is based on a three-day average and is wider for PRO users. The "set" buttons fill in the current best bid or ask, "Inventory" selects where to sell from.
+
+**Shortcut:** the TRADE button in `CX`.
+
+### CXOS – Commodity exchange orders {#cxos}
+
+`CXOS`
+
+Lists your buy and sell orders. Deleting an order that isn't completely filled withdraws it from the market.
+
+### CXO – Commodity exchange order {#cxo}
+
+`CXO <order ID>`
+
+Shows one of your orders.
+
+**Shortcut:** the VIEW button in `CXOS`.
+
+### MAT – Material {#mat}
+
+`MAT <material ticker>`
+
+Shows a material: what can be made from it ("Wrought product") and how it is produced ("Production"). The ticker is the short code on the material's icon, for example STL for steel.
+
+**Shortcut:** click a material's icon, for example in `CX`.
+
+## Foreign exchange
+
+A currency pair is written as two currency codes, separated by a slash or a dot, for example `AIC/CIS`. See the [foreign exchange tutorial](../../tutorials/legacy-tutorials/foreign-exchange).
+
+### FX – Exchange rates {#fx}
+
+`FX`
+
+Shows a matrix of exchange rates, with the base currencies arranged vertically and the quote currencies horizontally.
+
+### FXP – Exchange rate information {#fxp}
+
+`FXP <currency pair>`
+
+Shows exchange rate information for a currency pair.
+
+**Shortcut:** click a rate in `FX`.
+
+### FXPC – Exchange rate chart {#fxpc}
+
+`FXPC <currency pair>`
+
+Shows the exchange rate history of a currency pair.
+
+### FXOB – Order book {#fxob}
+
+`FXOB <currency pair>`
+
+Shows the open orders for a currency pair.
+
+### FXPO – Place order {#fxpo}
+
+`FXPO <currency pair>`
+
+Places a foreign exchange order, buying one currency with another. Amounts are in lots of 1,000 units of each currency.
+
+### FXOS – Foreign exchange orders {#fxos}
+
+`FXOS`
+
+Lists all your foreign exchange orders.
+
+### FXO – Foreign exchange order {#fxo}
+
+`FXO <order ID>`
+
+Shows one of your foreign exchange orders.
+
+**Shortcut:** click a notification about a foreign exchange trade.
+
+## Local markets
+
+### LMOS – Local market ads {#lmos}
+
+`LMOS`
+
+Lists all your local market ads.
+
+### LM – Local market {#lm}
+
+`LM <planet or station ID>`
+
+Shows the ads at a local market.
+
+**Shortcut:** the Local Market infrastructure entry in `PLI`.
+
+### LMA – Local market ad {#lma}
+
+`LMA <ad ID>`
+
+Shows the details of an ad.
+
+**Shortcut:** click an ad in `LM`.
+
+### LMP – Post ad {#lmp}
+
+`LMP <planet or station ID>`
+
+Posts an ad at a local market.
+
+**Shortcut:** the POST AD button in `LM`.
+
+## Maps and locations
+
+Drag with the left mouse button to move a map and with the right mouse button to rotate it. Some maps can be shown in 2D with the "Fix 2D" option.
+
+### MU – Universe map {#mu}
+
+`MU [CX | NAV]`
+
+Shows the universe map. The connected dots are star systems. Hover over one to see its ID. The toggles at the bottom switch map layers on and off, and some data can be filtered by time period.
+
+* `MU CX` shows the commodity exchanges.
+* `MU NAV` shows traffic. While "fleet" is on, your ships are marked by yellow arrows. See the [space flight tutorial](../../tutorials/legacy-tutorials/space-flight).
+
+### MS – System map {#ms}
+
+`MS <system ID>`
+
+Shows a star system with its star in the middle. Circles are rocky (white) or gaseous (orange) planets, squares are space stations. Hover over one to see its ID. Your ships are marked by yellow arrows. Turn on "traffic" to see other users' ships as white arrows.
+
+**Shortcut:** click a system on the universe map.
+
+### SYSI – System information {#sysi}
+
+`SYSI [system ID]`
+
+Shows a system's name, star type, micrometeoroid density and faction affinity, and lists its planets and stations. A system ID is the sector ID (two letters) followed by the system number, for example `XK-745`. Without an ID, you can search for systems.
+
+### PLI – Planet information {#pli}
+
+`PLI [planet ID]`
+
+Shows a planet: the resources in its ground and atmosphere, its fertility, and its type and temperature, which decide whether a base needs [additional construction materials](../building-costs). Also links to your fleet and inventories on the planet. A planet ID is the system ID followed by a letter, for example `XK-745a`. Without an ID, you can search for planets.
+
+The fertility bar starts in the middle: the further it extends to the left, the less fertile the planet, the further to the right, the more fertile.
+
+Click a coloured plot for details:
+
+* blue: other companies
+* dark blue: another corporation's project
+* yellow: your company
+* dark yellow: your corporation's project
+* green: Chamber of Global Commerce
+* red: commodity exchange
+
+**Shortcut:** click a planet on a system map.
+
+### STNS – Stations {#stns}
+
+`STNS [station ID]`
+
+Lists all space stations, or shows the public information and infrastructure of one station.
+
+**Shortcut:** click a station (square symbol) on a system map or in `PLI`.
+
+## Planetary projects
+
+### PPS – Planetary projects {#pps}
+
+`PPS <planet ID>`
+
+Lists all planetary projects on a planet.
+
+### PP – Planetary project {#pp}
+
+`PP <planet ID> <project ID>`
+
+Shows a planetary project. It's easier to open with the DETAILS button in `PPS`.
+
+### PPI – Plot information {#ppi}
+
+`PPI <plot ID>`
+
+Shows information about a plot on a planet's surface.
+
+### POPR – Population report {#popr}
+
+`POPR <planet ID>`
+
+Shows the population reports of a planet: the population's size, need satisfaction and growth.
+
+### WAR – Warehouse {#war}
+
+`WAR <planet or station ID>`
+
+Shows public and private warehouse information, such as the available storage units and the rental fees.
+
+## Infrastructure
+
+See [infrastructure](../infrastructure) and [gateways](../infrastructure-gateway).
+
+### INF – Infrastructure {#inf}
+
+`INF [system ID]`
+
+Lists the infrastructure of a system's planets, including planetary projects.
+
+### INFU – Infrastructure upkeep {#infu}
+
+`INFU <infrastructure ID>`
+
+Shows the upkeep of an infrastructure: the materials required per weekly upkeep phase, the current phase and a history of past phases. See [infrastructure management](../infrastructure/#infrastructure-management).
+
+### ASTS – Assets {#asts}
+
+`ASTS`
+
+Lists infrastructure projects under construction, owned infrastructure and constructed infrastructure. The list depends on the context: a company never owns infrastructure, a government never constructs it. See [assets](../infrastructure/#assets).
+
+### GTW – Gateways {#gtw}
+
+`GTW [system, planet or gateway ID]`
+
+Lists all gateways, or only those in a system or at a planet, for example `GTW LS-300` or `GTW LS-300c`. With a gateway ID, shows the details of that gateway.
+
+### GTWI – Gateway information {#gtwi}
+
+`GTWI`
+
+Plans new gateways and upgrades to existing ones. Shows the capacity, volume and distance of a configuration, its building or upgrade costs, the weekly upkeep and the systems in range. See [gateway design and construction](../infrastructure-gateway/#gateway-design-and-construction).
+
+### GTWT – Gateway traffic {#gtwt}
+
+`GTWT <gateway ID>`
+
+Shows a gateway's traffic and fuel: jumps in the last 24 hours, the current capacity, the available fuel, the fuel contractors, and outgoing and incoming jumps per phase, including failed jumps and why they failed. See [gateway traffic](../infrastructure-gateway/#gateway-traffic).
+
+## Politics
+
+### ADM – Administration center {#adm}
+
+`ADM <planet ID>`
+
+Shows a planet's [administration center](../planetary-projects/#administration-center): the current governor, the faction or corporation collecting fees and taxes, and the candidates for the next term. Anyone can run for governor here, and planetary residents vote here.
+
+### GOV – Government {#gov}
+
+`GOV <planet ID>`
+
+Shows a planet's current and previous governments and the motions they voted on.
+
+### LR – Local rules {#lr}
+
+`LR <planet ID>`
+
+Shows the [local rules](../local-rules) of a planet with an administration center, such as production fees and local market fees.
+
+### MOTS – Motions {#mots}
+
+`MOTS [motion ID]`
+
+Lists the motions of the currently active government context.
+
+### MOT – Motion {#mot}
+
+`MOT <administration center> <motion ID>`
+
+Shows a motion with its components, current status and votes.
+
+### POL – Political offices {#pol}
+
+`POL [username]`
+
+Shows the current and past political offices of a user, including current runs.
+
+## Social
+
+### FA – Faction {#fa}
+
+`FA <faction code>`
+
+Shows information about a faction.
+
+### CO – Company {#co}
+
+`CO <company code>`
+
+Shows information about a company, including its owner, whom you can contact from here.
+
+### USR – User {#usr}
+
+`USR <username>`
+
+Shows a user's company, registration date and online status. MUTE USER hides all their messages from you.
+
+**Shortcut:** click the managing director in `CO`.
+
+### BDGS – Badges {#bdgs}
+
+`BDGS`
+
+Lists all user badges and what they stand for.
+
+### CONS – Users online {#cons}
+
+`CONS`
+
+Shows who is currently online in APEX.
+
+**Shortcut:** the CONS button in the bottom right of APEX.
+
+### COM – Channels {#com}
+
+`COM`
+
+Lists the channels you have joined. Opening a channel joins it. To leave, open the channel and select LEAVE.
+
+### COMC – Channel catalog {#comc}
+
+`COMC`
+
+Lists all public channels. Select one to join it.
+
+### COMP – Public channel {#comp}
+
+`COMP <channel>`
+
+Opens a public channel, such as "global" or "help". Public channels can't be created.
+
+### COMG – Group chat {#comg}
+
+`COMG <channel>`
+
+Opens a private group chat. If it doesn't exist yet or you haven't joined it, "Start Conversation" opens it.
+
+**Shortcut:** the NEW GROUP button in `COM`.
+
+### COMU – Private chat {#comu}
+
+`COMU <username>`
+
+Starts a private conversation with a user.
+
+**Shortcut:** the NEW PRIVATE button in `COM`.
+
+## Notifications
+
+### NOTS – Notifications {#nots}
+
+`NOTS`
+
+Lists your in-game notifications. Click one for details.
+
+### NOTIG – In-game notification settings {#notig}
+
+`NOTIG`
+
+Sets which notifications show up in `NOTS`.
+
+### NOTPNS – Push notification settings {#notpns}
+
+`NOTPNS`
+
+Sets which notifications are sent to you by email, and how often.
+
+## Company and finances
+
+### FIN – Finances {#fin}
+
+`FIN`
+
+Shows a financial overview and recent cash bookings.
+
+### FINBS – Balance sheet {#finbs}
+
+`FINBS`
+
+Shows your assets and liabilities.
+
+### FINIS – Income statement {#finis}
+
+`FINIS`
+
+Shows your profit and loss.
+
+### FINLA – Liquid assets {#finla}
+
+`FINLA`
+
+Shows your liquid assets, such as cash.
+
+### LEAD – Leaderboards {#lead}
+
+`LEAD`
+
+Shows company leaderboards. Choose the leaderboard at the top. Some have additional filters, such as a time range.
+
+### ARC – APEX Representation Center {#arc}
+
+`ARC`
+
+Shows the level of your APEX Representation Center and lets you contribute funds to raise it.
+
+### GIFT – Gift PRO license {#gift}
+
+`GIFT`
+
+Gifts PRO license time to other players and lists the gifts you sent and received.
+
+### COLIQ – Liquidate company {#coliq}
+
+`COLIQ`
+
+Liquidates your company, so you can start over with the same account. Refresh APEX afterwards.
+
+Cooldowns:
+
+* the first liquidation is available right after company creation
+* the second 3 days after the first
+* the third 21 days after the second
+* every further one 60 days after the previous one
+
+An immediate liquidation may be possible if you haven't traded on a commodity exchange or local market and haven't contributed to planetary or corporation projects.
+
+**Misusing `COLIQ` may get your account (temporarily) banned.**
+
+## Interface and transmissions
+
+### CS – Create screen {#cs}
+
+`CS`
+
+Creates a new screen, like the ADD button at the top. See the [interface guide](../../tutorials/current-tutorials/07-interface-guide).
+
+### SCRN – Screens {#scrn}
+
+`SCRN`
+
+Lists your screens. Rename, copy or delete them, and manage screen variables.
+
+### LIC – License {#lic}
+
+`LIC`
+
+Shows your current APEX license and when it expires. From here you can manage your license or gift PRO time to other players.
+
+### TRA – Transmissions {#tra}
+
+`TRA`
+
+Lists all transmissions (video tutorials).
+
+### XIT – Green screen {#xit}
+
+`XIT [title]`
+
+Shows a green screen for recording your own transmission, with an optional title.
+
+### XYTV – YouTube video {#xytv}
+
+`XYTV <video ID>`
+
+Embeds a YouTube video. The ID is the part after `v=` in the video's URL.
 
 {{% about-this-page %}}
