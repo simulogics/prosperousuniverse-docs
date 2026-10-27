@@ -5,7 +5,7 @@ date: 2022-12-05T10:30:49+02:00
 
 ## Allgemeine Informationen
 
-Von Zeit zu Zeit senden Ihnen AgentInnen Ihrer [Fraktion](/wiki/packages-factions/#factions) eine Liste mit Vertragsangeboten. Diese Verträge umfassen eine Reihe von Aufgaben, die Sie erfüllen müssen, gewähren aber Belohnungen in Form von Währung, Materialien oder Ruf bei Ihrer Fraktion. Die Annahme dieser Verträge ist optional.
+Von Zeit zu Zeit senden Ihnen AgentInnen Ihrer [Fraktion](/wiki/packages-factions/#fraktionen) eine Liste mit Vertragsangeboten. Diese Verträge umfassen eine Reihe von Aufgaben, die Sie erfüllen müssen, gewähren aber Belohnungen in Form von Währung, Materialien oder Ruf bei Ihrer Fraktion. Die Annahme dieser Verträge ist optional.
 
 ## Fraktionsverträge erhalten und annehmen
 

@@ -112,9 +112,9 @@ Abre un buffer **MAT** (material) o **BUI** (edificio) para el acrónimo.
 
 Otros acrónimos:
 - MM - Market Maker, una compra/venta infinita de ciertos materiales en todos los CX (Commodity Exchanges)
-- LM - [Mercado Local](../../tutorials/legacy-tutorials/planetary-projects/#local-markets)
-- COGC - [Cámara de Comercio Global](../../tutorials/legacy-tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
-- POPI - [Infraestructura de Población](../../tutorials/legacy-tutorials/planetary-population/)
+- LM - [Mercado Local](../planetary-projects/?lang=en#local-markets)
+- COGC - [Cámara de Comercio Global](../planetary-projects/?lang=en#chamber-of-global-commerce-cogc)
+- POPI - [Infraestructura de Población](../../tutorials/legacy-tutorials/planetary-population/?lang=en)
 - Para todos los demás, consulta la página de [Lista de Comandos](../commands-list/)
 
 ### ¿Hay alguna forma de comerciar productos de manera privada?
@@ -195,7 +195,7 @@ Como con la mayoría de las cosas en Prosperous Universe, depende del escenario 
 
 ### ¿Cómo funciona el FX (Cambio de Divisas)?
 
-Lee el [Tutorial de FX](../../tutorials/legacy-tutorials/foreign-exchange/)
+Lee el [Tutorial de FX](../../tutorials/legacy-tutorials/foreign-exchange/?lang=en)
 
 ### Intenté entregar un envío pero dice "Intento de Cumplimiento". ¿Qué hago?
 
@@ -258,11 +258,11 @@ Posibles causas:
 - No hay consumibles disponibles para tus trabajadores en el almacenamiento de la base
 - No hay insumos disponibles para la receta
 - No tienes fondos suficientes para los impuestos de producción
-- No hay trabajadores de ese nivel disponibles en el [pool de reserva de fuerza laboral](../../tutorials/legacy-tutorials/planetary-population/#worker-redistribution)
+- No hay trabajadores de ese nivel disponibles en el [pool de reserva de fuerza laboral](../../tutorials/legacy-tutorials/planetary-population/?lang=en#worker-redistribution)
 
 ### ¿Cómo puedo saber qué planetas tienen el recurso que estoy buscando?
 
-Utiliza algunas de las excelentes [herramientas comunitarias](../community-resources/#tools):
+Utiliza algunas de las excelentes [herramientas comunitarias](../community-resources/#herramientas):
 - [FIO PlanetSearch](https://fio.fnar.net/planetsearch)
 - [Yapt PlanetSearch](https://aeryen23.github.io/yapt/#/planetsearch)
 - [Prosperity](https://prosperity-prun.netlify.app/)

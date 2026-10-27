@@ -3,7 +3,7 @@ title: "命令列表"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
+This is a comprehensive list of all commands available to you in APEX. They are grouped together by their respective areas of use. Understanding this list requires that you already be familiar with [how commands work](../../tutorials/legacy-tutorials/commands). You may read through the whole list to gain an overview or use it as a reference to look up specific commands.
 
 ## Base commands
 
@@ -223,7 +223,7 @@ Shows the exchange rate history of any currency pair, for example: FXPC AIC/CIS.
 
 __FXPO__  
 _Mandatory parameter: commodity pair ticker_  
-Use this command to place a foreign exchange order, i.e. to spend one currency to buy another. Enter FXPO followed by the desired ticker, for instance AIC/NCC. Next, select the appropriate tab in order to buy or sell the desired currency. Note that the numbers you indicate are Lots, that is, 1000 of each currency. For more in-depth information, have a look at the [Foreign Exchange tutorial](../../tutorials/foreign-exchange).
+Use this command to place a foreign exchange order, i.e. to spend one currency to buy another. Enter FXPO followed by the desired ticker, for instance AIC/NCC. Next, select the appropriate tab in order to buy or sell the desired currency. Note that the numbers you indicate are Lots, that is, 1000 of each currency. For more in-depth information, have a look at the [Foreign Exchange tutorial](../../tutorials/legacy-tutorials/foreign-exchange).
 
 __FXOS__  
 _No possible parameter_  
@@ -304,7 +304,7 @@ Allows placing a Buying Ad or Selling Ad at a given Local Market. Accessible via
 
 __ADM__
 _Mandatory parameter: Planet ID_  
-Shows information on the planet's [Administration Center](../../tutorials/planetary-projects/#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
+Shows information on the planet's [Administration Center](../planetary-projects/?lang=en#administration-center) (if there is one), such as the current Governor, the entity (i.e. Faction or Corporation) collecting fees and taxes, and all candidates for the upcoming term. Allows anyone to run for Governor of the planet and planetary residents to vote for their preferred candidate.
 
 __GOV__
 _Mandatory parameter: Planet ID_

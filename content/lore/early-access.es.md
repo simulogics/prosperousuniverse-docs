@@ -13,13 +13,13 @@ weight: 2
 | [FOWL] | Fiendish Organization for World Larceny |
 | [GDP]  | Galactic Development Project |
 | [GTU]  | Galactic Trade Union |
-| [KAWA] | [Kawakawa, Inc.](../corporations/kawa#during-early-access)|
+| [KAWA] | [Kawakawa, Inc.](../corporations/kawa#durante-el-acceso-temprano)|
 | [NEM]  | Nemesis Corp |
 | [IKO]  | Oikos Corp |
 | [QWNE] | Quinten Essentials |
-| [RUM]  | [The Rum Runners](../corporations/rum#the-rum-runners) |
+| [RUM]  | [The Rum Runners](../corporations/rum#los-rum-runners) |
 | [SNF]  | Supernova Foundries |
-| [AHI]  | [Yellow Fin, Inc.](../corporations/ahi#during-early-access)|
+| [AHI]  | [Yellow Fin, Inc.](../corporations/ahi#durante-el-acceso-temprano)|
 
 ## Planetas
 

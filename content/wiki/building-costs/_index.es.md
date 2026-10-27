@@ -22,7 +22,7 @@ Sin embargo, esta información solo muestra una parte del panorama. Se refiere a
 
 Cada edificio necesita una cierta configuración de Prefabricados de Construcción para ser construido. Además, se requerirán Materiales de Construcción y/o Partes de Construcción ("Recursos adicionales" a continuación) _una vez_ para _cada_ edificio, dependiendo de las condiciones ambientales. El número exacto de algunos recursos adicionales depende del costo de área de un edificio, que se indica en su ventana BUI (ver captura de pantalla arriba).
 
-Ten en cuenta que todos estos costos adicionales también se aplican a los [proyectos planetarios](../../tutorials/planetary-projects) y [proyectos corporativos](../../tutorials/corporations/#corporate-actions-and-projects).
+Ten en cuenta que todos estos costos adicionales también se aplican a los [proyectos planetarios](../planetary-projects?lang=en) y [proyectos corporativos](../../tutorials/legacy-tutorials/corporations/?lang=en#corporate-actions-and-projects).
 
 ### Planetas rocosos
 

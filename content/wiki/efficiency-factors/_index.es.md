@@ -106,6 +106,6 @@ La fertilidad neutral (es decir, sin amarillo) indica un modificador de +0%. La 
 
 ### Programas CoGC
 
-La [Cámara de Comercio Global](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc), si existe en un planeta y está activa, puede proporcionar un bono temporal a la productividad. Al igual que con los expertos, el porcentaje respectivo se suma simplemente encima. Por ejemplo, el programa CoGC _Eventos Educativos: Pioneros_ proporciona un bono del 10 % a todos los edificios operados por pioneros mientras esté activo, y el programa _Campaña Publicitaria: Agricultura_ otorga un bono del 25 % a todas las instalaciones del sector agrícola.
+La [Cámara de Comercio Global](../planetary-projects/?lang=en#chamber-of-global-commerce-cogc), si existe en un planeta y está activa, puede proporcionar un bono temporal a la productividad. Al igual que con los expertos, el porcentaje respectivo se suma simplemente encima. Por ejemplo, el programa CoGC _Eventos Educativos: Pioneros_ proporciona un bono del 10 % a todos los edificios operados por pioneros mientras esté activo, y el programa _Campaña Publicitaria: Agricultura_ otorga un bono del 25 % a todas las instalaciones del sector agrícola.
 
 {{% about-this-page %}}

@@ -112,9 +112,9 @@ Derzeit nicht. Dennoch sollten Sie sich mit dem APEX-Interface vertraut machen u
 
 Andere Akronyme:
 - MM - Market Maker, ein unbegrenzter Kauf/Verkauf für bestimmte Materialien an allen CX (Warenbörsen), der damit effektiv An- und/oder Verkaufspreislimits setzt
-- LM - [Lokaler Marktplatz](../../tutorials/legacy-tutorials/planetary-projects/#local-markets)
-- COGC - [Globale Handelskammer (Chamber of Global Commerce)](../../tutorials/legacy-tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
-- POPI - [Bevölkerungsinfrastruktur (Population Infrastructure)](../../tutorials/legacy-tutorials/planetary-population/)
+- LM - [Lokaler Marktplatz](../planetary-projects/?lang=en#local-markets)
+- COGC - [Globale Handelskammer (Chamber of Global Commerce)](../planetary-projects/?lang=en#chamber-of-global-commerce-cogc)
+- POPI - [Bevölkerungsinfrastruktur (Population Infrastructure)](../../tutorials/legacy-tutorials/planetary-population/?lang=en)
 - Für alle anderen Abkürzungen sehen Sie sich die Seite ["Command Liste"](../commands-list/) an
 
 ### Gibt es eine Möglichkeit, Waren privat zu handeln?
@@ -195,7 +195,7 @@ Wie bei den meisten Dingen in Prosperous Universe kommt es auf das jeweilige Sze
 
 ### Wie funktioniert der FX (Currency Exchange / Devisenhandel)?
 
-Weitere Informationen hierzu finden Sie im [FX-Tutorial](../../tutorials/legacy-tutorials/foreign-exchange/).
+Weitere Informationen hierzu finden Sie im [FX-Tutorial](../../tutorials/legacy-tutorials/foreign-exchange/?lang=en).
 
 ### Ich habe versucht, eine Sendung zuzustellen, aber es erscheint die Meldung "Erfüllung versucht". Was mache ich?
 
@@ -259,7 +259,7 @@ Mögliche Ursachen:
 - Im Basislager sind keine Versorgungsgüter für Ihre ArbeiterInnen verfügbar
 - Für das Rezept sind keine Inputs vorhanden
 - Sie verfügen nicht über ausreichende Mittel für Produktionssteuern
-- Im [Personalreservepool](../../tutorials/legacy-tutorials/planetary-population/#worker-redistribution) sind keine Arbeitskräfte dieser Stufe verfügbar
+- Im [Personalreservepool](../../tutorials/legacy-tutorials/planetary-population/?lang=en#worker-redistribution) sind keine Arbeitskräfte dieser Stufe verfügbar
 
 ### Wie finde ich heraus, auf welchen Planeten sich eine gesuchte Ressource befindet?
 

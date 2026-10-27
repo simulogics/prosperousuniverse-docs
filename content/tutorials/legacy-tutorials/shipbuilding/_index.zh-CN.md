@@ -44,7 +44,7 @@ The following ship parts are automatically selected based on the ship's configur
 * __FTL emitters:__ To perform FTL jumps, the ship needs to create an FTL field around itself. The larger the ship, the more volume its emitters need to span. Charging the emitters takes up some reactor power.
 
 ## Shipyards
-A shipyards is a type of [planetary project](../../tutorials/planetary-projects) that allows you to construct actual ships from your previously designed blueprints.
+A shipyards is a type of [planetary project](../../../wiki/planetary-projects?lang=en) that allows you to construct actual ships from your previously designed blueprints.
 
 ![Shipyard](shipyard.png)
 

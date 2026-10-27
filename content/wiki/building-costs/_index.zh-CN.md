@@ -22,7 +22,7 @@ date: 2018-09-18T17:13:49+02:00
 
 每栋建筑都需要特定配置的建筑预制件才能建造。除此之外，根据当前的环境条件， _每栋_ 建筑还需要 _一次性_ 提供建筑材料和/或建筑部件（以下简称“额外资源”）。某些额外资源的具体数量取决于建筑的区域成本，这在其 BUI 窗口中有所显示（参见上图）。
 
-请注意，所有这些额外成本也适用于[行星项目](../../tutorials/planetary-projects)和[集团项目](../../tutorials/corporations/#corporate-actions-and-projects)。
+请注意，所有这些额外成本也适用于[行星项目](../planetary-projects?lang=en)和[集团项目](../../tutorials/legacy-tutorials/corporations/#corporate-actions-and-projects)。
 
 ### 岩石行星
 

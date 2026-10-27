@@ -112,8 +112,8 @@ Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 
 Other acronyms:
 - MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges)
-- LM - [Local Market](../../tutorials/legacy-tutorials/planetary-projects/#local-markets)
-- COGC - [Chamber of Global Commerce](../../tutorials/legacy-tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
+- LM - [Local Market](../planetary-projects/#local-markets)
+- COGC - [Chamber of Global Commerce](../planetary-projects/#chamber-of-global-commerce-cogc)
 - POPI - [Population Infrastructure](../../tutorials/legacy-tutorials/planetary-population/)
 - For all others, check the [Command List](../commands-list/) page
 

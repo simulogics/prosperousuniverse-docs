@@ -106,6 +106,6 @@ Neutrale Fruchtbarkeit (d.h. kein Gelb) weist auf einen Modifikator von +0% hin.
 
 ### CoGC-Programme
 
-Die [Globale Handelskammer](../../tutorials/planetary-projects#chamber-of-global-commerce-cogc) kann, sofern sie auf einem Planeten existiert und aktiv ist, einen vorübergehenden Produktivitätsbonus bieten. Wie bei ExpertInnen üblich, wird der jeweilige Prozentsatz einfach hinzuaddiert. Beispielsweise gewährt das CoGC-Programm "Bildungsinitiative: Pioniere" einen Bonus von 10% auf alle von Pionieren betriebenen Gebäude, solange es aktiv ist, und das Programm "Werbekampagne: Landwirtschaft" einen Bonus von 25% auf alle Einrichtungen im Agrarsektor.
+Die [Globale Handelskammer](../planetary-projects/?lang=en#chamber-of-global-commerce-cogc) kann, sofern sie auf einem Planeten existiert und aktiv ist, einen vorübergehenden Produktivitätsbonus bieten. Wie bei ExpertInnen üblich, wird der jeweilige Prozentsatz einfach hinzuaddiert. Beispielsweise gewährt das CoGC-Programm "Bildungsinitiative: Pioniere" einen Bonus von 10% auf alle von Pionieren betriebenen Gebäude, solange es aktiv ist, und das Programm "Werbekampagne: Landwirtschaft" einen Bonus von 25% auf alle Einrichtungen im Agrarsektor.
 
 {{% about-this-page %}}

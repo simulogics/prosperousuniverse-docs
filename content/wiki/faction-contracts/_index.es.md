@@ -5,7 +5,7 @@ date: 2022-12-05T10:30:49+02:00
 
 ## Información general
 
-De vez en cuando, los agentes de tu [facción](/wiki/packages-factions/#factions) te enviarán una lista de ofertas de contratos. Estos contratos abarcan una variedad de tareas que tendrás que cumplir, pero otorgarán recompensas en forma de moneda, materiales o reputación de la facción. Aceptar estos contratos es opcional.
+De vez en cuando, los agentes de tu [facción](/wiki/packages-factions/#facciones) te enviarán una lista de ofertas de contratos. Estos contratos abarcan una variedad de tareas que tendrás que cumplir, pero otorgarán recompensas en forma de moneda, materiales o reputación de la facción. Aceptar estos contratos es opcional.
 
 ## Recibir y aceptar contratos de facción
 

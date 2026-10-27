@@ -21,7 +21,7 @@ On the Universe Map, you can see an arrow pointing at the system where your star
 
 ![Toggle fleet](fleet.gif)
 
-Click the system the arrow points to, and the system will open in a new buffer. Now find the planet marked with the same arrow. You can then see a 3D render of your starting planet, and a button for building your base. (If you are a more experienced user already, you may choose to leave your starting location right now and fly to a different one to set up your base there. Just make sure that you will be able to pay the [building costs](../../wiki/building-costs).)
+Click the system the arrow points to, and the system will open in a new buffer. Now find the planet marked with the same arrow. You can then see a 3D render of your starting planet, and a button for building your base. (If you are a more experienced user already, you may choose to leave your starting location right now and fly to a different one to set up your base there. Just make sure that you will be able to pay the [building costs](../../../wiki/building-costs).)
 
 If you want to set up your base right here, which is strongly recommended to new users, click “Construct Base” to see which building materials you need. If it says “missing” underneath some or all of them, click the dropdown menu and select the other ship Transponder code. One of your ships has the resources you need in its cargo hold. Next, choose an empty, grey Plot to place your base module on. Congratulations, you now have a base!
 
@@ -33,7 +33,7 @@ Clicking “VIEW BASE” opens a buffer you are going to need a lot: your base o
 
 ![Base buffer](base-buffer.png)
 
-Hitting “Workforce”, you can see that there are no people in your base yet. Your workforce will be divided into several levels of specialization, from Pioneers to Scientists, each with their own needs to stay nourished and active. Basic Consumables (marked as “Essential”), are more important to your workers' efficiency than Luxury Consumables (not marked as “Essential”). To get an in-depth look at the topic later, keep [this overview](../../wiki/efficiency-factors) handy.
+Hitting “Workforce”, you can see that there are no people in your base yet. Your workforce will be divided into several levels of specialization, from Pioneers to Scientists, each with their own needs to stay nourished and active. Basic Consumables (marked as “Essential”), are more important to your workers' efficiency than Luxury Consumables (not marked as “Essential”). To get an in-depth look at the topic later, keep [this overview](../../../wiki/efficiency-factors) handy.
 
 ![Population needs](population-needs.png)
 
@@ -55,7 +55,7 @@ Next, you need to find out which buildings are relevant to your company. This de
 
 ![Ship cargo to base](items-ship-to-base.gif)
 
-Your recommended buildings are listed below and on the [Packages and Factions site](../../wiki/packages-factions). All of them can be found in the Resources and Pioneers tabs:
+Your recommended buildings are listed below and on the [Packages and Factions site](../../../wiki/packages-factions). All of them can be found in the Resources and Pioneers tabs:
 
 * Victualler: Rig, Farmstead, Food Processor  
 * Metallurgist: Extractor, Smelter  
@@ -64,7 +64,7 @@ Your recommended buildings are listed below and on the [Packages and Factions si
 * Constructor: Basic Materials Plant, Prefab Plant Mk 1  
 * Fuel Engineer: Refinery; Collector _or_ Extractor
 
-Regardless of your package, it is recommended that you also construct two “Pioneer Habitation” modules. They will offer housing for pioneers you will get upon founding your base. (Note: Those pioneers will enter the planet's population pool for the next worker redistribution. You can find more information about that in the [Planetary Populations](../../tutorials/planetary-population) section.)
+Regardless of your package, it is recommended that you also construct two “Pioneer Habitation” modules. They will offer housing for pioneers you will get upon founding your base. (Note: Those pioneers will enter the planet's population pool for the next worker redistribution. You can find more information about that in the [Planetary Populations](../planetary-population) section.)
 
 To construct a building, simply hit its  “BUILD” button; if it worked, your new building will show up in the BUILDINGS (formerly “SECTIONS”) window you can access from your base overview.
 
@@ -78,7 +78,7 @@ _If you are missing construction materials, parts, or prefabs (4 TRU in this exa
 
 ### Area Expansion
 
-Later in the game, upgrading your [Headquarters](../../wiki/headquarters) will give you access to additional base permits. You can use those to build new bases or invest them into your existing bases to expand their available building area. You can do the latter from the BS command. Note that you can only remove invested permits again if there is enough unused area in the respective base.
+Later in the game, upgrading your [Headquarters](../../../wiki/headquarters) will give you access to additional base permits. You can use those to build new bases or invest them into your existing bases to expand their available building area. You can do the latter from the BS command. Note that you can only remove invested permits again if there is enough unused area in the respective base.
 
 ![Area expansion](area-expansion.png)
 

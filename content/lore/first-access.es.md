@@ -8,7 +8,7 @@ weight: 1
 
 | Código | Nombre |
 |--------|------------------------------------------------------------|
-|[AHI]  | [Yellow Fin, Inc.](../corporations/ahi#during-first-access)|
+|[AHI]  | [Yellow Fin, Inc.](../corporations/ahi#durante-el-primer-acceso)|
 |[GDP]  | Galactic Development Project                               |
 |[GTU]  | Galactic Trade Union                                    |
 |[QWNE] | Quinten Essentials                                         |

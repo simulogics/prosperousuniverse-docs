@@ -33,7 +33,7 @@ Las tres propiedades se pueden mejorar con una mejora de infraestructura; sin em
 
 La última sección ofrece una visión general de todos los sistemas que están al alcance de la puerta de enlace con la configuración especificada.
 
-Las puertas de enlace se construyen como cualquier otra infraestructura: el gobierno crea una moción de construcción de infraestructura y nombra a un constructor. Para más detalles, consulte [construcción de infraestructura](./infrastructure/#infrastructure-construction)
+Las puertas de enlace se construyen como cualquier otra infraestructura: el gobierno crea una moción de construcción de infraestructura y nombra a un constructor. Para más detalles, consulte [construcción de infraestructura](./infrastructure/#construcción-de-infraestructura)
 
 ## Enlace de puertas de enlace
 

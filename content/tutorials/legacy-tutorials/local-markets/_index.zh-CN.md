@@ -13,7 +13,7 @@ Please note that all usage of Local Markets requires the possession of a [PRO Li
 {{% /notice %}}
 
 
-Local Markets are a [Planetary Project](../planetary-projects), which means they can be built collectively by the inhabitants of a planet. If you want to (help) build one on your planet, please refer to [this guide](../planetary-projects/#building-a-planetary-project).
+Local Markets are a [Planetary Project](../../../wiki/planetary-projects?lang=en), which means they can be built collectively by the inhabitants of a planet. If you want to (help) build one on your planet, please refer to [this guide](../../../wiki/planetary-projects/?lang=en#building-a-planetary-project).
 
 Once built, a Local Market will be listed under a planet's infrastructure:
 
@@ -35,7 +35,7 @@ A company's rating can be seen using the `CO` command:
 
 As an alternative means for exchanging goods, Local Markets come with their own set of advantages and disadvantages. In essence, they work like bulletin boards, which results in a few key differences to Commodity Exchanges:
 
-* To place an ad, you must own a base or [warehouse unit](../planetary-projects/#warehouses) on the planet where the market is located. However, ads can be accepted by anyone (with a [PRO or BASIC license](../../wiki/pro-license)).
+* To place an ad, you must own a base or [warehouse unit](../../../wiki/planetary-projects/?lang=en#warehouses) on the planet where the market is located. However, ads can be accepted by anyone (with a [PRO or BASIC license](../../../wiki/pro-license)).
 * Offers on Local Markets list their total cost, not the cost per item.
 * Placing an ad costs money. The longer it runs, the more expensive it is.
 * Local Markets do not have Price Bands, meaning that prices can be set freely.

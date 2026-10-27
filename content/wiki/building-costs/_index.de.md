@@ -3,7 +3,7 @@ title: "Baukosten"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-Auf dieser Seite sind alle geltenden Regelungen zu Baukosten aufgeführt. Wenn Sie wissen möchten, wie man Gebäude aufbaut, werfen Sie einen Blick auf die Seite zum [Basis-Setup](../../tutorials/base-setup/).
+Auf dieser Seite sind alle geltenden Regelungen zu Baukosten aufgeführt. Wenn Sie wissen möchten, wie man Gebäude aufbaut, werfen Sie einen Blick auf die Seite zum [Basis-Setup](../../tutorials/current-tutorials/02-first-base/).
 
 ## Allgemeine Informationen
 
@@ -22,7 +22,7 @@ Diese Informationen geben jedoch nur einen Teil der Realität wieder, da sie sic
 
 Für den Bau eines Gebäudes ist eine bestimmte Konfiguration von Fertigbauteilen erforderlich. Darüber hinaus werden einmal pro Gebäude Baumaterialien und/oder Bauteile (siehe "Zusätzliche Ressourcen" weiter unten) benötigt, entsprechend der jeweiligen Umgebungsbedingungen. Die genaue Anzahl einiger zusätzlicher Ressourcen hängt von dem Flächenbedarf eines Gebäudes ab, was im BUI-Fenster angezeigt wird (siehe Screenshot oben).
 
-Bitte beachten Sie, dass alle diese zusätzlichen Kosten auch für [planetare Projekte](../../tutorials/planetary-projects) und [Konzernprojekte](../../tutorials/corporations/#corporate-actions-and-projects) gelten.
+Bitte beachten Sie, dass alle diese zusätzlichen Kosten auch für [planetare Projekte](../planetary-projects?lang=en) und [Konzernprojekte](../../tutorials/legacy-tutorials/corporations/?lang=en#corporate-actions-and-projects) gelten.
 
 ### Erdähnliche Planeten
 

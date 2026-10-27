@@ -57,7 +57,7 @@ At first glance, this feature might appear intimidating. You can use APEX withou
 
 ![Command example](8-apex-command-example.gif)
 
-Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. To learn more about their usage, have a look at the [commands tutorial](../commands). If you are looking for a specific command, please refer to the [commands list](../../wiki/commands-list).
+Commands are entered into the command line in an empty tile. The “CMDS” command opens a list of all existing commands. To learn more about their usage, have a look at the [commands tutorial](../commands). If you are looking for a specific command, please refer to the [commands list](../../../wiki/commands-list).
 
 ## Left sidebar
 

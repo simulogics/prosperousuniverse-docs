@@ -3,7 +3,7 @@ title: "Lista de Comandos"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-Esta es una lista completa de todos los comandos disponibles para ti en APEX. Están agrupados por sus respectivas áreas de uso. Comprender esta lista requiere que ya estés familiarizado con [cómo funcionan los comandos](../../tutorials/legacy-tutorials/commands). Puedes leer toda la lista para obtener una visión general o usarla como referencia para buscar comandos específicos.
+Esta es una lista completa de todos los comandos disponibles para ti en APEX. Están agrupados por sus respectivas áreas de uso. Comprender esta lista requiere que ya estés familiarizado con [cómo funcionan los comandos](../../tutorials/legacy-tutorials/commands?lang=en). Puedes leer toda la lista para obtener una visión general o usarla como referencia para buscar comandos específicos.
 
 ## Comandos de base
 
@@ -223,7 +223,7 @@ Muestra el historial de tipos de cambio de cualquier par de divisas, por ejemplo
 
 __FXPO__  
 _Parámetro obligatorio: ticker del par de divisas_  
-Usa este comando para colocar una orden de intercambio extranjero, es decir, para gastar una moneda y comprar otra. Ingresa FXPO seguido del ticker deseado, por ejemplo: AIC/NCC. Luego, selecciona la pestaña correspondiente para comprar o vender la moneda deseada. Ten en cuenta que los números que indiques son Lotes, es decir, 1000 de cada moneda. Para obtener información más detallada, consulta el [tutorial de Intercambio Extranjero](../../tutorials/foreign-exchange).
+Usa este comando para colocar una orden de intercambio extranjero, es decir, para gastar una moneda y comprar otra. Ingresa FXPO seguido del ticker deseado, por ejemplo: AIC/NCC. Luego, selecciona la pestaña correspondiente para comprar o vender la moneda deseada. Ten en cuenta que los números que indiques son Lotes, es decir, 1000 de cada moneda. Para obtener información más detallada, consulta el [tutorial de Intercambio Extranjero](../../tutorials/legacy-tutorials/foreign-exchange?lang=en).
 
 __FXOS__  
 _No hay parámetros posibles_  
@@ -304,7 +304,7 @@ Permite colocar un anuncio de compra o venta en un Mercado Local determinado. Ac
 
 __ADM__
 _Parámetro obligatorio: ID del planeta_  
-Muestra información sobre el [Centro de Administración](../../tutorials/planetary-projects/#administration-center) del planeta (si existe), como el Gobernador actual, la entidad (es decir, Facción o Corporación) que recauda impuestos y tasas, y todos los candidatos para el próximo mandato. Permite a cualquier persona postularse para Gobernador del planeta y a los residentes planetarios votar por su candidato preferido.
+Muestra información sobre el [Centro de Administración](../planetary-projects/?lang=en#administration-center) del planeta (si existe), como el Gobernador actual, la entidad (es decir, Facción o Corporación) que recauda impuestos y tasas, y todos los candidatos para el próximo mandato. Permite a cualquier persona postularse para Gobernador del planeta y a los residentes planetarios votar por su candidato preferido.
 
 __GOV__
 _Parámetro obligatorio: ID del planeta_

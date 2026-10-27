@@ -178,7 +178,7 @@ Which Faction you are able to select depends on whether the planet is in Faction
 
 #### Population Settings
 
-In the "Population" tab of the LR window, you can find a set of options and information regarding the [planetary population](../planetary-population).
+In the "Population" tab of the LR window, you can find a set of options and information regarding the [planetary population](../../tutorials/legacy-tutorials/planetary-population).
 
 ![Local Rules - Population Tab](localrules-population.png)
 

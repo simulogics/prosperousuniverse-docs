@@ -112,8 +112,8 @@ Open either a **MAT** (material) or **BUI** (building) buffer to the acronym.
 
 Other acronyms:
 - MM - Market Maker, an infinite buy/sell for certain materials on all CX (Commodity Exchanges)
-- LM - [Local Market](../../tutorials/legacy-tutorials/planetary-projects/#local-markets)
-- COGC - [Chamber of Global Commerce](../../tutorials/legacy-tutorials/planetary-projects/#chamber-of-global-commerce-cogc)
+- LM - [Local Market](../planetary-projects/?lang=en#local-markets)
+- COGC - [Chamber of Global Commerce](../planetary-projects/?lang=en#chamber-of-global-commerce-cogc)
 - POPI - [Population Infrastructure](../../tutorials/legacy-tutorials/planetary-population/)
 - For all others, check the [Command List](../commands-list/) page
 
@@ -262,7 +262,7 @@ Possible causes:
 
 ### 我怎样才能找出哪些行星拥有我正在寻找的资源？
 
-Use some of the great [community tools](../community-resources/#tools):
+Use some of the great [community tools](../community-resources/#工具):
 - [FIO PlanetSearch](https://fio.fnar.net/planetsearch)
 - [Yapt PlanetSearch](https://aeryen23.github.io/yapt/#/planetsearch)
 - [Prosperity](https://prosperity-prun.netlify.app/)

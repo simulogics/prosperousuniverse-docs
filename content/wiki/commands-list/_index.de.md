@@ -3,7 +3,7 @@ title: "Command-Liste"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-Dies ist eine umfassende Liste aller Commands, die Ihnen in APEX zur Verfügung stehen. Sie sind nach ihren jeweiligen Einsatzgebieten gruppiert. Um diese Liste zu verstehen, müssen Sie bereits mit der [Funktionsweise von Commands](../../tutorials/legacy-tutorials/commands) vertraut sein. Sie können die gesamte Liste durchlesen, um sich einen Überblick zu verschaffen, oder sie als Referenz zum Nachschlagen bestimmter Commands verwenden.
+Dies ist eine umfassende Liste aller Commands, die Ihnen in APEX zur Verfügung stehen. Sie sind nach ihren jeweiligen Einsatzgebieten gruppiert. Um diese Liste zu verstehen, müssen Sie bereits mit der [Funktionsweise von Commands](../../tutorials/legacy-tutorials/commands?lang=en) vertraut sein. Sie können die gesamte Liste durchlesen, um sich einen Überblick zu verschaffen, oder sie als Referenz zum Nachschlagen bestimmter Commands verwenden.
 
 Parameter in `<spitzen Klammern>` sind obligatorisch, Parameter in `[eckigen Klammern]` optional.
 
@@ -147,7 +147,7 @@ Listet die Konsumgüterpakete in einem Lager auf und packt sie aus. Pakete werde
 
 ## Schiffe und Flüge {#ships-and-flights}
 
-Beginnen Sie mit `FLT`: Die meisten anderen Schiffs-Commands lassen sich von dort aus öffnen. Das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight) zeigt sie in Aktion.
+Beginnen Sie mit `FLT`: Die meisten anderen Schiffs-Commands lassen sich von dort aus öffnen. Das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight?lang=en) zeigt sie in Aktion.
 
 ### FLT – Flotte {#flt}
 
@@ -199,13 +199,13 @@ Zeigt die öffentlichen Informationen zu einem beliebigen Schiff, auch zu Schiff
 
 `RT [Routen-ID]`
 
-Listet all Ihre Routen auf oder öffnet eine einzelne Route. Erstellen und bearbeiten Sie Routen und weisen Sie ihnen Schiffe zu. Siehe [Routen](../routes).
+Listet all Ihre Routen auf oder öffnet eine einzelne Route. Erstellen und bearbeiten Sie Routen und weisen Sie ihnen Schiffe zu. Siehe [Routen](../routes?lang=en).
 
 ### RTE – Routenausführungen {#rte}
 
 `RTE [Transpondercode]`
 
-Zeigt den Fortschritt aller Schiffe auf Routen oder eines einzelnen Schiffs. Siehe [Routen](../routes/#monitoring-route-execution).
+Zeigt den Fortschritt aller Schiffe auf Routen oder eines einzelnen Schiffs. Siehe [Routen](../routes/?lang=en#monitoring-route-execution).
 
 ## Schiffsbau {#ship-building}
 
@@ -233,7 +233,7 @@ Listet all Ihre Schiffbauprojekte auf oder öffnet eines davon.
 
 `CONTS`
 
-Listet all Ihre Verträge auf. Klicken Sie auf einen Vertrag, um ihn in `CONT` zu öffnen. Ausstehende Verträge werden auch in der rechten Seitenleiste aufgeführt, die Sie mit der Schaltfläche SEITL auf der linken Seite ein- und ausblenden. Siehe das [Vertrags-Tutorial](../../tutorials/legacy-tutorials/contracts).
+Listet all Ihre Verträge auf. Klicken Sie auf einen Vertrag, um ihn in `CONT` zu öffnen. Ausstehende Verträge werden auch in der rechten Seitenleiste aufgeführt, die Sie mit der Schaltfläche SEITL auf der linken Seite ein- und ausblenden. Siehe das [Vertrags-Tutorial](../../tutorials/legacy-tutorials/contracts?lang=en).
 
 ### CONT – Vertrag {#cont}
 
@@ -327,7 +327,7 @@ Zeigt ein Material: was daraus hergestellt werden kann ("Verarbeitung") und wie 
 
 ## Devisenhandel {#foreign-exchange}
 
-Ein Währungspaar besteht aus zwei Währungscodes, getrennt durch einen Schrägstrich oder einen Punkt, zum Beispiel `AIC/CIS`. Siehe das [Devisenhandel-Tutorial](../../tutorials/legacy-tutorials/foreign-exchange).
+Ein Währungspaar besteht aus zwei Währungscodes, getrennt durch einen Schrägstrich oder einen Punkt, zum Beispiel `AIC/CIS`. Siehe das [Devisenhandel-Tutorial](../../tutorials/legacy-tutorials/foreign-exchange?lang=en).
 
 ### FX – Wechselkurse {#fx}
 
@@ -418,7 +418,7 @@ Ziehen Sie eine Karte mit der linken Maustaste, um sie zu verschieben, und mit d
 Zeigt die Karte des Universums. Die verbundenen Punkte sind Sternensysteme. Fahren Sie mit der Maus über eines, um seine ID zu sehen. Mit den Schaltern unten blenden Sie Kartenebenen ein und aus, und manche Daten lassen sich nach Zeitraum filtern.
 
 * `MU CX` zeigt die Warenbörsen.
-* `MU NAV` zeigt den Verkehr. Solange "Flotte" aktiviert ist, sind Ihre Schiffe mit gelben Pfeilen markiert. Siehe das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight).
+* `MU NAV` zeigt den Verkehr. Solange "Flotte" aktiviert ist, sind Ihre Schiffe mit gelben Pfeilen markiert. Siehe das [Weltraumflug-Tutorial](../../tutorials/legacy-tutorials/space-flight?lang=en).
 
 ### MS – Systemkarte {#ms}
 
@@ -495,7 +495,7 @@ Zeigt öffentliche und private Informationen zu Lagerhäusern, etwa die verfügb
 
 ## Infrastruktur {#infrastructure}
 
-Siehe [Infrastruktur](../infrastructure) und [Sprungtore](../infrastructure-gateway).
+Siehe [Infrastruktur](../infrastructure?lang=en) und [Sprungtore](../infrastructure-gateway?lang=en).
 
 ### INF – Infrastruktur {#inf}
 
@@ -507,13 +507,13 @@ Listet die Infrastruktur der Planeten eines Systems auf, einschließlich planeta
 
 `INFU <Infrastruktur-ID>`
 
-Zeigt die Instandhaltung einer Infrastruktur: die pro wöchentlicher Instandhaltungsphase benötigten Materialien, die aktuelle Phase und einen Verlauf vergangener Phasen. Siehe [Infrastrukturverwaltung](../infrastructure/#infrastructure-management).
+Zeigt die Instandhaltung einer Infrastruktur: die pro wöchentlicher Instandhaltungsphase benötigten Materialien, die aktuelle Phase und einen Verlauf vergangener Phasen. Siehe [Infrastrukturverwaltung](../infrastructure/?lang=en#infrastructure-management).
 
 ### ASTS – Assets {#asts}
 
 `ASTS`
 
-Listet Infrastrukturprojekte im Bau, eigene Infrastruktur und selbst errichtete Infrastruktur auf. Die Liste hängt vom Kontext ab: Ein Unternehmen besitzt nie Infrastruktur, eine Regierung errichtet nie selbst welche. Siehe [Assets](../infrastructure/#assets).
+Listet Infrastrukturprojekte im Bau, eigene Infrastruktur und selbst errichtete Infrastruktur auf. Die Liste hängt vom Kontext ab: Ein Unternehmen besitzt nie Infrastruktur, eine Regierung errichtet nie selbst welche. Siehe [Assets](../infrastructure/?lang=en#assets).
 
 ### GTW – Sprungtore {#gtw}
 
@@ -525,13 +525,13 @@ Listet alle Sprungtore auf oder nur die in einem System oder bei einem Planeten,
 
 `GTWI`
 
-Plant neue Sprungtore und Ausbauten bestehender Sprungtore. Zeigt Kapazität, Volumen und Distanz einer Konfiguration, die Bau- oder Ausbaukosten, die wöchentliche Instandhaltung und die Systeme in Reichweite. Siehe [Design und Bau von Sprungtoren](../infrastructure-gateway/#gateway-design-and-construction).
+Plant neue Sprungtore und Ausbauten bestehender Sprungtore. Zeigt Kapazität, Volumen und Distanz einer Konfiguration, die Bau- oder Ausbaukosten, die wöchentliche Instandhaltung und die Systeme in Reichweite. Siehe [Design und Bau von Sprungtoren](../infrastructure-gateway/?lang=en#gateway-design-and-construction).
 
 ### GTWT – Sprungtor-Verkehr {#gtwt}
 
 `GTWT <Sprungtor-ID>`
 
-Zeigt Verkehr und Treibstoff eines Sprungtors: Sprünge der letzten 24 Stunden, die aktuelle Kapazität, den verfügbaren Treibstoff, die Treibstoff-Auftragnehmer sowie ausgehende und eingehende Sprünge pro Phase, einschließlich fehlgeschlagener Sprünge und ihrer Gründe. Siehe [Sprungtor-Verkehr](../infrastructure-gateway/#gateway-traffic).
+Zeigt Verkehr und Treibstoff eines Sprungtors: Sprünge der letzten 24 Stunden, die aktuelle Kapazität, den verfügbaren Treibstoff, die Treibstoff-Auftragnehmer sowie ausgehende und eingehende Sprünge pro Phase, einschließlich fehlgeschlagener Sprünge und ihrer Gründe. Siehe [Sprungtor-Verkehr](../infrastructure-gateway/?lang=en#gateway-traffic).
 
 ## Politik {#politics}
 
@@ -539,7 +539,7 @@ Zeigt Verkehr und Treibstoff eines Sprungtors: Sprünge der letzten 24 Stunden, 
 
 `ADM <Planeten-ID>`
 
-Zeigt die [Planetare Verwaltung](../planetary-projects/#administration-center) eines Planeten: den aktuellen Gouverneur, die Fraktion oder den Konzern, der Gebühren und Steuern einzieht, und die KandidatInnen für die nächste Amtszeit. Hier kann jeder für das Gouverneursamt kandidieren, und die BewohnerInnen des Planeten stimmen hier ab.
+Zeigt die [Planetare Verwaltung](../planetary-projects/?lang=en#administration-center) eines Planeten: den aktuellen Gouverneur, die Fraktion oder den Konzern, der Gebühren und Steuern einzieht, und die KandidatInnen für die nächste Amtszeit. Hier kann jeder für das Gouverneursamt kandidieren, und die BewohnerInnen des Planeten stimmen hier ab.
 
 ### GOV – Regierung {#gov}
 
@@ -551,7 +551,7 @@ Zeigt die aktuelle und die vorherigen Regierungen eines Planeten sowie die Antr�
 
 `LR <Planeten-ID>`
 
-Zeigt die [Lokalen Gesetze](../local-rules) eines Planeten mit Planetarer Verwaltung, etwa Produktionsgebühren und Gebühren für Anzeigen auf lokalen Marktplätzen.
+Zeigt die [Lokalen Gesetze](../local-rules?lang=en) eines Planeten mit Planetarer Verwaltung, etwa Produktionsgebühren und Gebühren für Anzeigen auf lokalen Marktplätzen.
 
 ### MOTS – Anträge {#mots}
 
