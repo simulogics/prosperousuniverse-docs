@@ -3,7 +3,7 @@ title: "Costos de Construcción"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-Esta página enumera todas las reglas vigentes para los costos de construcción. Si deseas saber cómo configurar edificios, consulta la página de [Configuración de la base](../../tutorials/current-tutorials/02-first-base/index.html).
+Esta página enumera todas las reglas vigentes para los costos de construcción. Si deseas saber cómo configurar edificios, consulta la página de [Configuración de la base](../../tutorials/current-tutorials/02-first-base/).
 
 ## Información general
 

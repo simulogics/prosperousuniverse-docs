@@ -269,7 +269,7 @@ Utiliza algunas de las excelentes [herramientas comunitarias](../community-resou
 
 ### Mi fuerza laboral dice algo como 180 (40). ¿Qué significa el número entre paréntesis?
 
-El número de trabajadores que fueron tomados del [pool de reserva de fuerza laboral](../../tutorials/legacy-tutorials/planetary-population/index.html#worker-redistribution).
+El número de trabajadores que fueron tomados del [pool de reserva de fuerza laboral](../../tutorials/legacy-tutorials/planetary-population/?lang=en#worker-redistribution).
 
 ### ¿Cómo cancelo un anuncio que coloqué en el LM (Mercado Local)?
 

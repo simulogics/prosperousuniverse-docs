@@ -4,3 +4,7 @@
 
 </style>
 <link rel="stylesheet" href="/css/theme-prun.css">
+{{- /* pages are reachable as /foo/ and /foo/index.html; point crawlers at the same URL the sitemap and hreflang links use */}}
+{{- if and (eq (.Store.Get "relearnOutputFormat") "html") (ne .Kind "404") (not (partial "_relearn/pageIsSpecial.gotmpl" .)) }}
+<link href="{{ partial "permalink.gotmpl" (dict "to" . "abs" true) }}" rel="canonical">
+{{- end }}

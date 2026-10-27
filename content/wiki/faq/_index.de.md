@@ -270,7 +270,7 @@ Nutzen Sie einige der großartigen [Community-Tools](../community-resources/#too
 
 ### Meine Belegschaft zeigt etwas wie 180 (40) an. Was bedeutet die Zahl in Klammern?
 
-Die Zahl in Klammern ist die Anzahl der Arbeitskräfte, die aus der [Belegschaftsreserve](../../tutorials/legacy-tutorials/planetary-population/index.html#worker-redistribution) entnommen wurden.
+Die Zahl in Klammern ist die Anzahl der Arbeitskräfte, die aus der [Belegschaftsreserve](../../tutorials/legacy-tutorials/planetary-population/?lang=en#worker-redistribution) entnommen wurden.
 
 ### Wie kann ich eine Anzeige, die ich auf dem LM (Lokalen Marktplatz) platziert habe, stornieren?
 

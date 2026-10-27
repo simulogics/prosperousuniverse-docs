@@ -3,7 +3,7 @@ title: "建筑成本"
 date: 2018-09-18T17:13:49+02:00
 ---
 
-本页面列出了所有关于建筑成本的规则。如果您想了解如何设置建筑，请参阅[基地设置页面](../../tutorials/current-tutorials/02-first-base/index.html)。
+本页面列出了所有关于建筑成本的规则。如果您想了解如何设置建筑，请参阅[基地设置页面](../../tutorials/current-tutorials/02-first-base/)。
 
 ## 一般信息
 

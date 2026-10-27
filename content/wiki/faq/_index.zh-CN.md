@@ -269,7 +269,7 @@ Use some of the great [community tools](../community-resources/#tools):
 
 ### 我的劳动力显示为类似 180（40）。括号内的数字是什么意思？
 
-The number of workforce that were pulled from the [workforce reserve pool](../../tutorials/legacy-tutorials/planetary-population/index.html#worker-redistribution).
+The number of workforce that were pulled from the [workforce reserve pool](../../tutorials/legacy-tutorials/planetary-population/#worker-redistribution).
 
 ### 如何取消我在本地市场（LM）发布的广告？
 
