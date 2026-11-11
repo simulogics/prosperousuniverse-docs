@@ -3,10 +3,6 @@ title: "Routes"
 date: 2026-09-22T13:02:01+02:00
 ---
 
-{{% notice style="warning" title="Preview" %}}
-Routes are currently only available as a preview on the test server.
-{{% /notice %}}
-
 ## General information
 
 A route is a reusable list of waypoints, and each waypoint has a list of steps, such as loading cargo or refueling. A ship assigned to a route flies from waypoint to waypoint on its own and runs the steps at every stop.
